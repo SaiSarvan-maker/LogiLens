@@ -1,0 +1,6 @@
+Origin_Warehouse,Carrier,Total_Volume,Delayed_Count,Delay_Rate
+Warehouse_ATL,Amazon Logistics,33,7,21.2
+Warehouse_HOU,Amazon Logistics,29,6,20.7
+Warehouse_LA,FedEx,26,5,19.2
+Warehouse_CHI,DHL,21,4,19.0
+Warehouse_ATL,DHL,27,5,18.5
