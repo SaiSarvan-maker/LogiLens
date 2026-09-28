@@ -1,0 +1,11 @@
+Warehouse_ID,Warehouse_Name,City,State,Region,Capacity_Tier,Daily_Capacity,Dispatch_SLA_Hours
+WH-ATL,Warehouse_ATL,Atlanta,GA,Southeast,Tier-1,12000,12
+WH-BOS,Warehouse_BOS,Boston,MA,Northeast,Tier-2,8000,18
+WH-CHI,Warehouse_CHI,Chicago,IL,Midwest,Tier-1,15000,12
+WH-DEN,Warehouse_DEN,Denver,CO,Mountain,Tier-2,7500,18
+WH-HOU,Warehouse_HOU,Houston,TX,South,Tier-1,11000,14
+WH-LA,Warehouse_LA,Los Angeles,CA,West,Tier-1,18000,12
+WH-MIA,Warehouse_MIA,Miami,FL,Southeast,Tier-2,8500,16
+WH-NYC,Warehouse_NYC,New York,NY,Northeast,Tier-1,14000,14
+WH-SEA,Warehouse_SEA,Seattle,WA,Northwest,Tier-2,9000,16
+WH-SF,Warehouse_SF,San Francisco,CA,West,Tier-2,9500,16

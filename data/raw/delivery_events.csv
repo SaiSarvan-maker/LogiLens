@@ -1,0 +1,2001 @@
+Event_ID,Shipment_ID,Destination_City,Distance_miles,Promised_SLA_Days,Promised_Delivery_Date,Actual_Delivery_Date,Delivery_Status,Exception_Reason
+EVT-100000,SH10000,San Francisco,291,2,2023-10-04,2023-10-04,Delivered,Normal Delivery
+EVT-100001,SH10001,Atlanta,1225,3,2023-12-09,2023-12-09,Delivered,Normal Delivery
+EVT-100002,SH10002,Houston,220,2,2023-09-20,2023-09-20,Delivered,Normal Delivery
+EVT-100003,SH10003,Seattle,1156,9,2023-02-04,2023-02-04,Delivered,Normal Delivery
+EVT-100004,SH10004,Dallas,1017,3,2023-06-06,2023-06-06,Delivered,Normal Delivery
+EVT-100005,SH10005,New York,898,3,2023-09-16,2023-09-16,Delivered,Normal Delivery
+EVT-100006,SH10006,Houston,1522,4,2023-10-23,2023-10-23,Delivered,Normal Delivery
+EVT-100007,SH10007,Portland,2013,9,2023-03-08,2023-03-08,Delivered,Normal Delivery
+EVT-100008,SH10008,Detroit,2072,7,2023-12-01,2023-12-01,Delivered,Normal Delivery
+EVT-100009,SH10009,Detroit,214,2,2023-01-21,2023-01-21,Delivered,Normal Delivery
+EVT-100010,SH10010,Chicago,1736,5,2023-02-07,2023-02-07,Delivered,Normal Delivery
+EVT-100011,SH10011,Boston,2366,6,2023-06-03,2023-06-04,Delayed,Weather Disruption
+EVT-100012,SH10012,New York,650,5,2023-08-13,2023-08-13,Delivered,Normal Delivery
+EVT-100013,SH10013,Phoenix,1574,6,2024-01-03,2024-01-03,Delivered,Normal Delivery
+EVT-100014,SH10014,Miami,1849,6,2023-07-30,2023-07-30,Delivered,Normal Delivery
+EVT-100015,SH10015,Minneapolis,1489,6,2023-05-16,2023-05-16,Delivered,Normal Delivery
+EVT-100016,SH10016,Detroit,283,1,2023-01-26,2023-01-26,Lost,Lost in Hub Transit
+EVT-100017,SH10017,San Francisco,223,3,2023-06-11,2023-06-11,In Transit,Active Network Transit
+EVT-100018,SH10018,Atlanta,1055,9,2023-10-25,2023-10-25,Delivered,Normal Delivery
+EVT-100019,SH10019,Portland,1660,5,2023-01-21,2023-01-21,Delivered,Normal Delivery
+EVT-100020,SH10020,Miami,1696,5,2023-08-15,2023-07-11,Delivered,Normal Delivery
+EVT-100021,SH10021,Houston,1407,4,2023-08-27,2023-08-27,Returned,Customer Refused / Delivery Failed
+EVT-100022,SH10022,San Francisco,440,2,2023-07-23,2023-07-23,Delivered,Normal Delivery
+EVT-100023,SH10023,Los Angeles,1402,3,2023-10-29,2023-10-29,Delivered,Normal Delivery
+EVT-100024,SH10024,Phoenix,256,4,2023-08-15,2023-08-15,Delivered,Normal Delivery
+EVT-100025,SH10025,Portland,519,2,2023-04-29,2023-04-29,Delivered,Normal Delivery
+EVT-100026,SH10026,Miami,386,2,2024-01-01,2024-01-01,Delivered,Normal Delivery
+EVT-100027,SH10027,Boston,1986,5,2024-01-04,2024-01-05,Delayed,Weather Disruption
+EVT-100028,SH10028,Dallas,2229,5,2023-12-20,2023-12-20,Delivered,Normal Delivery
+EVT-100029,SH10029,Chicago,2310,6,2023-07-03,2023-07-03,Delivered,Normal Delivery
+EVT-100030,SH10030,San Francisco,502,2,2023-11-06,,Delivered,Normal Delivery
+EVT-100031,SH10031,Dallas,1048,4,2023-07-08,2023-07-08,Delivered,Normal Delivery
+EVT-100032,SH10032,New York,1551,4,2023-10-01,2023-10-01,Delivered,Normal Delivery
+EVT-100033,SH10033,Denver,431,2,2023-03-28,2023-04-02,Delayed,Carrier Hub Congestion
+EVT-100034,SH10034,Denver,528,2,2023-02-23,2023-02-23,Delivered,Normal Delivery
+EVT-100035,SH10035,Dallas,131,1,2023-07-17,2023-07-17,Lost,Lost in Hub Transit
+EVT-100036,SH10036,Los Angeles,659,3,2023-06-05,2023-06-18,Delayed,Last-Mile Mechanical Failure
+EVT-100037,SH10037,Dallas,2209,5,2023-11-11,2023-11-11,Delivered,Normal Delivery
+EVT-100038,SH10038,Detroit,1674,6,2023-11-10,2023-11-10,Returned,Customer Refused / Delivery Failed
+EVT-100039,SH10039,New York,1204,3,2023-12-11,,Delivered,Normal Delivery
+EVT-100040,SH10040,Denver,1550,6,2023-10-10,2023-10-10,Delivered,Normal Delivery
+EVT-100041,SH10041,Los Angeles,1696,4,2023-05-17,2023-05-17,Delivered,Normal Delivery
+EVT-100042,SH10042,Los Angeles,660,3,2024-01-01,2024-01-01,Delivered,Normal Delivery
+EVT-100043,SH10043,New York,1153,4,2023-03-13,2023-03-13,Delivered,Normal Delivery
+EVT-100044,SH10044,San Francisco,343,3,2023-05-11,2023-05-11,Delivered,Normal Delivery
+EVT-100045,SH10045,Miami,1973,5,2023-04-29,2023-04-29,Delivered,Normal Delivery
+EVT-100046,SH10046,Los Angeles,2335,6,2023-09-11,2023-09-11,Delivered,Normal Delivery
+EVT-100047,SH10047,Dallas,816,3,2023-01-20,2023-01-20,Delivered,Normal Delivery
+EVT-100048,SH10048,Phoenix,1758,7,2023-04-30,2023-04-30,Delivered,Normal Delivery
+EVT-100049,SH10049,Boston,1010,4,2023-01-11,2023-01-11,Delivered,Normal Delivery
+EVT-100050,SH10050,New York,2396,6,2023-08-12,2023-08-22,Delayed,Carrier Hub Congestion
+EVT-100051,SH10051,Minneapolis,1267,5,2023-02-28,2023-02-28,Delivered,Normal Delivery
+EVT-100052,SH10052,Chicago,1365,5,2023-02-01,2023-02-01,Delivered,Normal Delivery
+EVT-100053,SH10053,Dallas,1847,5,2023-02-23,2023-02-23,Delivered,Normal Delivery
+EVT-100054,SH10054,Minneapolis,2249,6,2023-05-17,2023-05-17,Delivered,Normal Delivery
+EVT-100055,SH10055,Chicago,342,3,2023-09-30,2023-09-30,Delivered,Normal Delivery
+EVT-100056,SH10056,Minneapolis,1913,5,2023-04-19,2023-04-19,Delivered,Normal Delivery
+EVT-100057,SH10057,Los Angeles,255,3,2023-10-29,2023-10-29,Lost,Lost in Hub Transit
+EVT-100058,SH10058,Los Angeles,600,2,2023-10-13,2023-10-13,Delivered,Normal Delivery
+EVT-100059,SH10059,San Francisco,622,5,2023-11-06,2023-11-06,Delivered,Normal Delivery
+EVT-100060,SH10060,Denver,1030,3,2023-10-13,2023-10-13,Delivered,Normal Delivery
+EVT-100061,SH10061,Chicago,708,3,2023-08-07,2023-08-07,Delivered,Normal Delivery
+EVT-100062,SH10062,Detroit,1914,5,2023-05-28,2023-06-10,Delayed,Carrier Hub Congestion
+EVT-100063,SH10063,Los Angeles,740,3,2023-07-19,2023-07-19,Delivered,Normal Delivery
+EVT-100064,SH10064,Los Angeles,1007,3,2023-10-16,2023-10-16,Delivered,Normal Delivery
+EVT-100065,SH10065,Miami,864,4,2023-04-27,2023-04-27,Delivered,Normal Delivery
+EVT-100066,SH10066,Miami,2463,6,2023-04-09,2023-04-09,Delivered,Normal Delivery
+EVT-100067,SH10067,Seattle,998,3,2023-06-14,2023-06-14,Delivered,Normal Delivery
+EVT-100068,SH10068,Atlanta,1801,8,2023-09-09,2023-09-09,Delivered,Normal Delivery
+EVT-100069,SH10069,Houston,989,4,2023-06-04,2023-06-04,Delivered,Normal Delivery
+EVT-100070,SH10070,Chicago,383,3,2023-04-20,2023-04-26,Delayed,Weather Disruption
+EVT-100071,SH10071,Seattle,2307,5,2023-06-25,2023-06-25,Delivered,Normal Delivery
+EVT-100072,SH10072,Los Angeles,1727,6,2023-03-10,2023-03-13,Delayed,Weather Disruption
+EVT-100073,SH10073,Seattle,1135,3,2023-09-14,2023-09-14,In Transit,Active Network Transit
+EVT-100074,SH10074,Phoenix,757,3,2023-03-02,2023-03-02,Delivered,Normal Delivery
+EVT-100075,SH10075,Dallas,1673,4,2023-08-04,2023-08-04,Delivered,Normal Delivery
+EVT-100076,SH10076,Houston,319,1,2023-11-13,2023-11-13,Delivered,Normal Delivery
+EVT-100077,SH10077,Seattle,994,2,2023-08-02,2023-08-02,Lost,Lost in Hub Transit
+EVT-100078,SH10078,Portland,612,3,2023-12-02,2023-12-02,Delivered,Normal Delivery
+EVT-100079,SH10079,Detroit,2214,7,2023-07-07,2023-07-10,Delayed,Carrier Hub Congestion
+EVT-100080,SH10080,Los Angeles,1051,3,2023-04-07,2023-04-07,Delivered,Normal Delivery
+EVT-100081,SH10081,New York,1714,5,2023-03-19,2023-03-19,Delivered,Normal Delivery
+EVT-100082,SH10082,Denver,1000,2,2023-05-09,2023-05-09,Delivered,Normal Delivery
+EVT-100083,SH10083,Phoenix,2210,8,2023-11-12,2023-11-12,Delivered,Normal Delivery
+EVT-100084,SH10084,Atlanta,1510,4,2023-07-06,2023-07-06,Delivered,Normal Delivery
+EVT-100085,SH10085,Los Angeles,1777,6,2023-04-12,2023-04-12,Delivered,Normal Delivery
+EVT-100086,SH10086,Minneapolis,2388,7,2023-11-29,2023-11-29,Delivered,Normal Delivery
+EVT-100087,SH10087,Chicago,1284,4,2023-11-25,2023-11-30,Delayed,High Holiday Volume
+EVT-100088,SH10088,Miami,1198,3,2023-06-24,2023-06-24,Delivered,Normal Delivery
+EVT-100089,SH10089,Portland,1482,4,2023-11-14,2023-11-14,Delivered,Normal Delivery
+EVT-100090,SH10090,Chicago,530,2,2023-01-29,2023-01-29,Returned,Customer Refused / Delivery Failed
+EVT-100091,SH10091,Los Angeles,920,4,2023-12-02,2023-12-09,Delayed,High Holiday Volume
+EVT-100092,SH10092,Los Angeles,1950,5,2023-05-01,2023-05-01,Delivered,Normal Delivery
+EVT-100093,SH10093,Houston,2233,5,2023-03-08,2023-03-08,Delivered,Normal Delivery
+EVT-100094,SH10094,San Francisco,1022,7,2023-04-24,2023-04-24,Delivered,Normal Delivery
+EVT-100095,SH10095,Detroit,1447,3,2023-07-04,2023-07-04,Delivered,Normal Delivery
+EVT-100096,SH10096,Atlanta,241,1,2023-08-21,2023-08-21,Delivered,Normal Delivery
+EVT-100097,SH10097,Atlanta,1554,5,2023-09-24,,Delivered,Normal Delivery
+EVT-100098,SH10098,Miami,2053,5,2023-05-15,2023-05-15,Delivered,Normal Delivery
+EVT-100099,SH10099,Phoenix,1158,3,2023-07-21,2023-07-21,Delivered,Normal Delivery
+EVT-100100,SH10100,Atlanta,2109,7,2023-04-17,2023-04-17,Delivered,Normal Delivery
+EVT-100101,SH10101,Miami,179,2,2023-08-30,2023-08-30,Delivered,Normal Delivery
+EVT-100102,SH10102,Houston,2465,7,2023-07-24,2023-07-24,Delivered,Normal Delivery
+EVT-100103,SH10103,New York,2366,11,2023-01-25,2023-01-25,Delivered,Normal Delivery
+EVT-100104,SH10104,New York,543,3,2023-12-16,2023-12-16,Delivered,Normal Delivery
+EVT-100105,SH10105,New York,1682,6,2023-04-29,2023-05-06,Delayed,Last-Mile Mechanical Failure
+EVT-100106,SH10106,Denver,1030,3,2023-08-22,2023-08-22,Delivered,Normal Delivery
+EVT-100107,SH10107,Chicago,790,3,2023-08-02,2023-08-02,Delivered,Normal Delivery
+EVT-100108,SH10108,Minneapolis,1534,4,2023-08-19,2023-08-19,Delivered,Normal Delivery
+EVT-100109,SH10109,Phoenix,371,2,2023-12-15,,Delivered,Normal Delivery
+EVT-100110,SH10110,Houston,2306,7,2023-09-29,2023-09-29,Delivered,Normal Delivery
+EVT-100111,SH10111,New York,1810,5,2023-05-29,2023-05-29,Delivered,Normal Delivery
+EVT-100112,SH10112,Chicago,277,2,2023-02-04,2023-02-16,Delayed,Carrier Hub Congestion
+EVT-100113,SH10113,Chicago,1953,6,2023-06-13,2023-06-13,Delivered,Normal Delivery
+EVT-100114,SH10114,Los Angeles,1800,4,2023-04-07,2023-03-04,Delivered,Normal Delivery
+EVT-100115,SH10115,Portland,1951,5,2023-07-25,2023-07-25,Delivered,Normal Delivery
+EVT-100116,SH10116,Houston,1744,7,2023-01-12,2023-01-12,Delivered,Normal Delivery
+EVT-100117,SH10117,Minneapolis,1323,4,2023-05-22,2023-05-22,Delivered,Normal Delivery
+EVT-100118,SH10118,Denver,1646,4,2023-03-28,2023-04-01,Delayed,Weather Disruption
+EVT-100119,SH10119,Minneapolis,261,1,2023-07-11,2023-07-11,Delivered,Normal Delivery
+EVT-100120,SH10120,Denver,2330,6,2023-10-02,2023-10-02,Delivered,Normal Delivery
+EVT-100121,SH10121,Houston,973,5,2023-03-11,2023-03-11,Delivered,Normal Delivery
+EVT-100122,SH10122,New York,2399,7,2023-05-25,2023-05-25,Delivered,Normal Delivery
+EVT-100123,SH10123,Phoenix,1297,4,2023-08-14,2023-08-14,Delivered,Normal Delivery
+EVT-100124,SH10124,San Francisco,1200,6,2023-04-11,2023-04-11,Delivered,Normal Delivery
+EVT-100125,SH10125,Miami,1350,4,2023-07-02,2023-07-02,Delivered,Normal Delivery
+EVT-100126,SH10126,Miami,2188,7,2023-09-09,2023-09-09,Delivered,Normal Delivery
+EVT-100127,SH10127,Miami,1075,8,2023-10-13,2023-10-13,Delivered,Normal Delivery
+EVT-100128,SH10128,Miami,1260,9,2023-10-27,2023-10-27,Delivered,Normal Delivery
+EVT-100129,SH10129,Miami,1926,5,2023-04-22,2023-04-22,Delivered,Normal Delivery
+EVT-100130,SH10130,Phoenix,2204,5,2023-12-06,2023-12-06,Delivered,Normal Delivery
+EVT-100131,SH10131,Seattle,2048,7,2023-06-02,2023-06-02,Returned,Customer Refused / Delivery Failed
+EVT-100132,SH10132,San Francisco,815,3,2023-07-10,,Delivered,Normal Delivery
+EVT-100133,SH10133,Atlanta,870,3,2023-12-26,2023-12-26,Delivered,Normal Delivery
+EVT-100134,SH10134,Portland,2314,7,2023-01-10,2023-01-10,Delivered,Normal Delivery
+EVT-100135,SH10135,San Francisco,1070,3,2023-09-19,2023-09-19,Delivered,Normal Delivery
+EVT-100136,SH10136,Miami,1350,6,2023-11-10,2023-11-10,Delivered,Normal Delivery
+EVT-100137,SH10137,Boston,1476,4,2023-02-14,2023-02-14,Delivered,Normal Delivery
+EVT-100138,SH10138,Houston,672,3,2023-11-11,2023-11-11,Delivered,Normal Delivery
+EVT-100139,SH10139,Houston,1300,3,2023-03-13,2023-03-13,Delivered,Normal Delivery
+EVT-100140,SH10140,Portland,593,2,2023-12-04,2023-12-04,Delivered,Normal Delivery
+EVT-100141,SH10141,Chicago,1939,5,2023-10-20,2023-10-20,Delivered,Normal Delivery
+EVT-100142,SH10142,Chicago,790,3,2023-01-09,2023-01-09,Delivered,Normal Delivery
+EVT-100143,SH10143,San Francisco,2497,7,2023-02-12,2023-02-12,Delivered,Normal Delivery
+EVT-100144,SH10144,New York,510,2,2023-05-07,2023-05-07,Delivered,Normal Delivery
+EVT-100145,SH10145,Atlanta,800,3,2023-07-06,2023-07-10,Delayed,Weather Disruption
+EVT-100146,SH10146,Portland,1459,5,2023-08-17,2023-08-17,Delivered,Normal Delivery
+EVT-100147,SH10147,San Francisco,2262,5,2023-07-19,2023-07-19,Delivered,Normal Delivery
+EVT-100148,SH10148,Minneapolis,2078,6,2023-07-31,2023-07-31,Delivered,Normal Delivery
+EVT-100149,SH10149,New York,775,3,2023-05-25,2023-06-07,Lost,Lost in Hub Transit
+EVT-100150,SH10150,Phoenix,2080,5,2023-06-01,2023-06-01,Delivered,Normal Delivery
+EVT-100151,SH10151,San Francisco,573,2,2023-11-17,2023-11-30,Delayed,Carrier Hub Congestion
+EVT-100152,SH10152,Seattle,1125,3,2023-04-02,2023-04-02,Delivered,Normal Delivery
+EVT-100153,SH10153,Chicago,382,5,2023-11-07,2023-11-17,Delayed,High Holiday Volume
+EVT-100154,SH10154,Minneapolis,2192,6,2023-05-21,,Delivered,Normal Delivery
+EVT-100155,SH10155,Seattle,2161,5,2023-07-27,2023-07-27,Delivered,Normal Delivery
+EVT-100156,SH10156,New York,2244,5,2023-03-12,2023-03-12,Delivered,Normal Delivery
+EVT-100157,SH10157,Seattle,561,2,2023-05-06,2023-05-06,Delivered,Normal Delivery
+EVT-100158,SH10158,Phoenix,388,2,2023-12-09,2023-12-09,Delivered,Normal Delivery
+EVT-100159,SH10159,Portland,2453,9,2023-05-23,2023-05-23,Delivered,Normal Delivery
+EVT-100160,SH10160,Atlanta,821,4,2023-11-16,2023-11-16,Delivered,Normal Delivery
+EVT-100161,SH10161,Chicago,1566,4,2023-09-23,2023-09-23,Delivered,Normal Delivery
+EVT-100162,SH10162,Houston,465,2,2023-03-16,2023-03-16,Delivered,Normal Delivery
+EVT-100163,SH10163,Miami,1350,4,2023-10-21,2023-10-21,Delivered,Normal Delivery
+EVT-100164,SH10164,Atlanta,648,2,2023-09-21,2023-09-21,Delivered,Normal Delivery
+EVT-100165,SH10165,Denver,586,2,2023-11-21,2023-11-21,Delivered,Normal Delivery
+EVT-100166,SH10166,Minneapolis,1964,5,2023-05-11,2023-05-11,Delivered,Normal Delivery
+EVT-100167,SH10167,Miami,143,2,2023-08-25,2023-08-25,Delivered,Normal Delivery
+EVT-100168,SH10168,Houston,1262,4,2023-07-29,2023-07-29,Delivered,Normal Delivery
+EVT-100169,SH10169,Phoenix,2302,5,2023-09-06,2023-09-06,Delivered,Normal Delivery
+EVT-100170,SH10170,Atlanta,679,3,2023-09-28,2023-09-28,Delivered,Normal Delivery
+EVT-100171,SH10171,Chicago,755,2,2023-09-17,2023-09-17,Delivered,Normal Delivery
+EVT-100172,SH10172,New York,2056,8,2023-05-01,2023-05-01,Delivered,Normal Delivery
+EVT-100173,SH10173,Detroit,1222,4,2023-08-01,2023-08-01,In Transit,Active Network Transit
+EVT-100174,SH10174,Houston,1814,8,2023-01-13,2023-01-23,Delayed,High Holiday Volume
+EVT-100175,SH10175,Minneapolis,1454,6,2023-07-25,2023-07-25,Delivered,Normal Delivery
+EVT-100176,SH10176,Miami,543,2,2023-06-19,2023-06-19,Returned,Customer Refused / Delivery Failed
+EVT-100177,SH10177,Atlanta,1142,3,2023-08-02,2023-08-02,Delivered,Normal Delivery
+EVT-100178,SH10178,Portland,810,3,2023-06-10,2023-06-10,Delivered,Normal Delivery
+EVT-100179,SH10179,Portland,1081,3,2023-08-17,2023-08-27,Delayed,Carrier Hub Congestion
+EVT-100180,SH10180,Phoenix,152,1,2023-01-22,2023-01-22,Delivered,Normal Delivery
+EVT-100181,SH10181,Phoenix,1120,5,2023-09-20,2023-09-20,Delivered,Normal Delivery
+EVT-100182,SH10182,Portland,2327,9,2023-01-10,2023-01-10,Delivered,Normal Delivery
+EVT-100183,SH10183,Dallas,1376,5,2023-09-29,2023-10-06,Delayed,Last-Mile Mechanical Failure
+EVT-100184,SH10184,Houston,2380,5,2023-11-30,2023-11-30,Delivered,Normal Delivery
+EVT-100185,SH10185,Minneapolis,694,4,2023-09-24,2023-09-24,Delivered,Normal Delivery
+EVT-100186,SH10186,New York,1791,4,2023-07-08,2023-07-08,Delivered,Normal Delivery
+EVT-100187,SH10187,New York,411,2,2023-05-02,2023-05-02,Delivered,Normal Delivery
+EVT-100188,SH10188,San Francisco,1073,6,2023-12-26,2023-12-26,Delivered,Normal Delivery
+EVT-100189,SH10189,Minneapolis,1634,4,2023-08-02,2023-08-02,Delivered,Normal Delivery
+EVT-100190,SH10190,San Francisco,2411,6,2023-02-25,2023-02-25,Delivered,Normal Delivery
+EVT-100191,SH10191,Detroit,2481,8,2023-03-10,2023-03-10,Delivered,Normal Delivery
+EVT-100192,SH10192,Detroit,2052,5,2023-12-15,2023-12-15,Delivered,Normal Delivery
+EVT-100193,SH10193,Dallas,2465,8,2023-11-14,2023-11-14,Delivered,Normal Delivery
+EVT-100194,SH10194,Chicago,1213,5,2023-02-24,2023-02-24,Delivered,Normal Delivery
+EVT-100195,SH10195,Houston,1247,4,2023-05-18,2023-05-18,Delivered,Normal Delivery
+EVT-100196,SH10196,New York,2278,6,2023-10-22,2023-10-22,Lost,Lost in Hub Transit
+EVT-100197,SH10197,San Francisco,2406,7,2023-06-06,2023-06-07,Delayed,Routing Deviation
+EVT-100198,SH10198,Denver,1596,4,2023-07-19,2023-07-19,Delivered,Normal Delivery
+EVT-100199,SH10199,San Francisco,1108,3,2023-02-03,2023-02-03,Delivered,Normal Delivery
+EVT-100200,SH10200,Portland,1380,6,2024-01-03,2024-01-03,Delivered,Normal Delivery
+EVT-100201,SH10201,Dallas,1605,5,2023-04-02,2023-04-02,Delivered,Normal Delivery
+EVT-100202,SH10202,Atlanta,1504,4,2023-12-13,2023-12-23,Delayed,Weather Disruption
+EVT-100203,SH10203,Boston,2138,5,2023-02-05,2023-02-05,Delivered,Normal Delivery
+EVT-100204,SH10204,New York,754,3,2023-09-19,2023-09-28,Delayed,Weather Disruption
+EVT-100205,SH10205,Los Angeles,320,2,2023-03-18,,Delivered,Normal Delivery
+EVT-100206,SH10206,Houston,1657,4,2023-03-20,2023-03-20,Delivered,Normal Delivery
+EVT-100207,SH10207,Detroit,1423,4,2023-11-07,2023-11-07,Delivered,Normal Delivery
+EVT-100208,SH10208,Seattle,1135,5,2023-09-17,2023-09-17,Delivered,Normal Delivery
+EVT-100209,SH10209,Phoenix,737,4,2023-05-22,2023-06-04,Delayed,Carrier Hub Congestion
+EVT-100210,SH10210,Detroit,796,2,2023-10-27,2023-10-27,Delivered,Normal Delivery
+EVT-100211,SH10211,Chicago,308,2,2023-12-17,2023-12-17,Delivered,Normal Delivery
+EVT-100212,SH10212,San Francisco,787,5,2023-12-20,2023-12-20,Returned,Customer Refused / Delivery Failed
+EVT-100213,SH10213,Denver,2074,8,2023-09-05,2023-09-05,Delivered,Normal Delivery
+EVT-100214,SH10214,Chicago,1145,5,2023-09-27,2023-09-27,Delivered,Normal Delivery
+EVT-100215,SH10215,Minneapolis,1719,5,2023-06-12,2023-06-12,Delivered,Normal Delivery
+EVT-100216,SH10216,Los Angeles,1082,5,2023-08-09,2023-08-09,Delivered,Normal Delivery
+EVT-100217,SH10217,Dallas,1204,3,2023-12-26,2023-12-26,Delivered,Normal Delivery
+EVT-100218,SH10218,Denver,1030,3,2023-09-07,2023-09-07,Delivered,Normal Delivery
+EVT-100219,SH10219,Dallas,603,2,2023-05-20,2023-05-20,Delivered,Normal Delivery
+EVT-100220,SH10220,Boston,1660,5,2023-07-19,2023-07-19,Delivered,Normal Delivery
+EVT-100221,SH10221,Chicago,862,3,2023-09-09,2023-09-09,Delivered,Normal Delivery
+EVT-100222,SH10222,Dallas,1322,5,2023-07-03,2023-07-03,Delivered,Normal Delivery
+EVT-100223,SH10223,Denver,1030,3,2023-06-22,2023-06-22,Delivered,Normal Delivery
+EVT-100224,SH10224,Minneapolis,573,3,2023-05-01,2023-05-07,Delayed,High Holiday Volume
+EVT-100225,SH10225,Portland,585,1,2023-09-14,2023-09-18,Delayed,Weather Disruption
+EVT-100226,SH10226,Phoenix,1469,3,2023-12-13,2023-12-13,Delivered,Normal Delivery
+EVT-100227,SH10227,New York,1053,6,2023-12-05,2023-12-05,Delivered,Normal Delivery
+EVT-100228,SH10228,Boston,1329,3,2023-05-14,2023-05-14,In Transit,Active Network Transit
+EVT-100229,SH10229,Portland,156,1,2023-03-14,2023-03-14,Delivered,Normal Delivery
+EVT-100230,SH10230,Portland,1760,4,2023-03-05,2023-03-06,Delayed,High Holiday Volume
+EVT-100231,SH10231,Detroit,283,2,2023-09-01,2023-09-12,Delayed,Carrier Hub Congestion
+EVT-100232,SH10232,Houston,397,3,2023-12-27,2023-12-27,Delivered,Normal Delivery
+EVT-100233,SH10233,Los Angeles,816,4,2023-08-16,2023-08-16,Delivered,Normal Delivery
+EVT-100234,SH10234,Los Angeles,715,3,2023-05-01,2023-05-01,Returned,Customer Refused / Delivery Failed
+EVT-100235,SH10235,Phoenix,1956,4,2023-05-28,2023-05-28,Delivered,Normal Delivery
+EVT-100236,SH10236,Chicago,2187,5,2023-08-04,2023-08-04,Delivered,Normal Delivery
+EVT-100237,SH10237,Seattle,2172,6,2023-09-20,2023-09-20,Delivered,Normal Delivery
+EVT-100238,SH10238,Denver,816,3,2023-08-28,2023-08-28,Delivered,Normal Delivery
+EVT-100239,SH10239,Atlanta,1236,7,2023-07-07,2023-07-07,Delivered,Normal Delivery
+EVT-100240,SH10240,New York,1902,5,2023-06-29,2023-06-29,Delivered,Normal Delivery
+EVT-100241,SH10241,Denver,1038,4,2023-10-15,2023-10-15,Delivered,Normal Delivery
+EVT-100242,SH10242,Houston,1590,4,2023-05-28,2023-05-28,Delivered,Normal Delivery
+EVT-100243,SH10243,Chicago,590,5,2023-08-17,2023-08-17,In Transit,Active Network Transit
+EVT-100244,SH10244,Houston,1105,4,2023-04-07,2023-04-07,Delivered,Normal Delivery
+EVT-100245,SH10245,Minneapolis,1153,3,2023-02-20,2023-02-20,Delivered,Normal Delivery
+EVT-100246,SH10246,Minneapolis,1124,3,2023-03-23,2023-03-23,Delivered,Normal Delivery
+EVT-100247,SH10247,New York,2074,5,2023-03-05,2023-03-05,Delivered,Normal Delivery
+EVT-100248,SH10248,Seattle,302,2,2023-12-30,2023-12-30,Delivered,Normal Delivery
+EVT-100249,SH10249,Chicago,2073,5,2023-11-08,2023-11-08,Delivered,Normal Delivery
+EVT-100250,SH10250,Portland,2132,7,2023-03-05,2023-01-27,Delivered,Normal Delivery
+EVT-100251,SH10251,Chicago,569,3,2023-03-05,2023-03-05,Delivered,Normal Delivery
+EVT-100252,SH10252,Los Angeles,2433,5,2023-11-16,2023-11-16,Delivered,Normal Delivery
+EVT-100253,SH10253,Denver,677,2,2023-01-17,2023-01-17,Delivered,Normal Delivery
+EVT-100254,SH10254,Portland,2379,6,2023-03-05,2023-03-05,In Transit,Active Network Transit
+EVT-100255,SH10255,Denver,984,5,2023-11-16,2023-11-16,Delivered,Normal Delivery
+EVT-100256,SH10256,Miami,420,3,2023-05-22,2023-05-22,Delivered,Normal Delivery
+EVT-100257,SH10257,Dallas,338,1,2023-03-01,2023-03-01,Delivered,Normal Delivery
+EVT-100258,SH10258,Los Angeles,410,2,2023-09-18,2023-09-29,Delayed,Carrier Hub Congestion
+EVT-100259,SH10259,Minneapolis,1486,5,2023-06-01,2023-06-01,Delivered,Normal Delivery
+EVT-100260,SH10260,San Francisco,2492,6,2023-07-11,,Delayed,Last-Mile Mechanical Failure
+EVT-100261,SH10261,Detroit,605,4,2023-12-28,2023-12-28,Delivered,Normal Delivery
+EVT-100262,SH10262,Phoenix,373,3,2023-03-16,2023-03-16,Delivered,Normal Delivery
+EVT-100263,SH10263,Portland,165,1,2023-09-01,2023-09-01,Delivered,Normal Delivery
+EVT-100264,SH10264,Dallas,1435,4,2023-01-15,2023-01-15,Delivered,Normal Delivery
+EVT-100265,SH10265,Detroit,533,3,2023-01-14,2023-01-14,Delivered,Normal Delivery
+EVT-100266,SH10266,Phoenix,1122,6,2023-12-05,2023-12-05,Delivered,Normal Delivery
+EVT-100267,SH10267,Minneapolis,263,1,2023-07-23,2023-07-23,Delivered,Normal Delivery
+EVT-100268,SH10268,Miami,1348,5,2023-11-19,2023-11-19,Delivered,Normal Delivery
+EVT-100269,SH10269,Atlanta,340,3,2023-12-01,2023-12-01,In Transit,Active Network Transit
+EVT-100270,SH10270,Phoenix,159,3,2023-01-21,2023-01-21,Delivered,Normal Delivery
+EVT-100271,SH10271,Chicago,2054,5,2023-01-26,2023-01-26,Delivered,Normal Delivery
+EVT-100272,SH10272,Chicago,274,1,2023-03-28,2023-03-28,In Transit,Active Network Transit
+EVT-100273,SH10273,Miami,1350,4,2023-01-08,2023-01-08,Delivered,Normal Delivery
+EVT-100274,SH10274,Miami,916,5,2023-03-20,2023-03-20,Delivered,Normal Delivery
+EVT-100275,SH10275,New York,742,2,2023-04-18,2023-04-18,In Transit,Active Network Transit
+EVT-100276,SH10276,Dallas,2218,6,2023-08-24,2023-08-24,Delivered,Normal Delivery
+EVT-100277,SH10277,Phoenix,1857,5,2023-03-17,2023-03-17,Delivered,Normal Delivery
+EVT-100278,SH10278,Los Angeles,2001,6,2023-09-08,2023-09-08,Delivered,Normal Delivery
+EVT-100279,SH10279,Minneapolis,293,1,2023-10-20,2023-10-20,Delivered,Normal Delivery
+EVT-100280,SH10280,Dallas,1401,4,2023-10-26,2023-10-26,Delivered,Normal Delivery
+EVT-100281,SH10281,Phoenix,916,2,2023-03-24,2023-04-03,Delayed,Last-Mile Mechanical Failure
+EVT-100282,SH10282,Los Angeles,1778,4,2023-03-10,2023-03-10,Delivered,Normal Delivery
+EVT-100283,SH10283,Boston,1041,6,2023-11-12,2023-11-12,Delivered,Normal Delivery
+EVT-100284,SH10284,Los Angeles,676,5,2023-09-18,2023-08-14,Delivered,Normal Delivery
+EVT-100285,SH10285,Miami,448,1,2023-04-05,2023-04-05,Delivered,Normal Delivery
+EVT-100286,SH10286,New York,2033,5,2023-02-19,2023-02-19,Delivered,Normal Delivery
+EVT-100287,SH10287,Minneapolis,939,4,2023-09-23,2023-09-23,Delivered,Normal Delivery
+EVT-100288,SH10288,Detroit,926,2,2023-06-16,2023-06-16,Delivered,Normal Delivery
+EVT-100289,SH10289,Los Angeles,2444,6,2023-07-25,2023-07-25,Delivered,Normal Delivery
+EVT-100290,SH10290,Dallas,1435,4,2023-11-13,2023-11-13,Delivered,Normal Delivery
+EVT-100291,SH10291,Detroit,1875,5,2023-03-12,2023-03-12,Lost,Lost in Hub Transit
+EVT-100292,SH10292,New York,2280,5,2023-06-02,2023-06-02,Delivered,Normal Delivery
+EVT-100293,SH10293,Phoenix,1808,4,2023-11-20,2023-11-20,Delivered,Normal Delivery
+EVT-100294,SH10294,Atlanta,1790,5,2023-06-04,2023-06-04,Delivered,Normal Delivery
+EVT-100295,SH10295,New York,1049,4,2023-04-26,2023-04-26,Delivered,Normal Delivery
+EVT-100296,SH10296,Boston,461,6,2023-03-11,2023-03-18,Delayed,Last-Mile Mechanical Failure
+EVT-100297,SH10297,Portland,1218,5,2023-08-02,2023-08-02,Delivered,Normal Delivery
+EVT-100298,SH10298,Los Angeles,2144,6,2023-05-30,2023-05-30,Delivered,Normal Delivery
+EVT-100299,SH10299,Boston,1547,4,2023-11-24,2023-11-24,Delivered,Normal Delivery
+EVT-100300,SH10300,Dallas,370,2,2023-07-01,2023-07-01,Delivered,Normal Delivery
+EVT-100301,SH10301,Boston,2400,9,2023-06-30,2023-06-30,Delivered,Normal Delivery
+EVT-100302,SH10302,Atlanta,1477,4,2023-09-20,2023-09-20,Delivered,Normal Delivery
+EVT-100303,SH10303,Boston,2363,5,2023-12-10,2023-12-10,Delivered,Normal Delivery
+EVT-100304,SH10304,New York,1442,5,2023-12-11,2023-12-11,Delivered,Normal Delivery
+EVT-100305,SH10305,Denver,1000,2,2023-08-13,2023-08-17,Delayed,Carrier Hub Congestion
+EVT-100306,SH10306,Portland,290,1,2023-02-28,2023-02-28,Delivered,Normal Delivery
+EVT-100307,SH10307,Minneapolis,888,4,2023-02-25,2023-02-25,Delivered,Normal Delivery
+EVT-100308,SH10308,New York,2448,6,2023-03-21,2023-03-21,Delivered,Normal Delivery
+EVT-100309,SH10309,Phoenix,385,2,2023-11-12,2023-11-22,Delayed,Last-Mile Mechanical Failure
+EVT-100310,SH10310,Boston,1539,4,2023-04-02,2023-04-09,Delayed,Carrier Hub Congestion
+EVT-100311,SH10311,Dallas,1435,6,2023-07-27,2023-07-27,Delivered,Normal Delivery
+EVT-100312,SH10312,Minneapolis,1713,5,2023-06-27,2023-06-27,Delivered,Normal Delivery
+EVT-100313,SH10313,Seattle,135,2,2023-12-21,2023-12-21,Lost,Lost in Hub Transit
+EVT-100314,SH10314,Portland,305,4,2023-11-01,2023-11-01,Delivered,Normal Delivery
+EVT-100315,SH10315,New York,2209,5,2023-06-06,2023-06-06,In Transit,Active Network Transit
+EVT-100316,SH10316,Denver,1000,6,2023-01-07,2023-01-07,Delivered,Normal Delivery
+EVT-100317,SH10317,Boston,2374,9,2023-09-19,2023-09-19,Delivered,Normal Delivery
+EVT-100318,SH10318,Los Angeles,2313,10,2023-12-06,2023-12-16,Delayed,Weather Disruption
+EVT-100319,SH10319,Detroit,283,4,2023-03-26,2023-03-26,Delivered,Normal Delivery
+EVT-100320,SH10320,Minneapolis,1861,5,2023-10-21,2023-10-21,Delivered,Normal Delivery
+EVT-100321,SH10321,Houston,424,2,2023-09-29,,Delivered,Normal Delivery
+EVT-100322,SH10322,Phoenix,373,5,2023-01-16,2023-01-17,Delayed,Weather Disruption
+EVT-100323,SH10323,Phoenix,1520,5,2023-09-23,2023-09-23,Delivered,Normal Delivery
+EVT-100324,SH10324,Miami,247,4,2023-10-27,2023-10-27,Delivered,Normal Delivery
+EVT-100325,SH10325,Houston,789,4,2023-07-30,2023-07-30,Delivered,Normal Delivery
+EVT-100326,SH10326,Denver,1000,4,2023-02-09,2023-02-09,Delivered,Normal Delivery
+EVT-100327,SH10327,Atlanta,800,2,2023-03-27,2023-03-27,Delivered,Normal Delivery
+EVT-100328,SH10328,Chicago,773,5,2023-11-01,2023-11-01,Delivered,Normal Delivery
+EVT-100329,SH10329,Seattle,1857,5,2023-07-09,2023-07-09,Lost,Lost in Hub Transit
+EVT-100330,SH10330,Detroit,1155,3,2023-07-13,2023-07-13,Delivered,Normal Delivery
+EVT-100331,SH10331,Houston,1154,4,2023-06-07,2023-06-07,Delivered,Normal Delivery
+EVT-100332,SH10332,Denver,1477,4,2023-11-11,2023-11-11,Delivered,Normal Delivery
+EVT-100333,SH10333,Houston,1541,4,2023-02-03,2023-02-03,Delivered,Normal Delivery
+EVT-100334,SH10334,Miami,622,3,2023-11-10,2023-11-10,Delivered,Normal Delivery
+EVT-100335,SH10335,Minneapolis,844,2,2023-04-26,2023-04-26,Delivered,Normal Delivery
+EVT-100336,SH10336,Phoenix,1608,3,2023-04-30,2023-04-30,Delivered,Normal Delivery
+EVT-100337,SH10337,Atlanta,1324,4,2023-01-14,2023-01-14,Delivered,Normal Delivery
+EVT-100338,SH10338,Portland,2328,5,2023-08-22,2023-08-22,Delivered,Normal Delivery
+EVT-100339,SH10339,Detroit,1608,4,2023-10-14,2023-10-15,Delayed,Weather Disruption
+EVT-100340,SH10340,Phoenix,2388,9,2023-01-21,2023-01-21,Delivered,Normal Delivery
+EVT-100341,SH10341,Chicago,1028,3,2023-07-15,2023-07-15,Delivered,Normal Delivery
+EVT-100342,SH10342,Atlanta,2061,5,2023-01-25,2023-01-29,Delayed,Carrier Hub Congestion
+EVT-100343,SH10343,Chicago,1772,5,2023-10-19,2023-10-19,Delivered,Normal Delivery
+EVT-100344,SH10344,Chicago,1707,4,2023-10-24,2023-10-24,Delivered,Normal Delivery
+EVT-100345,SH10345,Detroit,636,1,2023-02-15,2023-01-15,Delayed,Carrier Hub Congestion
+EVT-100346,SH10346,Houston,1953,10,2023-11-16,2023-11-16,In Transit,Active Network Transit
+EVT-100347,SH10347,Detroit,1319,5,2023-11-02,2023-11-02,Delivered,Normal Delivery
+EVT-100348,SH10348,Boston,383,2,2023-12-19,,Delivered,Normal Delivery
+EVT-100349,SH10349,Houston,325,3,2023-09-04,2023-09-04,Delivered,Normal Delivery
+EVT-100350,SH10350,Portland,347,2,2023-04-05,2023-04-05,Delivered,Normal Delivery
+EVT-100351,SH10351,Portland,509,2,2023-06-25,2023-06-25,Delivered,Normal Delivery
+EVT-100352,SH10352,Minneapolis,421,2,2023-12-18,2023-12-18,Delivered,Normal Delivery
+EVT-100353,SH10353,Minneapolis,2065,5,2023-09-02,2023-09-02,Delivered,Normal Delivery
+EVT-100354,SH10354,Los Angeles,2361,7,2023-05-20,2023-05-20,Delivered,Normal Delivery
+EVT-100355,SH10355,San Francisco,1415,4,2024-01-01,2024-01-01,Delivered,Normal Delivery
+EVT-100356,SH10356,Detroit,1679,5,2023-11-24,2023-11-24,Delivered,Normal Delivery
+EVT-100357,SH10357,Boston,1180,3,2023-09-08,2023-09-08,Delivered,Normal Delivery
+EVT-100358,SH10358,Dallas,1515,3,2023-02-13,2023-02-13,Delivered,Normal Delivery
+EVT-100359,SH10359,Detroit,283,2,2023-11-12,2023-11-12,Delivered,Normal Delivery
+EVT-100360,SH10360,Phoenix,517,2,2023-02-26,2023-03-04,Delayed,Carrier Hub Congestion
+EVT-100361,SH10361,Minneapolis,140,3,2023-03-24,2023-03-24,Delivered,Normal Delivery
+EVT-100362,SH10362,Los Angeles,2081,6,2023-09-29,2023-09-29,Delivered,Normal Delivery
+EVT-100363,SH10363,Los Angeles,1885,6,2023-06-15,2023-06-15,Delivered,Normal Delivery
+EVT-100364,SH10364,Portland,604,2,2023-08-27,2023-08-27,Delivered,Normal Delivery
+EVT-100365,SH10365,Portland,847,4,2023-06-10,2023-06-10,Delivered,Normal Delivery
+EVT-100366,SH10366,Boston,2247,6,2023-12-18,2023-12-23,Delayed,Last-Mile Mechanical Failure
+EVT-100367,SH10367,Chicago,2420,6,2023-05-01,2023-05-01,Delivered,Normal Delivery
+EVT-100368,SH10368,Denver,2294,6,2023-03-26,2023-03-26,Delivered,Normal Delivery
+EVT-100369,SH10369,Atlanta,2091,5,2023-04-19,2023-04-19,Delivered,Normal Delivery
+EVT-100370,SH10370,Los Angeles,1358,4,2023-03-23,2023-03-23,Delivered,Normal Delivery
+EVT-100371,SH10371,Los Angeles,484,2,2023-09-29,2023-09-29,Returned,Customer Refused / Delivery Failed
+EVT-100372,SH10372,Miami,675,1,2023-11-17,2023-11-17,Delivered,Normal Delivery
+EVT-100373,SH10373,Detroit,1884,6,2023-06-15,2023-06-15,Delivered,Normal Delivery
+EVT-100374,SH10374,Chicago,2196,5,2023-08-17,2023-08-17,Delivered,Normal Delivery
+EVT-100375,SH10375,Atlanta,2325,6,2023-05-02,2023-05-02,Delivered,Normal Delivery
+EVT-100376,SH10376,Boston,1014,3,2023-07-12,2023-07-12,In Transit,Active Network Transit
+EVT-100377,SH10377,Dallas,2050,5,2023-02-15,2023-02-15,Delivered,Normal Delivery
+EVT-100378,SH10378,Dallas,474,5,2023-08-02,2023-08-03,Delayed,Weather Disruption
+EVT-100379,SH10379,Los Angeles,498,1,2023-09-27,2023-09-27,Delivered,Normal Delivery
+EVT-100380,SH10380,Portland,1512,4,2023-11-23,2023-11-23,Delivered,Normal Delivery
+EVT-100381,SH10381,Atlanta,1076,5,2023-11-12,2023-11-12,Delivered,Normal Delivery
+EVT-100382,SH10382,Portland,1115,3,2023-03-27,2023-03-27,Delivered,Normal Delivery
+EVT-100383,SH10383,Chicago,242,2,2023-09-16,2023-09-16,Delivered,Normal Delivery
+EVT-100384,SH10384,Detroit,534,1,2023-12-24,2023-12-24,Delivered,Normal Delivery
+EVT-100385,SH10385,San Francisco,1059,6,2023-08-22,2023-08-22,Delivered,Normal Delivery
+EVT-100386,SH10386,Minneapolis,1060,5,2023-07-02,2023-07-02,Delivered,Normal Delivery
+EVT-100387,SH10387,Los Angeles,2330,5,2023-03-08,2023-03-08,Delivered,Normal Delivery
+EVT-100388,SH10388,Chicago,1867,5,2023-09-26,2023-09-26,Delivered,Normal Delivery
+EVT-100389,SH10389,Boston,2465,8,2023-09-11,2023-09-11,Delivered,Normal Delivery
+EVT-100390,SH10390,Dallas,2096,6,2023-06-21,2023-06-21,Delivered,Normal Delivery
+EVT-100391,SH10391,San Francisco,2409,7,2023-08-19,2023-08-19,Delivered,Normal Delivery
+EVT-100392,SH10392,Boston,1032,3,2023-01-30,2023-01-30,Delivered,Normal Delivery
+EVT-100393,SH10393,Atlanta,870,2,2023-08-09,2023-08-09,Delivered,Normal Delivery
+EVT-100394,SH10394,Portland,1616,6,2023-06-07,2023-06-07,Delivered,Normal Delivery
+EVT-100395,SH10395,Dallas,1366,4,2023-03-09,2023-03-17,Delayed,High Holiday Volume
+EVT-100396,SH10396,Denver,1802,6,2023-04-15,2023-04-15,Delivered,Normal Delivery
+EVT-100397,SH10397,Detroit,196,2,2023-06-16,2023-05-15,Delivered,Normal Delivery
+EVT-100398,SH10398,Atlanta,2425,7,2023-12-25,2023-12-25,Delivered,Normal Delivery
+EVT-100399,SH10399,Atlanta,1641,4,2023-03-14,2023-03-14,Delivered,Normal Delivery
+EVT-100400,SH10400,San Francisco,129,2,2023-12-03,2023-12-06,Lost,Lost in Hub Transit
+EVT-100401,SH10401,Portland,1649,4,2023-11-01,2023-11-01,Delivered,Normal Delivery
+EVT-100402,SH10402,Boston,1289,8,2023-02-20,2023-03-04,Delayed,Weather Disruption
+EVT-100403,SH10403,Dallas,273,1,2023-12-18,2023-12-18,Delivered,Normal Delivery
+EVT-100404,SH10404,Miami,940,3,2023-07-14,2023-07-14,Delivered,Normal Delivery
+EVT-100405,SH10405,Detroit,1913,4,2023-11-28,2023-11-28,Delivered,Normal Delivery
+EVT-100406,SH10406,San Francisco,252,1,2023-06-28,2023-06-28,Delivered,Normal Delivery
+EVT-100407,SH10407,Phoenix,919,3,2023-07-20,2023-07-20,In Transit,Active Network Transit
+EVT-100408,SH10408,Atlanta,1040,5,2023-12-07,2023-12-07,Delivered,Normal Delivery
+EVT-100409,SH10409,New York,2108,6,2023-05-11,2023-05-11,Delivered,Normal Delivery
+EVT-100410,SH10410,Phoenix,627,4,2023-10-07,2023-10-07,Delivered,Normal Delivery
+EVT-100411,SH10411,Houston,178,1,2023-04-22,2023-04-22,Lost,Lost in Hub Transit
+EVT-100412,SH10412,Denver,616,2,2023-09-02,2023-09-02,Delivered,Normal Delivery
+EVT-100413,SH10413,Atlanta,800,2,2023-02-20,2023-02-20,Delivered,Normal Delivery
+EVT-100414,SH10414,Dallas,1435,4,2023-06-18,2023-06-18,Delivered,Normal Delivery
+EVT-100415,SH10415,Minneapolis,1727,6,2023-05-01,2023-05-01,Delivered,Normal Delivery
+EVT-100416,SH10416,Chicago,2007,4,2023-09-26,2023-09-26,Delivered,Normal Delivery
+EVT-100417,SH10417,Dallas,1619,4,2023-06-10,2023-06-14,Delayed,Routing Deviation
+EVT-100418,SH10418,Chicago,2344,7,2023-01-25,2023-01-25,Delivered,Normal Delivery
+EVT-100419,SH10419,Dallas,2242,5,2023-12-09,2023-11-04,Delivered,Normal Delivery
+EVT-100420,SH10420,Houston,1346,4,2023-09-01,2023-09-01,In Transit,Active Network Transit
+EVT-100421,SH10421,Miami,283,1,2023-03-18,2023-03-18,Delivered,Normal Delivery
+EVT-100422,SH10422,Los Angeles,164,4,2023-05-24,2023-05-24,In Transit,Active Network Transit
+EVT-100423,SH10423,Boston,1324,7,2023-01-11,2023-01-11,Delivered,Normal Delivery
+EVT-100424,SH10424,Minneapolis,849,2,2023-12-11,2023-12-14,Delayed,High Holiday Volume
+EVT-100425,SH10425,Denver,212,1,2023-08-05,2023-08-05,Delivered,Normal Delivery
+EVT-100426,SH10426,Denver,1035,6,2023-02-27,2023-02-27,Delivered,Normal Delivery
+EVT-100427,SH10427,Phoenix,373,1,2023-06-14,2023-06-14,Delivered,Normal Delivery
+EVT-100428,SH10428,Atlanta,569,3,2023-09-19,2023-09-19,Delivered,Normal Delivery
+EVT-100429,SH10429,Detroit,2250,9,2023-08-30,2023-08-30,In Transit,Active Network Transit
+EVT-100430,SH10430,Seattle,1171,5,2023-04-28,2023-04-28,Delivered,Normal Delivery
+EVT-100431,SH10431,New York,462,3,2023-02-12,2023-02-12,Delivered,Normal Delivery
+EVT-100432,SH10432,San Francisco,1761,4,2023-05-12,2023-05-12,Delivered,Normal Delivery
+EVT-100433,SH10433,Minneapolis,658,2,2023-02-02,2023-02-02,Delivered,Normal Delivery
+EVT-100434,SH10434,Phoenix,978,3,2023-10-23,2023-10-23,Delivered,Normal Delivery
+EVT-100435,SH10435,Phoenix,1349,3,2023-01-25,2023-01-25,Delivered,Normal Delivery
+EVT-100436,SH10436,Houston,483,1,2023-03-30,2023-03-30,Delivered,Normal Delivery
+EVT-100437,SH10437,Houston,1707,7,2023-04-21,2023-04-21,Delivered,Normal Delivery
+EVT-100438,SH10438,Dallas,2333,5,2023-09-30,2023-09-30,Delivered,Normal Delivery
+EVT-100439,SH10439,Chicago,790,2,2023-12-06,2023-12-06,Delivered,Normal Delivery
+EVT-100440,SH10440,San Francisco,1605,8,2023-04-11,2023-04-11,Delivered,Normal Delivery
+EVT-100441,SH10441,Seattle,1019,4,2023-11-05,2023-11-05,Delivered,Normal Delivery
+EVT-100442,SH10442,San Francisco,1945,4,2023-09-20,2023-09-20,Delivered,Normal Delivery
+EVT-100443,SH10443,Phoenix,804,2,2023-04-03,2023-04-03,Delivered,Normal Delivery
+EVT-100444,SH10444,Dallas,1435,6,2023-09-23,2023-09-23,Delivered,Normal Delivery
+EVT-100445,SH10445,Phoenix,1081,3,2023-04-13,2023-04-13,In Transit,Active Network Transit
+EVT-100446,SH10446,Seattle,1211,6,2023-12-05,2023-12-05,Delivered,Normal Delivery
+EVT-100447,SH10447,Los Angeles,916,4,2023-08-01,,Delivered,Normal Delivery
+EVT-100448,SH10448,Chicago,1941,4,2023-04-18,2023-04-18,Delivered,Normal Delivery
+EVT-100449,SH10449,Houston,1560,5,2023-10-04,2023-10-04,Delivered,Normal Delivery
+EVT-100450,SH10450,Chicago,1843,5,2023-09-19,2023-09-19,Delivered,Normal Delivery
+EVT-100451,SH10451,Seattle,2418,8,2023-03-14,2023-03-14,Delivered,Normal Delivery
+EVT-100452,SH10452,San Francisco,2067,5,2023-01-09,2023-01-21,Delayed,Carrier Hub Congestion
+EVT-100453,SH10453,Portland,568,2,2023-01-23,2023-01-23,Delivered,Normal Delivery
+EVT-100454,SH10454,San Francisco,906,6,2023-06-15,2023-06-15,Delivered,Normal Delivery
+EVT-100455,SH10455,Houston,642,5,2023-01-23,2023-01-23,Delivered,Normal Delivery
+EVT-100456,SH10456,Houston,1954,5,2023-11-08,2023-11-08,Delivered,Normal Delivery
+EVT-100457,SH10457,Boston,2192,6,2023-03-21,2023-03-21,Delivered,Normal Delivery
+EVT-100458,SH10458,Denver,1113,3,2023-09-18,2023-09-18,Delivered,Normal Delivery
+EVT-100459,SH10459,Detroit,1837,8,2023-02-25,2023-02-25,Delivered,Normal Delivery
+EVT-100460,SH10460,New York,447,1,2023-09-19,2023-09-19,Delivered,Normal Delivery
+EVT-100461,SH10461,Minneapolis,162,1,2023-08-17,2023-08-17,Delivered,Normal Delivery
+EVT-100462,SH10462,Minneapolis,2454,6,2023-03-05,2023-03-05,Delivered,Normal Delivery
+EVT-100463,SH10463,Dallas,603,2,2023-10-27,2023-10-27,Delivered,Normal Delivery
+EVT-100464,SH10464,Chicago,1340,4,2023-12-13,2023-12-13,Delivered,Normal Delivery
+EVT-100465,SH10465,Phoenix,1963,4,2023-07-20,2023-07-20,Delivered,Normal Delivery
+EVT-100466,SH10466,New York,2254,5,2023-05-08,2023-05-08,Delivered,Normal Delivery
+EVT-100467,SH10467,Dallas,664,3,2023-11-22,2023-11-22,In Transit,Active Network Transit
+EVT-100468,SH10468,Dallas,1435,4,2023-02-23,2023-02-23,Delivered,Normal Delivery
+EVT-100469,SH10469,Dallas,1435,6,2023-09-03,2023-09-03,Delivered,Normal Delivery
+EVT-100470,SH10470,Houston,195,1,2023-04-22,,Delayed,Last-Mile Mechanical Failure
+EVT-100471,SH10471,Los Angeles,1072,6,2023-10-22,2023-10-22,Delivered,Normal Delivery
+EVT-100472,SH10472,Denver,1030,3,2023-12-20,2023-12-20,Delivered,Normal Delivery
+EVT-100473,SH10473,Atlanta,1363,5,2023-06-09,2023-06-09,Delivered,Normal Delivery
+EVT-100474,SH10474,Minneapolis,515,2,2023-04-27,2023-04-27,Lost,Lost in Hub Transit
+EVT-100475,SH10475,Detroit,262,3,2023-09-06,2023-09-06,Delivered,Normal Delivery
+EVT-100476,SH10476,New York,1866,4,2023-02-23,2023-02-23,Delivered,Normal Delivery
+EVT-100477,SH10477,Phoenix,1998,5,2023-12-25,2024-01-06,Delayed,High Holiday Volume
+EVT-100478,SH10478,Chicago,1304,5,2023-07-21,2023-07-21,Delivered,Normal Delivery
+EVT-100479,SH10479,Dallas,187,2,2023-04-21,2023-04-21,Delivered,Normal Delivery
+EVT-100480,SH10480,Chicago,1486,5,2023-04-05,2023-04-05,Delivered,Normal Delivery
+EVT-100481,SH10481,New York,1468,4,2023-01-12,2023-01-12,Delivered,Normal Delivery
+EVT-100482,SH10482,Seattle,2283,5,2023-04-01,2023-04-01,Delivered,Normal Delivery
+EVT-100483,SH10483,Houston,1950,4,2023-01-23,2023-01-23,Delivered,Normal Delivery
+EVT-100484,SH10484,Detroit,119,2,2023-08-26,2023-09-02,Delayed,Last-Mile Mechanical Failure
+EVT-100485,SH10485,Chicago,983,3,2023-03-10,2023-03-10,Delivered,Normal Delivery
+EVT-100486,SH10486,Los Angeles,344,2,2023-02-20,2023-02-20,Lost,Lost in Hub Transit
+EVT-100487,SH10487,Detroit,1996,5,2023-08-28,2023-08-28,Delivered,Normal Delivery
+EVT-100488,SH10488,Los Angeles,1671,5,2023-06-30,2023-07-01,Delayed,Last-Mile Mechanical Failure
+EVT-100489,SH10489,Miami,829,4,2023-12-26,2023-12-26,Delivered,Normal Delivery
+EVT-100490,SH10490,Los Angeles,1508,6,2023-09-06,2023-09-06,Delivered,Normal Delivery
+EVT-100491,SH10491,Boston,1504,3,2023-06-20,2023-06-20,Delivered,Normal Delivery
+EVT-100492,SH10492,Seattle,1844,4,2023-06-13,2023-06-13,Delivered,Normal Delivery
+EVT-100493,SH10493,Denver,1030,4,2023-02-10,2023-02-10,Delivered,Normal Delivery
+EVT-100494,SH10494,New York,319,2,2023-09-01,2023-09-01,Delivered,Normal Delivery
+EVT-100495,SH10495,Chicago,1635,6,2023-04-24,2023-04-24,Delivered,Normal Delivery
+EVT-100496,SH10496,Denver,1058,3,2023-09-06,2023-09-06,Delivered,Normal Delivery
+EVT-100497,SH10497,Denver,309,1,2023-01-03,2023-01-03,Delivered,Normal Delivery
+EVT-100498,SH10498,Houston,1002,2,2023-12-30,2023-12-30,Delivered,Normal Delivery
+EVT-100499,SH10499,Denver,295,2,2023-09-30,2023-09-30,Delivered,Normal Delivery
+EVT-100500,SH10500,Seattle,2252,5,2023-08-15,2023-08-15,Delivered,Normal Delivery
+EVT-100501,SH10501,Seattle,1135,5,2023-07-21,2023-07-21,Delivered,Normal Delivery
+EVT-100502,SH10502,Los Angeles,2378,6,2023-07-03,2023-07-03,Delivered,Normal Delivery
+EVT-100503,SH10503,Minneapolis,1473,4,2023-12-04,2023-12-04,Delivered,Normal Delivery
+EVT-100504,SH10504,Detroit,1433,4,2024-01-01,2024-01-01,Delivered,Normal Delivery
+EVT-100505,SH10505,Houston,239,2,2023-10-22,2023-10-22,Delivered,Normal Delivery
+EVT-100506,SH10506,Atlanta,2461,5,2023-09-18,2023-09-18,Delivered,Normal Delivery
+EVT-100507,SH10507,Miami,1588,5,2023-12-05,2023-12-05,Delivered,Normal Delivery
+EVT-100508,SH10508,Denver,328,1,2023-08-31,2023-08-31,Delivered,Normal Delivery
+EVT-100509,SH10509,Los Angeles,2213,5,2023-09-24,2023-09-24,Delivered,Normal Delivery
+EVT-100510,SH10510,Phoenix,2186,6,2023-01-14,2023-01-20,Delayed,Carrier Hub Congestion
+EVT-100511,SH10511,Denver,1228,4,2023-07-11,2023-07-18,Delayed,Carrier Hub Congestion
+EVT-100512,SH10512,Portland,1553,4,2023-09-07,2023-09-07,Delivered,Normal Delivery
+EVT-100513,SH10513,Los Angeles,1225,4,2023-03-24,2023-03-24,Delivered,Normal Delivery
+EVT-100514,SH10514,Atlanta,1428,3,2023-07-23,2023-07-23,Delivered,Normal Delivery
+EVT-100515,SH10515,Portland,267,1,2023-12-27,2023-12-27,Delivered,Normal Delivery
+EVT-100516,SH10516,Minneapolis,650,1,2023-03-14,2023-03-14,Delivered,Normal Delivery
+EVT-100517,SH10517,Boston,2479,6,2023-12-03,2023-12-03,Delivered,Normal Delivery
+EVT-100518,SH10518,Houston,1859,5,2023-04-04,2023-04-04,Delivered,Normal Delivery
+EVT-100519,SH10519,Phoenix,373,3,2023-02-04,2023-02-09,Delayed,Carrier Hub Congestion
+EVT-100520,SH10520,Boston,912,2,2023-07-04,2023-07-04,Delivered,Normal Delivery
+EVT-100521,SH10521,Atlanta,490,2,2023-06-18,2023-06-18,Delivered,Normal Delivery
+EVT-100522,SH10522,Miami,1350,3,2023-06-18,2023-06-18,Delivered,Normal Delivery
+EVT-100523,SH10523,Portland,1572,6,2023-04-24,2023-05-02,Delayed,Carrier Hub Congestion
+EVT-100524,SH10524,Detroit,1517,4,2023-11-16,2023-11-16,Delivered,Normal Delivery
+EVT-100525,SH10525,Denver,1785,4,2023-07-11,2023-07-11,Delivered,Normal Delivery
+EVT-100526,SH10526,Minneapolis,543,3,2023-04-27,2023-04-27,Delivered,Normal Delivery
+EVT-100527,SH10527,Phoenix,373,3,2023-02-06,2023-02-06,Delivered,Normal Delivery
+EVT-100528,SH10528,San Francisco,1055,3,2023-06-16,2023-06-16,Delivered,Normal Delivery
+EVT-100529,SH10529,Atlanta,2177,6,2023-07-26,2023-07-26,Delivered,Normal Delivery
+EVT-100530,SH10530,Houston,1769,5,2023-11-18,2023-11-18,Delivered,Normal Delivery
+EVT-100531,SH10531,Boston,1126,3,2023-10-07,2023-10-07,Delivered,Normal Delivery
+EVT-100532,SH10532,Minneapolis,1685,5,2023-07-20,2023-07-20,Delivered,Normal Delivery
+EVT-100533,SH10533,Dallas,838,5,2023-03-06,2023-03-06,Delivered,Normal Delivery
+EVT-100534,SH10534,Miami,2025,6,2023-03-09,2023-03-09,In Transit,Active Network Transit
+EVT-100535,SH10535,Seattle,121,1,2023-04-14,2023-04-14,Delivered,Normal Delivery
+EVT-100536,SH10536,Chicago,790,4,2023-03-29,2023-04-08,Delayed,Carrier Hub Congestion
+EVT-100537,SH10537,Houston,582,3,2023-04-17,2023-04-17,Delivered,Normal Delivery
+EVT-100538,SH10538,New York,357,1,2023-05-18,2023-05-18,Delivered,Normal Delivery
+EVT-100539,SH10539,Dallas,961,4,2023-03-18,2023-03-18,Delivered,Normal Delivery
+EVT-100540,SH10540,Miami,1292,7,2023-06-23,2023-06-23,Delivered,Normal Delivery
+EVT-100541,SH10541,Los Angeles,320,1,2023-04-21,2023-04-21,Delivered,Normal Delivery
+EVT-100542,SH10542,Atlanta,900,3,2023-01-11,2023-01-11,Delivered,Normal Delivery
+EVT-100543,SH10543,Seattle,1611,5,2023-09-28,2023-09-28,Delivered,Normal Delivery
+EVT-100544,SH10544,Phoenix,1288,5,2023-10-19,2023-10-19,Delivered,Normal Delivery
+EVT-100545,SH10545,Portland,896,4,2023-01-23,2023-01-23,Delivered,Normal Delivery
+EVT-100546,SH10546,Boston,1452,7,2023-07-02,2023-07-02,Delivered,Normal Delivery
+EVT-100547,SH10547,Dallas,210,2,2023-05-06,2023-05-06,In Transit,Active Network Transit
+EVT-100548,SH10548,Portland,389,2,2023-01-14,2023-01-14,Delivered,Normal Delivery
+EVT-100549,SH10549,New York,643,2,2023-04-04,2023-04-04,Returned,Customer Refused / Delivery Failed
+EVT-100550,SH10550,Boston,838,2,2023-08-29,2023-08-29,Delivered,Normal Delivery
+EVT-100551,SH10551,Detroit,1383,4,2023-05-16,2023-05-16,Delivered,Normal Delivery
+EVT-100552,SH10552,New York,121,3,2023-05-11,2023-05-11,Delivered,Normal Delivery
+EVT-100553,SH10553,Atlanta,2146,9,2023-11-30,2023-11-30,Delivered,Normal Delivery
+EVT-100554,SH10554,Boston,223,1,2023-11-28,2023-11-28,Delivered,Normal Delivery
+EVT-100555,SH10555,Boston,1337,3,2023-07-18,2023-07-18,In Transit,Active Network Transit
+EVT-100556,SH10556,Minneapolis,1255,5,2023-09-20,2023-09-20,Delivered,Normal Delivery
+EVT-100557,SH10557,Phoenix,825,4,2023-08-25,2023-08-25,In Transit,Active Network Transit
+EVT-100558,SH10558,Minneapolis,1852,4,2023-09-14,2023-09-14,Delivered,Normal Delivery
+EVT-100559,SH10559,Dallas,1764,4,2023-12-25,2023-12-25,Returned,Customer Refused / Delivery Failed
+EVT-100560,SH10560,Phoenix,713,3,2023-07-19,2023-07-19,Delivered,Normal Delivery
+EVT-100561,SH10561,Chicago,1898,5,2023-03-29,2023-03-29,Delivered,Normal Delivery
+EVT-100562,SH10562,San Francisco,1083,3,2023-02-27,2023-02-27,Delivered,Normal Delivery
+EVT-100563,SH10563,Portland,1681,4,2023-12-13,2023-12-13,Delivered,Normal Delivery
+EVT-100564,SH10564,Miami,1256,3,2023-11-22,2023-11-22,Delivered,Normal Delivery
+EVT-100565,SH10565,Los Angeles,1984,7,2023-06-22,2023-06-22,Delivered,Normal Delivery
+EVT-100566,SH10566,Phoenix,2445,8,2023-12-07,2023-12-07,Delivered,Normal Delivery
+EVT-100567,SH10567,Miami,1350,4,2023-07-17,2023-07-17,Delivered,Normal Delivery
+EVT-100568,SH10568,Houston,2318,7,2023-03-20,2023-03-23,Delayed,Carrier Hub Congestion
+EVT-100569,SH10569,Miami,2243,7,2023-04-26,2023-04-26,Delivered,Normal Delivery
+EVT-100570,SH10570,Chicago,2201,7,2023-07-31,2023-07-31,Delivered,Normal Delivery
+EVT-100571,SH10571,Boston,2255,7,2023-05-06,2023-05-06,Delivered,Normal Delivery
+EVT-100572,SH10572,Atlanta,962,9,2023-05-22,2023-05-22,Delivered,Normal Delivery
+EVT-100573,SH10573,Miami,1681,4,2023-07-04,2023-07-04,In Transit,Active Network Transit
+EVT-100574,SH10574,Detroit,283,1,2023-05-17,2023-05-17,Delivered,Normal Delivery
+EVT-100575,SH10575,Boston,640,3,2023-08-31,2023-08-31,Delivered,Normal Delivery
+EVT-100576,SH10576,Phoenix,2409,6,2023-10-24,2023-10-24,Delivered,Normal Delivery
+EVT-100577,SH10577,San Francisco,1203,4,2023-11-22,2023-11-22,Lost,Lost in Hub Transit
+EVT-100578,SH10578,Atlanta,231,1,2023-04-04,2023-04-04,Delivered,Normal Delivery
+EVT-100579,SH10579,Miami,2136,5,2023-09-17,2023-09-26,Delayed,Weather Disruption
+EVT-100580,SH10580,Portland,1886,4,2023-03-08,2023-03-08,Delivered,Normal Delivery
+EVT-100581,SH10581,Chicago,1896,10,2023-01-30,2023-01-30,Delivered,Normal Delivery
+EVT-100582,SH10582,Minneapolis,1869,5,2023-10-16,2023-10-16,Delivered,Normal Delivery
+EVT-100583,SH10583,San Francisco,1412,3,2023-06-07,2023-06-07,Delivered,Normal Delivery
+EVT-100584,SH10584,Chicago,110,3,2023-06-07,2023-06-07,Delivered,Normal Delivery
+EVT-100585,SH10585,Miami,682,2,2023-02-07,2023-02-07,Delivered,Normal Delivery
+EVT-100586,SH10586,San Francisco,2264,6,2023-03-07,2023-03-07,Delivered,Normal Delivery
+EVT-100587,SH10587,Boston,413,3,2023-11-18,2023-11-18,Delivered,Normal Delivery
+EVT-100588,SH10588,Seattle,1003,3,2023-05-29,2023-06-09,Delayed,Weather Disruption
+EVT-100589,SH10589,Houston,893,3,2023-08-01,2023-08-01,Delivered,Normal Delivery
+EVT-100590,SH10590,Boston,1509,4,2023-05-27,2023-06-04,Delayed,Last-Mile Mechanical Failure
+EVT-100591,SH10591,Seattle,1749,5,2023-07-17,2023-07-25,Delayed,Routing Deviation
+EVT-100592,SH10592,Los Angeles,377,1,2023-06-15,2023-06-15,Delivered,Normal Delivery
+EVT-100593,SH10593,Phoenix,2483,5,2023-10-26,2023-10-26,Delivered,Normal Delivery
+EVT-100594,SH10594,Seattle,1606,5,2023-03-15,2023-03-24,Delayed,High Holiday Volume
+EVT-100595,SH10595,Atlanta,870,5,2023-07-30,2023-07-30,Delivered,Normal Delivery
+EVT-100596,SH10596,San Francisco,1705,5,2023-12-13,2023-12-13,Delivered,Normal Delivery
+EVT-100597,SH10597,Atlanta,290,2,2023-06-21,,Delivered,Normal Delivery
+EVT-100598,SH10598,Dallas,1525,4,2023-05-26,2023-05-26,Delivered,Normal Delivery
+EVT-100599,SH10599,Phoenix,1178,3,2023-06-26,2023-06-26,Delivered,Normal Delivery
+EVT-100600,SH10600,Houston,1612,4,2023-03-02,2023-03-02,Delivered,Normal Delivery
+EVT-100601,SH10601,New York,2488,6,2023-06-04,2023-06-04,Delivered,Normal Delivery
+EVT-100602,SH10602,Dallas,2144,10,2023-11-30,2023-11-30,Delivered,Normal Delivery
+EVT-100603,SH10603,Dallas,341,3,2023-06-06,2023-06-06,Delivered,Normal Delivery
+EVT-100604,SH10604,Boston,484,4,2023-02-21,2023-02-21,Delivered,Normal Delivery
+EVT-100605,SH10605,Detroit,1461,5,2023-08-02,2023-08-02,Delivered,Normal Delivery
+EVT-100606,SH10606,Chicago,766,5,2023-12-23,2023-12-23,Delivered,Normal Delivery
+EVT-100607,SH10607,Dallas,1151,5,2023-06-10,2023-06-10,Delivered,Normal Delivery
+EVT-100608,SH10608,San Francisco,412,2,2023-07-28,2023-07-28,Delivered,Normal Delivery
+EVT-100609,SH10609,Dallas,1858,4,2023-02-12,2023-02-12,Delivered,Normal Delivery
+EVT-100610,SH10610,San Francisco,2188,5,2023-10-23,2023-11-03,Delayed,Weather Disruption
+EVT-100611,SH10611,Dallas,1113,3,2023-09-10,2023-09-10,Delivered,Normal Delivery
+EVT-100612,SH10612,Seattle,1775,5,2023-11-16,2023-11-16,Delivered,Normal Delivery
+EVT-100613,SH10613,New York,109,4,2023-10-30,2023-10-30,Delivered,Normal Delivery
+EVT-100614,SH10614,Denver,1000,4,2023-09-29,2023-09-29,Delivered,Normal Delivery
+EVT-100615,SH10615,Portland,354,1,2023-04-17,2023-04-22,Delayed,Carrier Hub Congestion
+EVT-100616,SH10616,Miami,752,2,2023-04-26,2023-04-26,Delivered,Normal Delivery
+EVT-100617,SH10617,Denver,2253,6,2023-10-02,2023-10-02,Delivered,Normal Delivery
+EVT-100618,SH10618,Denver,1000,4,2023-06-21,2023-06-21,Delivered,Normal Delivery
+EVT-100619,SH10619,Phoenix,2266,7,2023-12-23,2023-12-25,Delayed,Carrier Hub Congestion
+EVT-100620,SH10620,Minneapolis,1014,3,2023-09-21,2023-09-27,Delayed,Weather Disruption
+EVT-100621,SH10621,Portland,1837,8,2023-11-22,2023-11-22,Delivered,Normal Delivery
+EVT-100622,SH10622,Chicago,264,3,2023-02-20,2023-02-20,Delivered,Normal Delivery
+EVT-100623,SH10623,Detroit,920,3,2023-10-03,2023-10-03,Delivered,Normal Delivery
+EVT-100624,SH10624,Dallas,385,4,2023-04-09,2023-04-09,Delivered,Normal Delivery
+EVT-100625,SH10625,San Francisco,1650,4,2023-06-21,2023-06-21,Delivered,Normal Delivery
+EVT-100626,SH10626,Minneapolis,2133,6,2023-09-30,2023-09-30,Delivered,Normal Delivery
+EVT-100627,SH10627,San Francisco,1191,5,2023-11-20,2023-11-20,In Transit,Active Network Transit
+EVT-100628,SH10628,Miami,836,3,2023-01-08,2023-01-08,Lost,Lost in Hub Transit
+EVT-100629,SH10629,Denver,1000,2,2023-10-06,2023-10-06,Delivered,Normal Delivery
+EVT-100630,SH10630,Los Angeles,723,2,2023-08-14,2023-08-14,Delivered,Normal Delivery
+EVT-100631,SH10631,Los Angeles,1990,6,2023-08-01,2023-08-01,Lost,Lost in Hub Transit
+EVT-100632,SH10632,Minneapolis,660,2,2023-11-09,2023-11-09,Delivered,Normal Delivery
+EVT-100633,SH10633,Houston,2174,6,2023-07-27,2023-07-27,Delivered,Normal Delivery
+EVT-100634,SH10634,Minneapolis,651,3,2023-08-06,2023-08-06,Delivered,Normal Delivery
+EVT-100635,SH10635,Denver,1000,3,2023-11-14,2023-11-14,Delivered,Normal Delivery
+EVT-100636,SH10636,Minneapolis,1019,3,2023-05-21,,Delivered,Normal Delivery
+EVT-100637,SH10637,Boston,508,2,2023-05-20,2023-05-20,Delivered,Normal Delivery
+EVT-100638,SH10638,Houston,2165,6,2023-06-06,2023-06-06,Delivered,Normal Delivery
+EVT-100639,SH10639,Portland,1038,5,2023-09-30,2023-09-30,Delivered,Normal Delivery
+EVT-100640,SH10640,Minneapolis,730,3,2023-02-25,,Delivered,Normal Delivery
+EVT-100641,SH10641,Los Angeles,2201,7,2023-03-26,2023-03-26,Delivered,Normal Delivery
+EVT-100642,SH10642,Detroit,1808,5,2023-03-25,2023-03-25,Delivered,Normal Delivery
+EVT-100643,SH10643,Phoenix,553,2,2023-10-05,2023-10-05,Delivered,Normal Delivery
+EVT-100644,SH10644,New York,560,4,2023-03-22,2023-03-22,Delivered,Normal Delivery
+EVT-100645,SH10645,Atlanta,2189,5,2023-08-02,2023-08-02,Delivered,Normal Delivery
+EVT-100646,SH10646,Detroit,393,2,2023-11-19,2023-11-19,Delivered,Normal Delivery
+EVT-100647,SH10647,Minneapolis,1505,3,2023-12-16,2023-12-16,Delivered,Normal Delivery
+EVT-100648,SH10648,New York,1673,6,2023-10-01,2023-10-01,Delivered,Normal Delivery
+EVT-100649,SH10649,Portland,1029,4,2023-08-08,2023-08-08,Delivered,Normal Delivery
+EVT-100650,SH10650,Miami,2487,7,2023-10-06,2023-10-06,Delivered,Normal Delivery
+EVT-100651,SH10651,Los Angeles,1495,4,2023-07-08,2023-07-08,Delivered,Normal Delivery
+EVT-100652,SH10652,Chicago,1121,5,2023-07-06,2023-07-06,Delivered,Normal Delivery
+EVT-100653,SH10653,Chicago,790,2,2023-08-24,2023-08-24,Delivered,Normal Delivery
+EVT-100654,SH10654,Minneapolis,1457,4,2023-10-08,2023-10-08,Delivered,Normal Delivery
+EVT-100655,SH10655,Miami,1832,5,2023-01-12,2023-01-12,Delivered,Normal Delivery
+EVT-100656,SH10656,Los Angeles,1208,3,2023-07-28,2023-07-28,Delivered,Normal Delivery
+EVT-100657,SH10657,Denver,531,1,2023-12-17,2023-12-17,Delivered,Normal Delivery
+EVT-100658,SH10658,Dallas,1435,7,2023-12-30,2023-12-30,Delivered,Normal Delivery
+EVT-100659,SH10659,Portland,1803,5,2023-09-22,2023-09-22,Delivered,Normal Delivery
+EVT-100660,SH10660,Los Angeles,2363,5,2023-08-22,2023-08-22,Delivered,Normal Delivery
+EVT-100661,SH10661,Chicago,1274,3,2023-10-08,2023-10-08,Delivered,Normal Delivery
+EVT-100662,SH10662,New York,1678,5,2023-02-14,2023-02-14,Delivered,Normal Delivery
+EVT-100663,SH10663,Seattle,2447,6,2023-10-23,2023-11-03,Delayed,Carrier Hub Congestion
+EVT-100664,SH10664,Minneapolis,1667,5,2023-03-08,2023-03-08,Delivered,Normal Delivery
+EVT-100665,SH10665,Dallas,1435,4,2023-06-06,2023-06-06,Delivered,Normal Delivery
+EVT-100666,SH10666,Houston,1937,5,2023-01-12,2023-01-12,Delivered,Normal Delivery
+EVT-100667,SH10667,Dallas,659,3,2023-03-31,2023-03-31,Returned,Customer Refused / Delivery Failed
+EVT-100668,SH10668,Miami,663,5,2023-03-08,2023-03-08,Delivered,Normal Delivery
+EVT-100669,SH10669,Dallas,1435,5,2023-11-21,2023-11-21,Delivered,Normal Delivery
+EVT-100670,SH10670,New York,1431,8,2023-03-28,2023-03-28,Delivered,Normal Delivery
+EVT-100671,SH10671,Minneapolis,2452,5,2023-10-25,2023-11-03,Delayed,Carrier Hub Congestion
+EVT-100672,SH10672,Detroit,2427,6,2023-07-15,2023-07-23,Delayed,Last-Mile Mechanical Failure
+EVT-100673,SH10673,Seattle,872,5,2023-06-17,2023-06-17,Delivered,Normal Delivery
+EVT-100674,SH10674,Houston,1747,6,2023-04-21,2023-04-21,Delivered,Normal Delivery
+EVT-100675,SH10675,Houston,1314,4,2023-04-29,2023-04-29,Delivered,Normal Delivery
+EVT-100676,SH10676,Los Angeles,2460,5,2023-11-01,2023-11-01,Delivered,Normal Delivery
+EVT-100677,SH10677,New York,2189,5,2023-09-13,2023-09-13,Delivered,Normal Delivery
+EVT-100678,SH10678,Denver,2105,6,2023-10-08,2023-10-08,Delivered,Normal Delivery
+EVT-100679,SH10679,Miami,2185,6,2023-03-09,2023-03-09,Delivered,Normal Delivery
+EVT-100680,SH10680,Houston,1984,5,2023-08-20,2023-08-20,Delivered,Normal Delivery
+EVT-100681,SH10681,Phoenix,1123,3,2023-10-22,2023-10-22,Delivered,Normal Delivery
+EVT-100682,SH10682,San Francisco,348,2,2023-05-06,2023-05-06,Delivered,Normal Delivery
+EVT-100683,SH10683,Dallas,1435,3,2023-01-05,2023-01-05,Delivered,Normal Delivery
+EVT-100684,SH10684,Detroit,265,1,2023-03-01,2023-03-01,Delivered,Normal Delivery
+EVT-100685,SH10685,Atlanta,870,3,2023-03-17,2023-03-17,Delivered,Normal Delivery
+EVT-100686,SH10686,Portland,2008,6,2023-12-01,2023-12-01,Lost,Lost in Hub Transit
+EVT-100687,SH10687,Chicago,1305,3,2023-06-22,2023-06-22,Delivered,Normal Delivery
+EVT-100688,SH10688,Portland,1646,4,2023-10-30,2023-10-30,Delivered,Normal Delivery
+EVT-100689,SH10689,Atlanta,2448,5,2023-03-21,2023-03-21,Delivered,Normal Delivery
+EVT-100690,SH10690,Dallas,1854,4,2023-01-18,2023-01-18,Delivered,Normal Delivery
+EVT-100691,SH10691,Minneapolis,1208,3,2023-06-10,2023-06-10,Delivered,Normal Delivery
+EVT-100692,SH10692,Dallas,1753,4,2023-01-19,2023-01-19,Delivered,Normal Delivery
+EVT-100693,SH10693,Chicago,1098,6,2023-03-23,2023-04-03,Delayed,Weather Disruption
+EVT-100694,SH10694,Denver,1964,5,2023-02-21,2023-02-21,Delivered,Normal Delivery
+EVT-100695,SH10695,Houston,1615,5,2023-06-20,2023-06-20,Delivered,Normal Delivery
+EVT-100696,SH10696,Atlanta,870,3,2023-11-22,2023-11-22,Delivered,Normal Delivery
+EVT-100697,SH10697,Detroit,105,1,2023-04-01,2023-04-01,Delivered,Normal Delivery
+EVT-100698,SH10698,Atlanta,472,2,2023-01-20,2023-01-20,Delivered,Normal Delivery
+EVT-100699,SH10699,Dallas,860,3,2023-03-03,2023-03-05,Delayed,Last-Mile Mechanical Failure
+EVT-100700,SH10700,Seattle,530,3,2023-01-07,2023-01-07,Delivered,Normal Delivery
+EVT-100701,SH10701,Seattle,1498,4,2023-09-20,2023-09-20,Delivered,Normal Delivery
+EVT-100702,SH10702,Portland,154,1,2023-02-06,2023-02-06,Delivered,Normal Delivery
+EVT-100703,SH10703,Chicago,357,1,2023-08-28,2023-08-28,Delivered,Normal Delivery
+EVT-100704,SH10704,San Francisco,2440,5,2023-05-22,2023-05-22,Delivered,Normal Delivery
+EVT-100705,SH10705,Portland,1846,5,2023-11-20,2023-11-20,Delivered,Normal Delivery
+EVT-100706,SH10706,Detroit,497,3,2023-07-25,2023-07-25,Delivered,Normal Delivery
+EVT-100707,SH10707,Houston,632,3,2023-05-01,2023-05-01,Delivered,Normal Delivery
+EVT-100708,SH10708,Denver,1143,5,2023-12-05,,Delivered,Normal Delivery
+EVT-100709,SH10709,Boston,1086,4,2023-08-18,2023-08-18,Delivered,Normal Delivery
+EVT-100710,SH10710,Chicago,284,2,2023-12-02,2023-12-02,Delivered,Normal Delivery
+EVT-100711,SH10711,Los Angeles,1881,4,2023-11-03,2023-11-03,Delivered,Normal Delivery
+EVT-100712,SH10712,Detroit,1465,7,2023-11-26,2023-11-26,Delivered,Normal Delivery
+EVT-100713,SH10713,Denver,1000,4,2023-02-27,2023-02-27,Delivered,Normal Delivery
+EVT-100714,SH10714,New York,2301,7,2023-02-04,2023-02-06,Delayed,Carrier Hub Congestion
+EVT-100715,SH10715,Minneapolis,623,6,2023-03-18,2023-03-18,Delivered,Normal Delivery
+EVT-100716,SH10716,Houston,2422,8,2023-09-08,2023-09-08,Delivered,Normal Delivery
+EVT-100717,SH10717,Detroit,1284,5,2023-06-28,2023-06-28,Delivered,Normal Delivery
+EVT-100718,SH10718,Seattle,1135,3,2023-08-08,2023-07-06,Delivered,Normal Delivery
+EVT-100719,SH10719,Chicago,2344,6,2023-09-23,2023-09-23,Delivered,Normal Delivery
+EVT-100720,SH10720,Chicago,593,5,2023-01-09,2023-01-10,Delayed,Last-Mile Mechanical Failure
+EVT-100721,SH10721,Phoenix,796,5,2023-02-27,2023-02-27,Delivered,Normal Delivery
+EVT-100722,SH10722,San Francisco,2164,5,2024-01-05,2024-01-05,Delivered,Normal Delivery
+EVT-100723,SH10723,Boston,1217,3,2023-10-07,2023-10-07,Delivered,Normal Delivery
+EVT-100724,SH10724,San Francisco,140,2,2023-01-10,2023-01-10,Delivered,Normal Delivery
+EVT-100725,SH10725,Minneapolis,1367,5,2023-07-19,2023-07-19,Delivered,Normal Delivery
+EVT-100726,SH10726,Chicago,2072,7,2023-07-23,2023-07-23,Delivered,Normal Delivery
+EVT-100727,SH10727,Atlanta,150,5,2023-05-12,2023-05-12,Delivered,Normal Delivery
+EVT-100728,SH10728,Phoenix,1168,3,2023-10-15,2023-10-15,Delivered,Normal Delivery
+EVT-100729,SH10729,Denver,147,1,2023-10-14,2023-10-14,Delivered,Normal Delivery
+EVT-100730,SH10730,Chicago,790,3,2023-09-09,2023-09-09,Delivered,Normal Delivery
+EVT-100731,SH10731,Los Angeles,159,2,2023-03-02,2023-03-02,Delivered,Normal Delivery
+EVT-100732,SH10732,Dallas,1632,5,2023-11-29,2023-12-03,Delayed,Weather Disruption
+EVT-100733,SH10733,Los Angeles,607,2,2023-01-15,2023-01-15,Delivered,Normal Delivery
+EVT-100734,SH10734,Detroit,475,5,2023-11-12,2023-11-12,Delivered,Normal Delivery
+EVT-100735,SH10735,Houston,1370,4,2023-05-29,2023-05-29,Delivered,Normal Delivery
+EVT-100736,SH10736,Los Angeles,2200,6,2023-11-02,2023-11-02,Delivered,Normal Delivery
+EVT-100737,SH10737,Miami,1795,6,2023-07-18,2023-07-18,In Transit,Active Network Transit
+EVT-100738,SH10738,Phoenix,2208,5,2023-03-01,2023-03-01,Delivered,Normal Delivery
+EVT-100739,SH10739,Boston,585,2,2023-11-02,2023-11-02,Delivered,Normal Delivery
+EVT-100740,SH10740,Phoenix,974,3,2023-12-21,2023-12-27,Delayed,Weather Disruption
+EVT-100741,SH10741,Atlanta,1610,5,2023-07-04,2023-07-04,Delivered,Normal Delivery
+EVT-100742,SH10742,Denver,1030,4,2023-10-31,2023-10-31,Delivered,Normal Delivery
+EVT-100743,SH10743,Boston,2380,9,2023-05-11,2023-05-11,Delivered,Normal Delivery
+EVT-100744,SH10744,Atlanta,800,2,2023-03-12,2023-03-12,Delivered,Normal Delivery
+EVT-100745,SH10745,Miami,1692,4,2023-08-14,2023-08-14,Delivered,Normal Delivery
+EVT-100746,SH10746,Miami,1032,2,2023-04-05,2023-04-05,Delivered,Normal Delivery
+EVT-100747,SH10747,Los Angeles,1003,2,2023-01-27,2023-01-27,Delivered,Normal Delivery
+EVT-100748,SH10748,Phoenix,367,2,2023-10-15,2023-10-15,Delivered,Normal Delivery
+EVT-100749,SH10749,Miami,1614,7,2024-01-06,2024-01-06,Delivered,Normal Delivery
+EVT-100750,SH10750,Portland,402,5,2023-05-11,2023-05-11,Delivered,Normal Delivery
+EVT-100751,SH10751,Phoenix,691,3,2023-08-25,2023-09-02,Delayed,Carrier Hub Congestion
+EVT-100752,SH10752,Miami,469,2,2023-07-22,2023-07-22,Delivered,Normal Delivery
+EVT-100753,SH10753,Detroit,2030,8,2023-08-30,2023-08-30,Delivered,Normal Delivery
+EVT-100754,SH10754,Minneapolis,810,3,2023-10-10,2023-10-10,Delivered,Normal Delivery
+EVT-100755,SH10755,San Francisco,735,3,2023-12-09,2023-12-09,Delivered,Normal Delivery
+EVT-100756,SH10756,Minneapolis,236,2,2023-04-15,2023-04-15,Delivered,Normal Delivery
+EVT-100757,SH10757,Phoenix,1346,5,2023-04-17,2023-04-17,Delivered,Normal Delivery
+EVT-100758,SH10758,Denver,1030,3,2023-04-30,,Delivered,Normal Delivery
+EVT-100759,SH10759,Chicago,706,4,2023-08-28,2023-08-28,Delivered,Normal Delivery
+EVT-100760,SH10760,Miami,1056,8,2023-08-26,2023-08-26,Delivered,Normal Delivery
+EVT-100761,SH10761,Miami,1660,5,2023-07-12,2023-07-12,Delivered,Normal Delivery
+EVT-100762,SH10762,Los Angeles,2174,6,2023-11-10,2023-11-10,Delivered,Normal Delivery
+EVT-100763,SH10763,Chicago,1270,4,2023-04-23,2023-04-23,Delivered,Normal Delivery
+EVT-100764,SH10764,Portland,2308,5,2023-01-25,2023-01-25,Delivered,Normal Delivery
+EVT-100765,SH10765,Houston,307,2,2023-01-16,2023-01-16,Delivered,Normal Delivery
+EVT-100766,SH10766,Phoenix,912,4,2023-05-21,2023-05-21,Delivered,Normal Delivery
+EVT-100767,SH10767,Dallas,1435,5,2023-01-21,2023-01-21,Delivered,Normal Delivery
+EVT-100768,SH10768,Chicago,1260,3,2023-08-27,2023-08-29,Delayed,Last-Mile Mechanical Failure
+EVT-100769,SH10769,New York,1646,4,2023-07-10,2023-07-10,Delivered,Normal Delivery
+EVT-100770,SH10770,Boston,2012,6,2023-04-21,2023-04-21,Delivered,Normal Delivery
+EVT-100771,SH10771,Detroit,283,2,2023-08-18,2023-08-18,Delivered,Normal Delivery
+EVT-100772,SH10772,San Francisco,1342,3,2023-06-04,2023-06-04,Delivered,Normal Delivery
+EVT-100773,SH10773,Phoenix,2030,6,2023-08-04,2023-08-04,Delivered,Normal Delivery
+EVT-100774,SH10774,New York,2241,6,2023-04-17,2023-04-27,Delayed,Weather Disruption
+EVT-100775,SH10775,Miami,147,5,2023-11-07,2023-11-07,Delivered,Normal Delivery
+EVT-100776,SH10776,Chicago,1277,4,2023-09-13,2023-09-13,Delivered,Normal Delivery
+EVT-100777,SH10777,Boston,527,2,2023-10-03,2023-10-13,Delayed,Weather Disruption
+EVT-100778,SH10778,Portland,1012,4,2023-09-30,2023-09-30,Delivered,Normal Delivery
+EVT-100779,SH10779,Portland,779,3,2023-02-27,2023-02-27,Delivered,Normal Delivery
+EVT-100780,SH10780,Chicago,2372,9,2023-10-21,2023-10-21,Delivered,Normal Delivery
+EVT-100781,SH10781,Dallas,1234,4,2023-12-26,2023-12-26,Delivered,Normal Delivery
+EVT-100782,SH10782,Houston,1246,4,2023-12-07,2023-12-07,Delivered,Normal Delivery
+EVT-100783,SH10783,Dallas,1068,3,2023-08-19,2023-08-19,Delivered,Normal Delivery
+EVT-100784,SH10784,Phoenix,1164,5,2023-03-21,2023-03-21,Delivered,Normal Delivery
+EVT-100785,SH10785,Denver,1192,4,2023-02-05,2023-02-05,Lost,Lost in Hub Transit
+EVT-100786,SH10786,Dallas,923,4,2023-04-24,2023-04-24,Returned,Customer Refused / Delivery Failed
+EVT-100787,SH10787,Houston,1434,3,2023-02-21,2023-02-21,Delivered,Normal Delivery
+EVT-100788,SH10788,Phoenix,1682,7,2023-12-02,2023-12-02,Delivered,Normal Delivery
+EVT-100789,SH10789,Dallas,1435,4,2023-04-30,2023-04-30,Delivered,Normal Delivery
+EVT-100790,SH10790,Denver,2386,5,2023-04-08,2023-04-08,Delivered,Normal Delivery
+EVT-100791,SH10791,Los Angeles,1007,4,2023-09-02,2023-09-02,Delivered,Normal Delivery
+EVT-100792,SH10792,New York,1636,4,2023-07-02,2023-07-02,Delivered,Normal Delivery
+EVT-100793,SH10793,Boston,993,3,2023-10-05,2023-10-17,Delayed,Last-Mile Mechanical Failure
+EVT-100794,SH10794,Detroit,810,4,2023-05-07,2023-05-07,Delivered,Normal Delivery
+EVT-100795,SH10795,Chicago,2113,8,2023-02-15,2023-02-15,Delivered,Normal Delivery
+EVT-100796,SH10796,Chicago,1640,4,2023-08-25,2023-08-25,Delivered,Normal Delivery
+EVT-100797,SH10797,Seattle,1517,4,2023-06-24,2023-06-24,Delivered,Normal Delivery
+EVT-100798,SH10798,Minneapolis,2458,6,2023-05-16,2023-05-16,Delivered,Normal Delivery
+EVT-100799,SH10799,Detroit,283,3,2023-01-23,,Delivered,Normal Delivery
+EVT-100800,SH10800,Miami,2114,5,2023-06-17,2023-06-17,Delivered,Normal Delivery
+EVT-100801,SH10801,Boston,1683,6,2023-06-07,2023-06-07,Delivered,Normal Delivery
+EVT-100802,SH10802,Dallas,345,2,2023-10-29,2023-10-29,Delivered,Normal Delivery
+EVT-100803,SH10803,Detroit,2470,6,2023-04-06,2023-04-06,Delivered,Normal Delivery
+EVT-100804,SH10804,Chicago,285,2,2023-06-05,2023-06-05,Delivered,Normal Delivery
+EVT-100805,SH10805,Chicago,428,2,2023-02-10,2023-02-15,Delayed,Weather Disruption
+EVT-100806,SH10806,Chicago,1780,6,2023-02-28,2023-02-28,Delivered,Normal Delivery
+EVT-100807,SH10807,Seattle,2049,5,2023-08-16,2023-08-16,Delivered,Normal Delivery
+EVT-100808,SH10808,Phoenix,2363,9,2024-01-03,2024-01-03,Delivered,Normal Delivery
+EVT-100809,SH10809,Chicago,2315,7,2023-12-03,2023-12-03,Delivered,Normal Delivery
+EVT-100810,SH10810,Detroit,1415,3,2023-04-03,2023-04-03,Delivered,Normal Delivery
+EVT-100811,SH10811,Chicago,454,3,2023-09-11,2023-09-11,In Transit,Active Network Transit
+EVT-100812,SH10812,Portland,862,2,2023-11-04,2023-11-04,Delivered,Normal Delivery
+EVT-100813,SH10813,Boston,1889,6,2023-12-02,2023-12-02,Delivered,Normal Delivery
+EVT-100814,SH10814,Los Angeles,909,3,2023-08-22,2023-08-22,Delivered,Normal Delivery
+EVT-100815,SH10815,Portland,675,2,2023-09-27,2023-09-27,Delivered,Normal Delivery
+EVT-100816,SH10816,New York,677,4,2023-11-28,2023-11-28,Lost,Lost in Hub Transit
+EVT-100817,SH10817,Phoenix,1315,5,2023-11-12,2023-11-12,Delivered,Normal Delivery
+EVT-100818,SH10818,Seattle,105,2,2023-09-23,2023-09-23,Delivered,Normal Delivery
+EVT-100819,SH10819,New York,1791,5,2023-11-18,2023-11-18,Delivered,Normal Delivery
+EVT-100820,SH10820,Houston,1778,5,2023-07-29,2023-07-29,Delivered,Normal Delivery
+EVT-100821,SH10821,Miami,209,2,2023-03-14,2023-03-14,Delivered,Normal Delivery
+EVT-100822,SH10822,Dallas,350,4,2023-06-04,2023-06-04,Delivered,Normal Delivery
+EVT-100823,SH10823,Minneapolis,1802,6,2023-01-24,2023-01-24,Delivered,Normal Delivery
+EVT-100824,SH10824,Minneapolis,1093,3,2023-10-22,2023-10-22,Delivered,Normal Delivery
+EVT-100825,SH10825,Atlanta,870,6,2023-11-19,2023-11-19,Delivered,Normal Delivery
+EVT-100826,SH10826,Los Angeles,1645,4,2023-09-14,2023-09-14,Delivered,Normal Delivery
+EVT-100827,SH10827,Detroit,121,2,2023-08-26,2023-08-26,Delivered,Normal Delivery
+EVT-100828,SH10828,Atlanta,800,2,2023-01-18,2023-01-18,Delivered,Normal Delivery
+EVT-100829,SH10829,Detroit,283,1,2023-02-04,2023-02-04,Delivered,Normal Delivery
+EVT-100830,SH10830,Minneapolis,205,1,2023-03-06,2023-03-06,Delivered,Normal Delivery
+EVT-100831,SH10831,Chicago,1943,4,2023-04-26,2023-04-26,Delivered,Normal Delivery
+EVT-100832,SH10832,Houston,1317,3,2023-09-10,2023-09-10,Delivered,Normal Delivery
+EVT-100833,SH10833,New York,237,1,2023-07-11,2023-07-11,Delivered,Normal Delivery
+EVT-100834,SH10834,Detroit,489,2,2023-02-27,2023-02-27,Delivered,Normal Delivery
+EVT-100835,SH10835,Phoenix,1752,4,2023-06-24,2023-06-24,Delivered,Normal Delivery
+EVT-100836,SH10836,Miami,1350,3,2023-05-25,2023-05-25,Delivered,Normal Delivery
+EVT-100837,SH10837,San Francisco,1323,4,2023-06-16,2023-06-16,Delivered,Normal Delivery
+EVT-100838,SH10838,San Francisco,255,6,2023-08-25,2023-08-25,Delivered,Normal Delivery
+EVT-100839,SH10839,New York,420,3,2023-09-27,2023-09-27,Delivered,Normal Delivery
+EVT-100840,SH10840,Atlanta,1506,6,2023-08-19,2023-08-19,Delivered,Normal Delivery
+EVT-100841,SH10841,Phoenix,1763,5,2023-11-13,2023-11-13,Delivered,Normal Delivery
+EVT-100842,SH10842,Boston,1483,4,2023-03-24,2023-03-24,Delivered,Normal Delivery
+EVT-100843,SH10843,Boston,1921,5,2023-03-30,2023-03-30,Delivered,Normal Delivery
+EVT-100844,SH10844,Atlanta,1737,5,2023-08-19,2023-08-19,Delivered,Normal Delivery
+EVT-100845,SH10845,Miami,560,3,2023-01-23,2023-01-23,Returned,Customer Refused / Delivery Failed
+EVT-100846,SH10846,Dallas,1118,3,2023-01-11,2023-01-11,Delivered,Normal Delivery
+EVT-100847,SH10847,Detroit,283,1,2023-02-16,2023-02-16,Delivered,Normal Delivery
+EVT-100848,SH10848,Seattle,2287,6,2023-03-29,2023-03-29,Delivered,Normal Delivery
+EVT-100849,SH10849,Minneapolis,475,3,2023-03-19,2023-03-19,Delivered,Normal Delivery
+EVT-100850,SH10850,Atlanta,253,1,2023-12-17,2023-12-30,Delayed,Carrier Hub Congestion
+EVT-100851,SH10851,Atlanta,976,4,2023-10-19,2023-10-19,Delivered,Normal Delivery
+EVT-100852,SH10852,Denver,1030,3,2023-10-12,2023-10-12,Delivered,Normal Delivery
+EVT-100853,SH10853,Chicago,1702,4,2023-02-20,2023-02-20,Delivered,Normal Delivery
+EVT-100854,SH10854,Los Angeles,2010,4,2023-12-28,2023-12-28,Returned,Customer Refused / Delivery Failed
+EVT-100855,SH10855,Seattle,2323,6,2023-03-05,2023-03-05,Delivered,Normal Delivery
+EVT-100856,SH10856,Detroit,2263,5,2023-03-13,2023-03-13,Delivered,Normal Delivery
+EVT-100857,SH10857,Minneapolis,1054,3,2023-11-17,2023-11-17,Delivered,Normal Delivery
+EVT-100858,SH10858,Phoenix,905,4,2023-10-29,2023-10-29,Delivered,Normal Delivery
+EVT-100859,SH10859,Atlanta,1069,5,2023-08-09,2023-08-09,Delivered,Normal Delivery
+EVT-100860,SH10860,Dallas,2274,6,2023-02-17,2023-02-17,Delivered,Normal Delivery
+EVT-100861,SH10861,Atlanta,161,2,2023-11-05,2023-11-05,Delivered,Normal Delivery
+EVT-100862,SH10862,Houston,547,4,2023-09-24,2023-09-24,Delivered,Normal Delivery
+EVT-100863,SH10863,Boston,215,2,2023-05-15,2023-05-15,Delivered,Normal Delivery
+EVT-100864,SH10864,Boston,2282,6,2023-10-09,2023-10-09,Delivered,Normal Delivery
+EVT-100865,SH10865,Chicago,2411,7,2023-08-30,2023-09-03,Delayed,Weather Disruption
+EVT-100866,SH10866,Dallas,1008,3,2023-07-02,2023-07-02,Delivered,Normal Delivery
+EVT-100867,SH10867,San Francisco,439,3,2023-07-11,2023-07-18,Delayed,Carrier Hub Congestion
+EVT-100868,SH10868,Chicago,151,2,2023-03-11,,Delivered,Normal Delivery
+EVT-100869,SH10869,Seattle,1235,5,2023-07-13,2023-07-13,Delivered,Normal Delivery
+EVT-100870,SH10870,Boston,1512,4,2023-09-13,2023-09-13,In Transit,Active Network Transit
+EVT-100871,SH10871,Seattle,1836,6,2023-06-10,2023-06-10,Delivered,Normal Delivery
+EVT-100872,SH10872,Boston,2415,7,2023-04-08,2023-04-08,Delivered,Normal Delivery
+EVT-100873,SH10873,Seattle,1969,5,2023-01-31,2023-02-01,Delayed,Carrier Hub Congestion
+EVT-100874,SH10874,Atlanta,784,3,2023-08-02,2023-08-02,Delivered,Normal Delivery
+EVT-100875,SH10875,San Francisco,1687,5,2023-02-02,2023-02-02,Delivered,Normal Delivery
+EVT-100876,SH10876,Houston,1624,5,2023-06-08,2023-06-08,Delivered,Normal Delivery
+EVT-100877,SH10877,San Francisco,337,2,2023-08-01,2023-08-01,Delivered,Normal Delivery
+EVT-100878,SH10878,Portland,2131,5,2023-04-08,2023-04-08,Delivered,Normal Delivery
+EVT-100879,SH10879,Los Angeles,144,5,2023-10-09,2023-10-09,Delivered,Normal Delivery
+EVT-100880,SH10880,Phoenix,371,4,2023-03-21,2023-03-21,Delivered,Normal Delivery
+EVT-100881,SH10881,Minneapolis,2393,5,2023-07-31,2023-07-31,Delivered,Normal Delivery
+EVT-100882,SH10882,Boston,1504,5,2023-05-13,2023-05-13,Delivered,Normal Delivery
+EVT-100883,SH10883,Chicago,2333,7,2023-10-30,2023-10-30,Delivered,Normal Delivery
+EVT-100884,SH10884,Dallas,303,1,2023-10-27,2023-10-27,Delivered,Normal Delivery
+EVT-100885,SH10885,Seattle,2147,5,2023-12-15,2023-12-15,In Transit,Active Network Transit
+EVT-100886,SH10886,New York,118,1,2023-12-26,2024-01-06,Delayed,Weather Disruption
+EVT-100887,SH10887,Boston,2282,6,2023-11-23,2023-11-23,Delivered,Normal Delivery
+EVT-100888,SH10888,Atlanta,2106,7,2023-03-04,2023-03-04,Delivered,Normal Delivery
+EVT-100889,SH10889,Phoenix,373,3,2023-06-02,2023-06-02,Delivered,Normal Delivery
+EVT-100890,SH10890,San Francisco,1611,4,2023-05-21,2023-05-21,Delivered,Normal Delivery
+EVT-100891,SH10891,Atlanta,870,4,2023-10-19,2023-10-19,Delivered,Normal Delivery
+EVT-100892,SH10892,New York,104,1,2023-12-01,2023-12-01,Delivered,Normal Delivery
+EVT-100893,SH10893,Dallas,917,3,2023-11-20,2023-11-20,Delivered,Normal Delivery
+EVT-100894,SH10894,Houston,1090,3,2023-11-06,2023-11-06,Delivered,Normal Delivery
+EVT-100895,SH10895,Denver,1000,2,2023-12-26,2023-12-26,Delivered,Normal Delivery
+EVT-100896,SH10896,Portland,181,2,2023-06-08,2023-06-08,Delivered,Normal Delivery
+EVT-100897,SH10897,Phoenix,2300,7,2023-03-27,2023-03-27,Delivered,Normal Delivery
+EVT-100898,SH10898,Denver,1176,5,2023-09-16,2023-09-16,Delivered,Normal Delivery
+EVT-100899,SH10899,Los Angeles,915,3,2023-03-24,2023-04-05,Delayed,Last-Mile Mechanical Failure
+EVT-100900,SH10900,Los Angeles,495,6,2023-11-14,2023-11-23,Delayed,Carrier Hub Congestion
+EVT-100901,SH10901,Minneapolis,605,2,2023-11-17,2023-11-17,Delivered,Normal Delivery
+EVT-100902,SH10902,Dallas,1435,3,2023-11-28,2023-11-28,Delivered,Normal Delivery
+EVT-100903,SH10903,Los Angeles,1973,5,2023-09-25,2023-09-25,Delivered,Normal Delivery
+EVT-100904,SH10904,Minneapolis,106,3,2023-04-06,2023-04-06,Delivered,Normal Delivery
+EVT-100905,SH10905,Miami,1118,3,2023-10-26,2023-10-26,Delivered,Normal Delivery
+EVT-100906,SH10906,San Francisco,1034,5,2023-12-03,2023-12-03,Delivered,Normal Delivery
+EVT-100907,SH10907,Seattle,1878,5,2023-11-19,2023-11-19,Delivered,Normal Delivery
+EVT-100908,SH10908,Seattle,1819,4,2023-04-19,2023-04-19,Delivered,Normal Delivery
+EVT-100909,SH10909,Dallas,2355,8,2023-01-12,2023-01-12,Delivered,Normal Delivery
+EVT-100910,SH10910,Boston,2282,5,2023-02-17,2023-02-17,Delivered,Normal Delivery
+EVT-100911,SH10911,New York,308,2,2023-10-22,2023-10-22,Delivered,Normal Delivery
+EVT-100912,SH10912,Portland,1221,4,2023-10-13,2023-10-13,Lost,Lost in Hub Transit
+EVT-100913,SH10913,Los Angeles,852,4,2023-10-19,2023-10-29,Delayed,Carrier Hub Congestion
+EVT-100914,SH10914,Houston,945,3,2023-11-16,2023-11-16,Delivered,Normal Delivery
+EVT-100915,SH10915,Phoenix,2256,6,2023-07-30,2023-07-30,Delivered,Normal Delivery
+EVT-100916,SH10916,Minneapolis,481,1,2023-10-29,2023-10-29,Delivered,Normal Delivery
+EVT-100917,SH10917,Portland,1767,4,2023-05-24,2023-05-24,Delivered,Normal Delivery
+EVT-100918,SH10918,Phoenix,788,7,2023-06-07,2023-06-07,Delivered,Normal Delivery
+EVT-100919,SH10919,Minneapolis,1017,3,2023-08-12,2023-08-12,Delivered,Normal Delivery
+EVT-100920,SH10920,Seattle,1577,4,2023-01-12,2023-01-12,Delivered,Normal Delivery
+EVT-100921,SH10921,Detroit,419,2,2023-03-20,2023-03-20,In Transit,Active Network Transit
+EVT-100922,SH10922,Detroit,2490,6,2023-08-23,2023-08-23,Delivered,Normal Delivery
+EVT-100923,SH10923,Phoenix,167,1,2023-01-26,2023-01-26,Delivered,Normal Delivery
+EVT-100924,SH10924,Houston,2328,6,2023-08-29,2023-08-29,Delivered,Normal Delivery
+EVT-100925,SH10925,New York,669,3,2023-05-02,2023-05-02,Delivered,Normal Delivery
+EVT-100926,SH10926,Denver,468,2,2024-01-02,2024-01-02,Delivered,Normal Delivery
+EVT-100927,SH10927,San Francisco,563,3,2023-03-09,2023-03-09,Delivered,Normal Delivery
+EVT-100928,SH10928,Phoenix,1584,4,2023-10-28,2023-10-28,Delivered,Normal Delivery
+EVT-100929,SH10929,Minneapolis,2107,5,2023-05-26,2023-05-26,Delivered,Normal Delivery
+EVT-100930,SH10930,Los Angeles,1473,4,2023-12-05,2023-12-05,Delivered,Normal Delivery
+EVT-100931,SH10931,Denver,509,3,2023-06-26,2023-06-26,Delivered,Normal Delivery
+EVT-100932,SH10932,Minneapolis,253,2,2023-04-06,2023-04-06,Delivered,Normal Delivery
+EVT-100933,SH10933,Boston,757,3,2023-09-05,2023-09-05,Delivered,Normal Delivery
+EVT-100934,SH10934,San Francisco,1796,4,2023-05-01,2023-05-01,Delivered,Normal Delivery
+EVT-100935,SH10935,Seattle,2087,5,2023-07-02,2023-07-02,Delivered,Normal Delivery
+EVT-100936,SH10936,Chicago,1027,3,2023-04-03,2023-04-03,Delivered,Normal Delivery
+EVT-100937,SH10937,Denver,2442,7,2023-02-09,2023-02-09,Delivered,Normal Delivery
+EVT-100938,SH10938,San Francisco,862,4,2023-12-10,2023-12-10,Delivered,Normal Delivery
+EVT-100939,SH10939,Dallas,813,3,2023-07-20,2023-07-30,Delayed,Weather Disruption
+EVT-100940,SH10940,Minneapolis,1805,9,2023-02-07,2023-02-07,Delivered,Normal Delivery
+EVT-100941,SH10941,Minneapolis,1958,5,2024-01-02,2024-01-07,Delayed,Carrier Hub Congestion
+EVT-100942,SH10942,New York,1943,6,2023-05-04,2023-05-04,Delivered,Normal Delivery
+EVT-100943,SH10943,Chicago,2441,7,2023-11-08,2023-11-08,Delivered,Normal Delivery
+EVT-100944,SH10944,Phoenix,1644,5,2023-05-23,2023-04-18,In Transit,Active Network Transit
+EVT-100945,SH10945,Portland,1336,3,2023-10-10,2023-10-10,Delivered,Normal Delivery
+EVT-100946,SH10946,Portland,1050,4,2023-01-27,2023-01-27,Delivered,Normal Delivery
+EVT-100947,SH10947,Atlanta,2107,6,2023-10-23,2023-10-23,Delivered,Normal Delivery
+EVT-100948,SH10948,Dallas,517,2,2023-04-19,2023-04-19,Delivered,Normal Delivery
+EVT-100949,SH10949,Dallas,1263,4,2023-11-21,2023-12-03,Delayed,High Holiday Volume
+EVT-100950,SH10950,Dallas,1154,3,2023-03-07,2023-03-07,Delivered,Normal Delivery
+EVT-100951,SH10951,San Francisco,407,4,2023-07-24,2023-07-24,Delivered,Normal Delivery
+EVT-100952,SH10952,Los Angeles,2076,6,2023-08-27,2023-08-27,Delivered,Normal Delivery
+EVT-100953,SH10953,Denver,2346,6,2023-10-03,2023-10-03,Delivered,Normal Delivery
+EVT-100954,SH10954,Portland,576,2,2023-02-09,2023-02-09,Delivered,Normal Delivery
+EVT-100955,SH10955,Atlanta,1773,5,2023-02-02,2023-02-02,Delivered,Normal Delivery
+EVT-100956,SH10956,Atlanta,1144,3,2023-06-24,2023-06-24,In Transit,Active Network Transit
+EVT-100957,SH10957,Boston,2200,5,2023-09-11,2023-09-11,Delivered,Normal Delivery
+EVT-100958,SH10958,Denver,2049,5,2023-07-21,2023-07-21,Delivered,Normal Delivery
+EVT-100959,SH10959,Denver,1030,7,2023-12-11,2023-12-11,Delivered,Normal Delivery
+EVT-100960,SH10960,Dallas,1319,10,2023-04-15,2023-04-15,Delivered,Normal Delivery
+EVT-100961,SH10961,Miami,625,2,2023-10-22,2023-10-22,Delivered,Normal Delivery
+EVT-100962,SH10962,Detroit,283,3,2023-02-22,2023-02-22,Delivered,Normal Delivery
+EVT-100963,SH10963,Boston,820,5,2023-08-30,2023-08-30,Delivered,Normal Delivery
+EVT-100964,SH10964,Chicago,858,2,2023-05-29,2023-05-29,Delivered,Normal Delivery
+EVT-100965,SH10965,San Francisco,2036,7,2023-06-20,2023-06-20,In Transit,Active Network Transit
+EVT-100966,SH10966,Atlanta,1771,4,2023-03-15,2023-03-15,Delivered,Normal Delivery
+EVT-100967,SH10967,Seattle,1841,5,2023-05-24,2023-05-24,Delivered,Normal Delivery
+EVT-100968,SH10968,Denver,1875,4,2023-01-17,2023-01-17,Delivered,Normal Delivery
+EVT-100969,SH10969,Miami,297,2,2023-07-02,2023-07-02,Delivered,Normal Delivery
+EVT-100970,SH10970,Phoenix,1290,4,2023-09-09,2023-09-09,Delivered,Normal Delivery
+EVT-100971,SH10971,Denver,2033,5,2023-08-18,2023-08-18,Delivered,Normal Delivery
+EVT-100972,SH10972,Houston,974,7,2023-12-23,2023-12-23,Delivered,Normal Delivery
+EVT-100973,SH10973,Portland,1492,4,2023-10-25,2023-10-25,Delivered,Normal Delivery
+EVT-100974,SH10974,Miami,2060,8,2023-11-30,2023-12-11,Delayed,Last-Mile Mechanical Failure
+EVT-100975,SH10975,New York,2051,5,2023-07-13,2023-07-21,Delayed,Routing Deviation
+EVT-100976,SH10976,New York,2198,6,2023-06-09,2023-06-09,Delivered,Normal Delivery
+EVT-100977,SH10977,Dallas,1435,3,2023-03-31,2023-03-31,Delivered,Normal Delivery
+EVT-100978,SH10978,Detroit,1280,4,2023-12-17,2023-12-17,Delivered,Normal Delivery
+EVT-100979,SH10979,New York,490,4,2023-03-27,2023-04-07,Delayed,Last-Mile Mechanical Failure
+EVT-100980,SH10980,Los Angeles,1355,4,2023-09-19,2023-09-19,Delivered,Normal Delivery
+EVT-100981,SH10981,Portland,1288,3,2023-03-25,2023-03-25,Delivered,Normal Delivery
+EVT-100982,SH10982,Seattle,779,3,2023-04-07,2023-04-07,Delivered,Normal Delivery
+EVT-100983,SH10983,Chicago,1555,6,2023-08-17,2023-08-17,Lost,Lost in Hub Transit
+EVT-100984,SH10984,Miami,1631,4,2023-10-08,2023-10-08,Delivered,Normal Delivery
+EVT-100985,SH10985,Chicago,400,4,2023-07-16,2023-07-16,Delivered,Normal Delivery
+EVT-100986,SH10986,Los Angeles,1460,6,2023-12-24,2023-12-24,Delivered,Normal Delivery
+EVT-100987,SH10987,Denver,1095,3,2023-05-05,2023-05-06,Delayed,Carrier Hub Congestion
+EVT-100988,SH10988,Atlanta,336,2,2023-05-18,2023-05-18,Delivered,Normal Delivery
+EVT-100989,SH10989,San Francisco,1524,5,2023-12-23,2023-12-23,Delivered,Normal Delivery
+EVT-100990,SH10990,San Francisco,762,3,2023-01-26,2023-01-26,Delivered,Normal Delivery
+EVT-100991,SH10991,Seattle,1524,6,2023-05-26,2023-05-26,In Transit,Active Network Transit
+EVT-100992,SH10992,Minneapolis,688,2,2023-09-13,2023-09-13,Delivered,Normal Delivery
+EVT-100993,SH10993,Detroit,2339,5,2023-06-30,2023-06-30,Delivered,Normal Delivery
+EVT-100994,SH10994,Portland,2132,6,2023-04-29,2023-04-29,Delivered,Normal Delivery
+EVT-100995,SH10995,Boston,1257,4,2023-12-31,2023-12-31,Delivered,Normal Delivery
+EVT-100996,SH10996,San Francisco,749,4,2023-12-03,2023-12-03,Delivered,Normal Delivery
+EVT-100997,SH10997,New York,773,3,2023-02-16,2023-02-16,Delivered,Normal Delivery
+EVT-100998,SH10998,Denver,228,2,2023-05-15,2023-05-16,Delayed,High Holiday Volume
+EVT-100999,SH10999,New York,2417,7,2023-11-21,2023-11-21,Delivered,Normal Delivery
+EVT-101000,SH11000,Chicago,500,3,2023-10-29,2023-10-29,Delivered,Normal Delivery
+EVT-101001,SH11001,Detroit,493,3,2023-01-19,2023-01-19,Delivered,Normal Delivery
+EVT-101002,SH11002,Minneapolis,456,1,2023-08-06,2023-08-19,Delayed,Carrier Hub Congestion
+EVT-101003,SH11003,Los Angeles,612,5,2024-01-05,2024-01-05,Delivered,Normal Delivery
+EVT-101004,SH11004,Atlanta,2137,5,2023-10-15,2023-10-15,Delivered,Normal Delivery
+EVT-101005,SH11005,Atlanta,850,3,2023-10-30,2023-10-30,Delivered,Normal Delivery
+EVT-101006,SH11006,Detroit,283,3,2023-08-23,2023-08-25,Delayed,Weather Disruption
+EVT-101007,SH11007,Minneapolis,1364,6,2023-03-13,2023-03-19,Delayed,Weather Disruption
+EVT-101008,SH11008,Phoenix,1975,6,2023-08-15,2023-08-15,Delivered,Normal Delivery
+EVT-101009,SH11009,Chicago,790,3,2023-04-22,2023-04-22,Delivered,Normal Delivery
+EVT-101010,SH11010,New York,1685,5,2023-11-04,2023-11-04,Delivered,Normal Delivery
+EVT-101011,SH11011,Denver,1000,3,2023-09-18,2023-09-18,Delivered,Normal Delivery
+EVT-101012,SH11012,Houston,2254,6,2023-05-02,2023-05-02,Delivered,Normal Delivery
+EVT-101013,SH11013,Atlanta,1761,5,2023-06-16,2023-06-16,Delivered,Normal Delivery
+EVT-101014,SH11014,Denver,1394,6,2023-06-03,2023-06-03,Delivered,Normal Delivery
+EVT-101015,SH11015,Los Angeles,789,4,2023-11-30,2023-11-30,Delivered,Normal Delivery
+EVT-101016,SH11016,Houston,790,5,2023-08-19,2023-08-19,Lost,Lost in Hub Transit
+EVT-101017,SH11017,Dallas,1485,6,2023-05-18,2023-05-18,Delivered,Normal Delivery
+EVT-101018,SH11018,San Francisco,2017,4,2023-08-10,2023-08-10,Returned,Customer Refused / Delivery Failed
+EVT-101019,SH11019,Detroit,2021,5,2023-02-27,2023-02-27,Delivered,Normal Delivery
+EVT-101020,SH11020,Boston,215,1,2023-09-24,2023-09-28,Delayed,High Holiday Volume
+EVT-101021,SH11021,Denver,1466,7,2023-04-04,2023-04-04,Delivered,Normal Delivery
+EVT-101022,SH11022,Boston,626,2,2023-03-17,2023-03-17,Delivered,Normal Delivery
+EVT-101023,SH11023,Atlanta,1063,3,2023-02-23,2023-02-23,Delivered,Normal Delivery
+EVT-101024,SH11024,Atlanta,870,2,2023-04-18,2023-04-18,Delivered,Normal Delivery
+EVT-101025,SH11025,Chicago,2387,5,2023-08-28,2023-08-28,Delivered,Normal Delivery
+EVT-101026,SH11026,San Francisco,1260,4,2023-05-03,2023-05-03,Delivered,Normal Delivery
+EVT-101027,SH11027,Dallas,1754,4,2023-02-20,2023-03-02,Delayed,Carrier Hub Congestion
+EVT-101028,SH11028,Detroit,842,3,2023-09-01,2023-09-01,In Transit,Active Network Transit
+EVT-101029,SH11029,New York,1457,4,2023-06-25,2023-06-25,Delivered,Normal Delivery
+EVT-101030,SH11030,Detroit,2372,7,2023-06-17,2023-06-17,Delivered,Normal Delivery
+EVT-101031,SH11031,Denver,1986,5,2023-07-31,2023-07-31,Delivered,Normal Delivery
+EVT-101032,SH11032,Seattle,128,2,2023-06-12,2023-06-12,Delivered,Normal Delivery
+EVT-101033,SH11033,Phoenix,426,2,2023-12-25,2023-12-25,Delivered,Normal Delivery
+EVT-101034,SH11034,San Francisco,1708,5,2023-05-27,2023-05-27,In Transit,Active Network Transit
+EVT-101035,SH11035,New York,1561,3,2023-12-26,2024-01-01,Delayed,Carrier Hub Congestion
+EVT-101036,SH11036,Phoenix,1064,5,2023-06-14,2023-06-23,Delayed,Carrier Hub Congestion
+EVT-101037,SH11037,Chicago,1842,5,2023-03-20,2023-03-20,Delivered,Normal Delivery
+EVT-101038,SH11038,Seattle,670,6,2023-10-11,2023-10-11,Delivered,Normal Delivery
+EVT-101039,SH11039,Atlanta,1675,4,2023-10-08,2023-10-08,Delivered,Normal Delivery
+EVT-101040,SH11040,Boston,1854,5,2023-09-10,2023-09-15,Delayed,Weather Disruption
+EVT-101041,SH11041,San Francisco,2249,7,2023-04-15,2023-04-15,Delivered,Normal Delivery
+EVT-101042,SH11042,Miami,1947,4,2023-06-19,2023-06-23,Delayed,High Holiday Volume
+EVT-101043,SH11043,Portland,229,1,2023-12-31,2023-12-31,Delivered,Normal Delivery
+EVT-101044,SH11044,Minneapolis,399,2,2023-03-28,2023-03-28,Delivered,Normal Delivery
+EVT-101045,SH11045,Los Angeles,519,3,2023-08-26,2023-08-26,In Transit,Active Network Transit
+EVT-101046,SH11046,Houston,1505,4,2023-02-24,2023-02-24,Delivered,Normal Delivery
+EVT-101047,SH11047,Denver,2017,5,2023-06-12,2023-06-12,Delivered,Normal Delivery
+EVT-101048,SH11048,Phoenix,2264,7,2023-04-18,2023-04-18,Lost,Lost in Hub Transit
+EVT-101049,SH11049,San Francisco,2222,5,2023-11-11,2023-11-11,Delivered,Normal Delivery
+EVT-101050,SH11050,Dallas,2470,6,2023-10-10,2023-10-10,Delivered,Normal Delivery
+EVT-101051,SH11051,Denver,1418,4,2023-08-20,2023-08-20,Delivered,Normal Delivery
+EVT-101052,SH11052,Dallas,1838,7,2023-08-23,2023-08-23,Delivered,Normal Delivery
+EVT-101053,SH11053,Atlanta,253,1,2023-01-15,2023-01-15,Delivered,Normal Delivery
+EVT-101054,SH11054,Houston,1565,4,2023-12-27,2023-12-27,Delivered,Normal Delivery
+EVT-101055,SH11055,Atlanta,1447,4,2023-09-14,2023-09-14,Delivered,Normal Delivery
+EVT-101056,SH11056,New York,312,3,2023-08-08,2023-08-08,Delivered,Normal Delivery
+EVT-101057,SH11057,Phoenix,101,1,2023-07-19,2023-07-19,Delivered,Normal Delivery
+EVT-101058,SH11058,Denver,1413,4,2023-01-21,2023-01-21,Delivered,Normal Delivery
+EVT-101059,SH11059,Seattle,581,4,2023-05-06,2023-05-06,Delivered,Normal Delivery
+EVT-101060,SH11060,Houston,1331,3,2023-12-28,2024-01-03,Delayed,Weather Disruption
+EVT-101061,SH11061,Dallas,1737,5,2023-01-27,2023-01-27,Delivered,Normal Delivery
+EVT-101062,SH11062,Detroit,1873,5,2023-05-15,2023-05-22,Delayed,Routing Deviation
+EVT-101063,SH11063,Denver,489,3,2023-12-15,2023-12-15,Delivered,Normal Delivery
+EVT-101064,SH11064,Miami,2310,6,2023-07-12,2023-07-12,Delivered,Normal Delivery
+EVT-101065,SH11065,Atlanta,1931,5,2023-01-09,2023-01-09,Delivered,Normal Delivery
+EVT-101066,SH11066,Portland,207,3,2023-10-17,2023-10-17,Delivered,Normal Delivery
+EVT-101067,SH11067,Denver,2279,7,2023-07-26,2023-08-01,Delayed,Weather Disruption
+EVT-101068,SH11068,Dallas,1463,5,2023-05-09,2023-05-09,Delivered,Normal Delivery
+EVT-101069,SH11069,Portland,780,2,2023-07-04,2023-07-04,Delivered,Normal Delivery
+EVT-101070,SH11070,Minneapolis,506,2,2023-05-11,2023-05-11,Delivered,Normal Delivery
+EVT-101071,SH11071,Dallas,2349,9,2023-01-29,2023-01-29,Delivered,Normal Delivery
+EVT-101072,SH11072,New York,704,2,2023-12-07,2023-12-07,Delivered,Normal Delivery
+EVT-101073,SH11073,Portland,1209,6,2023-10-07,2023-10-07,Delivered,Normal Delivery
+EVT-101074,SH11074,Miami,1350,4,2023-08-27,2023-08-27,Delivered,Normal Delivery
+EVT-101075,SH11075,Boston,1231,6,2023-10-21,2023-10-21,Delivered,Normal Delivery
+EVT-101076,SH11076,Dallas,415,2,2023-04-19,2023-04-19,Delivered,Normal Delivery
+EVT-101077,SH11077,Phoenix,270,2,2023-06-02,2023-06-02,Delivered,Normal Delivery
+EVT-101078,SH11078,Houston,155,5,2023-07-10,2023-07-10,Delivered,Normal Delivery
+EVT-101079,SH11079,Detroit,2393,6,2023-12-21,2023-12-21,Delivered,Normal Delivery
+EVT-101080,SH11080,Dallas,772,5,2023-10-14,2023-10-14,Delivered,Normal Delivery
+EVT-101081,SH11081,Miami,1350,3,2023-07-26,2023-07-26,In Transit,Active Network Transit
+EVT-101082,SH11082,San Francisco,1505,5,2023-09-10,2023-09-16,Delayed,Carrier Hub Congestion
+EVT-101083,SH11083,Portland,719,2,2023-07-01,2023-07-01,Delivered,Normal Delivery
+EVT-101084,SH11084,Phoenix,1045,3,2023-12-21,2023-12-21,Delivered,Normal Delivery
+EVT-101085,SH11085,Atlanta,1185,4,2023-10-21,2023-10-21,Delivered,Normal Delivery
+EVT-101086,SH11086,Boston,2120,6,2023-09-17,2023-09-17,Delivered,Normal Delivery
+EVT-101087,SH11087,Portland,2431,5,2023-11-12,2023-11-12,Delivered,Normal Delivery
+EVT-101088,SH11088,New York,799,2,2023-10-26,2023-10-26,Delivered,Normal Delivery
+EVT-101089,SH11089,Detroit,795,3,2023-10-31,2023-10-31,Delivered,Normal Delivery
+EVT-101090,SH11090,Detroit,427,3,2023-12-25,2023-12-25,Delivered,Normal Delivery
+EVT-101091,SH11091,Atlanta,1035,3,2023-07-29,2023-08-07,Delayed,Last-Mile Mechanical Failure
+EVT-101092,SH11092,Portland,1670,4,2023-08-02,2023-08-02,Delivered,Normal Delivery
+EVT-101093,SH11093,Portland,1895,12,2023-05-15,2023-05-15,Delivered,Normal Delivery
+EVT-101094,SH11094,Miami,862,4,2023-05-28,2023-05-28,Delivered,Normal Delivery
+EVT-101095,SH11095,New York,1709,4,2023-05-28,2023-05-28,Delivered,Normal Delivery
+EVT-101096,SH11096,Phoenix,2397,6,2023-05-21,2023-05-21,Delivered,Normal Delivery
+EVT-101097,SH11097,Portland,1076,6,2023-01-17,2023-01-17,Delivered,Normal Delivery
+EVT-101098,SH11098,San Francisco,862,4,2023-04-04,2023-04-04,Delivered,Normal Delivery
+EVT-101099,SH11099,Atlanta,1256,6,2023-10-31,2023-10-31,Delivered,Normal Delivery
+EVT-101100,SH11100,Miami,1368,4,2023-09-13,2023-09-13,Delivered,Normal Delivery
+EVT-101101,SH11101,Miami,1350,5,2023-01-07,2023-01-20,Delayed,Weather Disruption
+EVT-101102,SH11102,Houston,1976,5,2023-11-27,2023-11-27,Delivered,Normal Delivery
+EVT-101103,SH11103,San Francisco,313,6,2023-08-24,2023-08-24,In Transit,Active Network Transit
+EVT-101104,SH11104,Denver,1030,3,2023-12-05,2023-12-05,Delivered,Normal Delivery
+EVT-101105,SH11105,San Francisco,1942,7,2023-08-10,2023-08-10,Delivered,Normal Delivery
+EVT-101106,SH11106,San Francisco,1291,3,2023-03-15,2023-03-15,Delivered,Normal Delivery
+EVT-101107,SH11107,Portland,1899,5,2023-11-30,2023-12-04,Delayed,Weather Disruption
+EVT-101108,SH11108,Miami,1853,5,2023-07-01,2023-07-01,Delivered,Normal Delivery
+EVT-101109,SH11109,Dallas,1435,3,2023-01-11,2023-01-11,Delivered,Normal Delivery
+EVT-101110,SH11110,Portland,2443,6,2023-08-07,2023-08-07,Delivered,Normal Delivery
+EVT-101111,SH11111,San Francisco,531,2,2023-02-10,2023-02-10,Delivered,Normal Delivery
+EVT-101112,SH11112,Houston,134,1,2023-05-31,2023-05-31,Delivered,Normal Delivery
+EVT-101113,SH11113,Seattle,2490,5,2023-07-03,2023-07-03,Delivered,Normal Delivery
+EVT-101114,SH11114,Los Angeles,2291,9,2023-03-07,2023-03-07,Delivered,Normal Delivery
+EVT-101115,SH11115,Atlanta,800,5,2023-03-07,2023-03-07,Delivered,Normal Delivery
+EVT-101116,SH11116,Miami,1914,4,2023-12-21,2023-12-21,Returned,Customer Refused / Delivery Failed
+EVT-101117,SH11117,Detroit,1937,5,2023-04-06,,Delivered,Normal Delivery
+EVT-101118,SH11118,Dallas,1333,5,2023-01-30,2023-01-30,Delivered,Normal Delivery
+EVT-101119,SH11119,Seattle,627,6,2024-01-04,2024-01-04,Delivered,Normal Delivery
+EVT-101120,SH11120,Houston,866,4,2023-12-02,2023-12-02,Delivered,Normal Delivery
+EVT-101121,SH11121,Boston,1896,5,2023-09-01,2023-09-01,Delivered,Normal Delivery
+EVT-101122,SH11122,San Francisco,1981,6,2023-09-18,2023-09-18,Delivered,Normal Delivery
+EVT-101123,SH11123,Houston,266,1,2023-03-03,2023-03-03,In Transit,Active Network Transit
+EVT-101124,SH11124,Houston,1665,4,2023-04-04,2023-04-04,Delivered,Normal Delivery
+EVT-101125,SH11125,New York,1446,4,2023-12-29,2023-12-29,Delivered,Normal Delivery
+EVT-101126,SH11126,Miami,807,2,2023-09-02,2023-09-02,Delivered,Normal Delivery
+EVT-101127,SH11127,Phoenix,1863,6,2023-09-23,2023-09-23,Delivered,Normal Delivery
+EVT-101128,SH11128,Phoenix,496,1,2023-08-13,2023-08-19,Delayed,Routing Deviation
+EVT-101129,SH11129,Phoenix,1391,4,2023-10-28,2023-10-28,Delivered,Normal Delivery
+EVT-101130,SH11130,Dallas,361,1,2023-06-11,2023-06-11,Delivered,Normal Delivery
+EVT-101131,SH11131,Minneapolis,2484,6,2023-12-05,2023-12-05,Delivered,Normal Delivery
+EVT-101132,SH11132,Minneapolis,1171,5,2023-12-22,2023-12-31,Delayed,Carrier Hub Congestion
+EVT-101133,SH11133,Chicago,810,5,2023-07-17,2023-07-17,Delivered,Normal Delivery
+EVT-101134,SH11134,Atlanta,1230,4,2023-02-11,2023-02-11,Delivered,Normal Delivery
+EVT-101135,SH11135,Los Angeles,1000,7,2023-12-07,2023-12-07,Delivered,Normal Delivery
+EVT-101136,SH11136,Detroit,173,1,2023-11-29,2023-11-29,Delivered,Normal Delivery
+EVT-101137,SH11137,Boston,1689,5,2023-02-26,2023-02-26,Delivered,Normal Delivery
+EVT-101138,SH11138,Denver,1000,4,2023-03-03,2023-03-03,In Transit,Active Network Transit
+EVT-101139,SH11139,New York,910,3,2023-07-26,2023-07-26,Delivered,Normal Delivery
+EVT-101140,SH11140,Phoenix,111,2,2023-07-01,2023-07-01,Delivered,Normal Delivery
+EVT-101141,SH11141,San Francisco,1043,5,2023-11-11,2023-11-18,Delayed,Carrier Hub Congestion
+EVT-101142,SH11142,San Francisco,1170,3,2023-03-09,2023-03-09,Delivered,Normal Delivery
+EVT-101143,SH11143,Phoenix,796,2,2023-12-18,2023-12-18,Delivered,Normal Delivery
+EVT-101144,SH11144,Los Angeles,1849,4,2023-07-04,2023-07-04,Delivered,Normal Delivery
+EVT-101145,SH11145,Los Angeles,716,8,2024-01-08,2024-01-08,In Transit,Active Network Transit
+EVT-101146,SH11146,Los Angeles,265,1,2023-01-12,2023-01-12,Delivered,Normal Delivery
+EVT-101147,SH11147,Seattle,1576,5,2023-12-25,2023-12-25,Delivered,Normal Delivery
+EVT-101148,SH11148,Dallas,1435,4,2023-01-25,2023-01-25,Delivered,Normal Delivery
+EVT-101149,SH11149,Chicago,870,3,2023-11-19,2023-11-19,Delivered,Normal Delivery
+EVT-101150,SH11150,Houston,2305,7,2023-09-01,2023-09-01,Delivered,Normal Delivery
+EVT-101151,SH11151,Boston,215,1,2023-11-24,2023-11-24,Delivered,Normal Delivery
+EVT-101152,SH11152,Denver,1505,6,2023-09-17,2023-09-17,In Transit,Active Network Transit
+EVT-101153,SH11153,San Francisco,2149,7,2023-08-31,2023-08-31,Delivered,Normal Delivery
+EVT-101154,SH11154,Chicago,1585,6,2023-10-17,2023-10-17,Delivered,Normal Delivery
+EVT-101155,SH11155,Chicago,112,3,2023-09-22,2023-09-22,Delivered,Normal Delivery
+EVT-101156,SH11156,Minneapolis,2135,7,2023-08-28,2023-08-28,Delivered,Normal Delivery
+EVT-101157,SH11157,Boston,2154,6,2023-09-10,2023-09-10,Delivered,Normal Delivery
+EVT-101158,SH11158,Boston,1608,5,2023-09-19,2023-09-19,In Transit,Active Network Transit
+EVT-101159,SH11159,Atlanta,1077,3,2023-08-23,2023-08-23,Delivered,Normal Delivery
+EVT-101160,SH11160,Denver,565,2,2023-12-01,2023-12-01,Delivered,Normal Delivery
+EVT-101161,SH11161,Denver,1000,3,2023-05-12,2023-05-12,Delivered,Normal Delivery
+EVT-101162,SH11162,Chicago,453,1,2023-10-15,2023-10-15,Delivered,Normal Delivery
+EVT-101163,SH11163,Minneapolis,132,3,2023-02-09,2023-02-09,Delivered,Normal Delivery
+EVT-101164,SH11164,Dallas,1435,3,2023-01-21,2023-01-21,Delivered,Normal Delivery
+EVT-101165,SH11165,New York,2078,5,2023-04-21,2023-04-21,Delivered,Normal Delivery
+EVT-101166,SH11166,Houston,1047,4,2023-01-29,2023-01-29,Delivered,Normal Delivery
+EVT-101167,SH11167,Boston,1582,5,2023-08-19,2023-08-19,Delivered,Normal Delivery
+EVT-101168,SH11168,Phoenix,373,5,2023-08-11,2023-08-11,Delivered,Normal Delivery
+EVT-101169,SH11169,Boston,1814,6,2023-10-10,2023-10-17,Delayed,Carrier Hub Congestion
+EVT-101170,SH11170,Miami,1302,4,2023-07-12,2023-07-12,Delivered,Normal Delivery
+EVT-101171,SH11171,Atlanta,800,3,2023-12-29,2023-12-29,Delivered,Normal Delivery
+EVT-101172,SH11172,Seattle,1135,5,2023-10-24,2023-11-02,Delayed,Routing Deviation
+EVT-101173,SH11173,Minneapolis,1157,3,2023-08-14,2023-08-14,Delivered,Normal Delivery
+EVT-101174,SH11174,Portland,1989,5,2023-07-15,2023-07-15,Delivered,Normal Delivery
+EVT-101175,SH11175,Portland,374,1,2023-02-23,2023-02-23,Delivered,Normal Delivery
+EVT-101176,SH11176,Portland,131,1,2023-06-10,2023-06-10,In Transit,Active Network Transit
+EVT-101177,SH11177,Minneapolis,422,2,2023-08-13,2023-08-13,Delivered,Normal Delivery
+EVT-101178,SH11178,Atlanta,1940,5,2023-07-10,2023-07-10,Delivered,Normal Delivery
+EVT-101179,SH11179,Chicago,790,4,2023-12-30,2024-01-12,Delayed,Weather Disruption
+EVT-101180,SH11180,Seattle,860,3,2023-04-10,2023-04-10,Delivered,Normal Delivery
+EVT-101181,SH11181,Miami,1122,3,2023-07-21,2023-07-21,Delivered,Normal Delivery
+EVT-101182,SH11182,Minneapolis,1640,4,2023-04-19,2023-04-19,In Transit,Active Network Transit
+EVT-101183,SH11183,San Francisco,2274,8,2023-11-18,2023-11-18,Delivered,Normal Delivery
+EVT-101184,SH11184,Denver,461,1,2023-01-29,2023-01-29,Delivered,Normal Delivery
+EVT-101185,SH11185,Boston,1924,5,2023-07-02,2023-07-02,Delivered,Normal Delivery
+EVT-101186,SH11186,Houston,1879,5,2023-02-17,2023-01-13,Delayed,Last-Mile Mechanical Failure
+EVT-101187,SH11187,Detroit,702,3,2023-01-11,2023-01-11,In Transit,Active Network Transit
+EVT-101188,SH11188,Denver,1030,3,2023-03-01,2023-01-27,Returned,Customer Refused / Delivery Failed
+EVT-101189,SH11189,San Francisco,462,3,2023-11-24,2023-11-24,Delivered,Normal Delivery
+EVT-101190,SH11190,Minneapolis,841,2,2023-03-24,2023-03-24,Delivered,Normal Delivery
+EVT-101191,SH11191,San Francisco,1317,5,2023-05-16,2023-05-16,Delivered,Normal Delivery
+EVT-101192,SH11192,San Francisco,2473,5,2023-12-09,2023-12-09,Delivered,Normal Delivery
+EVT-101193,SH11193,Chicago,790,3,2023-07-21,2023-07-21,Delivered,Normal Delivery
+EVT-101194,SH11194,Phoenix,1457,5,2023-02-26,2023-02-26,Delivered,Normal Delivery
+EVT-101195,SH11195,Phoenix,1493,4,2023-06-21,2023-06-21,Delivered,Normal Delivery
+EVT-101196,SH11196,San Francisco,1876,6,2023-11-27,2023-11-27,Returned,Customer Refused / Delivery Failed
+EVT-101197,SH11197,Detroit,1067,2,2023-07-26,2023-07-26,Delivered,Normal Delivery
+EVT-101198,SH11198,Chicago,1762,8,2023-02-01,2023-02-01,Delivered,Normal Delivery
+EVT-101199,SH11199,Chicago,1417,5,2023-06-24,2023-06-24,Delivered,Normal Delivery
+EVT-101200,SH11200,Los Angeles,1945,6,2023-05-19,2023-05-19,Delivered,Normal Delivery
+EVT-101201,SH11201,Denver,591,3,2023-10-16,2023-10-16,Delivered,Normal Delivery
+EVT-101202,SH11202,Atlanta,850,3,2024-01-02,2024-01-02,Delivered,Normal Delivery
+EVT-101203,SH11203,Los Angeles,1413,3,2023-12-12,2023-12-12,Delivered,Normal Delivery
+EVT-101204,SH11204,Seattle,1135,3,2023-02-12,2023-02-20,Delayed,Weather Disruption
+EVT-101205,SH11205,Houston,1396,7,2023-07-04,2023-07-12,Delayed,Last-Mile Mechanical Failure
+EVT-101206,SH11206,Boston,2324,5,2023-08-29,2023-08-29,Delivered,Normal Delivery
+EVT-101207,SH11207,Portland,2421,5,2023-03-31,2023-03-31,Delivered,Normal Delivery
+EVT-101208,SH11208,Denver,1109,5,2023-02-23,2023-02-23,Delivered,Normal Delivery
+EVT-101209,SH11209,Minneapolis,2087,6,2023-08-05,2023-08-05,Delivered,Normal Delivery
+EVT-101210,SH11210,Dallas,2379,6,2023-01-24,2023-01-24,Delivered,Normal Delivery
+EVT-101211,SH11211,San Francisco,239,1,2023-06-17,2023-06-28,Delayed,Carrier Hub Congestion
+EVT-101212,SH11212,Atlanta,870,3,2023-06-29,2023-06-29,Delivered,Normal Delivery
+EVT-101213,SH11213,Minneapolis,1073,3,2023-02-21,,Delayed,Last-Mile Mechanical Failure
+EVT-101214,SH11214,Miami,1350,5,2023-03-31,2023-03-31,Delivered,Normal Delivery
+EVT-101215,SH11215,Dallas,438,2,2023-02-03,2023-02-03,Delivered,Normal Delivery
+EVT-101216,SH11216,Dallas,1611,4,2023-11-06,2023-11-11,Delayed,Carrier Hub Congestion
+EVT-101217,SH11217,Seattle,805,5,2023-06-16,2023-06-16,Delivered,Normal Delivery
+EVT-101218,SH11218,Phoenix,196,2,2023-02-27,2023-02-27,Delivered,Normal Delivery
+EVT-101219,SH11219,Minneapolis,1272,4,2023-05-03,2023-05-03,Delivered,Normal Delivery
+EVT-101220,SH11220,Phoenix,2255,7,2023-08-12,2023-08-12,Delivered,Normal Delivery
+EVT-101221,SH11221,Los Angeles,409,2,2023-11-07,2023-11-07,In Transit,Active Network Transit
+EVT-101222,SH11222,Atlanta,338,3,2023-10-15,,Delivered,Normal Delivery
+EVT-101223,SH11223,San Francisco,2438,6,2023-09-11,2023-09-11,Delivered,Normal Delivery
+EVT-101224,SH11224,Dallas,2051,4,2023-11-29,2023-11-29,Delivered,Normal Delivery
+EVT-101225,SH11225,Chicago,2145,6,2023-09-08,2023-09-08,Delivered,Normal Delivery
+EVT-101226,SH11226,Miami,1635,4,2023-08-22,2023-09-02,Delayed,Carrier Hub Congestion
+EVT-101227,SH11227,New York,1839,7,2023-06-16,2023-06-16,Delivered,Normal Delivery
+EVT-101228,SH11228,Los Angeles,723,4,2023-10-30,2023-10-30,Delivered,Normal Delivery
+EVT-101229,SH11229,Boston,615,2,2023-08-15,2023-08-15,Delivered,Normal Delivery
+EVT-101230,SH11230,Chicago,809,3,2023-05-16,2023-05-16,Delivered,Normal Delivery
+EVT-101231,SH11231,Phoenix,2255,9,2023-12-14,2023-12-14,Delivered,Normal Delivery
+EVT-101232,SH11232,Dallas,997,4,2023-05-05,2023-05-05,Delivered,Normal Delivery
+EVT-101233,SH11233,Seattle,101,1,2023-01-12,2023-01-12,Delivered,Normal Delivery
+EVT-101234,SH11234,Dallas,1435,5,2023-05-22,2023-05-23,Delayed,Routing Deviation
+EVT-101235,SH11235,Minneapolis,2389,7,2023-07-14,2023-07-14,Delivered,Normal Delivery
+EVT-101236,SH11236,Dallas,2001,6,2023-03-28,2023-03-28,Returned,Customer Refused / Delivery Failed
+EVT-101237,SH11237,Detroit,788,4,2023-01-31,2023-01-31,Delivered,Normal Delivery
+EVT-101238,SH11238,Los Angeles,1220,5,2023-05-04,2023-05-04,Delivered,Normal Delivery
+EVT-101239,SH11239,Dallas,300,2,2023-01-26,2023-01-26,Delivered,Normal Delivery
+EVT-101240,SH11240,Denver,2006,6,2023-01-21,2023-01-21,Delivered,Normal Delivery
+EVT-101241,SH11241,Denver,203,2,2023-08-10,2023-08-10,Delivered,Normal Delivery
+EVT-101242,SH11242,Houston,751,2,2023-01-22,2023-01-22,Delivered,Normal Delivery
+EVT-101243,SH11243,Seattle,2290,5,2023-05-27,2023-05-27,In Transit,Active Network Transit
+EVT-101244,SH11244,Minneapolis,261,2,2023-10-03,2023-10-03,Delivered,Normal Delivery
+EVT-101245,SH11245,Seattle,1794,5,2023-09-16,2023-09-16,Delivered,Normal Delivery
+EVT-101246,SH11246,Chicago,790,2,2023-02-18,2023-02-18,Delivered,Normal Delivery
+EVT-101247,SH11247,Houston,2055,5,2023-07-04,2023-07-04,Delivered,Normal Delivery
+EVT-101248,SH11248,Denver,2199,6,2023-09-16,2023-09-17,Delayed,Last-Mile Mechanical Failure
+EVT-101249,SH11249,Minneapolis,799,3,2023-03-01,2023-03-01,In Transit,Active Network Transit
+EVT-101250,SH11250,Portland,250,1,2023-01-28,2023-01-28,Delivered,Normal Delivery
+EVT-101251,SH11251,Houston,1409,5,2023-07-16,2023-07-16,Delivered,Normal Delivery
+EVT-101252,SH11252,Atlanta,1756,4,2023-05-08,2023-05-12,Delayed,Carrier Hub Congestion
+EVT-101253,SH11253,Portland,1129,4,2023-06-01,2023-06-01,Delivered,Normal Delivery
+EVT-101254,SH11254,Atlanta,800,5,2023-10-04,2023-10-04,Delivered,Normal Delivery
+EVT-101255,SH11255,New York,1090,3,2023-11-01,2023-11-01,Delivered,Normal Delivery
+EVT-101256,SH11256,Chicago,790,4,2023-12-23,2023-12-23,Delivered,Normal Delivery
+EVT-101257,SH11257,Minneapolis,1770,6,2023-10-19,,Delivered,Normal Delivery
+EVT-101258,SH11258,Dallas,1704,5,2023-10-26,2023-10-26,Delivered,Normal Delivery
+EVT-101259,SH11259,Los Angeles,473,2,2023-04-23,2023-04-27,Delayed,Weather Disruption
+EVT-101260,SH11260,Chicago,1331,3,2023-02-07,2023-02-07,Delivered,Normal Delivery
+EVT-101261,SH11261,Seattle,1023,3,2023-02-25,2023-02-25,Delivered,Normal Delivery
+EVT-101262,SH11262,Portland,800,3,2023-06-03,2023-06-03,Delivered,Normal Delivery
+EVT-101263,SH11263,Detroit,1985,4,2023-09-07,2023-09-07,Delivered,Normal Delivery
+EVT-101264,SH11264,Portland,243,3,2023-08-12,2023-08-12,Delivered,Normal Delivery
+EVT-101265,SH11265,Portland,1834,7,2023-07-17,2023-07-17,Delivered,Normal Delivery
+EVT-101266,SH11266,Portland,1726,4,2023-08-30,2023-08-30,Delivered,Normal Delivery
+EVT-101267,SH11267,Portland,1168,3,2023-02-03,2023-02-03,Delivered,Normal Delivery
+EVT-101268,SH11268,Houston,880,2,2023-06-27,2023-06-27,Delivered,Normal Delivery
+EVT-101269,SH11269,Minneapolis,267,2,2023-02-12,2023-02-12,Delivered,Normal Delivery
+EVT-101270,SH11270,Boston,1097,3,2023-07-07,2023-07-07,Delivered,Normal Delivery
+EVT-101271,SH11271,Detroit,329,2,2023-06-10,2023-06-10,Delivered,Normal Delivery
+EVT-101272,SH11272,Seattle,880,4,2023-12-06,2023-12-06,Delivered,Normal Delivery
+EVT-101273,SH11273,Los Angeles,376,3,2023-01-20,2023-01-20,In Transit,Active Network Transit
+EVT-101274,SH11274,Detroit,2205,8,2023-12-19,2023-12-19,Delivered,Normal Delivery
+EVT-101275,SH11275,Chicago,545,2,2023-01-10,2023-01-10,In Transit,Active Network Transit
+EVT-101276,SH11276,Boston,737,2,2023-09-13,2023-09-22,Delayed,Carrier Hub Congestion
+EVT-101277,SH11277,Minneapolis,2479,7,2023-05-23,2023-05-23,Delivered,Normal Delivery
+EVT-101278,SH11278,Dallas,1435,5,2023-11-08,2023-11-08,Delivered,Normal Delivery
+EVT-101279,SH11279,Detroit,662,4,2023-07-27,2023-07-27,Delivered,Normal Delivery
+EVT-101280,SH11280,Portland,1985,8,2023-12-03,2023-12-03,Returned,Customer Refused / Delivery Failed
+EVT-101281,SH11281,Detroit,2161,7,2023-09-29,2023-10-12,Delayed,Last-Mile Mechanical Failure
+EVT-101282,SH11282,Miami,677,4,2023-10-15,2023-09-11,Delivered,Normal Delivery
+EVT-101283,SH11283,Minneapolis,454,4,2023-02-03,2023-02-03,Delivered,Normal Delivery
+EVT-101284,SH11284,Phoenix,1402,4,2023-11-10,2023-11-10,Delivered,Normal Delivery
+EVT-101285,SH11285,Miami,244,3,2023-07-29,2023-07-29,Delivered,Normal Delivery
+EVT-101286,SH11286,Chicago,1139,3,2023-09-03,2023-09-03,Delivered,Normal Delivery
+EVT-101287,SH11287,San Francisco,531,1,2023-07-06,2023-07-06,Delivered,Normal Delivery
+EVT-101288,SH11288,Atlanta,796,3,2023-03-08,2023-03-08,Delivered,Normal Delivery
+EVT-101289,SH11289,Chicago,188,1,2023-11-04,2023-11-04,Lost,Lost in Hub Transit
+EVT-101290,SH11290,Denver,1000,3,2023-03-09,2023-03-09,Delivered,Normal Delivery
+EVT-101291,SH11291,Minneapolis,2219,5,2023-05-09,2023-05-09,Returned,Customer Refused / Delivery Failed
+EVT-101292,SH11292,Minneapolis,1709,4,2023-11-11,2023-10-08,Delayed,Routing Deviation
+EVT-101293,SH11293,Dallas,2110,5,2023-01-18,2023-01-18,Delivered,Normal Delivery
+EVT-101294,SH11294,Minneapolis,784,2,2023-01-03,2023-01-03,Delivered,Normal Delivery
+EVT-101295,SH11295,Houston,786,3,2023-01-05,2023-01-05,Delivered,Normal Delivery
+EVT-101296,SH11296,Dallas,1512,3,2023-11-12,2023-11-12,Delivered,Normal Delivery
+EVT-101297,SH11297,Portland,1310,5,2023-08-29,2023-08-29,Delivered,Normal Delivery
+EVT-101298,SH11298,Detroit,2398,8,2023-06-16,2023-06-16,Delivered,Normal Delivery
+EVT-101299,SH11299,San Francisco,1373,4,2023-08-15,2023-08-15,Delivered,Normal Delivery
+EVT-101300,SH11300,Atlanta,1036,4,2023-09-09,2023-09-09,Delivered,Normal Delivery
+EVT-101301,SH11301,San Francisco,894,4,2023-09-30,2023-09-30,Delivered,Normal Delivery
+EVT-101302,SH11302,New York,1261,4,2023-01-06,2023-01-06,Delivered,Normal Delivery
+EVT-101303,SH11303,Minneapolis,729,2,2023-08-03,2023-08-03,Delivered,Normal Delivery
+EVT-101304,SH11304,Miami,2145,5,2023-12-30,2023-12-30,Delivered,Normal Delivery
+EVT-101305,SH11305,Minneapolis,1737,5,2024-01-05,2024-01-05,Delivered,Normal Delivery
+EVT-101306,SH11306,Atlanta,1965,5,2023-01-20,2023-01-20,Delivered,Normal Delivery
+EVT-101307,SH11307,Chicago,1178,4,2023-10-20,2023-10-20,Delivered,Normal Delivery
+EVT-101308,SH11308,Phoenix,373,4,2023-03-18,2023-03-18,Delivered,Normal Delivery
+EVT-101309,SH11309,Boston,1868,6,2023-07-31,2023-08-06,Delayed,Routing Deviation
+EVT-101310,SH11310,Chicago,640,4,2023-10-31,2023-10-31,Delivered,Normal Delivery
+EVT-101311,SH11311,New York,1503,3,2023-09-06,2023-09-06,Delivered,Normal Delivery
+EVT-101312,SH11312,Phoenix,1671,4,2023-11-08,2023-11-08,Delivered,Normal Delivery
+EVT-101313,SH11313,Houston,2289,7,2023-05-09,2023-05-09,Delivered,Normal Delivery
+EVT-101314,SH11314,Phoenix,1664,7,2023-08-23,2023-08-23,Delivered,Normal Delivery
+EVT-101315,SH11315,Houston,499,2,2023-03-20,2023-03-20,Lost,Lost in Hub Transit
+EVT-101316,SH11316,Chicago,2109,6,2023-02-06,2023-02-06,Delivered,Normal Delivery
+EVT-101317,SH11317,Denver,510,1,2023-04-13,2023-04-13,Delivered,Normal Delivery
+EVT-101318,SH11318,Seattle,2329,6,2023-06-16,2023-06-16,Delivered,Normal Delivery
+EVT-101319,SH11319,Houston,2001,5,2023-09-07,2023-09-07,Delivered,Normal Delivery
+EVT-101320,SH11320,Detroit,278,1,2023-09-27,2023-09-27,In Transit,Active Network Transit
+EVT-101321,SH11321,San Francisco,1179,4,2024-01-02,2024-01-02,Delivered,Normal Delivery
+EVT-101322,SH11322,Detroit,251,5,2023-09-04,2023-09-04,Delivered,Normal Delivery
+EVT-101323,SH11323,Detroit,205,2,2023-02-14,2023-02-27,Delayed,Carrier Hub Congestion
+EVT-101324,SH11324,Los Angeles,926,3,2023-01-31,2023-01-31,Delivered,Normal Delivery
+EVT-101325,SH11325,Detroit,365,3,2023-04-17,2023-04-17,Returned,Customer Refused / Delivery Failed
+EVT-101326,SH11326,Portland,1334,4,2023-04-03,2023-04-03,Delivered,Normal Delivery
+EVT-101327,SH11327,Dallas,326,2,2023-04-13,2023-04-13,Delivered,Normal Delivery
+EVT-101328,SH11328,Seattle,2207,7,2023-03-02,2023-03-02,Delivered,Normal Delivery
+EVT-101329,SH11329,Houston,656,3,2024-01-01,2024-01-01,Delivered,Normal Delivery
+EVT-101330,SH11330,Portland,761,3,2023-06-29,2023-06-29,Delivered,Normal Delivery
+EVT-101331,SH11331,Houston,1322,5,2023-01-07,2023-01-07,Delivered,Normal Delivery
+EVT-101332,SH11332,Houston,1933,6,2023-07-27,2023-07-27,Delivered,Normal Delivery
+EVT-101333,SH11333,San Francisco,435,2,2023-04-03,,Delayed,Carrier Hub Congestion
+EVT-101334,SH11334,Phoenix,1949,5,2023-04-22,2023-04-22,Delivered,Normal Delivery
+EVT-101335,SH11335,Denver,638,6,2023-09-03,2023-09-03,Delivered,Normal Delivery
+EVT-101336,SH11336,Denver,1000,3,2023-08-13,2023-08-13,In Transit,Active Network Transit
+EVT-101337,SH11337,Chicago,1876,5,2023-12-15,2023-12-15,Delivered,Normal Delivery
+EVT-101338,SH11338,San Francisco,1762,6,2023-10-24,2023-10-24,Delivered,Normal Delivery
+EVT-101339,SH11339,Miami,1274,4,2023-09-30,2023-09-30,Delivered,Normal Delivery
+EVT-101340,SH11340,Boston,2412,5,2023-12-24,2023-12-24,Lost,Lost in Hub Transit
+EVT-101341,SH11341,Houston,131,2,2023-03-11,2023-03-11,Delivered,Normal Delivery
+EVT-101342,SH11342,Minneapolis,2297,6,2023-01-19,2023-01-19,Delivered,Normal Delivery
+EVT-101343,SH11343,Atlanta,1772,6,2023-09-26,2023-09-26,Delivered,Normal Delivery
+EVT-101344,SH11344,Detroit,2316,6,2023-05-10,2023-05-10,Delivered,Normal Delivery
+EVT-101345,SH11345,Chicago,790,3,2023-04-11,2023-04-11,Delivered,Normal Delivery
+EVT-101346,SH11346,Minneapolis,2180,5,2023-07-26,2023-07-26,Delivered,Normal Delivery
+EVT-101347,SH11347,San Francisco,1362,5,2023-03-07,2023-03-07,Delivered,Normal Delivery
+EVT-101348,SH11348,Phoenix,373,4,2023-01-13,2023-01-13,Delivered,Normal Delivery
+EVT-101349,SH11349,Chicago,1750,5,2023-11-27,2023-11-27,Delivered,Normal Delivery
+EVT-101350,SH11350,Denver,1178,3,2023-05-09,2023-05-09,Delivered,Normal Delivery
+EVT-101351,SH11351,Detroit,2348,7,2023-04-14,2023-04-23,Delayed,Weather Disruption
+EVT-101352,SH11352,Los Angeles,2185,5,2023-01-06,2023-01-06,In Transit,Active Network Transit
+EVT-101353,SH11353,Seattle,2095,6,2023-02-26,2023-02-26,Delivered,Normal Delivery
+EVT-101354,SH11354,Seattle,663,1,2023-01-30,2023-01-30,Delivered,Normal Delivery
+EVT-101355,SH11355,Denver,2054,5,2023-05-02,2023-05-02,Delivered,Normal Delivery
+EVT-101356,SH11356,Seattle,2197,6,2023-12-13,2023-12-13,Delivered,Normal Delivery
+EVT-101357,SH11357,Minneapolis,2368,6,2023-01-12,2023-01-12,Delivered,Normal Delivery
+EVT-101358,SH11358,Chicago,1989,6,2023-03-03,2023-03-03,Delivered,Normal Delivery
+EVT-101359,SH11359,Detroit,845,5,2023-10-15,2023-10-21,Delayed,High Holiday Volume
+EVT-101360,SH11360,Phoenix,130,2,2023-09-18,2023-09-30,Delayed,Last-Mile Mechanical Failure
+EVT-101361,SH11361,Phoenix,1020,3,2023-06-23,2023-06-23,Lost,Lost in Hub Transit
+EVT-101362,SH11362,Portland,598,5,2023-04-07,2023-04-07,Delivered,Normal Delivery
+EVT-101363,SH11363,Chicago,1743,5,2023-05-12,2023-05-15,Delayed,Weather Disruption
+EVT-101364,SH11364,Atlanta,1866,4,2023-10-08,2023-10-08,Delivered,Normal Delivery
+EVT-101365,SH11365,Los Angeles,1413,4,2023-12-31,2023-12-31,Delivered,Normal Delivery
+EVT-101366,SH11366,San Francisco,956,2,2023-10-25,2023-10-25,Delivered,Normal Delivery
+EVT-101367,SH11367,New York,1580,4,2023-10-24,2023-10-24,Delivered,Normal Delivery
+EVT-101368,SH11368,Minneapolis,1216,4,2023-09-07,2023-09-07,Delivered,Normal Delivery
+EVT-101369,SH11369,Dallas,2066,6,2023-03-14,2023-03-14,Delivered,Normal Delivery
+EVT-101370,SH11370,Los Angeles,855,3,2023-12-12,2023-12-12,Lost,Lost in Hub Transit
+EVT-101371,SH11371,Detroit,298,3,2023-07-25,2023-07-25,Delivered,Normal Delivery
+EVT-101372,SH11372,Houston,2311,10,2023-09-24,2023-09-24,Lost,Lost in Hub Transit
+EVT-101373,SH11373,Phoenix,214,3,2023-11-17,2023-11-17,Delivered,Normal Delivery
+EVT-101374,SH11374,Boston,1859,5,2023-01-28,2023-02-07,Delayed,Last-Mile Mechanical Failure
+EVT-101375,SH11375,Atlanta,2199,5,2023-05-09,2023-05-15,Delayed,Last-Mile Mechanical Failure
+EVT-101376,SH11376,Detroit,2330,5,2023-03-13,2023-03-13,Delivered,Normal Delivery
+EVT-101377,SH11377,Boston,505,3,2024-01-01,2024-01-01,Delivered,Normal Delivery
+EVT-101378,SH11378,Boston,1617,5,2023-08-21,2023-08-21,Returned,Customer Refused / Delivery Failed
+EVT-101379,SH11379,New York,1270,4,2023-09-30,2023-09-30,Delivered,Normal Delivery
+EVT-101380,SH11380,Atlanta,2007,4,2023-04-07,2023-04-07,Delivered,Normal Delivery
+EVT-101381,SH11381,Denver,1000,4,2023-11-21,2023-11-21,Delivered,Normal Delivery
+EVT-101382,SH11382,New York,105,4,2023-07-29,2023-08-03,Delayed,Carrier Hub Congestion
+EVT-101383,SH11383,Los Angeles,813,4,2023-05-04,2023-05-04,Delivered,Normal Delivery
+EVT-101384,SH11384,Chicago,1746,6,2023-03-14,2023-03-14,Delivered,Normal Delivery
+EVT-101385,SH11385,Atlanta,1911,5,2023-02-14,2023-02-14,Delivered,Normal Delivery
+EVT-101386,SH11386,Denver,1816,6,2023-05-27,2023-05-27,Delivered,Normal Delivery
+EVT-101387,SH11387,Boston,1482,4,2023-09-04,2023-09-16,Delayed,Carrier Hub Congestion
+EVT-101388,SH11388,Phoenix,998,2,2023-06-04,2023-06-04,Delivered,Normal Delivery
+EVT-101389,SH11389,Boston,470,2,2023-05-05,2023-05-05,Delivered,Normal Delivery
+EVT-101390,SH11390,Miami,2455,5,2023-10-03,2023-10-03,Delivered,Normal Delivery
+EVT-101391,SH11391,Atlanta,559,3,2023-02-11,2023-02-11,Delivered,Normal Delivery
+EVT-101392,SH11392,Phoenix,2384,6,2023-06-07,2023-06-07,Delivered,Normal Delivery
+EVT-101393,SH11393,Dallas,1435,3,2024-01-03,2024-01-03,Delivered,Normal Delivery
+EVT-101394,SH11394,Boston,1525,10,2023-12-06,2023-12-16,Delayed,Weather Disruption
+EVT-101395,SH11395,Chicago,698,4,2023-01-29,2023-01-29,Delivered,Normal Delivery
+EVT-101396,SH11396,Denver,1920,8,2023-10-07,2023-10-08,Delayed,Carrier Hub Congestion
+EVT-101397,SH11397,Portland,958,3,2023-11-12,2023-11-12,Delivered,Normal Delivery
+EVT-101398,SH11398,Detroit,2057,4,2023-10-22,2023-10-22,Delivered,Normal Delivery
+EVT-101399,SH11399,San Francisco,1148,3,2023-01-07,2023-01-07,Delivered,Normal Delivery
+EVT-101400,SH11400,Boston,2221,7,2023-07-28,2023-07-28,Delivered,Normal Delivery
+EVT-101401,SH11401,Phoenix,2287,6,2023-07-08,2023-07-08,Delivered,Normal Delivery
+EVT-101402,SH11402,Seattle,1807,4,2023-08-23,2023-08-23,Delivered,Normal Delivery
+EVT-101403,SH11403,New York,2362,6,2023-06-15,2023-06-15,Delivered,Normal Delivery
+EVT-101404,SH11404,Phoenix,373,2,2023-02-22,2023-02-22,Delivered,Normal Delivery
+EVT-101405,SH11405,Phoenix,544,2,2023-05-21,2023-05-21,Delivered,Normal Delivery
+EVT-101406,SH11406,Miami,1350,4,2023-08-18,2023-08-18,Delivered,Normal Delivery
+EVT-101407,SH11407,Los Angeles,544,4,2023-10-19,2023-10-19,Delivered,Normal Delivery
+EVT-101408,SH11408,Los Angeles,637,2,2023-08-03,2023-08-03,Delivered,Normal Delivery
+EVT-101409,SH11409,Minneapolis,507,2,2023-01-24,2023-01-24,Delivered,Normal Delivery
+EVT-101410,SH11410,Atlanta,2009,7,2023-07-10,2023-07-10,Delivered,Normal Delivery
+EVT-101411,SH11411,New York,852,3,2023-06-28,2023-07-05,Delayed,Routing Deviation
+EVT-101412,SH11412,New York,2010,6,2023-04-22,2023-04-22,Delivered,Normal Delivery
+EVT-101413,SH11413,Chicago,487,2,2023-04-30,2023-04-30,Delivered,Normal Delivery
+EVT-101414,SH11414,Portland,1369,4,2023-06-23,2023-06-23,Delivered,Normal Delivery
+EVT-101415,SH11415,Chicago,1542,7,2023-12-07,2023-12-07,Delivered,Normal Delivery
+EVT-101416,SH11416,Portland,1838,6,2023-12-04,2023-12-04,Delivered,Normal Delivery
+EVT-101417,SH11417,Denver,1364,3,2023-03-31,2023-03-31,Delivered,Normal Delivery
+EVT-101418,SH11418,Atlanta,173,3,2023-03-29,2023-03-29,Delivered,Normal Delivery
+EVT-101419,SH11419,Miami,2343,6,2023-10-20,2023-10-20,Delivered,Normal Delivery
+EVT-101420,SH11420,Detroit,505,2,2023-11-26,2023-11-26,Delivered,Normal Delivery
+EVT-101421,SH11421,Minneapolis,206,1,2023-10-09,2023-10-09,Delivered,Normal Delivery
+EVT-101422,SH11422,New York,1656,6,2023-12-26,2023-12-26,Delivered,Normal Delivery
+EVT-101423,SH11423,San Francisco,377,2,2023-01-31,2023-01-31,Delivered,Normal Delivery
+EVT-101424,SH11424,Dallas,1631,5,2023-09-06,2023-09-06,Delivered,Normal Delivery
+EVT-101425,SH11425,Denver,403,2,2023-10-19,2023-10-19,Returned,Customer Refused / Delivery Failed
+EVT-101426,SH11426,San Francisco,1591,4,2023-08-14,2023-08-14,Delivered,Normal Delivery
+EVT-101427,SH11427,Atlanta,611,3,2023-01-24,2023-01-24,Delivered,Normal Delivery
+EVT-101428,SH11428,Seattle,1911,9,2023-06-14,,Delivered,Normal Delivery
+EVT-101429,SH11429,Chicago,1111,4,2023-03-24,2023-03-24,Delivered,Normal Delivery
+EVT-101430,SH11430,Seattle,1162,3,2023-08-01,2023-08-01,Delivered,Normal Delivery
+EVT-101431,SH11431,Houston,146,1,2023-05-26,2023-05-26,Delivered,Normal Delivery
+EVT-101432,SH11432,Houston,1541,4,2023-08-09,2023-08-09,In Transit,Active Network Transit
+EVT-101433,SH11433,Atlanta,1865,4,2023-02-18,2023-02-18,Returned,Customer Refused / Delivery Failed
+EVT-101434,SH11434,Los Angeles,1659,5,2023-04-24,2023-05-04,Delayed,Carrier Hub Congestion
+EVT-101435,SH11435,Boston,1924,4,2023-04-22,2023-04-22,Delivered,Normal Delivery
+EVT-101436,SH11436,Minneapolis,302,2,2023-02-20,2023-02-28,Delayed,Weather Disruption
+EVT-101437,SH11437,Boston,1782,4,2023-01-09,2023-01-09,Delivered,Normal Delivery
+EVT-101438,SH11438,San Francisco,854,3,2023-05-22,2023-05-22,Lost,Lost in Hub Transit
+EVT-101439,SH11439,Portland,2469,6,2023-01-17,2023-01-17,Delivered,Normal Delivery
+EVT-101440,SH11440,Dallas,166,1,2023-01-29,2023-01-29,In Transit,Active Network Transit
+EVT-101441,SH11441,San Francisco,794,5,2023-10-25,2023-10-25,Delivered,Normal Delivery
+EVT-101442,SH11442,Portland,528,1,2023-03-09,2023-03-09,Lost,Lost in Hub Transit
+EVT-101443,SH11443,Minneapolis,1908,6,2023-04-23,2023-04-23,Delivered,Normal Delivery
+EVT-101444,SH11444,Phoenix,1800,4,2023-04-25,2023-05-07,Delayed,Carrier Hub Congestion
+EVT-101445,SH11445,Denver,713,2,2023-07-27,2023-07-27,Delivered,Normal Delivery
+EVT-101446,SH11446,Denver,306,3,2023-05-16,2023-05-16,Delivered,Normal Delivery
+EVT-101447,SH11447,San Francisco,302,3,2023-07-11,2023-07-11,Delivered,Normal Delivery
+EVT-101448,SH11448,Houston,1655,6,2023-07-13,2023-07-13,Delivered,Normal Delivery
+EVT-101449,SH11449,Detroit,283,3,2023-03-10,2023-03-10,Delivered,Normal Delivery
+EVT-101450,SH11450,Miami,2239,8,2023-02-11,2023-02-11,Delivered,Normal Delivery
+EVT-101451,SH11451,San Francisco,2003,7,2024-01-06,2024-01-06,Delivered,Normal Delivery
+EVT-101452,SH11452,San Francisco,1553,5,2023-01-08,2023-01-08,Delivered,Normal Delivery
+EVT-101453,SH11453,Seattle,717,3,2023-07-25,,Delivered,Normal Delivery
+EVT-101454,SH11454,Minneapolis,1843,7,2023-08-26,2023-08-26,Lost,Lost in Hub Transit
+EVT-101455,SH11455,Phoenix,487,3,2023-04-29,2023-04-29,Delivered,Normal Delivery
+EVT-101456,SH11456,Miami,1061,3,2023-03-30,2023-03-30,Delivered,Normal Delivery
+EVT-101457,SH11457,Detroit,585,2,2023-10-06,2023-10-06,Delivered,Normal Delivery
+EVT-101458,SH11458,Denver,691,2,2023-03-24,2023-03-24,Delivered,Normal Delivery
+EVT-101459,SH11459,Detroit,1097,2,2024-01-02,2024-01-02,Delivered,Normal Delivery
+EVT-101460,SH11460,Phoenix,390,3,2023-07-08,2023-07-08,Delivered,Normal Delivery
+EVT-101461,SH11461,Boston,2216,6,2023-07-27,2023-07-27,Delivered,Normal Delivery
+EVT-101462,SH11462,Phoenix,1229,7,2023-02-10,2023-02-10,Delivered,Normal Delivery
+EVT-101463,SH11463,Minneapolis,1591,5,2023-07-15,2023-07-15,In Transit,Active Network Transit
+EVT-101464,SH11464,New York,807,5,2023-12-23,2023-12-23,Delivered,Normal Delivery
+EVT-101465,SH11465,Dallas,1065,5,2023-11-23,2023-11-23,Delivered,Normal Delivery
+EVT-101466,SH11466,Minneapolis,1408,3,2023-05-23,2023-05-23,Delivered,Normal Delivery
+EVT-101467,SH11467,Denver,635,3,2023-04-04,2023-04-04,Delivered,Normal Delivery
+EVT-101468,SH11468,Denver,1000,3,2023-12-27,2023-11-24,Delivered,Normal Delivery
+EVT-101469,SH11469,Denver,323,1,2023-12-12,2023-12-12,Delivered,Normal Delivery
+EVT-101470,SH11470,Phoenix,1340,5,2023-08-25,2023-08-25,Delivered,Normal Delivery
+EVT-101471,SH11471,Atlanta,451,4,2023-05-21,2023-05-21,Delivered,Normal Delivery
+EVT-101472,SH11472,San Francisco,1360,4,2023-05-05,2023-05-05,Delivered,Normal Delivery
+EVT-101473,SH11473,Los Angeles,2212,5,2024-01-01,2024-01-01,Delivered,Normal Delivery
+EVT-101474,SH11474,Portland,2293,6,2023-08-08,2023-08-08,Delivered,Normal Delivery
+EVT-101475,SH11475,Portland,1711,6,2023-11-28,2023-11-28,Delivered,Normal Delivery
+EVT-101476,SH11476,Seattle,1058,4,2023-08-09,2023-08-09,Delivered,Normal Delivery
+EVT-101477,SH11477,San Francisco,580,3,2023-09-03,2023-09-03,Delivered,Normal Delivery
+EVT-101478,SH11478,Detroit,1463,5,2023-10-13,2023-10-13,Delivered,Normal Delivery
+EVT-101479,SH11479,New York,615,2,2023-03-09,2023-03-20,Delayed,Weather Disruption
+EVT-101480,SH11480,Atlanta,1487,4,2023-04-19,2023-04-19,Delivered,Normal Delivery
+EVT-101481,SH11481,Dallas,1472,3,2023-07-16,2023-07-16,Delivered,Normal Delivery
+EVT-101482,SH11482,Phoenix,787,3,2023-09-26,2023-08-24,Delivered,Normal Delivery
+EVT-101483,SH11483,Houston,1364,3,2023-09-11,2023-09-11,Delivered,Normal Delivery
+EVT-101484,SH11484,Los Angeles,1377,4,2023-05-13,2023-05-13,Delivered,Normal Delivery
+EVT-101485,SH11485,San Francisco,1332,5,2023-02-12,2023-02-12,Delivered,Normal Delivery
+EVT-101486,SH11486,Phoenix,1209,4,2023-08-25,2023-08-25,Delivered,Normal Delivery
+EVT-101487,SH11487,Minneapolis,2300,5,2023-11-13,2023-11-13,Delivered,Normal Delivery
+EVT-101488,SH11488,Phoenix,289,1,2023-02-04,2023-02-04,In Transit,Active Network Transit
+EVT-101489,SH11489,Denver,1000,4,2023-06-01,2023-06-01,Delivered,Normal Delivery
+EVT-101490,SH11490,Seattle,670,4,2023-09-09,2023-09-09,Delivered,Normal Delivery
+EVT-101491,SH11491,Boston,2379,6,2023-05-07,2023-05-07,Delivered,Normal Delivery
+EVT-101492,SH11492,San Francisco,274,1,2023-09-28,2023-09-28,Delivered,Normal Delivery
+EVT-101493,SH11493,Boston,1438,4,2023-05-10,2023-05-10,Returned,Customer Refused / Delivery Failed
+EVT-101494,SH11494,Seattle,2309,5,2023-08-27,2023-08-27,Delivered,Normal Delivery
+EVT-101495,SH11495,Chicago,1581,4,2023-05-28,2023-05-28,Delivered,Normal Delivery
+EVT-101496,SH11496,New York,932,3,2023-04-02,2023-04-02,Delivered,Normal Delivery
+EVT-101497,SH11497,Minneapolis,185,1,2023-10-20,2023-10-20,Delivered,Normal Delivery
+EVT-101498,SH11498,Boston,812,4,2023-07-04,2023-07-04,In Transit,Active Network Transit
+EVT-101499,SH11499,Phoenix,925,3,2023-04-19,2023-04-19,In Transit,Active Network Transit
+EVT-101500,SH11500,Portland,770,6,2023-09-18,2023-09-27,Delayed,Weather Disruption
+EVT-101501,SH11501,Atlanta,1541,5,2023-03-11,2023-03-11,Delivered,Normal Delivery
+EVT-101502,SH11502,Chicago,974,3,2023-07-24,2023-07-24,Delivered,Normal Delivery
+EVT-101503,SH11503,Denver,1000,2,2023-08-20,2023-08-20,Delivered,Normal Delivery
+EVT-101504,SH11504,Miami,190,1,2023-09-26,2023-09-26,Delivered,Normal Delivery
+EVT-101505,SH11505,Minneapolis,1140,3,2023-07-03,2023-07-11,Delayed,High Holiday Volume
+EVT-101506,SH11506,Miami,1646,5,2023-04-02,2023-04-03,Delayed,Carrier Hub Congestion
+EVT-101507,SH11507,Miami,2200,7,2023-10-17,2023-10-17,Delivered,Normal Delivery
+EVT-101508,SH11508,Phoenix,2246,5,2024-01-02,2024-01-02,Delivered,Normal Delivery
+EVT-101509,SH11509,Boston,295,1,2023-10-24,2023-10-24,Delivered,Normal Delivery
+EVT-101510,SH11510,Chicago,2212,7,2023-04-18,2023-04-18,In Transit,Active Network Transit
+EVT-101511,SH11511,New York,458,2,2023-05-30,2023-05-30,Delivered,Normal Delivery
+EVT-101512,SH11512,Detroit,2386,5,2023-08-24,2023-08-29,Delayed,Weather Disruption
+EVT-101513,SH11513,Miami,1396,4,2023-02-23,2023-02-23,Delivered,Normal Delivery
+EVT-101514,SH11514,Phoenix,890,5,2023-12-20,2023-12-20,Delivered,Normal Delivery
+EVT-101515,SH11515,New York,916,3,2023-05-01,2023-05-04,Delayed,Carrier Hub Congestion
+EVT-101516,SH11516,Chicago,496,2,2023-07-27,2023-07-27,Delivered,Normal Delivery
+EVT-101517,SH11517,San Francisco,2488,9,2023-09-27,2023-09-27,Delivered,Normal Delivery
+EVT-101518,SH11518,Dallas,1507,4,2023-06-20,2023-06-20,Delivered,Normal Delivery
+EVT-101519,SH11519,Portland,148,1,2023-12-26,2023-12-26,Delivered,Normal Delivery
+EVT-101520,SH11520,Dallas,599,2,2023-06-02,2023-06-02,Delivered,Normal Delivery
+EVT-101521,SH11521,Denver,234,1,2023-08-10,2023-08-10,Delivered,Normal Delivery
+EVT-101522,SH11522,San Francisco,1974,8,2023-06-08,2023-06-08,Delivered,Normal Delivery
+EVT-101523,SH11523,San Francisco,2271,6,2023-08-31,2023-08-31,Delivered,Normal Delivery
+EVT-101524,SH11524,Miami,1599,4,2023-09-02,2023-09-02,Returned,Customer Refused / Delivery Failed
+EVT-101525,SH11525,Minneapolis,977,5,2023-06-22,2023-06-22,Delivered,Normal Delivery
+EVT-101526,SH11526,Denver,1311,3,2023-10-06,2023-10-06,Delivered,Normal Delivery
+EVT-101527,SH11527,Los Angeles,268,2,2023-05-18,2023-05-18,Delivered,Normal Delivery
+EVT-101528,SH11528,San Francisco,1466,4,2023-09-29,2023-09-29,Delivered,Normal Delivery
+EVT-101529,SH11529,Chicago,2181,9,2023-03-12,2023-03-12,Delivered,Normal Delivery
+EVT-101530,SH11530,Houston,379,2,2023-01-08,2023-01-08,Delivered,Normal Delivery
+EVT-101531,SH11531,Portland,123,3,2023-11-03,2023-11-03,Delivered,Normal Delivery
+EVT-101532,SH11532,Houston,1203,3,2023-06-15,2023-06-15,Delivered,Normal Delivery
+EVT-101533,SH11533,Phoenix,501,3,2023-06-06,2023-06-06,Delivered,Normal Delivery
+EVT-101534,SH11534,Minneapolis,1034,4,2024-01-01,2024-01-01,Lost,Lost in Hub Transit
+EVT-101535,SH11535,Denver,283,1,2023-11-04,2023-11-04,In Transit,Active Network Transit
+EVT-101536,SH11536,San Francisco,655,4,2023-12-28,2024-01-08,Delayed,Carrier Hub Congestion
+EVT-101537,SH11537,Minneapolis,552,2,2023-10-02,2023-10-02,Delivered,Normal Delivery
+EVT-101538,SH11538,Miami,1350,4,2023-05-17,2023-05-17,Delivered,Normal Delivery
+EVT-101539,SH11539,Minneapolis,2181,6,2023-11-29,2023-11-29,Delivered,Normal Delivery
+EVT-101540,SH11540,Minneapolis,2466,6,2023-06-10,2023-06-10,Delivered,Normal Delivery
+EVT-101541,SH11541,Phoenix,636,5,2023-05-12,2023-05-12,Delivered,Normal Delivery
+EVT-101542,SH11542,Detroit,283,2,2023-12-04,2023-12-04,Delivered,Normal Delivery
+EVT-101543,SH11543,Miami,208,2,2023-04-30,2023-04-30,Delivered,Normal Delivery
+EVT-101544,SH11544,Seattle,1135,3,2023-11-26,2023-11-26,Delivered,Normal Delivery
+EVT-101545,SH11545,Atlanta,1442,3,2023-06-20,2023-06-20,Delivered,Normal Delivery
+EVT-101546,SH11546,New York,295,3,2023-05-09,2023-05-09,Delivered,Normal Delivery
+EVT-101547,SH11547,Denver,1720,8,2023-11-06,2023-11-06,Delivered,Normal Delivery
+EVT-101548,SH11548,Boston,912,3,2023-06-18,2023-06-18,Delivered,Normal Delivery
+EVT-101549,SH11549,Miami,2129,7,2023-06-23,2023-06-23,Lost,Lost in Hub Transit
+EVT-101550,SH11550,Miami,305,1,2023-03-30,2023-03-30,Delivered,Normal Delivery
+EVT-101551,SH11551,Seattle,1894,6,2023-10-01,,Delivered,Normal Delivery
+EVT-101552,SH11552,Boston,1941,7,2023-01-10,,Delayed,Carrier Hub Congestion
+EVT-101553,SH11553,Atlanta,2250,6,2023-08-30,2023-08-30,Delivered,Normal Delivery
+EVT-101554,SH11554,Detroit,2105,7,2023-09-23,2023-09-23,Delivered,Normal Delivery
+EVT-101555,SH11555,Houston,397,2,2023-12-22,2023-12-27,Delayed,Carrier Hub Congestion
+EVT-101556,SH11556,Miami,392,4,2023-01-14,2023-01-14,Delivered,Normal Delivery
+EVT-101557,SH11557,Houston,979,4,2023-07-15,2023-07-25,Delayed,Routing Deviation
+EVT-101558,SH11558,Portland,1427,4,2023-03-18,2023-03-22,Delayed,Last-Mile Mechanical Failure
+EVT-101559,SH11559,Dallas,1956,5,2023-01-31,2023-01-31,Delivered,Normal Delivery
+EVT-101560,SH11560,Houston,863,5,2023-11-29,2023-11-29,Delivered,Normal Delivery
+EVT-101561,SH11561,New York,2347,7,2023-04-29,2023-04-29,Delivered,Normal Delivery
+EVT-101562,SH11562,Houston,919,4,2023-05-01,2023-05-01,Delivered,Normal Delivery
+EVT-101563,SH11563,Boston,176,3,2023-11-24,2023-11-24,Delivered,Normal Delivery
+EVT-101564,SH11564,Detroit,2055,5,2023-07-31,2023-07-31,Delivered,Normal Delivery
+EVT-101565,SH11565,Chicago,1732,6,2023-04-16,,Delivered,Normal Delivery
+EVT-101566,SH11566,Los Angeles,1439,5,2023-10-09,2023-10-09,Delivered,Normal Delivery
+EVT-101567,SH11567,Minneapolis,860,2,2023-04-01,2023-04-01,Delivered,Normal Delivery
+EVT-101568,SH11568,Atlanta,2171,5,2023-01-21,2023-01-21,Delivered,Normal Delivery
+EVT-101569,SH11569,Detroit,2029,7,2023-03-16,2023-03-16,Delivered,Normal Delivery
+EVT-101570,SH11570,Chicago,136,4,2023-03-11,2023-03-11,Delivered,Normal Delivery
+EVT-101571,SH11571,Minneapolis,2247,7,2023-04-27,2023-04-27,Delivered,Normal Delivery
+EVT-101572,SH11572,Denver,131,1,2023-12-08,2023-12-08,Delivered,Normal Delivery
+EVT-101573,SH11573,Denver,1000,4,2023-10-07,2023-10-07,Delivered,Normal Delivery
+EVT-101574,SH11574,Denver,152,2,2023-12-22,2023-12-22,Delivered,Normal Delivery
+EVT-101575,SH11575,Phoenix,224,1,2023-12-21,2023-12-21,Delivered,Normal Delivery
+EVT-101576,SH11576,Houston,882,2,2023-07-03,2023-07-13,Delayed,Last-Mile Mechanical Failure
+EVT-101577,SH11577,San Francisco,1229,4,2023-12-11,2023-12-11,Delivered,Normal Delivery
+EVT-101578,SH11578,Atlanta,1305,3,2023-01-19,2023-01-19,Returned,Customer Refused / Delivery Failed
+EVT-101579,SH11579,Seattle,344,3,2023-07-30,2023-07-30,Delivered,Normal Delivery
+EVT-101580,SH11580,Denver,1071,4,2023-08-11,,Delivered,Normal Delivery
+EVT-101581,SH11581,Chicago,1369,7,2023-12-13,2023-12-13,Delivered,Normal Delivery
+EVT-101582,SH11582,Los Angeles,2056,5,2023-04-27,2023-04-27,Delivered,Normal Delivery
+EVT-101583,SH11583,Chicago,1240,4,2023-12-23,2023-12-23,Delivered,Normal Delivery
+EVT-101584,SH11584,Los Angeles,1355,4,2023-04-06,2023-04-06,Delivered,Normal Delivery
+EVT-101585,SH11585,Chicago,2201,8,2023-10-29,2023-11-03,Delayed,Last-Mile Mechanical Failure
+EVT-101586,SH11586,Atlanta,122,1,2023-10-17,2023-10-17,Delivered,Normal Delivery
+EVT-101587,SH11587,Denver,860,2,2023-10-06,2023-10-06,Lost,Lost in Hub Transit
+EVT-101588,SH11588,Detroit,1115,5,2023-08-24,2023-08-24,Delivered,Normal Delivery
+EVT-101589,SH11589,San Francisco,1527,3,2023-05-09,,Delivered,Normal Delivery
+EVT-101590,SH11590,Atlanta,1098,3,2023-10-19,2023-10-19,Delivered,Normal Delivery
+EVT-101591,SH11591,Los Angeles,2447,6,2023-08-11,2023-08-11,Delivered,Normal Delivery
+EVT-101592,SH11592,Los Angeles,1114,5,2023-01-17,2023-01-17,Delivered,Normal Delivery
+EVT-101593,SH11593,Dallas,759,3,2023-01-15,2023-01-15,Delivered,Normal Delivery
+EVT-101594,SH11594,Dallas,2176,5,2023-03-19,2023-03-19,Delivered,Normal Delivery
+EVT-101595,SH11595,Dallas,287,3,2023-12-22,2023-12-22,Delivered,Normal Delivery
+EVT-101596,SH11596,New York,1356,4,2023-11-11,2023-11-11,Delivered,Normal Delivery
+EVT-101597,SH11597,Atlanta,737,2,2023-10-26,2023-10-26,Delivered,Normal Delivery
+EVT-101598,SH11598,Phoenix,1189,3,2023-07-15,2023-07-15,Delivered,Normal Delivery
+EVT-101599,SH11599,Denver,1000,3,2023-12-14,2023-12-14,Delivered,Normal Delivery
+EVT-101600,SH11600,Minneapolis,2156,6,2023-10-22,2023-10-22,Delivered,Normal Delivery
+EVT-101601,SH11601,Miami,916,2,2023-07-18,2023-07-18,Delivered,Normal Delivery
+EVT-101602,SH11602,Seattle,450,2,2023-07-30,2023-08-09,Delayed,Carrier Hub Congestion
+EVT-101603,SH11603,New York,1474,4,2023-12-19,2023-12-19,Delivered,Normal Delivery
+EVT-101604,SH11604,Miami,1523,4,2023-01-18,2023-01-18,In Transit,Active Network Transit
+EVT-101605,SH11605,Seattle,986,6,2023-03-31,2023-03-31,Delivered,Normal Delivery
+EVT-101606,SH11606,Detroit,1989,6,2023-06-22,2023-07-05,Delayed,Weather Disruption
+EVT-101607,SH11607,Houston,1713,5,2023-03-14,2023-03-14,Delivered,Normal Delivery
+EVT-101608,SH11608,Portland,594,2,2023-12-09,2023-12-09,Delivered,Normal Delivery
+EVT-101609,SH11609,Phoenix,2151,5,2023-12-27,2023-12-27,Delivered,Normal Delivery
+EVT-101610,SH11610,Boston,989,4,2023-02-13,2023-02-13,Delivered,Normal Delivery
+EVT-101611,SH11611,Denver,250,1,2023-12-22,2023-12-22,Delivered,Normal Delivery
+EVT-101612,SH11612,Boston,378,3,2023-05-27,2023-05-27,Delivered,Normal Delivery
+EVT-101613,SH11613,Detroit,283,1,2023-09-28,2023-09-28,Delivered,Normal Delivery
+EVT-101614,SH11614,Detroit,1387,3,2023-09-12,2023-09-12,Delivered,Normal Delivery
+EVT-101615,SH11615,Houston,2228,6,2023-04-10,2023-04-10,Delivered,Normal Delivery
+EVT-101616,SH11616,Atlanta,2067,5,2023-05-24,2023-05-24,Delivered,Normal Delivery
+EVT-101617,SH11617,Detroit,881,5,2023-09-09,2023-09-10,Delayed,Routing Deviation
+EVT-101618,SH11618,Boston,1021,3,2023-08-27,2023-08-27,Delivered,Normal Delivery
+EVT-101619,SH11619,Minneapolis,1420,3,2023-10-01,2023-10-01,Delivered,Normal Delivery
+EVT-101620,SH11620,Phoenix,896,4,2023-03-12,2023-03-12,In Transit,Active Network Transit
+EVT-101621,SH11621,Los Angeles,752,2,2023-04-27,2023-04-27,Delivered,Normal Delivery
+EVT-101622,SH11622,Atlanta,398,2,2023-11-27,2023-11-27,Delivered,Normal Delivery
+EVT-101623,SH11623,Miami,1237,5,2023-04-22,2023-04-22,Delivered,Normal Delivery
+EVT-101624,SH11624,Miami,1651,4,2023-02-03,2023-02-03,Delivered,Normal Delivery
+EVT-101625,SH11625,Miami,1658,4,2024-01-04,2024-01-04,Delivered,Normal Delivery
+EVT-101626,SH11626,Denver,1829,6,2023-12-17,2023-12-17,Delivered,Normal Delivery
+EVT-101627,SH11627,Houston,1879,5,2023-02-08,2023-02-08,Delivered,Normal Delivery
+EVT-101628,SH11628,Detroit,454,1,2023-08-18,2023-08-22,Delayed,High Holiday Volume
+EVT-101629,SH11629,Minneapolis,197,1,2023-05-07,2023-05-07,Delivered,Normal Delivery
+EVT-101630,SH11630,Chicago,1325,5,2023-05-29,2023-05-29,Delivered,Normal Delivery
+EVT-101631,SH11631,Portland,1538,6,2023-11-14,2023-11-14,Delivered,Normal Delivery
+EVT-101632,SH11632,Chicago,1077,5,2023-01-10,2023-01-10,Delivered,Normal Delivery
+EVT-101633,SH11633,Miami,638,2,2023-11-08,2023-11-10,Delayed,Carrier Hub Congestion
+EVT-101634,SH11634,Boston,1947,9,2023-11-28,2023-11-28,Delivered,Normal Delivery
+EVT-101635,SH11635,Atlanta,1074,5,2023-06-27,2023-06-27,Delivered,Normal Delivery
+EVT-101636,SH11636,Chicago,587,3,2023-06-15,2023-06-15,Delivered,Normal Delivery
+EVT-101637,SH11637,Seattle,1135,4,2023-03-26,2023-03-26,Delivered,Normal Delivery
+EVT-101638,SH11638,Atlanta,746,3,2023-02-24,2023-02-24,Delivered,Normal Delivery
+EVT-101639,SH11639,Boston,1675,4,2023-10-07,2023-10-07,Lost,Lost in Hub Transit
+EVT-101640,SH11640,Boston,1636,7,2023-11-07,2023-11-07,Delivered,Normal Delivery
+EVT-101641,SH11641,San Francisco,2490,7,2023-01-26,2023-01-26,Delivered,Normal Delivery
+EVT-101642,SH11642,Portland,1433,4,2023-05-04,2023-05-13,Delayed,High Holiday Volume
+EVT-101643,SH11643,Detroit,775,2,2023-05-17,2023-05-17,Lost,Lost in Hub Transit
+EVT-101644,SH11644,San Francisco,1393,6,2023-08-28,2023-08-28,Delivered,Normal Delivery
+EVT-101645,SH11645,Los Angeles,2499,6,2023-02-08,2023-02-08,Delivered,Normal Delivery
+EVT-101646,SH11646,Phoenix,680,3,2023-05-28,2023-05-28,Delivered,Normal Delivery
+EVT-101647,SH11647,Houston,2190,6,2023-03-06,2023-03-07,Delayed,Weather Disruption
+EVT-101648,SH11648,Los Angeles,1899,6,2023-08-02,2023-08-02,Delivered,Normal Delivery
+EVT-101649,SH11649,Phoenix,2166,5,2023-02-27,2023-02-27,Delivered,Normal Delivery
+EVT-101650,SH11650,Dallas,520,3,2023-08-30,2023-08-30,Delivered,Normal Delivery
+EVT-101651,SH11651,New York,715,2,2023-02-01,2023-02-01,Delivered,Normal Delivery
+EVT-101652,SH11652,Dallas,1773,5,2023-10-25,2023-10-25,In Transit,Active Network Transit
+EVT-101653,SH11653,Detroit,369,2,2023-05-17,2023-05-17,Delivered,Normal Delivery
+EVT-101654,SH11654,Los Angeles,846,2,2023-08-20,2023-08-20,Delivered,Normal Delivery
+EVT-101655,SH11655,Boston,905,3,2023-09-01,2023-09-01,Delivered,Normal Delivery
+EVT-101656,SH11656,Los Angeles,171,2,2023-12-04,2023-12-04,Delivered,Normal Delivery
+EVT-101657,SH11657,Minneapolis,2222,6,2023-02-24,2023-02-24,Delivered,Normal Delivery
+EVT-101658,SH11658,Miami,2462,6,2023-02-14,2023-02-14,Delivered,Normal Delivery
+EVT-101659,SH11659,Minneapolis,1529,5,2023-07-11,2023-07-11,Delivered,Normal Delivery
+EVT-101660,SH11660,Miami,1912,5,2023-05-05,2023-05-05,Delivered,Normal Delivery
+EVT-101661,SH11661,New York,1194,3,2023-12-20,2023-12-20,Delivered,Normal Delivery
+EVT-101662,SH11662,Detroit,283,1,2023-12-10,2023-12-20,Delayed,Carrier Hub Congestion
+EVT-101663,SH11663,Portland,1916,6,2023-06-17,2023-06-17,Delivered,Normal Delivery
+EVT-101664,SH11664,Denver,504,5,2023-04-13,2023-04-13,Delivered,Normal Delivery
+EVT-101665,SH11665,Chicago,2442,8,2023-08-09,2023-08-09,Delivered,Normal Delivery
+EVT-101666,SH11666,Seattle,1135,5,2023-04-01,2023-04-01,Delivered,Normal Delivery
+EVT-101667,SH11667,Phoenix,1815,5,2023-11-04,2023-11-04,Delivered,Normal Delivery
+EVT-101668,SH11668,Denver,834,3,2023-12-30,2023-12-30,In Transit,Active Network Transit
+EVT-101669,SH11669,Seattle,997,3,2023-11-30,2023-11-30,Delivered,Normal Delivery
+EVT-101670,SH11670,Phoenix,373,2,2023-03-01,2023-03-01,Delivered,Normal Delivery
+EVT-101671,SH11671,Chicago,1993,7,2023-12-13,2023-12-13,Delivered,Normal Delivery
+EVT-101672,SH11672,San Francisco,2423,7,2023-05-12,2023-05-12,Delivered,Normal Delivery
+EVT-101673,SH11673,Dallas,1732,4,2023-05-27,2023-05-27,Delivered,Normal Delivery
+EVT-101674,SH11674,Portland,928,2,2023-07-01,2023-07-01,Delivered,Normal Delivery
+EVT-101675,SH11675,Detroit,1521,4,2023-04-10,2023-04-10,Delivered,Normal Delivery
+EVT-101676,SH11676,Detroit,2178,7,2023-08-12,2023-08-12,Delivered,Normal Delivery
+EVT-101677,SH11677,Atlanta,800,4,2023-06-07,2023-06-17,Delayed,Carrier Hub Congestion
+EVT-101678,SH11678,Boston,2201,5,2023-08-28,2023-08-28,Delivered,Normal Delivery
+EVT-101679,SH11679,Phoenix,117,1,2023-05-18,2023-05-18,Delivered,Normal Delivery
+EVT-101680,SH11680,Boston,1739,5,2023-06-20,2023-06-20,Delivered,Normal Delivery
+EVT-101681,SH11681,Atlanta,1123,3,2023-04-08,2023-04-21,Delayed,Weather Disruption
+EVT-101682,SH11682,Chicago,421,1,2023-04-17,2023-04-17,Delivered,Normal Delivery
+EVT-101683,SH11683,Seattle,916,6,2023-02-19,2023-02-19,Delivered,Normal Delivery
+EVT-101684,SH11684,San Francisco,2202,6,2023-05-26,2023-05-26,Delivered,Normal Delivery
+EVT-101685,SH11685,Boston,215,2,2023-09-02,2023-09-02,Delivered,Normal Delivery
+EVT-101686,SH11686,Seattle,371,3,2023-11-27,2023-11-27,Delivered,Normal Delivery
+EVT-101687,SH11687,Seattle,378,3,2023-03-19,2023-03-30,Delayed,Carrier Hub Congestion
+EVT-101688,SH11688,Chicago,1456,8,2023-10-01,2023-10-01,Delivered,Normal Delivery
+EVT-101689,SH11689,Chicago,1114,3,2023-10-11,2023-10-18,Delayed,Weather Disruption
+EVT-101690,SH11690,Portland,1417,4,2023-06-20,2023-06-20,Delivered,Normal Delivery
+EVT-101691,SH11691,Houston,1402,5,2023-05-10,2023-05-10,Delivered,Normal Delivery
+EVT-101692,SH11692,Atlanta,178,1,2023-03-26,2023-03-26,Delivered,Normal Delivery
+EVT-101693,SH11693,Houston,1575,5,2023-02-03,2023-02-03,Delivered,Normal Delivery
+EVT-101694,SH11694,Atlanta,870,7,2023-09-30,2023-09-30,Delivered,Normal Delivery
+EVT-101695,SH11695,Portland,1995,7,2023-04-13,2023-04-13,Delivered,Normal Delivery
+EVT-101696,SH11696,Portland,606,2,2023-01-29,2023-01-29,Delivered,Normal Delivery
+EVT-101697,SH11697,Minneapolis,433,3,2023-05-18,2023-05-18,Delivered,Normal Delivery
+EVT-101698,SH11698,Portland,755,4,2023-11-13,2023-11-13,Delivered,Normal Delivery
+EVT-101699,SH11699,Portland,1580,5,2023-03-02,2023-03-02,Delivered,Normal Delivery
+EVT-101700,SH11700,Los Angeles,1464,5,2023-06-19,2023-06-19,Delivered,Normal Delivery
+EVT-101701,SH11701,Minneapolis,2299,6,2023-10-16,2023-10-29,Delayed,Carrier Hub Congestion
+EVT-101702,SH11702,Miami,1350,6,2023-03-07,2023-03-07,Delivered,Normal Delivery
+EVT-101703,SH11703,Los Angeles,386,1,2023-06-25,2023-06-25,Returned,Customer Refused / Delivery Failed
+EVT-101704,SH11704,Portland,1899,8,2023-07-10,2023-07-10,Delivered,Normal Delivery
+EVT-101705,SH11705,Portland,787,4,2023-08-24,2023-08-24,Delivered,Normal Delivery
+EVT-101706,SH11706,Portland,2388,6,2023-06-01,2023-06-01,Delivered,Normal Delivery
+EVT-101707,SH11707,Dallas,2347,5,2023-08-03,2023-08-03,Delivered,Normal Delivery
+EVT-101708,SH11708,San Francisco,1364,5,2023-11-19,2023-11-19,Delivered,Normal Delivery
+EVT-101709,SH11709,Seattle,1135,3,2023-03-02,2023-03-02,Delivered,Normal Delivery
+EVT-101710,SH11710,Boston,2200,7,2023-03-18,2023-03-18,Delivered,Normal Delivery
+EVT-101711,SH11711,Denver,1000,6,2023-04-27,2023-04-27,Delivered,Normal Delivery
+EVT-101712,SH11712,Chicago,701,3,2023-05-08,2023-05-08,Delivered,Normal Delivery
+EVT-101713,SH11713,Detroit,1883,4,2023-04-16,2023-04-16,Delivered,Normal Delivery
+EVT-101714,SH11714,Detroit,2424,6,2023-07-06,2023-07-06,Delivered,Normal Delivery
+EVT-101715,SH11715,New York,2059,8,2023-05-09,2023-05-09,Lost,Lost in Hub Transit
+EVT-101716,SH11716,Portland,1857,5,2023-06-20,2023-06-24,Delayed,Carrier Hub Congestion
+EVT-101717,SH11717,Atlanta,152,5,2023-11-09,2023-11-09,Delivered,Normal Delivery
+EVT-101718,SH11718,Minneapolis,1495,5,2023-12-16,2023-12-16,In Transit,Active Network Transit
+EVT-101719,SH11719,Denver,1030,3,2023-08-17,2023-08-17,Delivered,Normal Delivery
+EVT-101720,SH11720,Denver,854,3,2023-05-24,2023-05-24,Delivered,Normal Delivery
+EVT-101721,SH11721,Portland,101,1,2023-04-26,2023-04-26,Delivered,Normal Delivery
+EVT-101722,SH11722,Boston,2353,5,2024-01-05,2024-01-05,Delivered,Normal Delivery
+EVT-101723,SH11723,Los Angeles,1382,3,2023-07-16,2023-07-16,Delivered,Normal Delivery
+EVT-101724,SH11724,Boston,975,3,2023-06-27,2023-07-08,Delayed,Last-Mile Mechanical Failure
+EVT-101725,SH11725,Denver,1453,4,2023-07-07,2023-07-07,Delivered,Normal Delivery
+EVT-101726,SH11726,Houston,1321,3,2023-08-22,2023-08-22,In Transit,Active Network Transit
+EVT-101727,SH11727,Boston,2279,7,2023-11-06,2023-09-30,Delivered,Normal Delivery
+EVT-101728,SH11728,New York,835,5,2023-06-13,2023-06-13,Delivered,Normal Delivery
+EVT-101729,SH11729,Miami,1035,4,2023-06-07,2023-06-07,Delivered,Normal Delivery
+EVT-101730,SH11730,San Francisco,202,4,2023-04-07,2023-04-07,Delivered,Normal Delivery
+EVT-101731,SH11731,Minneapolis,226,2,2023-08-21,2023-08-21,Delivered,Normal Delivery
+EVT-101732,SH11732,Miami,2194,6,2023-11-24,2023-11-24,Delivered,Normal Delivery
+EVT-101733,SH11733,Phoenix,1865,11,2023-11-16,2023-11-16,Delivered,Normal Delivery
+EVT-101734,SH11734,Denver,1000,4,2023-04-07,2023-04-07,Delivered,Normal Delivery
+EVT-101735,SH11735,Minneapolis,892,5,2023-03-29,2023-03-29,Delivered,Normal Delivery
+EVT-101736,SH11736,Phoenix,2356,8,2023-11-01,2023-11-01,Delivered,Normal Delivery
+EVT-101737,SH11737,Miami,165,1,2023-12-06,2023-12-06,Delivered,Normal Delivery
+EVT-101738,SH11738,Miami,403,2,2023-05-09,2023-05-09,Delivered,Normal Delivery
+EVT-101739,SH11739,Phoenix,373,2,2023-08-03,2023-08-03,Delivered,Normal Delivery
+EVT-101740,SH11740,New York,1462,4,2023-04-22,2023-04-22,Delivered,Normal Delivery
+EVT-101741,SH11741,Minneapolis,1715,7,2023-02-04,2023-02-04,Delivered,Normal Delivery
+EVT-101742,SH11742,Detroit,2033,5,2023-02-24,2023-02-24,Delivered,Normal Delivery
+EVT-101743,SH11743,Phoenix,1430,5,2023-12-08,2023-12-21,Delayed,Carrier Hub Congestion
+EVT-101744,SH11744,Dallas,1309,4,2023-10-02,2023-10-02,Delivered,Normal Delivery
+EVT-101745,SH11745,Boston,942,5,2023-09-02,2023-09-02,Delivered,Normal Delivery
+EVT-101746,SH11746,Seattle,1135,3,2023-12-29,2024-01-03,Delayed,Carrier Hub Congestion
+EVT-101747,SH11747,Portland,1070,4,2023-08-30,2023-08-30,Delivered,Normal Delivery
+EVT-101748,SH11748,San Francisco,2032,5,2023-05-23,2023-05-23,Delivered,Normal Delivery
+EVT-101749,SH11749,Portland,2132,6,2023-04-12,2023-04-12,Delivered,Normal Delivery
+EVT-101750,SH11750,Seattle,1030,3,2023-11-09,2023-11-09,Lost,Lost in Hub Transit
+EVT-101751,SH11751,Dallas,1360,5,2023-08-08,2023-08-08,Delivered,Normal Delivery
+EVT-101752,SH11752,Phoenix,645,3,2023-11-06,2023-11-06,Delivered,Normal Delivery
+EVT-101753,SH11753,Denver,2179,6,2023-10-26,2023-11-06,Delayed,Carrier Hub Congestion
+EVT-101754,SH11754,Chicago,368,2,2023-02-20,2023-02-20,Returned,Customer Refused / Delivery Failed
+EVT-101755,SH11755,Phoenix,1225,5,2023-05-05,2023-05-05,Delivered,Normal Delivery
+EVT-101756,SH11756,Phoenix,373,1,2023-07-17,2023-07-17,Delivered,Normal Delivery
+EVT-101757,SH11757,Denver,2161,5,2023-10-10,2023-10-10,Delivered,Normal Delivery
+EVT-101758,SH11758,Seattle,610,2,2023-06-07,2023-06-07,Delivered,Normal Delivery
+EVT-101759,SH11759,Los Angeles,847,3,2023-07-18,2023-07-18,Delivered,Normal Delivery
+EVT-101760,SH11760,Minneapolis,2256,8,2023-07-06,2023-07-06,Delivered,Normal Delivery
+EVT-101761,SH11761,Minneapolis,1324,4,2023-10-24,2023-10-24,Delivered,Normal Delivery
+EVT-101762,SH11762,Chicago,2467,5,2023-06-05,2023-06-05,Delivered,Normal Delivery
+EVT-101763,SH11763,Denver,1801,4,2023-05-28,2023-05-28,Delivered,Normal Delivery
+EVT-101764,SH11764,Seattle,559,3,2023-09-15,2023-09-15,Delivered,Normal Delivery
+EVT-101765,SH11765,Chicago,962,2,2023-02-28,2023-02-28,Delivered,Normal Delivery
+EVT-101766,SH11766,Los Angeles,2429,5,2023-05-18,2023-05-18,Delivered,Normal Delivery
+EVT-101767,SH11767,Detroit,2102,5,2023-06-12,2023-06-12,Delivered,Normal Delivery
+EVT-101768,SH11768,New York,914,3,2023-10-18,2023-10-18,Delivered,Normal Delivery
+EVT-101769,SH11769,Miami,1843,5,2023-03-24,2023-03-24,Delivered,Normal Delivery
+EVT-101770,SH11770,Detroit,878,2,2023-03-23,2023-03-23,Delivered,Normal Delivery
+EVT-101771,SH11771,Portland,816,5,2023-06-24,2023-06-24,Delivered,Normal Delivery
+EVT-101772,SH11772,Miami,2414,8,2023-10-30,2023-10-30,Delivered,Normal Delivery
+EVT-101773,SH11773,Chicago,391,1,2023-05-01,2023-05-01,Delivered,Normal Delivery
+EVT-101774,SH11774,Seattle,757,6,2023-06-25,2023-06-25,Delivered,Normal Delivery
+EVT-101775,SH11775,Portland,2488,9,2023-04-05,2023-04-05,Delivered,Normal Delivery
+EVT-101776,SH11776,Detroit,2188,5,2023-10-26,2023-10-26,Delivered,Normal Delivery
+EVT-101777,SH11777,Minneapolis,1547,3,2023-07-15,2023-07-15,Delivered,Normal Delivery
+EVT-101778,SH11778,Atlanta,224,2,2023-08-03,2023-08-03,Delivered,Normal Delivery
+EVT-101779,SH11779,Houston,747,3,2023-11-10,2023-11-10,Delivered,Normal Delivery
+EVT-101780,SH11780,Miami,1552,3,2023-08-12,2023-08-12,Lost,Lost in Hub Transit
+EVT-101781,SH11781,Detroit,2410,6,2023-09-08,2023-09-08,Delivered,Normal Delivery
+EVT-101782,SH11782,Denver,395,1,2023-11-03,2023-11-03,Delivered,Normal Delivery
+EVT-101783,SH11783,San Francisco,1462,3,2023-01-24,2023-01-24,Delivered,Normal Delivery
+EVT-101784,SH11784,Portland,1399,4,2023-03-26,2023-03-26,Delivered,Normal Delivery
+EVT-101785,SH11785,Seattle,1025,5,2023-05-06,2023-05-06,Delivered,Normal Delivery
+EVT-101786,SH11786,New York,118,1,2023-03-15,2023-03-15,Delivered,Normal Delivery
+EVT-101787,SH11787,Phoenix,1226,3,2023-12-29,2023-12-29,Delivered,Normal Delivery
+EVT-101788,SH11788,Portland,2192,6,2023-12-13,2023-12-21,Delayed,Routing Deviation
+EVT-101789,SH11789,Chicago,790,2,2023-05-01,2023-05-01,Delivered,Normal Delivery
+EVT-101790,SH11790,Denver,2072,6,2023-11-01,2023-11-05,Delayed,Last-Mile Mechanical Failure
+EVT-101791,SH11791,New York,1073,3,2023-03-05,2023-03-05,Delivered,Normal Delivery
+EVT-101792,SH11792,San Francisco,255,3,2023-02-07,2023-02-07,Delivered,Normal Delivery
+EVT-101793,SH11793,Detroit,865,3,2023-10-30,2023-10-30,Delivered,Normal Delivery
+EVT-101794,SH11794,Minneapolis,1694,7,2023-04-26,2023-04-26,In Transit,Active Network Transit
+EVT-101795,SH11795,Los Angeles,1317,6,2023-04-23,2023-04-23,Delivered,Normal Delivery
+EVT-101796,SH11796,Portland,645,2,2023-06-01,2023-06-01,Delivered,Normal Delivery
+EVT-101797,SH11797,Chicago,790,2,2023-05-30,2023-05-30,Delivered,Normal Delivery
+EVT-101798,SH11798,New York,1172,3,2023-04-26,2023-04-26,Delivered,Normal Delivery
+EVT-101799,SH11799,Atlanta,1711,4,2023-08-04,2023-08-04,Delivered,Normal Delivery
+EVT-101800,SH11800,Dallas,2345,5,2023-03-18,2023-03-18,Delivered,Normal Delivery
+EVT-101801,SH11801,Los Angeles,128,2,2023-07-10,2023-07-10,Delivered,Normal Delivery
+EVT-101802,SH11802,San Francisco,2044,6,2023-01-24,2023-01-24,Delivered,Normal Delivery
+EVT-101803,SH11803,Dallas,1435,6,2023-08-09,2023-08-09,In Transit,Active Network Transit
+EVT-101804,SH11804,Miami,1715,5,2023-11-02,2023-11-13,Delayed,Carrier Hub Congestion
+EVT-101805,SH11805,Phoenix,1880,4,2023-12-23,2023-12-23,Delivered,Normal Delivery
+EVT-101806,SH11806,Houston,1870,6,2023-07-10,2023-07-10,Delivered,Normal Delivery
+EVT-101807,SH11807,Portland,1227,4,2023-07-10,2023-07-10,Delivered,Normal Delivery
+EVT-101808,SH11808,San Francisco,2321,7,2023-05-23,2023-05-23,Delivered,Normal Delivery
+EVT-101809,SH11809,Atlanta,1393,4,2023-07-16,2023-07-16,Delivered,Normal Delivery
+EVT-101810,SH11810,Atlanta,2464,8,2023-07-29,2023-07-29,Delivered,Normal Delivery
+EVT-101811,SH11811,Detroit,476,2,2023-04-18,2023-04-18,Delivered,Normal Delivery
+EVT-101812,SH11812,Phoenix,1423,4,2023-09-05,2023-09-05,Delivered,Normal Delivery
+EVT-101813,SH11813,San Francisco,2126,7,2023-05-16,2023-05-24,Delayed,Carrier Hub Congestion
+EVT-101814,SH11814,San Francisco,1731,4,2023-10-17,2023-10-17,Delivered,Normal Delivery
+EVT-101815,SH11815,Denver,619,2,2023-09-22,2023-09-22,Delivered,Normal Delivery
+EVT-101816,SH11816,Minneapolis,2208,5,2023-05-30,2023-05-30,Delivered,Normal Delivery
+EVT-101817,SH11817,Dallas,1021,4,2023-04-27,2023-04-27,Delivered,Normal Delivery
+EVT-101818,SH11818,Detroit,2216,8,2023-05-19,2023-05-19,Delivered,Normal Delivery
+EVT-101819,SH11819,Denver,1724,6,2023-03-01,2023-03-01,Delivered,Normal Delivery
+EVT-101820,SH11820,Los Angeles,2362,6,2023-04-27,2023-04-27,Delivered,Normal Delivery
+EVT-101821,SH11821,Detroit,2360,5,2023-04-01,2023-04-01,Delivered,Normal Delivery
+EVT-101822,SH11822,Boston,2450,6,2023-03-10,2023-03-10,Delivered,Normal Delivery
+EVT-101823,SH11823,Boston,1642,4,2023-05-05,2023-05-05,Delivered,Normal Delivery
+EVT-101824,SH11824,New York,1548,7,2023-02-27,2023-02-27,Delivered,Normal Delivery
+EVT-101825,SH11825,Seattle,2305,8,2024-01-04,2024-01-08,Delayed,Routing Deviation
+EVT-101826,SH11826,Chicago,1657,4,2023-05-15,2023-05-15,Delivered,Normal Delivery
+EVT-101827,SH11827,Minneapolis,1855,5,2023-10-03,2023-10-03,Delivered,Normal Delivery
+EVT-101828,SH11828,Seattle,1360,4,2023-11-22,2023-11-22,Delivered,Normal Delivery
+EVT-101829,SH11829,Portland,139,1,2023-08-10,2023-08-10,Delivered,Normal Delivery
+EVT-101830,SH11830,Portland,1023,3,2023-11-24,2023-11-24,Delivered,Normal Delivery
+EVT-101831,SH11831,Miami,2104,6,2023-07-01,2023-07-01,Delivered,Normal Delivery
+EVT-101832,SH11832,Dallas,116,2,2023-01-08,2023-01-08,Lost,Lost in Hub Transit
+EVT-101833,SH11833,Denver,1809,5,2023-12-30,2023-12-30,Delivered,Normal Delivery
+EVT-101834,SH11834,Detroit,1478,3,2023-10-18,2023-10-18,Delivered,Normal Delivery
+EVT-101835,SH11835,Portland,1811,6,2023-04-26,2023-04-26,Delivered,Normal Delivery
+EVT-101836,SH11836,Miami,1145,4,2023-07-02,2023-07-02,Delivered,Normal Delivery
+EVT-101837,SH11837,Los Angeles,2106,5,2023-11-07,2023-11-07,Delivered,Normal Delivery
+EVT-101838,SH11838,Houston,629,2,2023-11-06,2023-11-06,Delivered,Normal Delivery
+EVT-101839,SH11839,Portland,1809,4,2023-08-12,2023-08-12,Delivered,Normal Delivery
+EVT-101840,SH11840,Los Angeles,113,4,2023-11-28,2023-11-28,In Transit,Active Network Transit
+EVT-101841,SH11841,Dallas,2462,5,2023-03-04,2023-03-17,Delayed,Weather Disruption
+EVT-101842,SH11842,Detroit,503,3,2023-08-30,2023-08-30,Delivered,Normal Delivery
+EVT-101843,SH11843,Houston,1460,4,2023-03-20,2023-03-20,Delivered,Normal Delivery
+EVT-101844,SH11844,Dallas,1518,6,2023-01-21,2023-01-21,Delivered,Normal Delivery
+EVT-101845,SH11845,San Francisco,489,4,2023-01-19,2023-01-19,In Transit,Active Network Transit
+EVT-101846,SH11846,Denver,491,2,2023-09-09,2023-09-09,Delivered,Normal Delivery
+EVT-101847,SH11847,Detroit,464,3,2023-02-21,2023-02-28,Delayed,Carrier Hub Congestion
+EVT-101848,SH11848,Minneapolis,1521,6,2023-08-07,2023-08-15,Delayed,High Holiday Volume
+EVT-101849,SH11849,Atlanta,1814,5,2023-07-24,2023-07-24,Delivered,Normal Delivery
+EVT-101850,SH11850,Portland,2220,6,2023-05-23,2023-05-23,Delivered,Normal Delivery
+EVT-101851,SH11851,Portland,2420,6,2023-04-13,2023-04-13,Delivered,Normal Delivery
+EVT-101852,SH11852,Atlanta,613,5,2023-02-28,2023-03-02,Delayed,Weather Disruption
+EVT-101853,SH11853,San Francisco,2170,6,2023-08-13,2023-08-13,Delivered,Normal Delivery
+EVT-101854,SH11854,Los Angeles,451,2,2023-07-29,2023-07-29,Delivered,Normal Delivery
+EVT-101855,SH11855,Dallas,1052,7,2023-12-28,2024-01-08,Delayed,Routing Deviation
+EVT-101856,SH11856,Portland,379,2,2023-01-29,2023-02-08,Delayed,Last-Mile Mechanical Failure
+EVT-101857,SH11857,Phoenix,1931,5,2023-03-17,2023-03-17,Delivered,Normal Delivery
+EVT-101858,SH11858,Minneapolis,2449,8,2023-05-30,2023-05-30,Delivered,Normal Delivery
+EVT-101859,SH11859,Atlanta,800,4,2023-02-11,2023-02-11,Delivered,Normal Delivery
+EVT-101860,SH11860,Dallas,1323,3,2023-07-26,2023-07-26,Delivered,Normal Delivery
+EVT-101861,SH11861,Detroit,510,5,2023-06-05,2023-06-05,Delivered,Normal Delivery
+EVT-101862,SH11862,San Francisco,465,3,2023-11-27,2023-11-27,Delivered,Normal Delivery
+EVT-101863,SH11863,Chicago,664,4,2023-01-18,2023-01-18,Delivered,Normal Delivery
+EVT-101864,SH11864,New York,2356,6,2023-07-17,2023-07-17,Delivered,Normal Delivery
+EVT-101865,SH11865,New York,944,3,2023-06-07,2023-06-07,Lost,Lost in Hub Transit
+EVT-101866,SH11866,Denver,1746,8,2023-11-05,2023-11-05,Delivered,Normal Delivery
+EVT-101867,SH11867,Portland,2067,4,2023-03-11,2023-03-11,Delivered,Normal Delivery
+EVT-101868,SH11868,Boston,1053,4,2023-05-05,2023-05-05,Delivered,Normal Delivery
+EVT-101869,SH11869,Los Angeles,447,2,2023-10-05,2023-10-05,Delivered,Normal Delivery
+EVT-101870,SH11870,Houston,1834,4,2023-01-10,2023-01-10,Delivered,Normal Delivery
+EVT-101871,SH11871,Chicago,677,3,2023-08-24,2023-08-24,In Transit,Active Network Transit
+EVT-101872,SH11872,New York,1780,6,2023-11-11,2023-11-11,Delivered,Normal Delivery
+EVT-101873,SH11873,Detroit,283,2,2023-12-03,2023-12-03,Delivered,Normal Delivery
+EVT-101874,SH11874,Houston,2393,5,2023-07-24,2023-07-24,Delivered,Normal Delivery
+EVT-101875,SH11875,Denver,1000,5,2023-10-30,2023-10-30,Delivered,Normal Delivery
+EVT-101876,SH11876,Dallas,351,1,2023-04-18,2023-04-18,Delivered,Normal Delivery
+EVT-101877,SH11877,Seattle,1135,5,2023-01-08,2023-01-08,Delivered,Normal Delivery
+EVT-101878,SH11878,Seattle,1794,4,2023-03-08,2023-03-08,Delivered,Normal Delivery
+EVT-101879,SH11879,Seattle,1919,4,2023-08-21,2023-08-21,Delivered,Normal Delivery
+EVT-101880,SH11880,Minneapolis,801,3,2023-08-06,2023-08-06,Delivered,Normal Delivery
+EVT-101881,SH11881,Miami,218,2,2023-11-14,2023-11-14,Delivered,Normal Delivery
+EVT-101882,SH11882,Phoenix,373,4,2023-08-04,2023-08-04,Delivered,Normal Delivery
+EVT-101883,SH11883,Boston,1306,4,2023-11-29,2023-11-29,Delivered,Normal Delivery
+EVT-101884,SH11884,Minneapolis,2247,7,2023-07-31,2023-07-31,Delivered,Normal Delivery
+EVT-101885,SH11885,Los Angeles,1603,4,2023-09-14,2023-09-14,Delivered,Normal Delivery
+EVT-101886,SH11886,Detroit,1099,3,2023-11-15,2023-11-15,Delivered,Normal Delivery
+EVT-101887,SH11887,Miami,1012,5,2023-12-02,2023-12-02,Returned,Customer Refused / Delivery Failed
+EVT-101888,SH11888,San Francisco,392,2,2023-09-03,2023-09-03,Delivered,Normal Delivery
+EVT-101889,SH11889,Detroit,2012,7,2023-06-01,2023-06-01,Delivered,Normal Delivery
+EVT-101890,SH11890,Seattle,2273,7,2023-05-28,2023-05-28,Delivered,Normal Delivery
+EVT-101891,SH11891,New York,1743,5,2023-12-26,2023-12-26,In Transit,Active Network Transit
+EVT-101892,SH11892,Atlanta,1919,4,2023-06-28,2023-06-28,Delivered,Normal Delivery
+EVT-101893,SH11893,Chicago,1506,4,2023-06-17,2023-06-17,Delivered,Normal Delivery
+EVT-101894,SH11894,Miami,2053,6,2023-10-20,2023-10-20,Delivered,Normal Delivery
+EVT-101895,SH11895,Denver,1000,3,2023-08-31,2023-08-31,Delivered,Normal Delivery
+EVT-101896,SH11896,Minneapolis,2141,8,2023-09-07,2023-09-07,Delivered,Normal Delivery
+EVT-101897,SH11897,Seattle,2225,5,2023-12-29,2023-12-29,Delivered,Normal Delivery
+EVT-101898,SH11898,Miami,1350,3,2023-05-05,2023-05-05,Delivered,Normal Delivery
+EVT-101899,SH11899,Los Angeles,2393,6,2023-11-22,2023-11-22,Delivered,Normal Delivery
+EVT-101900,SH11900,Atlanta,620,2,2023-12-14,2023-12-22,Delayed,Routing Deviation
+EVT-101901,SH11901,Seattle,2018,5,2023-05-18,2023-05-18,Delivered,Normal Delivery
+EVT-101902,SH11902,Minneapolis,1949,4,2023-07-12,2023-07-12,Delivered,Normal Delivery
+EVT-101903,SH11903,Atlanta,800,3,2023-05-15,2023-05-15,Delivered,Normal Delivery
+EVT-101904,SH11904,Detroit,2307,5,2023-03-13,2023-03-13,Delivered,Normal Delivery
+EVT-101905,SH11905,Detroit,2041,6,2023-01-18,2023-01-18,Delivered,Normal Delivery
+EVT-101906,SH11906,New York,628,3,2023-06-22,2023-06-22,Delivered,Normal Delivery
+EVT-101907,SH11907,Portland,1852,7,2023-01-22,2023-01-22,Lost,Lost in Hub Transit
+EVT-101908,SH11908,Los Angeles,162,2,2023-03-04,2023-03-04,Delivered,Normal Delivery
+EVT-101909,SH11909,Chicago,1995,6,2023-05-23,2023-05-23,Returned,Customer Refused / Delivery Failed
+EVT-101910,SH11910,Minneapolis,1469,9,2023-09-24,2023-09-24,Delivered,Normal Delivery
+EVT-101911,SH11911,Denver,1000,4,2023-02-02,2023-02-02,Delivered,Normal Delivery
+EVT-101912,SH11912,Portland,2187,7,2023-05-28,2023-05-28,Delivered,Normal Delivery
+EVT-101913,SH11913,Miami,1875,4,2023-02-10,2023-02-10,Delivered,Normal Delivery
+EVT-101914,SH11914,Houston,1705,4,2023-10-10,2023-10-10,Delivered,Normal Delivery
+EVT-101915,SH11915,New York,409,4,2023-08-13,2023-08-13,Delivered,Normal Delivery
+EVT-101916,SH11916,Seattle,513,2,2023-06-17,2023-06-17,Delivered,Normal Delivery
+EVT-101917,SH11917,Denver,1974,7,2023-04-24,2023-04-24,Delivered,Normal Delivery
+EVT-101918,SH11918,Boston,215,1,2023-12-09,2023-12-11,Delayed,Carrier Hub Congestion
+EVT-101919,SH11919,Seattle,284,2,2023-04-23,2023-04-23,Delivered,Normal Delivery
+EVT-101920,SH11920,Portland,1128,3,2023-11-04,2023-11-04,Lost,Lost in Hub Transit
+EVT-101921,SH11921,San Francisco,231,1,2023-09-11,2023-09-11,Delivered,Normal Delivery
+EVT-101922,SH11922,Denver,542,4,2023-02-02,2023-02-02,Delivered,Normal Delivery
+EVT-101923,SH11923,New York,636,1,2023-06-16,2023-06-16,Delivered,Normal Delivery
+EVT-101924,SH11924,Portland,1438,5,2023-08-07,2023-08-07,Delivered,Normal Delivery
+EVT-101925,SH11925,Phoenix,822,2,2023-06-25,2023-06-25,Delivered,Normal Delivery
+EVT-101926,SH11926,Phoenix,744,3,2023-10-14,2023-10-14,Delivered,Normal Delivery
+EVT-101927,SH11927,Portland,1549,5,2023-07-31,2023-07-31,Delivered,Normal Delivery
+EVT-101928,SH11928,Phoenix,373,3,2023-02-03,2023-02-03,Delivered,Normal Delivery
+EVT-101929,SH11929,Miami,2478,6,2023-04-28,2023-04-28,Delivered,Normal Delivery
+EVT-101930,SH11930,Seattle,142,1,2023-04-05,2023-04-05,Delivered,Normal Delivery
+EVT-101931,SH11931,Seattle,1135,3,2023-09-14,2023-09-14,Delivered,Normal Delivery
+EVT-101932,SH11932,Denver,1467,3,2023-12-14,2023-12-14,Delivered,Normal Delivery
+EVT-101933,SH11933,Miami,2353,6,2023-08-10,2023-08-10,Delivered,Normal Delivery
+EVT-101934,SH11934,Detroit,1163,3,2023-03-06,2023-03-06,Delivered,Normal Delivery
+EVT-101935,SH11935,Detroit,283,1,2023-06-27,2023-06-27,Delivered,Normal Delivery
+EVT-101936,SH11936,Dallas,1068,3,2023-12-03,2023-12-03,Delivered,Normal Delivery
+EVT-101937,SH11937,Boston,1875,5,2023-12-21,2023-12-21,Delivered,Normal Delivery
+EVT-101938,SH11938,Detroit,2430,7,2023-11-28,2023-11-28,Delivered,Normal Delivery
+EVT-101939,SH11939,Portland,505,2,2023-04-16,2023-04-16,Delivered,Normal Delivery
+EVT-101940,SH11940,Seattle,1135,5,2023-07-10,2023-07-10,Delivered,Normal Delivery
+EVT-101941,SH11941,Minneapolis,1868,4,2023-06-22,2023-06-22,Lost,Lost in Hub Transit
+EVT-101942,SH11942,Portland,2191,7,2023-10-31,2023-10-31,Delivered,Normal Delivery
+EVT-101943,SH11943,Chicago,971,2,2023-09-02,2023-09-02,Delivered,Normal Delivery
+EVT-101944,SH11944,New York,1899,6,2024-01-04,2024-01-04,Delivered,Normal Delivery
+EVT-101945,SH11945,Chicago,1754,4,2023-03-02,2023-03-02,Delivered,Normal Delivery
+EVT-101946,SH11946,Houston,956,3,2023-09-13,2023-09-13,In Transit,Active Network Transit
+EVT-101947,SH11947,Los Angeles,2114,6,2023-08-02,2023-08-02,Delivered,Normal Delivery
+EVT-101948,SH11948,Portland,1084,3,2023-09-16,2023-09-16,Delivered,Normal Delivery
+EVT-101949,SH11949,Houston,1375,4,2023-04-26,2023-04-26,Delivered,Normal Delivery
+EVT-101950,SH11950,Denver,1030,3,2023-06-19,2023-06-19,Delivered,Normal Delivery
+EVT-101951,SH11951,Los Angeles,169,2,2023-12-21,2023-12-21,Delivered,Normal Delivery
+EVT-101952,SH11952,New York,706,3,2023-03-03,2023-03-03,Delivered,Normal Delivery
+EVT-101953,SH11953,Los Angeles,985,3,2023-02-21,2023-02-21,Delivered,Normal Delivery
+EVT-101954,SH11954,Denver,506,2,2023-06-11,2023-06-12,Delayed,Carrier Hub Congestion
+EVT-101955,SH11955,Atlanta,545,4,2023-03-11,2023-03-11,Delivered,Normal Delivery
+EVT-101956,SH11956,Dallas,1116,3,2023-01-28,2023-01-28,Delivered,Normal Delivery
+EVT-101957,SH11957,Chicago,992,3,2023-02-28,2023-02-28,Delivered,Normal Delivery
+EVT-101958,SH11958,Boston,1921,6,2023-08-14,2023-08-14,In Transit,Active Network Transit
+EVT-101959,SH11959,New York,247,1,2023-01-26,2023-01-26,Delivered,Normal Delivery
+EVT-101960,SH11960,Boston,1734,5,2023-10-25,2023-10-25,Delivered,Normal Delivery
+EVT-101961,SH11961,Chicago,1515,4,2023-10-05,2023-10-05,Delivered,Normal Delivery
+EVT-101962,SH11962,Phoenix,373,4,2023-05-02,2023-05-07,Delayed,Routing Deviation
+EVT-101963,SH11963,San Francisco,1900,6,2023-11-27,2023-11-27,Delivered,Normal Delivery
+EVT-101964,SH11964,Los Angeles,2317,8,2023-09-15,2023-09-15,Delivered,Normal Delivery
+EVT-101965,SH11965,Houston,2300,7,2023-01-10,2023-01-10,Delivered,Normal Delivery
+EVT-101966,SH11966,Dallas,2226,6,2023-02-11,2023-02-11,Delivered,Normal Delivery
+EVT-101967,SH11967,Denver,826,5,2023-03-21,2023-03-21,Delivered,Normal Delivery
+EVT-101968,SH11968,Seattle,1577,7,2023-02-03,2023-02-03,Delivered,Normal Delivery
+EVT-101969,SH11969,Dallas,1435,3,2023-10-10,2023-10-10,Delivered,Normal Delivery
+EVT-101970,SH11970,Dallas,943,3,2023-11-13,2023-11-13,Delivered,Normal Delivery
+EVT-101971,SH11971,Chicago,1843,4,2023-03-14,2023-03-14,Delivered,Normal Delivery
+EVT-101972,SH11972,Houston,209,1,2023-06-30,2023-06-30,Delivered,Normal Delivery
+EVT-101973,SH11973,Houston,1711,4,2023-05-27,2023-05-27,Delivered,Normal Delivery
+EVT-101974,SH11974,Houston,693,4,2023-08-13,2023-08-13,Delivered,Normal Delivery
+EVT-101975,SH11975,Houston,998,2,2023-12-18,2023-12-18,Delivered,Normal Delivery
+EVT-101976,SH11976,Dallas,1435,4,2023-09-11,2023-09-11,Delivered,Normal Delivery
+EVT-101977,SH11977,Houston,2345,6,2023-05-16,2023-05-23,Delayed,Weather Disruption
+EVT-101978,SH11978,Atlanta,2030,5,2023-04-29,2023-04-29,Delivered,Normal Delivery
+EVT-101979,SH11979,Portland,1675,5,2023-05-10,2023-05-10,Delivered,Normal Delivery
+EVT-101980,SH11980,Detroit,1813,6,2023-03-09,2023-03-09,Delivered,Normal Delivery
+EVT-101981,SH11981,New York,596,2,2023-02-21,2023-02-21,Delivered,Normal Delivery
+EVT-101982,SH11982,Minneapolis,1174,8,2023-03-19,2023-03-19,Delivered,Normal Delivery
+EVT-101983,SH11983,Atlanta,145,1,2023-05-17,2023-05-17,Delivered,Normal Delivery
+EVT-101984,SH11984,Denver,111,1,2023-10-30,2023-10-30,Delivered,Normal Delivery
+EVT-101985,SH11985,New York,2018,5,2023-10-03,2023-10-03,Delivered,Normal Delivery
+EVT-101986,SH11986,Detroit,236,3,2023-10-15,2023-10-17,Delayed,Weather Disruption
+EVT-101987,SH11987,Miami,948,3,2023-08-04,2023-08-04,Delivered,Normal Delivery
+EVT-101988,SH11988,Atlanta,2309,8,2023-01-26,2023-01-26,Delivered,Normal Delivery
+EVT-101989,SH11989,Miami,1350,5,2023-12-12,2023-12-12,Delivered,Normal Delivery
+EVT-101990,SH11990,Chicago,1877,5,2023-02-18,2023-02-18,Delivered,Normal Delivery
+EVT-101991,SH11991,Seattle,2300,6,2023-07-03,2023-07-03,Delivered,Normal Delivery
+EVT-101992,SH11992,Portland,177,1,2023-10-05,2023-10-05,Delivered,Normal Delivery
+EVT-101993,SH11993,Boston,2350,6,2023-06-15,2023-06-15,Delivered,Normal Delivery
+EVT-101994,SH11994,Seattle,237,2,2023-11-12,2023-11-12,Delivered,Normal Delivery
+EVT-101995,SH11995,San Francisco,1616,5,2023-01-23,2023-01-23,Delivered,Normal Delivery
+EVT-101996,SH11996,Phoenix,1708,5,2023-11-01,2023-11-01,Delivered,Normal Delivery
+EVT-101997,SH11997,Portland,1912,6,2023-02-19,2023-02-19,Delivered,Normal Delivery
+EVT-101998,SH11998,Detroit,2188,5,2023-10-22,2023-10-22,Delivered,Normal Delivery
+EVT-101999,SH11999,Portland,2321,7,2023-07-15,,Delivered,Normal Delivery

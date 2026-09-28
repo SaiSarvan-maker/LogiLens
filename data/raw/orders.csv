@@ -1,0 +1,2001 @@
+Order_ID,Customer_ID,Order_Date,Product_Type,Priority,Order_Quantity,Order_Value_USD
+ORD-10000,CUST-10861,2023-10-01,Consumer Electronics,Express,1,245.67
+ORD-10001,CUST-13445,2023-12-06,Healthcare & Medical,Express,3,433.25
+ORD-10002,CUST-14556,2023-09-18,Home & Kitchen,Standard,2,218.82
+ORD-10003,CUST-11807,2023-01-26,Apparel & Footwear,Express,2,162.34
+ORD-10004,CUST-12889,2023-06-01,Consumer Electronics,Same-Day,2,475.79
+ORD-10005,CUST-11479,2023-09-13,Healthcare & Medical,Express,1,178.99
+ORD-10006,CUST-11022,2023-10-19,Apparel & Footwear,Standard,6,403.82
+ORD-10007,CUST-11017,2023-02-26,Industrial & Auto Parts,Express,4,718.33
+ORD-10008,CUST-13885,2023-11-23,Consumer Electronics,Same-Day,1,261.7
+ORD-10009,CUST-10392,2023-01-19,Home & Kitchen,Express,1,128.84
+ORD-10010,CUST-14876,2023-02-01,Apparel & Footwear,Standard,3,221.25
+ORD-10011,CUST-12691,2023-05-27,Home & Kitchen,Standard,2,176.14
+ORD-10012,CUST-10864,2023-08-07,Home & Kitchen,Standard,2,209.0
+ORD-10013,CUST-11060,2023-12-27,Industrial & Auto Parts,Standard,3,550.54
+ORD-10014,CUST-13628,2023-07-23,Apparel & Footwear,Express,1,86.03
+ORD-10015,CUST-12238,2023-05-09,Consumer Electronics,Standard,2,467.98
+ORD-10016,CUST-14745,2023-01-24,Healthcare & Medical,Express,1,154.84
+ORD-10017,CUST-11496,2023-06-06,Home & Kitchen,Standard,2,188.54
+ORD-10018,CUST-13697,2023-10-14,Industrial & Auto Parts,Standard,1,195.53
+ORD-10019,CUST-13475,2023-01-15,Home & Kitchen,Standard,2,191.63
+ORD-10020,CUST-14497,2023-08-09,Home & Kitchen,Standard,2,212.59
+ORD-10021,CUST-11148,2023-08-21,Healthcare & Medical,Express,1,177.0
+ORD-10022,CUST-10147,2023-07-19,Apparel & Footwear,Standard,3,233.08
+ORD-10023,CUST-14062,2023-10-26,Home & Kitchen,Standard,2,219.83
+ORD-10024,CUST-13724,2023-08-11,Healthcare & Medical,Express,4,604.95
+ORD-10025,CUST-14724,2023-04-25,Consumer Electronics,Standard,1,229.57
+ORD-10026,CUST-10099,2023-12-29,Industrial & Auto Parts,Standard,3,530.81
+ORD-10027,CUST-14494,2023-12-29,Apparel & Footwear,Express,3,216.55
+ORD-10028,CUST-11694,2023-12-13,Industrial & Auto Parts,Standard,4,713.79
+ORD-10029,CUST-10816,2023-06-26,Apparel & Footwear,Standard,4,265.7
+ORD-10030,CUST-12328,2023-11-03,Apparel & Footwear,Standard,1,83.76
+ORD-10031,CUST-12976,2023-07-04,Perishables & Grocery,Standard,4,212.68
+ORD-10032,CUST-12902,2023-09-26,Apparel & Footwear,Standard,2,166.9
+ORD-10033,CUST-12807,2023-03-25,Apparel & Footwear,Standard,1,70.23
+ORD-10034,CUST-14116,2023-02-20,Home & Kitchen,Express,2,179.23
+ORD-10035,CUST-12775,2023-07-16,Home & Kitchen,Standard,4,358.65
+ORD-10036,CUST-12492,2023-06-01,Apparel & Footwear,Express,3,218.51
+ORD-10037,CUST-14365,2023-11-06,Industrial & Auto Parts,Express,2,366.29
+ORD-10038,CUST-10117,2023-11-03,Consumer Electronics,Standard,1,266.18
+ORD-10039,CUST-12850,2023-12-08,Industrial & Auto Parts,Standard,4,737.85
+ORD-10040,CUST-13148,2023-10-04,Healthcare & Medical,Standard,1,149.24
+ORD-10041,CUST-12142,2023-05-12,Perishables & Grocery,Express,1,72.12
+ORD-10042,CUST-14647,2023-12-28,Apparel & Footwear,Standard,1,112.71
+ORD-10043,CUST-12850,2023-03-07,Apparel & Footwear,Standard,3,242.48
+ORD-10044,CUST-14593,2023-05-06,Consumer Electronics,Standard,2,481.5
+ORD-10045,CUST-13499,2023-04-22,Industrial & Auto Parts,Standard,2,359.54
+ORD-10046,CUST-13970,2023-09-04,Consumer Electronics,Standard,3,676.73
+ORD-10047,CUST-13975,2023-01-16,Consumer Electronics,Express,4,918.78
+ORD-10048,CUST-12787,2023-04-22,Industrial & Auto Parts,Standard,4,738.79
+ORD-10049,CUST-12915,2023-01-06,Industrial & Auto Parts,Express,3,530.49
+ORD-10050,CUST-14172,2023-08-05,Apparel & Footwear,Same-Day,2,139.13
+ORD-10051,CUST-12939,2023-02-22,Consumer Electronics,Same-Day,1,266.89
+ORD-10052,CUST-12983,2023-01-26,Industrial & Auto Parts,Standard,7,1240.02
+ORD-10053,CUST-12994,2023-02-17,Perishables & Grocery,Standard,2,134.62
+ORD-10054,CUST-11681,2023-05-10,Industrial & Auto Parts,Same-Day,1,214.97
+ORD-10055,CUST-12215,2023-09-27,Apparel & Footwear,Express,1,91.09
+ORD-10056,CUST-11082,2023-04-12,Home & Kitchen,Express,2,193.01
+ORD-10057,CUST-11532,2023-10-25,Apparel & Footwear,Express,1,113.64
+ORD-10058,CUST-11853,2023-10-09,Apparel & Footwear,Standard,3,207.48
+ORD-10059,CUST-13377,2023-10-31,Home & Kitchen,Standard,2,187.64
+ORD-10060,CUST-12784,2023-10-10,Industrial & Auto Parts,Standard,1,209.11
+ORD-10061,CUST-13720,2023-08-04,Apparel & Footwear,Standard,4,301.62
+ORD-10062,CUST-12780,2023-05-23,Industrial & Auto Parts,Standard,4,744.45
+ORD-10063,CUST-11016,2023-07-14,Apparel & Footwear,Express,1,87.14
+ORD-10064,CUST-13926,2023-10-13,Consumer Electronics,Standard,1,231.02
+ORD-10065,CUST-10405,2023-04-21,Industrial & Auto Parts,Express,6,1075.27
+ORD-10066,CUST-12049,2023-04-02,Industrial & Auto Parts,Standard,3,560.22
+ORD-10067,CUST-10674,2023-06-10,Healthcare & Medical,Express,2,320.63
+ORD-10068,CUST-14720,2023-08-31,Healthcare & Medical,Standard,6,869.97
+ORD-10069,CUST-12483,2023-05-30,Industrial & Auto Parts,Standard,5,921.7
+ORD-10070,CUST-12833,2023-04-15,Apparel & Footwear,Standard,2,145.81
+ORD-10071,CUST-10761,2023-06-19,Apparel & Footwear,Standard,1,101.34
+ORD-10072,CUST-10281,2023-03-03,Perishables & Grocery,Standard,1,51.84
+ORD-10073,CUST-14700,2023-09-10,Healthcare & Medical,Standard,3,439.85
+ORD-10074,CUST-12297,2023-02-26,Industrial & Auto Parts,Express,1,180.12
+ORD-10075,CUST-12056,2023-07-30,Home & Kitchen,Standard,2,191.6
+ORD-10076,CUST-13288,2023-11-12,Home & Kitchen,Standard,1,120.92
+ORD-10077,CUST-10919,2023-07-31,Healthcare & Medical,Standard,2,297.12
+ORD-10078,CUST-14581,2023-11-27,Consumer Electronics,Standard,1,249.09
+ORD-10079,CUST-14633,2023-06-29,Perishables & Grocery,Standard,2,119.17
+ORD-10080,CUST-14008,2023-04-03,Apparel & Footwear,Standard,2,151.02
+ORD-10081,CUST-10877,2023-03-14,Apparel & Footwear,Same-Day,1,91.95
+ORD-10082,CUST-13422,2023-05-07,Consumer Electronics,Standard,1,248.6
+ORD-10083,CUST-11064,2023-11-02,Home & Kitchen,Same-Day,2,218.88
+ORD-10084,CUST-12552,2023-07-01,Home & Kitchen,Express,3,303.56
+ORD-10085,CUST-11811,2023-04-05,Consumer Electronics,Express,2,467.77
+ORD-10086,CUST-12027,2023-11-21,Healthcare & Medical,Standard,2,315.81
+ORD-10087,CUST-11620,2023-11-20,Apparel & Footwear,Express,2,150.7
+ORD-10088,CUST-14028,2023-06-20,Industrial & Auto Parts,Standard,2,388.35
+ORD-10089,CUST-12966,2023-11-08,Industrial & Auto Parts,Express,3,540.61
+ORD-10090,CUST-10078,2023-01-25,Healthcare & Medical,Standard,3,445.82
+ORD-10091,CUST-14671,2023-11-26,Healthcare & Medical,Standard,3,430.26
+ORD-10092,CUST-11203,2023-04-25,Apparel & Footwear,Standard,4,279.03
+ORD-10093,CUST-10951,2023-03-02,Consumer Electronics,Standard,2,469.14
+ORD-10094,CUST-14911,2023-04-16,Perishables & Grocery,Standard,1,60.32
+ORD-10095,CUST-12892,2023-06-30,Home & Kitchen,Standard,5,440.23
+ORD-10096,CUST-10815,2023-08-18,Apparel & Footwear,Standard,1,81.52
+ORD-10097,CUST-11640,2023-09-18,Consumer Electronics,Same-Day,3,690.93
+ORD-10098,CUST-13450,2023-05-10,Consumer Electronics,Standard,2,455.62
+ORD-10099,CUST-13418,2023-07-16,Perishables & Grocery,Standard,3,142.46
+ORD-10100,CUST-10202,2023-04-09,Perishables & Grocery,Standard,3,155.61
+ORD-10101,CUST-10418,2023-08-28,Consumer Electronics,Standard,2,452.45
+ORD-10102,CUST-13573,2023-07-16,Industrial & Auto Parts,Standard,1,209.86
+ORD-10103,CUST-10967,2023-01-13,Industrial & Auto Parts,Standard,2,368.48
+ORD-10104,CUST-11760,2023-12-12,Consumer Electronics,Express,2,446.64
+ORD-10105,CUST-10286,2023-04-22,Perishables & Grocery,Standard,3,162.37
+ORD-10106,CUST-13336,2023-08-18,Perishables & Grocery,Same-Day,2,96.14
+ORD-10107,CUST-11824,2023-07-30,Home & Kitchen,Express,1,120.24
+ORD-10108,CUST-10328,2023-08-15,Consumer Electronics,Express,2,455.94
+ORD-10109,CUST-11312,2023-12-12,Perishables & Grocery,Express,2,135.34
+ORD-10110,CUST-14426,2023-09-22,Consumer Electronics,Standard,1,243.96
+ORD-10111,CUST-10514,2023-05-23,Industrial & Auto Parts,Standard,2,392.38
+ORD-10112,CUST-10805,2023-02-01,Apparel & Footwear,Standard,3,239.08
+ORD-10113,CUST-14224,2023-06-06,Consumer Electronics,Standard,3,694.03
+ORD-10114,CUST-12542,2023-04-03,Industrial & Auto Parts,Standard,1,221.14
+ORD-10115,CUST-13925,2023-07-20,Perishables & Grocery,Standard,3,146.3
+ORD-10116,CUST-12075,2023-01-04,Industrial & Auto Parts,Express,2,396.15
+ORD-10117,CUST-12970,2023-05-17,Apparel & Footwear,Express,2,139.07
+ORD-10118,CUST-14890,2023-03-23,Consumer Electronics,Express,6,1346.77
+ORD-10119,CUST-10751,2023-07-10,Apparel & Footwear,Standard,2,169.69
+ORD-10120,CUST-11525,2023-09-25,Apparel & Footwear,Standard,3,203.5
+ORD-10121,CUST-14204,2023-03-05,Home & Kitchen,Standard,1,131.28
+ORD-10122,CUST-13005,2023-05-17,Perishables & Grocery,Express,1,93.12
+ORD-10123,CUST-10339,2023-08-09,Home & Kitchen,Express,3,269.95
+ORD-10124,CUST-13994,2023-04-05,Consumer Electronics,Express,4,890.42
+ORD-10125,CUST-14233,2023-06-27,Consumer Electronics,Standard,2,465.48
+ORD-10126,CUST-11467,2023-09-01,Consumer Electronics,Standard,1,228.46
+ORD-10127,CUST-12984,2023-10-04,Apparel & Footwear,Standard,4,284.21
+ORD-10128,CUST-11132,2023-10-16,Healthcare & Medical,Standard,1,184.36
+ORD-10129,CUST-13213,2023-04-17,Apparel & Footwear,Same-Day,1,72.37
+ORD-10130,CUST-12033,2023-11-30,Apparel & Footwear,Standard,4,298.19
+ORD-10131,CUST-13761,2023-05-25,Consumer Electronics,Standard,1,226.89
+ORD-10132,CUST-10705,2023-07-07,Industrial & Auto Parts,Standard,1,223.04
+ORD-10133,CUST-11829,2023-12-22,Home & Kitchen,Standard,4,389.6
+ORD-10134,CUST-10885,2023-01-03,Perishables & Grocery,Standard,1,93.08
+ORD-10135,CUST-13846,2023-09-15,Consumer Electronics,Standard,3,688.19
+ORD-10136,CUST-10850,2023-11-02,Home & Kitchen,Standard,1,114.16
+ORD-10137,CUST-12377,2023-02-09,Perishables & Grocery,Express,1,71.45
+ORD-10138,CUST-11219,2023-11-06,Consumer Electronics,Express,2,463.38
+ORD-10139,CUST-10975,2023-03-10,Consumer Electronics,Express,2,485.25
+ORD-10140,CUST-14689,2023-12-01,Consumer Electronics,Express,5,1128.46
+ORD-10141,CUST-12384,2023-10-13,Home & Kitchen,Express,5,437.14
+ORD-10142,CUST-10557,2023-01-04,Perishables & Grocery,Standard,1,65.08
+ORD-10143,CUST-13742,2023-02-04,Industrial & Auto Parts,Standard,2,358.78
+ORD-10144,CUST-11691,2023-05-04,Industrial & Auto Parts,Standard,3,564.25
+ORD-10145,CUST-14682,2023-07-02,Apparel & Footwear,Express,1,105.5
+ORD-10146,CUST-14580,2023-08-11,Consumer Electronics,Standard,1,251.2
+ORD-10147,CUST-12753,2023-07-12,Industrial & Auto Parts,Standard,4,722.26
+ORD-10148,CUST-10029,2023-07-24,Consumer Electronics,Standard,3,709.87
+ORD-10149,CUST-10039,2023-05-21,Healthcare & Medical,Express,3,464.06
+ORD-10150,CUST-13454,2023-05-25,Consumer Electronics,Standard,2,457.34
+ORD-10151,CUST-14666,2023-11-14,Perishables & Grocery,Standard,1,79.33
+ORD-10152,CUST-12256,2023-03-29,Healthcare & Medical,Standard,1,151.91
+ORD-10153,CUST-11051,2023-11-01,Perishables & Grocery,Express,1,51.46
+ORD-10154,CUST-12947,2023-05-15,Industrial & Auto Parts,Standard,2,380.13
+ORD-10155,CUST-11017,2023-07-21,Consumer Electronics,Express,3,685.91
+ORD-10156,CUST-12014,2023-03-06,Industrial & Auto Parts,Standard,4,726.62
+ORD-10157,CUST-11577,2023-05-04,Consumer Electronics,Same-Day,3,665.44
+ORD-10158,CUST-10002,2023-12-07,Healthcare & Medical,Express,2,328.99
+ORD-10159,CUST-10090,2023-05-13,Home & Kitchen,Express,1,118.64
+ORD-10160,CUST-10635,2023-11-12,Consumer Electronics,Same-Day,5,1141.67
+ORD-10161,CUST-12055,2023-09-18,Home & Kitchen,Standard,2,182.38
+ORD-10162,CUST-14110,2023-03-13,Consumer Electronics,Standard,2,488.91
+ORD-10163,CUST-13428,2023-10-16,Home & Kitchen,Express,1,97.28
+ORD-10164,CUST-11990,2023-09-17,Home & Kitchen,Standard,2,205.61
+ORD-10165,CUST-10353,2023-11-17,Perishables & Grocery,Standard,4,207.72
+ORD-10166,CUST-11713,2023-05-06,Healthcare & Medical,Standard,3,454.48
+ORD-10167,CUST-14851,2023-08-22,Healthcare & Medical,Express,3,457.21
+ORD-10168,CUST-14574,2023-07-23,Consumer Electronics,Standard,2,456.13
+ORD-10169,CUST-14477,2023-08-31,Industrial & Auto Parts,Standard,1,197.6
+ORD-10170,CUST-12041,2023-09-25,Apparel & Footwear,Express,3,210.56
+ORD-10171,CUST-13082,2023-09-14,Consumer Electronics,Standard,2,456.19
+ORD-10172,CUST-12361,2023-04-23,Consumer Electronics,Standard,5,1144.07
+ORD-10173,CUST-10620,2023-07-26,Healthcare & Medical,Standard,1,155.4
+ORD-10174,CUST-10282,2023-01-04,Consumer Electronics,Standard,3,671.68
+ORD-10175,CUST-11240,2023-07-18,Home & Kitchen,Standard,3,275.42
+ORD-10176,CUST-13924,2023-06-17,Industrial & Auto Parts,Standard,2,363.48
+ORD-10177,CUST-11015,2023-07-28,Home & Kitchen,Standard,1,127.72
+ORD-10178,CUST-12475,2023-06-06,Home & Kitchen,Standard,2,216.89
+ORD-10179,CUST-14910,2023-08-12,Industrial & Auto Parts,Standard,3,537.17
+ORD-10180,CUST-10575,2023-01-19,Industrial & Auto Parts,Standard,4,719.72
+ORD-10181,CUST-11638,2023-09-13,Apparel & Footwear,Express,2,148.36
+ORD-10182,CUST-10455,2022-12-31,Consumer Electronics,Standard,2,465.19
+ORD-10183,CUST-14401,2023-09-24,Healthcare & Medical,Standard,1,173.92
+ORD-10184,CUST-13849,2023-11-24,Apparel & Footwear,Express,1,85.36
+ORD-10185,CUST-10012,2023-09-19,Consumer Electronics,Standard,2,478.61
+ORD-10186,CUST-12412,2023-07-04,Industrial & Auto Parts,Standard,1,209.14
+ORD-10187,CUST-10715,2023-04-29,Apparel & Footwear,Standard,1,97.78
+ORD-10188,CUST-10373,2023-12-18,Apparel & Footwear,Standard,2,167.23
+ORD-10189,CUST-14017,2023-07-28,Industrial & Auto Parts,Express,1,218.67
+ORD-10190,CUST-13655,2023-02-19,Healthcare & Medical,Express,2,321.71
+ORD-10191,CUST-11709,2023-03-01,Home & Kitchen,Same-Day,3,287.49
+ORD-10192,CUST-12426,2023-12-09,Apparel & Footwear,Express,2,167.94
+ORD-10193,CUST-13684,2023-11-06,Apparel & Footwear,Express,3,233.16
+ORD-10194,CUST-11250,2023-02-19,Healthcare & Medical,Standard,1,154.28
+ORD-10195,CUST-11547,2023-05-13,Consumer Electronics,Standard,2,476.28
+ORD-10196,CUST-13907,2023-10-15,Apparel & Footwear,Standard,1,85.35
+ORD-10197,CUST-12350,2023-05-29,Consumer Electronics,Express,1,228.85
+ORD-10198,CUST-10073,2023-07-14,Healthcare & Medical,Standard,1,168.36
+ORD-10199,CUST-13714,2023-01-30,Home & Kitchen,Standard,2,185.39
+ORD-10200,CUST-14154,2023-12-26,Apparel & Footwear,Express,3,202.71
+ORD-10201,CUST-13884,2023-03-27,Consumer Electronics,Same-Day,1,243.43
+ORD-10202,CUST-10633,2023-12-08,Perishables & Grocery,Standard,3,183.84
+ORD-10203,CUST-13944,2023-01-30,Home & Kitchen,Standard,1,101.57
+ORD-10204,CUST-14552,2023-09-14,Home & Kitchen,Standard,2,188.64
+ORD-10205,CUST-11602,2023-03-15,Apparel & Footwear,Standard,2,177.41
+ORD-10206,CUST-14407,2023-03-15,Consumer Electronics,Express,2,462.87
+ORD-10207,CUST-12726,2023-11-01,Perishables & Grocery,Standard,4,203.13
+ORD-10208,CUST-14226,2023-09-11,Consumer Electronics,Same-Day,3,692.29
+ORD-10209,CUST-11134,2023-05-17,Perishables & Grocery,Express,3,161.52
+ORD-10210,CUST-14224,2023-10-24,Apparel & Footwear,Standard,1,98.84
+ORD-10211,CUST-11885,2023-12-14,Consumer Electronics,Standard,2,454.53
+ORD-10212,CUST-13851,2023-12-14,Home & Kitchen,Standard,1,93.36
+ORD-10213,CUST-11180,2023-08-27,Apparel & Footwear,Standard,1,92.92
+ORD-10214,CUST-11639,2023-09-21,Industrial & Auto Parts,Standard,1,218.16
+ORD-10215,CUST-11509,2023-06-07,Perishables & Grocery,Standard,2,128.01
+ORD-10216,CUST-12646,2023-08-04,Industrial & Auto Parts,Standard,3,538.54
+ORD-10217,CUST-10901,2023-12-22,Consumer Electronics,Standard,4,909.66
+ORD-10218,CUST-14799,2023-09-04,Healthcare & Medical,Standard,1,183.91
+ORD-10219,CUST-14720,2023-05-17,Home & Kitchen,Standard,3,302.99
+ORD-10220,CUST-10017,2023-07-12,Apparel & Footwear,Same-Day,1,82.57
+ORD-10221,CUST-10242,2023-09-05,Industrial & Auto Parts,Express,5,903.33
+ORD-10222,CUST-12149,2023-06-27,Consumer Electronics,Standard,2,446.6
+ORD-10223,CUST-10148,2023-06-18,Home & Kitchen,Standard,3,267.83
+ORD-10224,CUST-10773,2023-04-27,Home & Kitchen,Express,1,93.7
+ORD-10225,CUST-11247,2023-09-11,Home & Kitchen,Standard,1,101.49
+ORD-10226,CUST-11641,2023-12-10,Home & Kitchen,Standard,4,371.21
+ORD-10227,CUST-13984,2023-11-29,Perishables & Grocery,Express,2,111.75
+ORD-10228,CUST-14942,2023-05-09,Apparel & Footwear,Standard,1,78.89
+ORD-10229,CUST-10686,2023-03-12,Consumer Electronics,Same-Day,2,469.48
+ORD-10230,CUST-12197,2023-02-27,Home & Kitchen,Standard,3,284.53
+ORD-10231,CUST-12582,2023-08-30,Healthcare & Medical,Express,1,188.43
+ORD-10232,CUST-14184,2023-12-23,Apparel & Footwear,Standard,2,141.82
+ORD-10233,CUST-11305,2023-08-11,Home & Kitchen,Standard,1,101.1
+ORD-10234,CUST-11285,2023-04-28,Perishables & Grocery,Standard,3,176.68
+ORD-10235,CUST-10923,2023-05-23,Home & Kitchen,Standard,4,378.73
+ORD-10236,CUST-12635,2023-07-29,Home & Kitchen,Express,1,107.34
+ORD-10237,CUST-11044,2023-09-14,Home & Kitchen,Standard,1,98.03
+ORD-10238,CUST-12086,2023-08-24,Consumer Electronics,Standard,3,669.69
+ORD-10239,CUST-12948,2023-06-29,Healthcare & Medical,Standard,1,159.49
+ORD-10240,CUST-13391,2023-06-23,Industrial & Auto Parts,Standard,4,711.64
+ORD-10241,CUST-14279,2023-10-10,Home & Kitchen,Standard,1,126.06
+ORD-10242,CUST-11327,2023-05-23,Industrial & Auto Parts,Same-Day,3,548.45
+ORD-10243,CUST-12126,2023-08-10,Home & Kitchen,Express,1,134.08
+ORD-10244,CUST-13697,2023-04-02,Healthcare & Medical,Standard,2,323.37
+ORD-10245,CUST-14677,2023-02-15,Perishables & Grocery,Standard,2,98.63
+ORD-10246,CUST-12979,2023-03-19,Apparel & Footwear,Express,1,76.09
+ORD-10247,CUST-11620,2023-02-28,Apparel & Footwear,Same-Day,1,82.7
+ORD-10248,CUST-11244,2023-12-27,Apparel & Footwear,Standard,3,212.07
+ORD-10249,CUST-10841,2023-11-03,Healthcare & Medical,Standard,1,168.96
+ORD-10250,CUST-14001,2023-02-25,Home & Kitchen,Standard,2,214.7
+ORD-10251,CUST-11450,2023-03-01,Perishables & Grocery,Express,2,127.63
+ORD-10252,CUST-12353,2023-11-10,Apparel & Footwear,Same-Day,1,76.81
+ORD-10253,CUST-10895,2023-01-14,Apparel & Footwear,Express,1,108.71
+ORD-10254,CUST-12091,2023-02-26,Consumer Electronics,Express,1,245.62
+ORD-10255,CUST-13649,2023-11-10,Apparel & Footwear,Standard,1,108.79
+ORD-10256,CUST-14531,2023-05-19,Home & Kitchen,Standard,3,295.38
+ORD-10257,CUST-12080,2023-02-27,Apparel & Footwear,Standard,2,174.5
+ORD-10258,CUST-11750,2023-09-14,Consumer Electronics,Standard,3,669.24
+ORD-10259,CUST-11068,2023-05-27,Healthcare & Medical,Standard,5,728.55
+ORD-10260,CUST-12556,2023-07-04,Perishables & Grocery,Standard,4,216.32
+ORD-10261,CUST-12823,2023-12-22,Home & Kitchen,Standard,1,116.92
+ORD-10262,CUST-10613,2023-03-12,Home & Kitchen,Express,3,293.29
+ORD-10263,CUST-13959,2023-08-29,Industrial & Auto Parts,Standard,2,394.69
+ORD-10264,CUST-11595,2023-01-10,Consumer Electronics,Standard,3,697.92
+ORD-10265,CUST-13548,2023-01-10,Perishables & Grocery,Express,2,131.97
+ORD-10266,CUST-11900,2023-11-27,Apparel & Footwear,Standard,2,140.08
+ORD-10267,CUST-11242,2023-07-22,Consumer Electronics,Standard,2,474.3
+ORD-10268,CUST-13248,2023-11-12,Healthcare & Medical,Express,2,318.27
+ORD-10269,CUST-11090,2023-11-27,Apparel & Footwear,Standard,1,114.63
+ORD-10270,CUST-13831,2023-01-17,Healthcare & Medical,Standard,2,286.49
+ORD-10271,CUST-13701,2023-01-19,Apparel & Footwear,Express,2,175.45
+ORD-10272,CUST-11139,2023-03-26,Industrial & Auto Parts,Express,1,200.12
+ORD-10273,CUST-12598,2023-01-04,Consumer Electronics,Standard,3,683.96
+ORD-10274,CUST-14366,2023-03-13,Industrial & Auto Parts,Standard,4,748.33
+ORD-10275,CUST-12811,2023-04-15,Home & Kitchen,Standard,1,95.41
+ORD-10276,CUST-12724,2023-08-18,Consumer Electronics,Standard,2,458.38
+ORD-10277,CUST-12382,2023-03-10,Home & Kitchen,Standard,4,348.55
+ORD-10278,CUST-12525,2023-09-01,Perishables & Grocery,Standard,2,124.65
+ORD-10279,CUST-11300,2023-10-18,Consumer Electronics,Standard,1,264.08
+ORD-10280,CUST-14578,2023-10-21,Perishables & Grocery,Standard,2,129.82
+ORD-10281,CUST-11897,2023-03-22,Apparel & Footwear,Standard,5,340.54
+ORD-10282,CUST-10579,2023-03-05,Apparel & Footwear,Same-Day,3,211.45
+ORD-10283,CUST-11937,2023-11-04,Consumer Electronics,Standard,1,245.27
+ORD-10284,CUST-11645,2023-09-12,Healthcare & Medical,Standard,1,168.25
+ORD-10285,CUST-12097,2023-04-04,Consumer Electronics,Standard,1,240.25
+ORD-10286,CUST-10341,2023-02-13,Apparel & Footwear,Standard,1,82.5
+ORD-10287,CUST-14913,2023-09-18,Home & Kitchen,Standard,5,442.36
+ORD-10288,CUST-14097,2023-06-12,Apparel & Footwear,Express,2,148.35
+ORD-10289,CUST-10988,2023-07-18,Perishables & Grocery,Standard,1,61.59
+ORD-10290,CUST-10727,2023-11-08,Consumer Electronics,Express,3,691.83
+ORD-10291,CUST-10936,2023-03-07,Home & Kitchen,Standard,4,371.71
+ORD-10292,CUST-10910,2023-05-27,Home & Kitchen,Express,2,215.61
+ORD-10293,CUST-10387,2023-11-16,Healthcare & Medical,Standard,1,166.87
+ORD-10294,CUST-11999,2023-05-29,Healthcare & Medical,Standard,4,584.35
+ORD-10295,CUST-12659,2023-04-20,Consumer Electronics,Standard,1,242.29
+ORD-10296,CUST-12243,2023-03-04,Perishables & Grocery,Express,2,122.05
+ORD-10297,CUST-14001,2023-07-28,Healthcare & Medical,Standard,1,179.29
+ORD-10298,CUST-12607,2023-05-23,Consumer Electronics,Standard,2,463.43
+ORD-10299,CUST-14913,2023-11-19,Consumer Electronics,Express,3,672.53
+ORD-10300,CUST-11458,2023-06-28,Healthcare & Medical,Standard,2,286.39
+ORD-10301,CUST-11258,2023-06-21,Apparel & Footwear,Standard,1,107.6
+ORD-10302,CUST-10124,2023-09-15,Apparel & Footwear,Express,4,282.35
+ORD-10303,CUST-11302,2023-12-04,Healthcare & Medical,Standard,4,576.67
+ORD-10304,CUST-14858,2023-12-05,Consumer Electronics,Standard,3,671.26
+ORD-10305,CUST-11135,2023-08-10,Perishables & Grocery,Standard,2,130.66
+ORD-10306,CUST-10999,2023-02-26,Apparel & Footwear,Standard,1,113.38
+ORD-10307,CUST-11141,2023-02-20,Healthcare & Medical,Standard,1,178.56
+ORD-10308,CUST-11511,2023-03-14,Consumer Electronics,Express,2,465.82
+ORD-10309,CUST-12668,2023-11-09,Healthcare & Medical,Express,1,154.15
+ORD-10310,CUST-14495,2023-03-28,Healthcare & Medical,Express,3,452.1
+ORD-10311,CUST-10903,2023-07-21,Consumer Electronics,Standard,4,924.76
+ORD-10312,CUST-12491,2023-06-21,Consumer Electronics,Same-Day,3,704.24
+ORD-10313,CUST-12954,2023-12-18,Consumer Electronics,Standard,2,488.09
+ORD-10314,CUST-13235,2023-10-26,Industrial & Auto Parts,Express,1,213.2
+ORD-10315,CUST-10025,2023-06-01,Home & Kitchen,Standard,5,447.96
+ORD-10316,CUST-14898,2022-12-31,Consumer Electronics,Standard,1,240.7
+ORD-10317,CUST-10910,2023-09-10,Perishables & Grocery,Same-Day,3,162.53
+ORD-10318,CUST-14546,2023-11-25,Home & Kitchen,Express,2,181.85
+ORD-10319,CUST-13702,2023-03-21,Apparel & Footwear,Standard,4,270.53
+ORD-10320,CUST-12385,2023-10-15,Home & Kitchen,Express,4,355.56
+ORD-10321,CUST-10053,2023-09-26,Perishables & Grocery,Standard,1,62.21
+ORD-10322,CUST-13703,2023-01-09,Consumer Electronics,Express,2,449.62
+ORD-10323,CUST-11885,2023-09-17,Consumer Electronics,Standard,1,262.77
+ORD-10324,CUST-12438,2023-10-22,Consumer Electronics,Express,1,241.21
+ORD-10325,CUST-14233,2023-07-25,Perishables & Grocery,Standard,3,183.38
+ORD-10326,CUST-13493,2023-02-04,Consumer Electronics,Standard,3,676.44
+ORD-10327,CUST-10235,2023-03-24,Home & Kitchen,Same-Day,3,295.18
+ORD-10328,CUST-11317,2023-10-25,Consumer Electronics,Standard,2,454.4
+ORD-10329,CUST-10227,2023-07-03,Apparel & Footwear,Standard,3,229.58
+ORD-10330,CUST-13894,2023-07-09,Perishables & Grocery,Standard,2,124.32
+ORD-10331,CUST-10940,2023-06-03,Industrial & Auto Parts,Express,2,357.61
+ORD-10332,CUST-14214,2023-11-07,Home & Kitchen,Standard,3,291.92
+ORD-10333,CUST-14494,2023-01-29,Apparel & Footwear,Standard,2,155.88
+ORD-10334,CUST-10740,2023-11-06,Consumer Electronics,Standard,1,234.89
+ORD-10335,CUST-13676,2023-04-24,Industrial & Auto Parts,Standard,2,366.95
+ORD-10336,CUST-14064,2023-04-26,Apparel & Footwear,Standard,2,160.56
+ORD-10337,CUST-14580,2023-01-09,Healthcare & Medical,Express,3,434.32
+ORD-10338,CUST-10644,2023-08-15,Perishables & Grocery,Express,2,125.22
+ORD-10339,CUST-10516,2023-10-09,Consumer Electronics,Same-Day,3,681.46
+ORD-10340,CUST-13271,2023-01-11,Consumer Electronics,Standard,1,261.5
+ORD-10341,CUST-13432,2023-07-11,Industrial & Auto Parts,Standard,4,707.73
+ORD-10342,CUST-14782,2023-01-20,Consumer Electronics,Standard,2,488.11
+ORD-10343,CUST-12784,2023-10-14,Healthcare & Medical,Express,2,309.6
+ORD-10344,CUST-11933,2023-10-18,Apparel & Footwear,Standard,3,244.77
+ORD-10345,CUST-11547,2023-02-14,Apparel & Footwear,Express,2,177.89
+ORD-10346,CUST-10357,2023-11-06,Apparel & Footwear,Standard,2,170.67
+ORD-10347,CUST-13643,2023-10-27,Apparel & Footwear,Express,5,340.44
+ORD-10348,CUST-14283,2023-12-15,Industrial & Auto Parts,Express,4,741.21
+ORD-10349,CUST-12218,2023-08-31,Apparel & Footwear,Express,1,89.29
+ORD-10350,CUST-12937,2023-04-03,Apparel & Footwear,Express,3,222.26
+ORD-10351,CUST-10601,2023-06-22,Home & Kitchen,Standard,5,441.3
+ORD-10352,CUST-12004,2023-12-14,Healthcare & Medical,Standard,3,462.79
+ORD-10353,CUST-11065,2023-08-28,Consumer Electronics,Standard,4,911.1
+ORD-10354,CUST-12636,2023-05-12,Home & Kitchen,Standard,5,452.39
+ORD-10355,CUST-12676,2023-12-27,Consumer Electronics,Standard,1,253.62
+ORD-10356,CUST-14571,2023-11-18,Consumer Electronics,Same-Day,3,696.21
+ORD-10357,CUST-13608,2023-09-04,Apparel & Footwear,Express,1,83.05
+ORD-10358,CUST-12925,2023-02-09,Consumer Electronics,Standard,1,243.75
+ORD-10359,CUST-11381,2023-11-09,Home & Kitchen,Standard,1,109.69
+ORD-10360,CUST-10384,2023-02-22,Consumer Electronics,Express,2,483.18
+ORD-10361,CUST-10306,2023-03-20,Perishables & Grocery,Express,1,65.16
+ORD-10362,CUST-13812,2023-09-22,Industrial & Auto Parts,Express,2,379.5
+ORD-10363,CUST-13274,2023-06-08,Consumer Electronics,Standard,2,461.28
+ORD-10364,CUST-10153,2023-08-24,Consumer Electronics,Standard,1,268.76
+ORD-10365,CUST-14991,2023-06-05,Perishables & Grocery,Express,5,266.32
+ORD-10366,CUST-12525,2023-12-11,Industrial & Auto Parts,Standard,1,214.41
+ORD-10367,CUST-12157,2023-04-24,Industrial & Auto Parts,Standard,1,213.05
+ORD-10368,CUST-10369,2023-03-20,Consumer Electronics,Express,3,696.72
+ORD-10369,CUST-13923,2023-04-13,Home & Kitchen,Standard,1,111.7
+ORD-10370,CUST-11000,2023-03-18,Consumer Electronics,Express,1,263.94
+ORD-10371,CUST-13732,2023-09-26,Home & Kitchen,Standard,2,189.08
+ORD-10372,CUST-10375,2023-11-14,Healthcare & Medical,Express,1,175.33
+ORD-10373,CUST-10113,2023-06-09,Consumer Electronics,Standard,4,896.12
+ORD-10374,CUST-13105,2023-08-11,Apparel & Footwear,Standard,1,86.83
+ORD-10375,CUST-10452,2023-04-25,Industrial & Auto Parts,Express,1,215.14
+ORD-10376,CUST-10128,2023-07-08,Home & Kitchen,Standard,1,134.12
+ORD-10377,CUST-10202,2023-02-10,Consumer Electronics,Same-Day,3,680.59
+ORD-10378,CUST-13276,2023-07-27,Consumer Electronics,Standard,4,911.79
+ORD-10379,CUST-11519,2023-09-26,Industrial & Auto Parts,Standard,3,530.68
+ORD-10380,CUST-11743,2023-11-18,Healthcare & Medical,Standard,2,285.09
+ORD-10381,CUST-11089,2023-11-06,Consumer Electronics,Standard,2,479.75
+ORD-10382,CUST-12916,2023-03-23,Home & Kitchen,Express,1,116.23
+ORD-10383,CUST-10817,2023-09-13,Home & Kitchen,Same-Day,3,289.92
+ORD-10384,CUST-14938,2023-12-23,Consumer Electronics,Standard,3,684.55
+ORD-10385,CUST-10073,2023-08-15,Apparel & Footwear,Same-Day,3,229.43
+ORD-10386,CUST-12805,2023-06-27,Perishables & Grocery,Express,1,62.19
+ORD-10387,CUST-14898,2023-03-02,Consumer Electronics,Standard,2,487.82
+ORD-10388,CUST-11674,2023-09-20,Perishables & Grocery,Standard,2,118.11
+ORD-10389,CUST-11015,2023-09-03,Home & Kitchen,Standard,3,272.1
+ORD-10390,CUST-12844,2023-06-15,Industrial & Auto Parts,Express,5,904.08
+ORD-10391,CUST-11359,2023-08-11,Consumer Electronics,Express,1,238.55
+ORD-10392,CUST-14352,2023-01-27,Industrial & Auto Parts,Standard,1,212.08
+ORD-10393,CUST-12982,2023-08-07,Home & Kitchen,Standard,1,98.35
+ORD-10394,CUST-12069,2023-05-30,Home & Kitchen,Express,2,216.61
+ORD-10395,CUST-12331,2023-03-04,Healthcare & Medical,Standard,3,466.12
+ORD-10396,CUST-11572,2023-04-08,Home & Kitchen,Standard,1,130.66
+ORD-10397,CUST-11030,2023-06-14,Home & Kitchen,Standard,6,522.22
+ORD-10398,CUST-11701,2023-12-17,Apparel & Footwear,Express,3,223.94
+ORD-10399,CUST-13090,2023-03-09,Apparel & Footwear,Standard,3,228.56
+ORD-10400,CUST-10115,2023-11-30,Consumer Electronics,Standard,1,242.6
+ORD-10401,CUST-10147,2023-10-27,Apparel & Footwear,Express,5,363.91
+ORD-10402,CUST-11949,2023-02-10,Healthcare & Medical,Standard,2,312.25
+ORD-10403,CUST-12973,2023-12-16,Apparel & Footwear,Same-Day,1,104.42
+ORD-10404,CUST-10817,2023-07-10,Industrial & Auto Parts,Express,4,737.16
+ORD-10405,CUST-11168,2023-11-23,Consumer Electronics,Express,4,920.62
+ORD-10406,CUST-10718,2023-06-26,Healthcare & Medical,Express,1,163.44
+ORD-10407,CUST-12105,2023-07-16,Perishables & Grocery,Express,1,89.48
+ORD-10408,CUST-12764,2023-11-30,Consumer Electronics,Express,3,709.51
+ORD-10409,CUST-10532,2023-05-04,Industrial & Auto Parts,Standard,1,196.76
+ORD-10410,CUST-12622,2023-10-03,Apparel & Footwear,Standard,2,172.41
+ORD-10411,CUST-11280,2023-04-19,Healthcare & Medical,Standard,2,319.49
+ORD-10412,CUST-10250,2023-08-30,Healthcare & Medical,Standard,2,294.33
+ORD-10413,CUST-10044,2023-02-18,Home & Kitchen,Standard,7,628.46
+ORD-10414,CUST-12892,2023-06-13,Healthcare & Medical,Express,1,155.87
+ORD-10415,CUST-10955,2023-04-24,Consumer Electronics,Express,3,684.97
+ORD-10416,CUST-14887,2023-09-21,Home & Kitchen,Express,3,274.6
+ORD-10417,CUST-14252,2023-06-05,Apparel & Footwear,Standard,1,104.96
+ORD-10418,CUST-11815,2023-01-17,Industrial & Auto Parts,Express,1,189.78
+ORD-10419,CUST-13749,2023-12-02,Apparel & Footwear,Standard,2,165.01
+ORD-10420,CUST-12950,2023-08-27,Apparel & Footwear,Standard,3,233.66
+ORD-10421,CUST-11206,2023-03-15,Home & Kitchen,Same-Day,4,365.96
+ORD-10422,CUST-14447,2023-05-20,Consumer Electronics,Standard,1,241.22
+ORD-10423,CUST-14595,2023-01-04,Apparel & Footwear,Standard,1,70.77
+ORD-10424,CUST-10920,2023-12-09,Home & Kitchen,Express,5,456.14
+ORD-10425,CUST-14479,2023-08-04,Home & Kitchen,Express,3,276.72
+ORD-10426,CUST-12588,2023-02-19,Healthcare & Medical,Standard,5,725.46
+ORD-10427,CUST-12962,2023-06-13,Industrial & Auto Parts,Express,2,383.99
+ORD-10428,CUST-12905,2023-09-16,Home & Kitchen,Standard,2,206.73
+ORD-10429,CUST-11750,2023-08-19,Healthcare & Medical,Standard,1,175.84
+ORD-10430,CUST-14001,2023-04-21,Healthcare & Medical,Express,4,571.92
+ORD-10431,CUST-10805,2023-02-09,Perishables & Grocery,Standard,1,76.73
+ORD-10432,CUST-14392,2023-05-07,Consumer Electronics,Express,2,467.57
+ORD-10433,CUST-10955,2023-01-30,Perishables & Grocery,Standard,3,180.38
+ORD-10434,CUST-13295,2023-10-18,Industrial & Auto Parts,Standard,1,195.09
+ORD-10435,CUST-13857,2023-01-22,Perishables & Grocery,Same-Day,1,59.49
+ORD-10436,CUST-10763,2023-03-29,Apparel & Footwear,Standard,1,113.79
+ORD-10437,CUST-12041,2023-04-13,Industrial & Auto Parts,Standard,2,365.46
+ORD-10438,CUST-11084,2023-09-24,Perishables & Grocery,Standard,2,135.42
+ORD-10439,CUST-14262,2023-12-04,Perishables & Grocery,Standard,2,131.17
+ORD-10440,CUST-12501,2023-04-02,Healthcare & Medical,Express,1,152.84
+ORD-10441,CUST-13217,2023-10-31,Apparel & Footwear,Same-Day,2,143.58
+ORD-10442,CUST-10688,2023-09-15,Healthcare & Medical,Same-Day,1,150.69
+ORD-10443,CUST-12897,2023-04-01,Home & Kitchen,Same-Day,3,290.92
+ORD-10444,CUST-10227,2023-09-16,Perishables & Grocery,Standard,5,263.13
+ORD-10445,CUST-11882,2023-04-08,Perishables & Grocery,Standard,3,178.46
+ORD-10446,CUST-10053,2023-11-29,Apparel & Footwear,Standard,4,271.44
+ORD-10447,CUST-11230,2023-07-26,Apparel & Footwear,Same-Day,3,244.48
+ORD-10448,CUST-12335,2023-04-13,Industrial & Auto Parts,Express,1,219.18
+ORD-10449,CUST-10276,2023-09-28,Apparel & Footwear,Standard,1,83.23
+ORD-10450,CUST-14205,2023-09-12,Industrial & Auto Parts,Standard,2,389.76
+ORD-10451,CUST-11725,2023-03-05,Consumer Electronics,Standard,5,1106.37
+ORD-10452,CUST-11648,2023-01-03,Apparel & Footwear,Standard,3,201.57
+ORD-10453,CUST-12697,2023-01-21,Perishables & Grocery,Standard,1,52.23
+ORD-10454,CUST-11505,2023-06-09,Home & Kitchen,Express,3,262.5
+ORD-10455,CUST-12663,2023-01-17,Consumer Electronics,Express,4,885.86
+ORD-10456,CUST-10192,2023-11-02,Apparel & Footwear,Standard,1,84.95
+ORD-10457,CUST-11474,2023-03-14,Home & Kitchen,Same-Day,2,213.16
+ORD-10458,CUST-13191,2023-09-14,Healthcare & Medical,Standard,3,449.44
+ORD-10459,CUST-11252,2023-02-16,Home & Kitchen,Same-Day,1,109.93
+ORD-10460,CUST-14993,2023-09-17,Industrial & Auto Parts,Same-Day,3,537.42
+ORD-10461,CUST-14463,2023-08-16,Consumer Electronics,Standard,3,686.19
+ORD-10462,CUST-13050,2023-02-26,Industrial & Auto Parts,Standard,1,185.17
+ORD-10463,CUST-13355,2023-10-24,Consumer Electronics,Standard,2,484.81
+ORD-10464,CUST-14236,2023-12-08,Industrial & Auto Parts,Standard,1,188.31
+ORD-10465,CUST-14245,2023-07-16,Apparel & Footwear,Express,2,157.18
+ORD-10466,CUST-10250,2023-05-02,Consumer Electronics,Express,2,447.04
+ORD-10467,CUST-11327,2023-11-19,Consumer Electronics,Standard,3,690.23
+ORD-10468,CUST-11009,2023-02-18,Consumer Electronics,Standard,1,228.4
+ORD-10469,CUST-14539,2023-08-28,Industrial & Auto Parts,Standard,2,384.64
+ORD-10470,CUST-12012,2023-04-20,Consumer Electronics,Express,2,464.06
+ORD-10471,CUST-10615,2023-10-15,Industrial & Auto Parts,Standard,1,182.37
+ORD-10472,CUST-11612,2023-12-15,Home & Kitchen,Standard,1,120.99
+ORD-10473,CUST-11450,2023-06-03,Perishables & Grocery,Express,1,86.26
+ORD-10474,CUST-14625,2023-04-23,Healthcare & Medical,Standard,3,431.28
+ORD-10475,CUST-14751,2023-09-02,Perishables & Grocery,Standard,2,137.02
+ORD-10476,CUST-10407,2023-02-18,Healthcare & Medical,Standard,1,174.54
+ORD-10477,CUST-11412,2023-12-20,Healthcare & Medical,Express,1,172.58
+ORD-10478,CUST-11004,2023-07-15,Home & Kitchen,Standard,2,189.38
+ORD-10479,CUST-14241,2023-04-18,Perishables & Grocery,Same-Day,3,149.76
+ORD-10480,CUST-13908,2023-03-29,Healthcare & Medical,Standard,1,168.32
+ORD-10481,CUST-14867,2023-01-07,Consumer Electronics,Standard,5,1133.34
+ORD-10482,CUST-14067,2023-03-27,Consumer Electronics,Standard,3,694.61
+ORD-10483,CUST-12398,2023-01-18,Home & Kitchen,Express,2,212.99
+ORD-10484,CUST-11448,2023-08-22,Healthcare & Medical,Standard,2,322.28
+ORD-10485,CUST-11476,2023-03-05,Consumer Electronics,Standard,2,462.2
+ORD-10486,CUST-12807,2023-02-18,Apparel & Footwear,Same-Day,3,242.23
+ORD-10487,CUST-11815,2023-08-22,Consumer Electronics,Express,3,690.44
+ORD-10488,CUST-14591,2023-06-25,Home & Kitchen,Express,1,90.75
+ORD-10489,CUST-10116,2023-12-21,Industrial & Auto Parts,Standard,3,542.6
+ORD-10490,CUST-14906,2023-08-30,Industrial & Auto Parts,Standard,1,218.61
+ORD-10491,CUST-10187,2023-06-16,Home & Kitchen,Standard,1,116.48
+ORD-10492,CUST-11357,2023-06-09,Healthcare & Medical,Standard,3,448.09
+ORD-10493,CUST-14671,2023-02-04,Consumer Electronics,Standard,2,481.78
+ORD-10494,CUST-10090,2023-08-29,Consumer Electronics,Standard,1,234.5
+ORD-10495,CUST-10970,2023-04-17,Home & Kitchen,Express,3,269.73
+ORD-10496,CUST-13093,2023-09-03,Consumer Electronics,Express,1,241.25
+ORD-10497,CUST-12966,2022-12-31,Consumer Electronics,Standard,3,708.92
+ORD-10498,CUST-12582,2023-12-28,Apparel & Footwear,Standard,1,99.16
+ORD-10499,CUST-13407,2023-09-26,Perishables & Grocery,Express,1,83.21
+ORD-10500,CUST-13749,2023-08-08,Healthcare & Medical,Standard,1,165.0
+ORD-10501,CUST-12183,2023-07-15,Consumer Electronics,Standard,5,1125.09
+ORD-10502,CUST-12364,2023-06-26,Home & Kitchen,Standard,1,109.33
+ORD-10503,CUST-12177,2023-11-29,Consumer Electronics,Standard,1,246.19
+ORD-10504,CUST-14043,2023-12-27,Industrial & Auto Parts,Standard,3,535.67
+ORD-10505,CUST-13368,2023-10-20,Industrial & Auto Parts,Same-Day,1,222.48
+ORD-10506,CUST-14752,2023-09-12,Consumer Electronics,Standard,1,245.88
+ORD-10507,CUST-10298,2023-11-29,Consumer Electronics,Standard,1,230.89
+ORD-10508,CUST-10185,2023-08-29,Perishables & Grocery,Standard,3,160.94
+ORD-10509,CUST-14297,2023-09-17,Home & Kitchen,Express,4,373.5
+ORD-10510,CUST-14665,2023-01-06,Industrial & Auto Parts,Standard,3,534.04
+ORD-10511,CUST-13982,2023-07-07,Perishables & Grocery,Express,6,312.69
+ORD-10512,CUST-10195,2023-09-03,Apparel & Footwear,Express,2,154.91
+ORD-10513,CUST-13790,2023-03-19,Home & Kitchen,Standard,2,179.25
+ORD-10514,CUST-10681,2023-07-19,Apparel & Footwear,Standard,3,240.1
+ORD-10515,CUST-11269,2023-12-25,Home & Kitchen,Standard,1,114.31
+ORD-10516,CUST-10936,2023-03-11,Perishables & Grocery,Express,3,184.5
+ORD-10517,CUST-12779,2023-11-26,Industrial & Auto Parts,Standard,1,187.96
+ORD-10518,CUST-14079,2023-03-30,Industrial & Auto Parts,Standard,1,220.11
+ORD-10519,CUST-11987,2023-01-31,Perishables & Grocery,Standard,3,145.99
+ORD-10520,CUST-12757,2023-07-01,Healthcare & Medical,Express,5,706.16
+ORD-10521,CUST-11500,2023-06-14,Apparel & Footwear,Standard,1,113.36
+ORD-10522,CUST-13824,2023-06-14,Apparel & Footwear,Standard,5,332.16
+ORD-10523,CUST-14507,2023-04-17,Industrial & Auto Parts,Standard,3,573.97
+ORD-10524,CUST-13958,2023-11-10,Perishables & Grocery,Standard,5,262.96
+ORD-10525,CUST-14816,2023-07-06,Consumer Electronics,Express,2,479.03
+ORD-10526,CUST-10366,2023-04-23,Apparel & Footwear,Standard,3,236.71
+ORD-10527,CUST-12830,2023-02-01,Consumer Electronics,Express,2,450.18
+ORD-10528,CUST-10947,2023-06-12,Consumer Electronics,Standard,2,463.67
+ORD-10529,CUST-13591,2023-07-20,Home & Kitchen,Same-Day,3,275.21
+ORD-10530,CUST-12561,2023-11-13,Consumer Electronics,Express,2,446.89
+ORD-10531,CUST-14553,2023-10-03,Consumer Electronics,Standard,2,471.67
+ORD-10532,CUST-14473,2023-07-15,Apparel & Footwear,Standard,1,96.81
+ORD-10533,CUST-13623,2023-02-28,Industrial & Auto Parts,Express,1,201.46
+ORD-10534,CUST-12156,2023-03-02,Industrial & Auto Parts,Standard,1,194.54
+ORD-10535,CUST-11882,2023-04-12,Industrial & Auto Parts,Standard,1,198.24
+ORD-10536,CUST-11125,2023-03-25,Apparel & Footwear,Same-Day,1,105.37
+ORD-10537,CUST-13495,2023-04-12,Consumer Electronics,Standard,1,244.79
+ORD-10538,CUST-13957,2023-05-17,Industrial & Auto Parts,Standard,4,724.85
+ORD-10539,CUST-10891,2023-03-13,Healthcare & Medical,Standard,5,748.11
+ORD-10540,CUST-13982,2023-06-16,Consumer Electronics,Standard,1,261.88
+ORD-10541,CUST-12775,2023-04-18,Home & Kitchen,Standard,2,175.56
+ORD-10542,CUST-14874,2023-01-08,Consumer Electronics,Standard,2,462.23
+ORD-10543,CUST-14087,2023-09-23,Consumer Electronics,Standard,1,249.9
+ORD-10544,CUST-13088,2023-10-13,Healthcare & Medical,Express,1,149.41
+ORD-10545,CUST-11638,2023-01-18,Perishables & Grocery,Express,2,115.44
+ORD-10546,CUST-13441,2023-06-25,Consumer Electronics,Standard,1,248.34
+ORD-10547,CUST-10420,2023-05-03,Apparel & Footwear,Same-Day,1,87.2
+ORD-10548,CUST-11870,2023-01-12,Apparel & Footwear,Express,1,84.9
+ORD-10549,CUST-14207,2023-04-01,Apparel & Footwear,Express,1,114.48
+ORD-10550,CUST-12032,2023-08-26,Industrial & Auto Parts,Standard,1,190.66
+ORD-10551,CUST-14244,2023-05-11,Consumer Electronics,Express,3,677.63
+ORD-10552,CUST-11785,2023-05-07,Home & Kitchen,Express,5,457.55
+ORD-10553,CUST-13347,2023-11-20,Apparel & Footwear,Express,4,296.14
+ORD-10554,CUST-10127,2023-11-26,Apparel & Footwear,Standard,2,165.4
+ORD-10555,CUST-14540,2023-07-14,Consumer Electronics,Standard,2,463.41
+ORD-10556,CUST-14759,2023-09-14,Apparel & Footwear,Express,3,229.52
+ORD-10557,CUST-11883,2023-08-20,Healthcare & Medical,Standard,1,160.97
+ORD-10558,CUST-11074,2023-09-09,Consumer Electronics,Express,2,468.09
+ORD-10559,CUST-13249,2023-12-20,Consumer Electronics,Standard,2,445.29
+ORD-10560,CUST-12182,2023-07-16,Industrial & Auto Parts,Standard,1,185.79
+ORD-10561,CUST-11379,2023-03-23,Consumer Electronics,Standard,1,236.41
+ORD-10562,CUST-12049,2023-02-22,Industrial & Auto Parts,Standard,4,738.74
+ORD-10563,CUST-12889,2023-12-08,Healthcare & Medical,Standard,1,158.79
+ORD-10564,CUST-10045,2023-11-18,Healthcare & Medical,Standard,1,148.95
+ORD-10565,CUST-11002,2023-06-14,Home & Kitchen,Express,1,106.22
+ORD-10566,CUST-10479,2023-11-28,Industrial & Auto Parts,Standard,2,361.92
+ORD-10567,CUST-13333,2023-07-12,Healthcare & Medical,Express,5,715.4
+ORD-10568,CUST-14617,2023-03-11,Consumer Electronics,Standard,1,234.43
+ORD-10569,CUST-10549,2023-04-18,Consumer Electronics,Express,1,234.44
+ORD-10570,CUST-11832,2023-07-23,Perishables & Grocery,Standard,2,101.83
+ORD-10571,CUST-10788,2023-04-28,Apparel & Footwear,Standard,2,157.7
+ORD-10572,CUST-12746,2023-05-12,Industrial & Auto Parts,Standard,2,378.55
+ORD-10573,CUST-13390,2023-06-29,Home & Kitchen,Express,3,303.03
+ORD-10574,CUST-12353,2023-05-16,Consumer Electronics,Standard,1,261.4
+ORD-10575,CUST-11578,2023-08-26,Healthcare & Medical,Express,3,463.4
+ORD-10576,CUST-13198,2023-10-17,Apparel & Footwear,Standard,1,84.04
+ORD-10577,CUST-14995,2023-11-17,Consumer Electronics,Standard,1,255.72
+ORD-10578,CUST-11895,2023-04-01,Home & Kitchen,Express,2,206.73
+ORD-10579,CUST-10191,2023-09-11,Consumer Electronics,Standard,4,888.97
+ORD-10580,CUST-14939,2023-03-03,Home & Kitchen,Standard,2,210.69
+ORD-10581,CUST-11584,2023-01-20,Perishables & Grocery,Express,4,217.64
+ORD-10582,CUST-11074,2023-10-11,Industrial & Auto Parts,Standard,2,386.28
+ORD-10583,CUST-14798,2023-06-03,Industrial & Auto Parts,Standard,1,180.48
+ORD-10584,CUST-14849,2023-06-03,Consumer Electronics,Standard,1,232.54
+ORD-10585,CUST-11991,2023-02-04,Perishables & Grocery,Standard,2,98.3
+ORD-10586,CUST-13640,2023-02-28,Healthcare & Medical,Standard,4,577.46
+ORD-10587,CUST-12551,2023-11-14,Home & Kitchen,Standard,4,347.46
+ORD-10588,CUST-11737,2023-05-26,Apparel & Footwear,Standard,3,205.42
+ORD-10589,CUST-12375,2023-07-29,Consumer Electronics,Standard,2,472.96
+ORD-10590,CUST-12332,2023-05-21,Consumer Electronics,Express,1,235.47
+ORD-10591,CUST-14568,2023-07-10,Consumer Electronics,Standard,2,467.9
+ORD-10592,CUST-10919,2023-06-13,Home & Kitchen,Standard,1,126.36
+ORD-10593,CUST-10146,2023-10-20,Industrial & Auto Parts,Express,3,561.79
+ORD-10594,CUST-11870,2023-03-08,Perishables & Grocery,Standard,1,50.82
+ORD-10595,CUST-14006,2023-07-25,Industrial & Auto Parts,Same-Day,1,199.27
+ORD-10596,CUST-13769,2023-12-07,Industrial & Auto Parts,Standard,3,534.81
+ORD-10597,CUST-12160,2023-06-18,Home & Kitchen,Same-Day,4,359.68
+ORD-10598,CUST-11506,2023-05-20,Industrial & Auto Parts,Standard,1,223.0
+ORD-10599,CUST-11552,2023-06-23,Consumer Electronics,Express,6,1337.79
+ORD-10600,CUST-11005,2023-02-26,Apparel & Footwear,Standard,1,83.96
+ORD-10601,CUST-12700,2023-05-28,Perishables & Grocery,Express,1,53.94
+ORD-10602,CUST-10902,2023-11-19,Apparel & Footwear,Standard,3,208.06
+ORD-10603,CUST-10704,2023-06-02,Healthcare & Medical,Express,3,446.52
+ORD-10604,CUST-13619,2023-02-17,Home & Kitchen,Standard,5,445.07
+ORD-10605,CUST-11204,2023-07-28,Home & Kitchen,Standard,3,268.85
+ORD-10606,CUST-14079,2023-12-17,Apparel & Footwear,Standard,3,221.11
+ORD-10607,CUST-14594,2023-06-04,Healthcare & Medical,Standard,1,163.56
+ORD-10608,CUST-12495,2023-07-25,Healthcare & Medical,Express,1,154.1
+ORD-10609,CUST-10344,2023-02-08,Consumer Electronics,Standard,1,246.77
+ORD-10610,CUST-11342,2023-10-18,Perishables & Grocery,Standard,3,159.97
+ORD-10611,CUST-10586,2023-09-07,Home & Kitchen,Standard,2,209.19
+ORD-10612,CUST-10735,2023-11-10,Healthcare & Medical,Standard,1,159.13
+ORD-10613,CUST-10155,2023-10-25,Apparel & Footwear,Standard,2,178.27
+ORD-10614,CUST-11717,2023-09-24,Consumer Electronics,Express,1,239.05
+ORD-10615,CUST-10643,2023-04-15,Apparel & Footwear,Express,6,397.31
+ORD-10616,CUST-12512,2023-04-23,Apparel & Footwear,Standard,3,205.08
+ORD-10617,CUST-11358,2023-09-25,Apparel & Footwear,Express,4,286.38
+ORD-10618,CUST-11164,2023-06-16,Industrial & Auto Parts,Standard,3,532.42
+ORD-10619,CUST-12794,2023-12-15,Industrial & Auto Parts,Standard,2,387.77
+ORD-10620,CUST-13880,2023-09-17,Home & Kitchen,Same-Day,2,215.38
+ORD-10621,CUST-10524,2023-11-13,Perishables & Grocery,Standard,1,76.28
+ORD-10622,CUST-12132,2023-02-16,Perishables & Grocery,Standard,2,102.45
+ORD-10623,CUST-10535,2023-09-30,Home & Kitchen,Standard,2,212.64
+ORD-10624,CUST-14518,2023-04-04,Consumer Electronics,Express,4,887.38
+ORD-10625,CUST-14730,2023-06-15,Consumer Electronics,Express,1,232.86
+ORD-10626,CUST-10866,2023-09-22,Apparel & Footwear,Standard,4,295.0
+ORD-10627,CUST-13519,2023-11-14,Consumer Electronics,Standard,1,257.76
+ORD-10628,CUST-14565,2023-01-05,Perishables & Grocery,Standard,2,107.45
+ORD-10629,CUST-13733,2023-10-02,Consumer Electronics,Standard,1,257.61
+ORD-10630,CUST-11270,2023-08-10,Consumer Electronics,Standard,1,227.23
+ORD-10631,CUST-10242,2023-07-25,Consumer Electronics,Standard,1,237.66
+ORD-10632,CUST-12087,2023-11-07,Healthcare & Medical,Standard,1,182.69
+ORD-10633,CUST-11322,2023-07-20,Consumer Electronics,Standard,1,250.96
+ORD-10634,CUST-14939,2023-08-02,Perishables & Grocery,Standard,4,189.53
+ORD-10635,CUST-12277,2023-11-10,Industrial & Auto Parts,Standard,2,359.8
+ORD-10636,CUST-10309,2023-05-16,Consumer Electronics,Express,4,913.38
+ORD-10637,CUST-14837,2023-05-17,Apparel & Footwear,Standard,1,88.86
+ORD-10638,CUST-11928,2023-05-31,Consumer Electronics,Standard,1,239.28
+ORD-10639,CUST-12664,2023-09-25,Healthcare & Medical,Standard,1,188.37
+ORD-10640,CUST-12637,2023-02-22,Perishables & Grocery,Express,2,96.58
+ORD-10641,CUST-10254,2023-03-17,Home & Kitchen,Standard,3,273.94
+ORD-10642,CUST-10760,2023-03-19,Industrial & Auto Parts,Express,1,214.04
+ORD-10643,CUST-12625,2023-10-01,Consumer Electronics,Express,2,464.93
+ORD-10644,CUST-11511,2023-03-17,Consumer Electronics,Standard,3,666.55
+ORD-10645,CUST-14453,2023-07-27,Apparel & Footwear,Standard,3,243.96
+ORD-10646,CUST-11869,2023-11-15,Apparel & Footwear,Standard,1,89.29
+ORD-10647,CUST-11205,2023-12-12,Apparel & Footwear,Express,3,202.87
+ORD-10648,CUST-13667,2023-09-23,Consumer Electronics,Standard,1,240.25
+ORD-10649,CUST-14311,2023-08-03,Apparel & Footwear,Express,3,214.68
+ORD-10650,CUST-14201,2023-09-29,Healthcare & Medical,Standard,1,186.59
+ORD-10651,CUST-13141,2023-07-03,Apparel & Footwear,Standard,1,112.93
+ORD-10652,CUST-14952,2023-07-01,Home & Kitchen,Express,3,278.48
+ORD-10653,CUST-12247,2023-08-22,Apparel & Footwear,Same-Day,3,223.15
+ORD-10654,CUST-14023,2023-10-03,Industrial & Auto Parts,Express,4,748.5
+ORD-10655,CUST-13065,2023-01-07,Industrial & Auto Parts,Standard,1,212.71
+ORD-10656,CUST-13927,2023-07-23,Industrial & Auto Parts,Standard,1,202.62
+ORD-10657,CUST-12085,2023-12-16,Perishables & Grocery,Standard,1,63.4
+ORD-10658,CUST-10019,2023-12-23,Industrial & Auto Parts,Standard,2,399.47
+ORD-10659,CUST-14138,2023-09-16,Apparel & Footwear,Standard,1,101.75
+ORD-10660,CUST-11217,2023-08-17,Home & Kitchen,Standard,1,90.98
+ORD-10661,CUST-14165,2023-10-04,Industrial & Auto Parts,Standard,2,380.29
+ORD-10662,CUST-10446,2023-02-08,Apparel & Footwear,Standard,3,227.68
+ORD-10663,CUST-14223,2023-10-17,Consumer Electronics,Same-Day,2,466.25
+ORD-10664,CUST-14115,2023-03-03,Apparel & Footwear,Same-Day,1,76.95
+ORD-10665,CUST-14735,2023-06-02,Apparel & Footwear,Standard,1,109.14
+ORD-10666,CUST-10373,2023-01-07,Healthcare & Medical,Express,2,292.27
+ORD-10667,CUST-10315,2023-03-27,Healthcare & Medical,Standard,4,589.22
+ORD-10668,CUST-11105,2023-03-03,Perishables & Grocery,Standard,1,52.6
+ORD-10669,CUST-12776,2023-11-16,Consumer Electronics,Standard,1,255.06
+ORD-10670,CUST-10529,2023-03-20,Perishables & Grocery,Express,1,60.78
+ORD-10671,CUST-11948,2023-10-19,Healthcare & Medical,Express,2,295.1
+ORD-10672,CUST-11071,2023-07-09,Consumer Electronics,Standard,2,476.81
+ORD-10673,CUST-10989,2023-06-10,Consumer Electronics,Standard,2,456.81
+ORD-10674,CUST-12441,2023-04-13,Perishables & Grocery,Standard,2,135.3
+ORD-10675,CUST-13540,2023-04-25,Apparel & Footwear,Express,1,75.38
+ORD-10676,CUST-14989,2023-10-26,Consumer Electronics,Standard,1,247.1
+ORD-10677,CUST-14274,2023-09-07,Consumer Electronics,Express,4,885.12
+ORD-10678,CUST-12043,2023-10-02,Consumer Electronics,Express,2,482.87
+ORD-10679,CUST-11102,2023-03-02,Perishables & Grocery,Standard,2,98.1
+ORD-10680,CUST-13165,2023-08-14,Industrial & Auto Parts,Standard,1,193.04
+ORD-10681,CUST-10325,2023-10-18,Home & Kitchen,Standard,1,129.22
+ORD-10682,CUST-14355,2023-05-03,Apparel & Footwear,Standard,1,89.45
+ORD-10683,CUST-13396,2023-01-01,Home & Kitchen,Standard,1,118.6
+ORD-10684,CUST-12818,2023-02-27,Consumer Electronics,Standard,3,678.23
+ORD-10685,CUST-14538,2023-03-12,Industrial & Auto Parts,Express,1,184.7
+ORD-10686,CUST-10493,2023-11-25,Healthcare & Medical,Express,2,306.35
+ORD-10687,CUST-10517,2023-06-19,Healthcare & Medical,Express,3,445.22
+ORD-10688,CUST-14077,2023-10-25,Industrial & Auto Parts,Standard,1,200.88
+ORD-10689,CUST-12759,2023-03-16,Industrial & Auto Parts,Standard,2,395.49
+ORD-10690,CUST-11876,2023-01-12,Consumer Electronics,Standard,3,666.55
+ORD-10691,CUST-11398,2023-06-06,Consumer Electronics,Standard,1,256.12
+ORD-10692,CUST-10082,2023-01-14,Consumer Electronics,Standard,3,705.98
+ORD-10693,CUST-12791,2023-03-17,Consumer Electronics,Standard,1,227.22
+ORD-10694,CUST-11583,2023-02-14,Industrial & Auto Parts,Standard,3,563.12
+ORD-10695,CUST-10349,2023-06-14,Perishables & Grocery,Standard,5,240.04
+ORD-10696,CUST-11126,2023-11-17,Industrial & Auto Parts,Standard,2,384.26
+ORD-10697,CUST-12945,2023-03-31,Industrial & Auto Parts,Standard,3,532.48
+ORD-10698,CUST-14002,2023-01-17,Apparel & Footwear,Express,2,178.77
+ORD-10699,CUST-10689,2023-02-26,Consumer Electronics,Express,3,680.44
+ORD-10700,CUST-11281,2023-01-03,Consumer Electronics,Standard,6,1331.18
+ORD-10701,CUST-14552,2023-09-16,Consumer Electronics,Standard,1,266.0
+ORD-10702,CUST-11983,2023-02-04,Consumer Electronics,Express,3,695.77
+ORD-10703,CUST-11418,2023-08-27,Healthcare & Medical,Standard,1,171.45
+ORD-10704,CUST-13816,2023-05-17,Consumer Electronics,Standard,2,457.78
+ORD-10705,CUST-14699,2023-11-14,Industrial & Auto Parts,Standard,4,720.86
+ORD-10706,CUST-10283,2023-07-21,Home & Kitchen,Standard,1,113.08
+ORD-10707,CUST-14761,2023-04-27,Consumer Electronics,Express,4,918.64
+ORD-10708,CUST-14632,2023-11-29,Apparel & Footwear,Standard,1,96.09
+ORD-10709,CUST-14142,2023-08-13,Home & Kitchen,Standard,1,111.76
+ORD-10710,CUST-12584,2023-11-29,Consumer Electronics,Express,1,254.07
+ORD-10711,CUST-11295,2023-10-29,Home & Kitchen,Standard,2,219.28
+ORD-10712,CUST-11506,2023-11-18,Healthcare & Medical,Standard,2,325.31
+ORD-10713,CUST-10176,2023-02-23,Home & Kitchen,Express,4,353.47
+ORD-10714,CUST-12084,2023-01-27,Industrial & Auto Parts,Standard,1,185.86
+ORD-10715,CUST-12116,2023-03-11,Industrial & Auto Parts,Express,4,716.97
+ORD-10716,CUST-14918,2023-08-30,Consumer Electronics,Standard,1,240.38
+ORD-10717,CUST-14272,2023-06-21,Home & Kitchen,Same-Day,2,179.82
+ORD-10718,CUST-12259,2023-08-04,Perishables & Grocery,Express,1,53.52
+ORD-10719,CUST-13461,2023-09-15,Home & Kitchen,Same-Day,2,186.38
+ORD-10720,CUST-14196,2023-01-04,Perishables & Grocery,Standard,1,64.21
+ORD-10721,CUST-13933,2023-02-22,Industrial & Auto Parts,Standard,4,707.08
+ORD-10722,CUST-14970,2023-12-29,Industrial & Auto Parts,Standard,2,384.83
+ORD-10723,CUST-11116,2023-10-03,Consumer Electronics,Standard,3,698.05
+ORD-10724,CUST-14675,2023-01-06,Consumer Electronics,Standard,1,240.4
+ORD-10725,CUST-14158,2023-07-13,Apparel & Footwear,Standard,1,72.45
+ORD-10726,CUST-11469,2023-07-15,Consumer Electronics,Express,2,466.74
+ORD-10727,CUST-11130,2023-05-07,Home & Kitchen,Express,2,191.27
+ORD-10728,CUST-13907,2023-10-10,Industrial & Auto Parts,Standard,4,732.19
+ORD-10729,CUST-11895,2023-10-12,Industrial & Auto Parts,Standard,1,208.97
+ORD-10730,CUST-13765,2023-09-05,Consumer Electronics,Standard,2,488.19
+ORD-10731,CUST-14377,2023-02-28,Home & Kitchen,Standard,4,353.98
+ORD-10732,CUST-12461,2023-11-23,Apparel & Footwear,Express,3,209.48
+ORD-10733,CUST-11909,2023-01-12,Perishables & Grocery,Standard,3,149.19
+ORD-10734,CUST-10798,2023-11-06,Industrial & Auto Parts,Express,1,193.09
+ORD-10735,CUST-12606,2023-05-24,Industrial & Auto Parts,Standard,2,364.8
+ORD-10736,CUST-13258,2023-10-25,Consumer Electronics,Standard,3,681.91
+ORD-10737,CUST-10946,2023-07-12,Industrial & Auto Parts,Standard,1,201.07
+ORD-10738,CUST-14877,2023-02-24,Industrial & Auto Parts,Same-Day,1,218.48
+ORD-10739,CUST-12807,2023-10-31,Apparel & Footwear,Standard,2,146.05
+ORD-10740,CUST-10965,2023-12-17,Industrial & Auto Parts,Standard,1,202.91
+ORD-10741,CUST-13171,2023-06-27,Healthcare & Medical,Same-Day,2,294.31
+ORD-10742,CUST-12025,2023-10-25,Consumer Electronics,Express,1,225.32
+ORD-10743,CUST-12214,2023-04-30,Perishables & Grocery,Standard,2,100.47
+ORD-10744,CUST-13986,2023-03-08,Apparel & Footwear,Express,3,221.77
+ORD-10745,CUST-13501,2023-08-09,Home & Kitchen,Express,2,199.39
+ORD-10746,CUST-12263,2023-04-01,Perishables & Grocery,Standard,1,56.75
+ORD-10747,CUST-12776,2023-01-24,Industrial & Auto Parts,Standard,3,561.56
+ORD-10748,CUST-14635,2023-10-11,Industrial & Auto Parts,Express,1,204.39
+ORD-10749,CUST-12909,2023-12-29,Home & Kitchen,Express,1,124.45
+ORD-10750,CUST-11050,2023-05-05,Healthcare & Medical,Standard,2,292.07
+ORD-10751,CUST-12419,2023-08-21,Home & Kitchen,Express,1,95.38
+ORD-10752,CUST-12516,2023-07-19,Healthcare & Medical,Standard,1,169.61
+ORD-10753,CUST-10508,2023-08-21,Perishables & Grocery,Standard,1,93.34
+ORD-10754,CUST-10728,2023-10-07,Consumer Electronics,Standard,1,252.73
+ORD-10755,CUST-12748,2023-12-05,Apparel & Footwear,Express,2,174.32
+ORD-10756,CUST-14242,2023-04-13,Perishables & Grocery,Standard,1,81.52
+ORD-10757,CUST-13735,2023-04-12,Perishables & Grocery,Standard,1,66.27
+ORD-10758,CUST-12234,2023-04-25,Healthcare & Medical,Standard,2,323.11
+ORD-10759,CUST-11097,2023-08-23,Industrial & Auto Parts,Standard,2,370.03
+ORD-10760,CUST-10842,2023-08-17,Consumer Electronics,Same-Day,1,238.82
+ORD-10761,CUST-14688,2023-07-06,Home & Kitchen,Express,1,103.43
+ORD-10762,CUST-12069,2023-11-03,Industrial & Auto Parts,Standard,1,214.18
+ORD-10763,CUST-11090,2023-04-18,Industrial & Auto Parts,Express,2,397.54
+ORD-10764,CUST-12861,2023-01-18,Home & Kitchen,Standard,2,207.52
+ORD-10765,CUST-12666,2023-01-13,Apparel & Footwear,Standard,1,75.57
+ORD-10766,CUST-13931,2023-05-16,Apparel & Footwear,Express,2,179.51
+ORD-10767,CUST-10916,2023-01-15,Home & Kitchen,Standard,1,107.25
+ORD-10768,CUST-13871,2023-08-23,Consumer Electronics,Standard,1,251.47
+ORD-10769,CUST-12725,2023-07-06,Home & Kitchen,Standard,1,94.6
+ORD-10770,CUST-14484,2023-04-13,Home & Kitchen,Standard,4,379.04
+ORD-10771,CUST-10562,2023-08-14,Consumer Electronics,Standard,1,232.8
+ORD-10772,CUST-10935,2023-06-01,Consumer Electronics,Standard,2,482.62
+ORD-10773,CUST-13772,2023-07-28,Industrial & Auto Parts,Standard,1,200.25
+ORD-10774,CUST-14467,2023-04-10,Home & Kitchen,Standard,1,106.62
+ORD-10775,CUST-11542,2023-11-02,Healthcare & Medical,Standard,1,171.71
+ORD-10776,CUST-11873,2023-09-08,Healthcare & Medical,Standard,1,161.2
+ORD-10777,CUST-13334,2023-10-01,Apparel & Footwear,Standard,2,163.74
+ORD-10778,CUST-12322,2023-09-26,Perishables & Grocery,Standard,4,227.65
+ORD-10779,CUST-13868,2023-02-23,Industrial & Auto Parts,Standard,3,571.92
+ORD-10780,CUST-10993,2023-10-11,Perishables & Grocery,Standard,1,85.93
+ORD-10781,CUST-12687,2023-12-21,Apparel & Footwear,Express,1,77.94
+ORD-10782,CUST-14582,2023-12-02,Industrial & Auto Parts,Express,3,547.04
+ORD-10783,CUST-11619,2023-08-14,Home & Kitchen,Express,2,199.49
+ORD-10784,CUST-12106,2023-03-16,Healthcare & Medical,Standard,1,149.11
+ORD-10785,CUST-13111,2023-02-01,Consumer Electronics,Standard,3,702.63
+ORD-10786,CUST-14848,2023-04-20,Consumer Electronics,Express,4,898.64
+ORD-10787,CUST-13293,2023-02-17,Industrial & Auto Parts,Express,5,918.23
+ORD-10788,CUST-10749,2023-11-24,Healthcare & Medical,Express,1,184.05
+ORD-10789,CUST-12942,2023-04-25,Healthcare & Medical,Standard,5,735.24
+ORD-10790,CUST-12990,2023-04-02,Home & Kitchen,Standard,3,279.94
+ORD-10791,CUST-11243,2023-08-28,Consumer Electronics,Standard,4,900.4
+ORD-10792,CUST-14061,2023-06-28,Healthcare & Medical,Standard,3,444.18
+ORD-10793,CUST-11416,2023-10-01,Consumer Electronics,Same-Day,1,226.69
+ORD-10794,CUST-14726,2023-05-03,Apparel & Footwear,Standard,1,88.65
+ORD-10795,CUST-14214,2023-02-06,Industrial & Auto Parts,Standard,4,717.31
+ORD-10796,CUST-10843,2023-08-19,Home & Kitchen,Standard,1,96.7
+ORD-10797,CUST-14327,2023-06-19,Industrial & Auto Parts,Same-Day,3,550.96
+ORD-10798,CUST-14753,2023-05-09,Healthcare & Medical,Standard,3,466.22
+ORD-10799,CUST-11737,2023-01-19,Industrial & Auto Parts,Standard,4,709.78
+ORD-10800,CUST-10668,2023-06-10,Home & Kitchen,Standard,3,297.49
+ORD-10801,CUST-10598,2023-05-31,Consumer Electronics,Standard,3,679.83
+ORD-10802,CUST-11532,2023-10-25,Consumer Electronics,Express,2,484.99
+ORD-10803,CUST-13576,2023-03-30,Healthcare & Medical,Standard,2,293.53
+ORD-10804,CUST-14681,2023-06-02,Apparel & Footwear,Express,4,280.14
+ORD-10805,CUST-14278,2023-02-07,Consumer Electronics,Express,2,478.06
+ORD-10806,CUST-10844,2023-02-21,Consumer Electronics,Standard,5,1134.56
+ORD-10807,CUST-11358,2023-08-09,Healthcare & Medical,Standard,1,169.83
+ORD-10808,CUST-12290,2023-12-24,Industrial & Auto Parts,Standard,2,373.26
+ORD-10809,CUST-11442,2023-11-24,Industrial & Auto Parts,Express,4,716.76
+ORD-10810,CUST-12225,2023-03-29,Home & Kitchen,Express,5,453.77
+ORD-10811,CUST-14648,2023-09-07,Healthcare & Medical,Standard,1,153.77
+ORD-10812,CUST-12740,2023-11-01,Apparel & Footwear,Standard,2,144.8
+ORD-10813,CUST-13748,2023-11-25,Apparel & Footwear,Express,1,113.33
+ORD-10814,CUST-12375,2023-08-19,Consumer Electronics,Standard,1,261.34
+ORD-10815,CUST-11764,2023-09-24,Healthcare & Medical,Standard,3,429.09
+ORD-10816,CUST-12957,2023-11-23,Home & Kitchen,Standard,5,462.84
+ORD-10817,CUST-13603,2023-11-05,Consumer Electronics,Standard,1,239.67
+ORD-10818,CUST-14089,2023-09-19,Industrial & Auto Parts,Express,2,391.22
+ORD-10819,CUST-14261,2023-11-11,Apparel & Footwear,Standard,2,168.46
+ORD-10820,CUST-14235,2023-07-23,Industrial & Auto Parts,Standard,1,214.25
+ORD-10821,CUST-10799,2023-03-11,Apparel & Footwear,Standard,2,143.27
+ORD-10822,CUST-11878,2023-05-30,Consumer Electronics,Standard,2,470.29
+ORD-10823,CUST-12209,2023-01-18,Industrial & Auto Parts,Express,3,555.6
+ORD-10824,CUST-13545,2023-10-17,Home & Kitchen,Express,2,207.36
+ORD-10825,CUST-14826,2023-11-13,Consumer Electronics,Standard,3,705.91
+ORD-10826,CUST-12060,2023-09-09,Apparel & Footwear,Express,2,171.32
+ORD-10827,CUST-14834,2023-08-23,Consumer Electronics,Standard,4,886.64
+ORD-10828,CUST-12438,2023-01-15,Healthcare & Medical,Express,1,158.76
+ORD-10829,CUST-12918,2023-02-02,Apparel & Footwear,Standard,2,166.18
+ORD-10830,CUST-13242,2023-03-03,Home & Kitchen,Standard,3,280.54
+ORD-10831,CUST-14073,2023-04-21,Apparel & Footwear,Express,2,157.39
+ORD-10832,CUST-14724,2023-09-05,Home & Kitchen,Standard,1,109.71
+ORD-10833,CUST-13689,2023-07-09,Consumer Electronics,Standard,1,231.07
+ORD-10834,CUST-11089,2023-02-24,Healthcare & Medical,Standard,4,571.84
+ORD-10835,CUST-11310,2023-06-18,Apparel & Footwear,Standard,1,107.38
+ORD-10836,CUST-10311,2023-05-21,Perishables & Grocery,Standard,3,178.9
+ORD-10837,CUST-11835,2023-06-11,Healthcare & Medical,Standard,2,320.95
+ORD-10838,CUST-14812,2023-08-18,Home & Kitchen,Express,4,370.7
+ORD-10839,CUST-10743,2023-09-23,Consumer Electronics,Standard,3,675.23
+ORD-10840,CUST-10557,2023-08-12,Consumer Electronics,Standard,3,684.7
+ORD-10841,CUST-13079,2023-11-06,Apparel & Footwear,Standard,2,160.88
+ORD-10842,CUST-12262,2023-03-18,Apparel & Footwear,Standard,2,177.01
+ORD-10843,CUST-11528,2023-03-23,Consumer Electronics,Standard,1,235.72
+ORD-10844,CUST-13248,2023-08-13,Consumer Electronics,Standard,4,929.68
+ORD-10845,CUST-10441,2023-01-19,Apparel & Footwear,Standard,1,113.33
+ORD-10846,CUST-13035,2023-01-06,Consumer Electronics,Standard,1,232.19
+ORD-10847,CUST-14678,2023-02-14,Industrial & Auto Parts,Same-Day,3,542.93
+ORD-10848,CUST-14542,2023-03-21,Consumer Electronics,Standard,1,239.07
+ORD-10849,CUST-11130,2023-03-15,Consumer Electronics,Standard,2,480.03
+ORD-10850,CUST-14642,2023-12-15,Perishables & Grocery,Express,2,109.26
+ORD-10851,CUST-10540,2023-10-15,Industrial & Auto Parts,Standard,1,184.97
+ORD-10852,CUST-11834,2023-10-08,Apparel & Footwear,Standard,4,269.49
+ORD-10853,CUST-11937,2023-02-15,Home & Kitchen,Express,1,114.1
+ORD-10854,CUST-10890,2023-12-23,Perishables & Grocery,Express,3,176.5
+ORD-10855,CUST-11568,2023-02-26,Consumer Electronics,Express,1,248.02
+ORD-10856,CUST-13402,2023-03-07,Industrial & Auto Parts,Standard,1,223.56
+ORD-10857,CUST-10789,2023-11-13,Healthcare & Medical,Express,3,447.84
+ORD-10858,CUST-12756,2023-10-23,Consumer Electronics,Same-Day,1,239.72
+ORD-10859,CUST-11867,2023-08-03,Home & Kitchen,Same-Day,1,129.28
+ORD-10860,CUST-10681,2023-02-10,Consumer Electronics,Express,1,236.88
+ORD-10861,CUST-10681,2023-11-02,Consumer Electronics,Standard,2,453.6
+ORD-10862,CUST-13228,2023-09-20,Industrial & Auto Parts,Standard,2,397.15
+ORD-10863,CUST-14492,2023-05-12,Industrial & Auto Parts,Standard,4,745.33
+ORD-10864,CUST-11850,2023-10-02,Industrial & Auto Parts,Express,4,739.44
+ORD-10865,CUST-14950,2023-08-21,Industrial & Auto Parts,Express,3,539.69
+ORD-10866,CUST-14811,2023-06-28,Home & Kitchen,Express,1,126.55
+ORD-10867,CUST-14656,2023-07-07,Consumer Electronics,Standard,1,243.14
+ORD-10868,CUST-10077,2023-03-08,Home & Kitchen,Express,1,92.41
+ORD-10869,CUST-13149,2023-07-07,Industrial & Auto Parts,Standard,3,530.21
+ORD-10870,CUST-12400,2023-09-09,Apparel & Footwear,Express,3,240.88
+ORD-10871,CUST-11661,2023-06-03,Consumer Electronics,Standard,4,927.92
+ORD-10872,CUST-14946,2023-03-30,Apparel & Footwear,Standard,2,143.95
+ORD-10873,CUST-10558,2023-01-24,Healthcare & Medical,Standard,1,162.06
+ORD-10874,CUST-11337,2023-07-29,Home & Kitchen,Standard,1,111.27
+ORD-10875,CUST-11157,2023-01-28,Apparel & Footwear,Standard,1,112.61
+ORD-10876,CUST-12753,2023-06-01,Consumer Electronics,Standard,3,692.97
+ORD-10877,CUST-10731,2023-07-29,Home & Kitchen,Standard,2,212.61
+ORD-10878,CUST-14172,2023-04-03,Home & Kitchen,Standard,1,121.91
+ORD-10879,CUST-12811,2023-10-04,Consumer Electronics,Standard,3,708.18
+ORD-10880,CUST-13465,2023-03-17,Home & Kitchen,Standard,2,175.42
+ORD-10881,CUST-13689,2023-07-25,Apparel & Footwear,Standard,2,155.19
+ORD-10882,CUST-14325,2023-05-07,Perishables & Grocery,Standard,1,91.97
+ORD-10883,CUST-11113,2023-10-22,Home & Kitchen,Express,1,127.32
+ORD-10884,CUST-10617,2023-10-25,Industrial & Auto Parts,Standard,1,216.12
+ORD-10885,CUST-10014,2023-12-09,Healthcare & Medical,Standard,1,157.77
+ORD-10886,CUST-14560,2023-12-24,Home & Kitchen,Standard,1,112.39
+ORD-10887,CUST-12403,2023-11-17,Healthcare & Medical,Standard,3,466.45
+ORD-10888,CUST-12785,2023-02-24,Healthcare & Medical,Express,3,425.83
+ORD-10889,CUST-12648,2023-05-30,Healthcare & Medical,Standard,4,578.93
+ORD-10890,CUST-11790,2023-05-16,Perishables & Grocery,Express,4,199.07
+ORD-10891,CUST-11159,2023-10-13,Industrial & Auto Parts,Standard,3,538.61
+ORD-10892,CUST-14197,2023-11-30,Industrial & Auto Parts,Express,3,554.03
+ORD-10893,CUST-14538,2023-11-17,Consumer Electronics,Express,1,258.86
+ORD-10894,CUST-12802,2023-11-03,Apparel & Footwear,Express,4,270.68
+ORD-10895,CUST-12179,2023-12-23,Home & Kitchen,Standard,1,118.08
+ORD-10896,CUST-13960,2023-06-06,Perishables & Grocery,Standard,2,107.62
+ORD-10897,CUST-10482,2023-03-19,Apparel & Footwear,Express,2,167.85
+ORD-10898,CUST-11562,2023-09-10,Perishables & Grocery,Standard,2,129.03
+ORD-10899,CUST-11880,2023-03-20,Industrial & Auto Parts,Express,2,398.28
+ORD-10900,CUST-14178,2023-11-07,Consumer Electronics,Standard,3,706.5
+ORD-10901,CUST-13161,2023-11-14,Healthcare & Medical,Standard,2,321.57
+ORD-10902,CUST-13575,2023-11-24,Apparel & Footwear,Standard,2,174.37
+ORD-10903,CUST-11713,2023-09-19,Industrial & Auto Parts,Standard,2,375.53
+ORD-10904,CUST-10296,2023-04-03,Perishables & Grocery,Express,1,54.55
+ORD-10905,CUST-14423,2023-10-22,Consumer Electronics,Same-Day,1,238.6
+ORD-10906,CUST-13414,2023-11-27,Apparel & Footwear,Express,2,138.29
+ORD-10907,CUST-13687,2023-11-13,Consumer Electronics,Standard,4,921.87
+ORD-10908,CUST-10626,2023-04-15,Home & Kitchen,Express,2,189.51
+ORD-10909,CUST-11902,2023-01-03,Industrial & Auto Parts,Standard,1,181.97
+ORD-10910,CUST-10240,2023-02-11,Industrial & Auto Parts,Express,2,388.52
+ORD-10911,CUST-14901,2023-10-19,Consumer Electronics,Standard,1,268.38
+ORD-10912,CUST-14322,2023-10-09,Consumer Electronics,Standard,5,1109.71
+ORD-10913,CUST-11441,2023-10-13,Healthcare & Medical,Express,5,707.89
+ORD-10914,CUST-10490,2023-11-12,Industrial & Auto Parts,Standard,2,374.36
+ORD-10915,CUST-14516,2023-07-24,Apparel & Footwear,Express,2,153.11
+ORD-10916,CUST-13365,2023-10-27,Industrial & Auto Parts,Standard,1,224.52
+ORD-10917,CUST-12422,2023-05-19,Healthcare & Medical,Standard,2,303.12
+ORD-10918,CUST-13891,2023-05-30,Consumer Electronics,Standard,1,234.69
+ORD-10919,CUST-14333,2023-08-07,Consumer Electronics,Standard,4,907.91
+ORD-10920,CUST-14022,2023-01-07,Home & Kitchen,Standard,1,111.19
+ORD-10921,CUST-11579,2023-03-17,Home & Kitchen,Standard,1,97.3
+ORD-10922,CUST-12970,2023-08-17,Consumer Electronics,Express,2,457.13
+ORD-10923,CUST-13500,2023-01-24,Home & Kitchen,Express,2,183.51
+ORD-10924,CUST-10912,2023-08-22,Home & Kitchen,Standard,1,101.84
+ORD-10925,CUST-13742,2023-04-29,Apparel & Footwear,Standard,1,114.42
+ORD-10926,CUST-12647,2023-12-30,Healthcare & Medical,Standard,1,160.69
+ORD-10927,CUST-12439,2023-03-04,Home & Kitchen,Standard,2,182.31
+ORD-10928,CUST-14219,2023-10-23,Consumer Electronics,Express,1,246.11
+ORD-10929,CUST-10965,2023-05-20,Healthcare & Medical,Standard,1,149.03
+ORD-10930,CUST-14407,2023-11-30,Apparel & Footwear,Standard,3,205.23
+ORD-10931,CUST-14928,2023-06-22,Industrial & Auto Parts,Express,2,359.53
+ORD-10932,CUST-11987,2023-04-03,Consumer Electronics,Express,1,244.42
+ORD-10933,CUST-12540,2023-08-31,Perishables & Grocery,Standard,1,51.58
+ORD-10934,CUST-10989,2023-04-27,Home & Kitchen,Standard,3,271.52
+ORD-10935,CUST-12325,2023-06-25,Consumer Electronics,Standard,3,678.08
+ORD-10936,CUST-13521,2023-03-29,Industrial & Auto Parts,Standard,2,395.57
+ORD-10937,CUST-13937,2023-02-01,Apparel & Footwear,Express,3,239.19
+ORD-10938,CUST-10865,2023-12-06,Healthcare & Medical,Express,2,291.22
+ORD-10939,CUST-13484,2023-07-16,Consumer Electronics,Express,7,1557.23
+ORD-10940,CUST-10775,2023-01-27,Healthcare & Medical,Express,3,460.66
+ORD-10941,CUST-14730,2023-12-27,Industrial & Auto Parts,Standard,4,710.08
+ORD-10942,CUST-13134,2023-04-27,Apparel & Footwear,Standard,3,243.16
+ORD-10943,CUST-13826,2023-10-31,Apparel & Footwear,Standard,2,138.81
+ORD-10944,CUST-14513,2023-05-17,Consumer Electronics,Express,2,453.63
+ORD-10945,CUST-11282,2023-10-06,Home & Kitchen,Standard,2,217.38
+ORD-10946,CUST-14483,2023-01-22,Consumer Electronics,Standard,2,475.4
+ORD-10947,CUST-14269,2023-10-15,Industrial & Auto Parts,Standard,1,208.39
+ORD-10948,CUST-12631,2023-04-15,Home & Kitchen,Standard,1,126.93
+ORD-10949,CUST-12390,2023-11-16,Consumer Electronics,Same-Day,2,455.07
+ORD-10950,CUST-12475,2023-03-03,Industrial & Auto Parts,Express,1,185.41
+ORD-10951,CUST-14369,2023-07-19,Industrial & Auto Parts,Standard,4,743.26
+ORD-10952,CUST-14785,2023-08-20,Consumer Electronics,Same-Day,1,269.88
+ORD-10953,CUST-11719,2023-09-26,Home & Kitchen,Standard,3,288.12
+ORD-10954,CUST-13497,2023-02-07,Consumer Electronics,Standard,2,465.18
+ORD-10955,CUST-12192,2023-01-26,Consumer Electronics,Express,1,229.15
+ORD-10956,CUST-11763,2023-06-20,Apparel & Footwear,Express,1,75.07
+ORD-10957,CUST-13245,2023-09-04,Home & Kitchen,Standard,1,104.7
+ORD-10958,CUST-12285,2023-07-14,Consumer Electronics,Standard,1,241.01
+ORD-10959,CUST-14413,2023-12-04,Consumer Electronics,Standard,3,705.07
+ORD-10960,CUST-13243,2023-04-04,Perishables & Grocery,Express,4,212.97
+ORD-10961,CUST-14638,2023-10-19,Apparel & Footwear,Standard,4,304.73
+ORD-10962,CUST-14523,2023-02-17,Industrial & Auto Parts,Standard,2,396.83
+ORD-10963,CUST-14675,2023-08-24,Healthcare & Medical,Standard,1,179.56
+ORD-10964,CUST-14523,2023-05-25,Apparel & Footwear,Standard,1,109.65
+ORD-10965,CUST-14355,2023-06-12,Healthcare & Medical,Same-Day,2,297.48
+ORD-10966,CUST-10673,2023-03-10,Consumer Electronics,Standard,3,686.58
+ORD-10967,CUST-14319,2023-05-18,Consumer Electronics,Standard,2,451.51
+ORD-10968,CUST-13773,2023-01-11,Industrial & Auto Parts,Standard,1,213.67
+ORD-10969,CUST-12498,2023-06-29,Consumer Electronics,Standard,3,665.04
+ORD-10970,CUST-12384,2023-09-04,Perishables & Grocery,Standard,2,125.34
+ORD-10971,CUST-11080,2023-08-12,Home & Kitchen,Standard,1,123.37
+ORD-10972,CUST-10810,2023-12-15,Home & Kitchen,Standard,1,109.14
+ORD-10973,CUST-11441,2023-10-19,Healthcare & Medical,Express,2,288.64
+ORD-10974,CUST-11293,2023-11-21,Apparel & Footwear,Express,2,139.63
+ORD-10975,CUST-10438,2023-07-07,Home & Kitchen,Standard,1,105.35
+ORD-10976,CUST-10685,2023-06-03,Healthcare & Medical,Standard,1,187.51
+ORD-10977,CUST-11710,2023-03-27,Apparel & Footwear,Express,2,177.96
+ORD-10978,CUST-13306,2023-12-13,Home & Kitchen,Express,2,186.86
+ORD-10979,CUST-14095,2023-03-22,Consumer Electronics,Same-Day,1,229.81
+ORD-10980,CUST-10798,2023-09-14,Healthcare & Medical,Express,2,305.68
+ORD-10981,CUST-14127,2023-03-20,Healthcare & Medical,Standard,3,443.53
+ORD-10982,CUST-10874,2023-04-02,Home & Kitchen,Express,1,107.66
+ORD-10983,CUST-13504,2023-08-10,Consumer Electronics,Standard,2,472.26
+ORD-10984,CUST-12368,2023-10-03,Apparel & Footwear,Express,1,90.91
+ORD-10985,CUST-10717,2023-07-11,Home & Kitchen,Express,1,90.61
+ORD-10986,CUST-13038,2023-12-16,Home & Kitchen,Standard,1,115.69
+ORD-10987,CUST-12893,2023-05-01,Home & Kitchen,Express,1,115.87
+ORD-10988,CUST-10732,2023-05-15,Industrial & Auto Parts,Standard,1,217.76
+ORD-10989,CUST-12539,2023-12-17,Home & Kitchen,Standard,1,109.61
+ORD-10990,CUST-12041,2023-01-22,Consumer Electronics,Standard,2,482.02
+ORD-10991,CUST-12448,2023-05-19,Apparel & Footwear,Same-Day,2,138.38
+ORD-10992,CUST-12595,2023-09-10,Perishables & Grocery,Express,2,104.95
+ORD-10993,CUST-12103,2023-06-25,Home & Kitchen,Standard,1,126.5
+ORD-10994,CUST-10303,2023-04-22,Perishables & Grocery,Express,4,206.28
+ORD-10995,CUST-12397,2023-12-26,Apparel & Footwear,Standard,1,112.32
+ORD-10996,CUST-12084,2023-11-28,Home & Kitchen,Standard,1,94.27
+ORD-10997,CUST-11495,2023-02-12,Healthcare & Medical,Standard,1,167.94
+ORD-10998,CUST-12077,2023-05-13,Industrial & Auto Parts,Express,2,361.53
+ORD-10999,CUST-14254,2023-11-13,Industrial & Auto Parts,Express,1,183.55
+ORD-11000,CUST-14463,2023-10-25,Healthcare & Medical,Express,2,286.74
+ORD-11001,CUST-10756,2023-01-16,Consumer Electronics,Express,1,255.97
+ORD-11002,CUST-13613,2023-08-03,Apparel & Footwear,Express,1,110.76
+ORD-11003,CUST-10561,2023-12-30,Industrial & Auto Parts,Express,2,385.97
+ORD-11004,CUST-10008,2023-10-09,Healthcare & Medical,Standard,3,455.91
+ORD-11005,CUST-10661,2023-10-27,Apparel & Footwear,Standard,1,90.49
+ORD-11006,CUST-14761,2023-08-20,Home & Kitchen,Express,4,376.21
+ORD-11007,CUST-14601,2023-03-06,Home & Kitchen,Express,2,211.15
+ORD-11008,CUST-14588,2023-08-07,Perishables & Grocery,Standard,2,113.27
+ORD-11009,CUST-12900,2023-04-17,Consumer Electronics,Standard,2,449.92
+ORD-11010,CUST-10959,2023-10-29,Perishables & Grocery,Express,2,115.56
+ORD-11011,CUST-10762,2023-09-14,Consumer Electronics,Express,1,256.84
+ORD-11012,CUST-13660,2023-04-26,Consumer Electronics,Standard,4,895.55
+ORD-11013,CUST-14182,2023-06-10,Healthcare & Medical,Standard,3,446.65
+ORD-11014,CUST-12576,2023-05-27,Industrial & Auto Parts,Standard,4,732.43
+ORD-11015,CUST-14943,2023-11-24,Home & Kitchen,Same-Day,4,368.87
+ORD-11016,CUST-13959,2023-08-12,Home & Kitchen,Standard,4,385.74
+ORD-11017,CUST-11844,2023-05-12,Industrial & Auto Parts,Express,3,572.95
+ORD-11018,CUST-11692,2023-08-05,Healthcare & Medical,Standard,3,468.82
+ORD-11019,CUST-10465,2023-02-21,Healthcare & Medical,Standard,3,469.52
+ORD-11020,CUST-14693,2023-09-22,Consumer Electronics,Express,1,230.71
+ORD-11021,CUST-13379,2023-03-27,Healthcare & Medical,Standard,2,298.98
+ORD-11022,CUST-10265,2023-03-13,Home & Kitchen,Standard,2,199.8
+ORD-11023,CUST-14550,2023-02-19,Healthcare & Medical,Express,1,182.07
+ORD-11024,CUST-14968,2023-04-15,Consumer Electronics,Standard,2,475.51
+ORD-11025,CUST-13131,2023-08-22,Industrial & Auto Parts,Standard,2,357.35
+ORD-11026,CUST-12397,2023-04-27,Consumer Electronics,Express,2,457.97
+ORD-11027,CUST-11032,2023-02-16,Consumer Electronics,Standard,2,455.07
+ORD-11028,CUST-11292,2023-08-27,Consumer Electronics,Standard,3,680.08
+ORD-11029,CUST-11754,2023-06-20,Apparel & Footwear,Standard,2,143.61
+ORD-11030,CUST-12066,2023-06-09,Consumer Electronics,Standard,5,1146.69
+ORD-11031,CUST-14509,2023-07-25,Healthcare & Medical,Standard,2,318.0
+ORD-11032,CUST-10570,2023-06-09,Perishables & Grocery,Standard,1,76.17
+ORD-11033,CUST-10059,2023-12-22,Consumer Electronics,Standard,1,260.86
+ORD-11034,CUST-12653,2023-05-21,Consumer Electronics,Standard,1,227.21
+ORD-11035,CUST-11251,2023-12-23,Home & Kitchen,Express,2,184.73
+ORD-11036,CUST-10803,2023-06-07,Perishables & Grocery,Express,1,78.02
+ORD-11037,CUST-13226,2023-03-15,Consumer Electronics,Standard,1,247.4
+ORD-11038,CUST-14748,2023-10-05,Consumer Electronics,Express,3,680.41
+ORD-11039,CUST-13406,2023-10-02,Healthcare & Medical,Standard,1,146.51
+ORD-11040,CUST-10785,2023-09-04,Apparel & Footwear,Standard,5,330.81
+ORD-11041,CUST-13530,2023-04-08,Apparel & Footwear,Express,5,330.91
+ORD-11042,CUST-10137,2023-06-15,Healthcare & Medical,Standard,7,1023.71
+ORD-11043,CUST-11879,2023-12-30,Apparel & Footwear,Standard,1,74.74
+ORD-11044,CUST-13545,2023-03-25,Home & Kitchen,Standard,1,127.14
+ORD-11045,CUST-11360,2023-08-21,Home & Kitchen,Standard,1,97.97
+ORD-11046,CUST-11901,2023-02-19,Healthcare & Medical,Standard,1,172.36
+ORD-11047,CUST-12266,2023-06-07,Perishables & Grocery,Standard,4,206.05
+ORD-11048,CUST-14917,2023-04-09,Perishables & Grocery,Standard,1,64.28
+ORD-11049,CUST-12283,2023-11-05,Consumer Electronics,Standard,3,693.18
+ORD-11050,CUST-12948,2023-10-03,Home & Kitchen,Standard,1,97.03
+ORD-11051,CUST-14404,2023-08-15,Home & Kitchen,Standard,2,197.51
+ORD-11052,CUST-12471,2023-08-16,Apparel & Footwear,Standard,3,243.9
+ORD-11053,CUST-11388,2023-01-14,Consumer Electronics,Standard,5,1143.63
+ORD-11054,CUST-13775,2023-12-21,Healthcare & Medical,Standard,4,567.99
+ORD-11055,CUST-13622,2023-09-08,Home & Kitchen,Standard,5,463.57
+ORD-11056,CUST-13808,2023-08-04,Healthcare & Medical,Standard,1,150.87
+ORD-11057,CUST-14580,2023-07-18,Apparel & Footwear,Express,1,102.07
+ORD-11058,CUST-12056,2023-01-16,Apparel & Footwear,Standard,1,102.75
+ORD-11059,CUST-13796,2023-05-01,Apparel & Footwear,Standard,2,166.01
+ORD-11060,CUST-13720,2023-12-24,Apparel & Footwear,Standard,6,432.95
+ORD-11061,CUST-14311,2023-01-21,Home & Kitchen,Express,2,188.9
+ORD-11062,CUST-11199,2023-05-09,Apparel & Footwear,Standard,1,77.7
+ORD-11063,CUST-13677,2023-12-11,Home & Kitchen,Standard,1,112.05
+ORD-11064,CUST-13068,2023-07-05,Industrial & Auto Parts,Same-Day,1,203.12
+ORD-11065,CUST-11486,2023-01-03,Consumer Electronics,Standard,4,904.19
+ORD-11066,CUST-14769,2023-10-13,Consumer Electronics,Standard,1,268.75
+ORD-11067,CUST-12781,2023-07-19,Home & Kitchen,Express,4,383.57
+ORD-11068,CUST-12429,2023-05-03,Industrial & Auto Parts,Express,3,549.19
+ORD-11069,CUST-12074,2023-07-01,Healthcare & Medical,Express,3,442.55
+ORD-11070,CUST-14651,2023-05-08,Home & Kitchen,Standard,1,111.18
+ORD-11071,CUST-12124,2023-01-20,Home & Kitchen,Express,4,383.06
+ORD-11072,CUST-11452,2023-12-04,Industrial & Auto Parts,Same-Day,1,187.52
+ORD-11073,CUST-12346,2023-09-30,Home & Kitchen,Standard,2,215.38
+ORD-11074,CUST-14277,2023-08-22,Home & Kitchen,Express,1,111.95
+ORD-11075,CUST-12693,2023-10-14,Apparel & Footwear,Standard,1,82.09
+ORD-11076,CUST-14338,2023-04-17,Consumer Electronics,Express,1,237.15
+ORD-11077,CUST-12660,2023-05-30,Consumer Electronics,Standard,5,1123.13
+ORD-11078,CUST-13117,2023-07-04,Home & Kitchen,Standard,2,193.83
+ORD-11079,CUST-13338,2023-12-14,Perishables & Grocery,Standard,1,71.96
+ORD-11080,CUST-10330,2023-10-07,Perishables & Grocery,Standard,1,60.49
+ORD-11081,CUST-12534,2023-07-23,Consumer Electronics,Standard,2,467.61
+ORD-11082,CUST-11907,2023-09-04,Home & Kitchen,Express,1,109.37
+ORD-11083,CUST-14330,2023-06-28,Consumer Electronics,Standard,3,692.29
+ORD-11084,CUST-10111,2023-12-17,Apparel & Footwear,Standard,3,241.72
+ORD-11085,CUST-12620,2023-10-16,Apparel & Footwear,Express,2,154.83
+ORD-11086,CUST-14228,2023-09-11,Healthcare & Medical,Standard,3,447.41
+ORD-11087,CUST-14360,2023-11-07,Industrial & Auto Parts,Standard,1,182.86
+ORD-11088,CUST-10026,2023-10-23,Healthcare & Medical,Standard,1,159.65
+ORD-11089,CUST-13228,2023-10-26,Industrial & Auto Parts,Standard,5,909.18
+ORD-11090,CUST-10101,2023-12-22,Healthcare & Medical,Standard,1,158.19
+ORD-11091,CUST-13537,2023-07-24,Apparel & Footwear,Standard,2,163.24
+ORD-11092,CUST-14577,2023-07-28,Apparel & Footwear,Standard,1,102.56
+ORD-11093,CUST-13810,2023-05-01,Healthcare & Medical,Express,2,286.42
+ORD-11094,CUST-13440,2023-05-23,Healthcare & Medical,Standard,1,183.96
+ORD-11095,CUST-10819,2023-05-23,Apparel & Footwear,Standard,1,103.45
+ORD-11096,CUST-11792,2023-05-14,Healthcare & Medical,Same-Day,2,304.18
+ORD-11097,CUST-10988,2023-01-10,Industrial & Auto Parts,Standard,1,207.79
+ORD-11098,CUST-14421,2023-03-30,Consumer Electronics,Standard,1,232.81
+ORD-11099,CUST-14571,2023-10-24,Apparel & Footwear,Standard,3,236.27
+ORD-11100,CUST-14985,2023-09-09,Consumer Electronics,Standard,1,236.75
+ORD-11101,CUST-12953,2023-01-01,Industrial & Auto Parts,Standard,3,573.82
+ORD-11102,CUST-14328,2023-11-20,Home & Kitchen,Standard,1,109.61
+ORD-11103,CUST-10815,2023-08-17,Healthcare & Medical,Standard,1,175.07
+ORD-11104,CUST-14357,2023-12-01,Consumer Electronics,Standard,1,226.04
+ORD-11105,CUST-13695,2023-08-02,Industrial & Auto Parts,Standard,2,379.85
+ORD-11106,CUST-12136,2023-03-11,Apparel & Footwear,Standard,1,97.24
+ORD-11107,CUST-10583,2023-11-24,Perishables & Grocery,Standard,3,155.4
+ORD-11108,CUST-11750,2023-06-25,Industrial & Auto Parts,Same-Day,1,197.34
+ORD-11109,CUST-12877,2023-01-07,Apparel & Footwear,Standard,4,287.64
+ORD-11110,CUST-10373,2023-07-31,Perishables & Grocery,Express,2,98.72
+ORD-11111,CUST-11636,2023-02-07,Home & Kitchen,Same-Day,1,131.41
+ORD-11112,CUST-11037,2023-05-29,Consumer Electronics,Express,1,234.64
+ORD-11113,CUST-11756,2023-06-27,Industrial & Auto Parts,Standard,5,900.34
+ORD-11114,CUST-10157,2023-02-26,Apparel & Footwear,Express,1,111.61
+ORD-11115,CUST-14667,2023-02-28,Consumer Electronics,Express,2,487.23
+ORD-11116,CUST-12145,2023-12-16,Apparel & Footwear,Express,3,212.26
+ORD-11117,CUST-10418,2023-03-31,Consumer Electronics,Express,2,487.4
+ORD-11118,CUST-12069,2023-01-23,Industrial & Auto Parts,Standard,5,904.92
+ORD-11119,CUST-10282,2023-12-29,Apparel & Footwear,Standard,1,107.38
+ORD-11120,CUST-12777,2023-11-27,Consumer Electronics,Standard,1,263.79
+ORD-11121,CUST-13899,2023-08-27,Home & Kitchen,Express,2,180.56
+ORD-11122,CUST-13900,2023-09-11,Consumer Electronics,Standard,1,234.27
+ORD-11123,CUST-11204,2023-03-01,Consumer Electronics,Express,2,483.86
+ORD-11124,CUST-13094,2023-03-30,Perishables & Grocery,Standard,3,157.94
+ORD-11125,CUST-12391,2023-12-24,Consumer Electronics,Standard,3,703.39
+ORD-11126,CUST-10764,2023-08-30,Consumer Electronics,Standard,4,904.15
+ORD-11127,CUST-10580,2023-09-17,Healthcare & Medical,Standard,2,317.42
+ORD-11128,CUST-11671,2023-08-11,Apparel & Footwear,Standard,3,231.59
+ORD-11129,CUST-13680,2023-10-23,Perishables & Grocery,Standard,1,71.45
+ORD-11130,CUST-14880,2023-06-09,Consumer Electronics,Same-Day,2,446.86
+ORD-11131,CUST-14556,2023-11-28,Apparel & Footwear,Standard,1,96.02
+ORD-11132,CUST-13387,2023-12-15,Consumer Electronics,Express,3,699.67
+ORD-11133,CUST-12398,2023-07-11,Consumer Electronics,Express,2,468.29
+ORD-11134,CUST-10057,2023-02-06,Healthcare & Medical,Express,1,146.87
+ORD-11135,CUST-10948,2023-11-28,Home & Kitchen,Standard,2,213.08
+ORD-11136,CUST-10909,2023-11-28,Home & Kitchen,Same-Day,2,204.87
+ORD-11137,CUST-11886,2023-02-19,Apparel & Footwear,Same-Day,1,107.79
+ORD-11138,CUST-13240,2023-02-25,Healthcare & Medical,Same-Day,1,154.05
+ORD-11139,CUST-10807,2023-07-22,Industrial & Auto Parts,Express,1,217.11
+ORD-11140,CUST-11165,2023-06-27,Industrial & Auto Parts,Standard,2,384.71
+ORD-11141,CUST-12712,2023-11-05,Home & Kitchen,Express,2,196.14
+ORD-11142,CUST-10705,2023-03-05,Industrial & Auto Parts,Express,2,372.05
+ORD-11143,CUST-12172,2023-12-15,Healthcare & Medical,Standard,2,288.88
+ORD-11144,CUST-10919,2023-06-29,Healthcare & Medical,Express,1,153.48
+ORD-11145,CUST-12000,2023-12-29,Apparel & Footwear,Standard,3,224.3
+ORD-11146,CUST-13011,2023-01-10,Consumer Electronics,Standard,3,682.9
+ORD-11147,CUST-11393,2023-12-18,Perishables & Grocery,Same-Day,4,209.08
+ORD-11148,CUST-11724,2023-01-20,Healthcare & Medical,Standard,2,306.66
+ORD-11149,CUST-13474,2023-11-15,Industrial & Auto Parts,Standard,1,187.66
+ORD-11150,CUST-10899,2023-08-25,Apparel & Footwear,Standard,2,163.54
+ORD-11151,CUST-13425,2023-11-22,Home & Kitchen,Standard,1,100.8
+ORD-11152,CUST-11186,2023-09-10,Industrial & Auto Parts,Standard,4,717.19
+ORD-11153,CUST-14917,2023-08-24,Healthcare & Medical,Standard,4,607.06
+ORD-11154,CUST-14016,2023-10-11,Consumer Electronics,Standard,1,245.68
+ORD-11155,CUST-14723,2023-09-17,Consumer Electronics,Standard,4,894.27
+ORD-11156,CUST-14344,2023-08-20,Home & Kitchen,Same-Day,4,386.98
+ORD-11157,CUST-12549,2023-09-02,Consumer Electronics,Express,1,249.97
+ORD-11158,CUST-12944,2023-09-13,Apparel & Footwear,Standard,3,204.19
+ORD-11159,CUST-10545,2023-08-19,Apparel & Footwear,Express,2,146.52
+ORD-11160,CUST-10409,2023-11-27,Healthcare & Medical,Standard,2,285.85
+ORD-11161,CUST-14960,2023-05-08,Industrial & Auto Parts,Express,5,900.26
+ORD-11162,CUST-13816,2023-10-12,Apparel & Footwear,Express,2,151.06
+ORD-11163,CUST-13611,2023-02-05,Home & Kitchen,Standard,4,358.34
+ORD-11164,CUST-10325,2023-01-17,Consumer Electronics,Standard,2,477.38
+ORD-11165,CUST-13689,2023-04-15,Industrial & Auto Parts,Standard,8,1426.03
+ORD-11166,CUST-12788,2023-01-24,Home & Kitchen,Same-Day,3,260.8
+ORD-11167,CUST-14163,2023-08-13,Industrial & Auto Parts,Standard,4,716.36
+ORD-11168,CUST-13468,2023-08-05,Perishables & Grocery,Standard,3,167.1
+ORD-11169,CUST-14331,2023-10-03,Perishables & Grocery,Standard,2,122.73
+ORD-11170,CUST-11243,2023-07-06,Consumer Electronics,Same-Day,2,461.97
+ORD-11171,CUST-11441,2023-12-25,Apparel & Footwear,Express,1,113.92
+ORD-11172,CUST-12946,2023-10-18,Home & Kitchen,Standard,3,287.19
+ORD-11173,CUST-10057,2023-08-11,Home & Kitchen,Express,2,178.52
+ORD-11174,CUST-12490,2023-07-10,Healthcare & Medical,Standard,2,309.6
+ORD-11175,CUST-11560,2023-02-21,Apparel & Footwear,Standard,4,267.25
+ORD-11176,CUST-12568,2023-06-08,Healthcare & Medical,Standard,1,146.33
+ORD-11177,CUST-14211,2023-08-10,Apparel & Footwear,Standard,3,220.8
+ORD-11178,CUST-12229,2023-07-05,Healthcare & Medical,Express,3,430.81
+ORD-11179,CUST-10176,2023-12-24,Apparel & Footwear,Standard,1,84.05
+ORD-11180,CUST-12398,2023-04-07,Consumer Electronics,Standard,1,255.19
+ORD-11181,CUST-13953,2023-07-16,Consumer Electronics,Standard,2,482.54
+ORD-11182,CUST-13384,2023-04-14,Healthcare & Medical,Standard,4,602.29
+ORD-11183,CUST-12770,2023-11-09,Industrial & Auto Parts,Standard,3,537.41
+ORD-11184,CUST-11974,2023-01-28,Home & Kitchen,Standard,1,111.42
+ORD-11185,CUST-14399,2023-06-27,Healthcare & Medical,Standard,1,184.94
+ORD-11186,CUST-13286,2023-02-10,Consumer Electronics,Standard,1,264.21
+ORD-11187,CUST-13615,2023-01-07,Consumer Electronics,Express,2,477.2
+ORD-11188,CUST-13397,2023-02-25,Healthcare & Medical,Standard,2,326.32
+ORD-11189,CUST-11744,2023-11-21,Home & Kitchen,Standard,3,260.35
+ORD-11190,CUST-11840,2023-03-22,Consumer Electronics,Standard,1,241.35
+ORD-11191,CUST-12559,2023-05-11,Apparel & Footwear,Express,3,203.33
+ORD-11192,CUST-10405,2023-12-02,Home & Kitchen,Standard,3,261.14
+ORD-11193,CUST-10614,2023-07-16,Healthcare & Medical,Standard,1,182.01
+ORD-11194,CUST-14043,2023-02-20,Consumer Electronics,Standard,1,247.08
+ORD-11195,CUST-14655,2023-06-17,Industrial & Auto Parts,Express,2,399.5
+ORD-11196,CUST-12850,2023-11-20,Consumer Electronics,Same-Day,3,699.85
+ORD-11197,CUST-12023,2023-07-23,Consumer Electronics,Standard,2,446.98
+ORD-11198,CUST-13287,2023-01-22,Industrial & Auto Parts,Standard,1,211.68
+ORD-11199,CUST-11406,2023-06-19,Home & Kitchen,Express,4,376.08
+ORD-11200,CUST-12709,2023-05-13,Home & Kitchen,Express,3,299.23
+ORD-11201,CUST-13127,2023-10-12,Consumer Electronics,Standard,3,674.95
+ORD-11202,CUST-11621,2023-12-30,Apparel & Footwear,Standard,1,73.08
+ORD-11203,CUST-14123,2023-12-08,Apparel & Footwear,Standard,1,103.25
+ORD-11204,CUST-14945,2023-02-07,Home & Kitchen,Standard,1,92.48
+ORD-11205,CUST-13148,2023-06-27,Consumer Electronics,Express,1,254.42
+ORD-11206,CUST-11924,2023-08-23,Healthcare & Medical,Standard,3,469.22
+ORD-11207,CUST-14945,2023-03-26,Home & Kitchen,Standard,2,196.19
+ORD-11208,CUST-13193,2023-02-17,Home & Kitchen,Standard,2,192.35
+ORD-11209,CUST-10064,2023-07-29,Home & Kitchen,Standard,1,132.14
+ORD-11210,CUST-11741,2023-01-17,Healthcare & Medical,Express,1,149.21
+ORD-11211,CUST-13846,2023-06-14,Industrial & Auto Parts,Standard,3,572.95
+ORD-11212,CUST-10280,2023-06-26,Healthcare & Medical,Same-Day,3,436.81
+ORD-11213,CUST-13800,2023-02-18,Apparel & Footwear,Express,2,155.49
+ORD-11214,CUST-10507,2023-03-25,Industrial & Auto Parts,Standard,1,202.83
+ORD-11215,CUST-13679,2023-01-31,Healthcare & Medical,Standard,3,438.41
+ORD-11216,CUST-13971,2023-11-02,Consumer Electronics,Standard,3,705.51
+ORD-11217,CUST-11843,2023-06-10,Home & Kitchen,Express,2,190.57
+ORD-11218,CUST-10046,2023-02-24,Industrial & Auto Parts,Express,1,209.15
+ORD-11219,CUST-10640,2023-04-28,Consumer Electronics,Standard,1,232.64
+ORD-11220,CUST-10395,2023-08-04,Perishables & Grocery,Standard,2,110.16
+ORD-11221,CUST-11000,2023-11-05,Consumer Electronics,Standard,1,246.13
+ORD-11222,CUST-13974,2023-10-11,Apparel & Footwear,Express,3,220.59
+ORD-11223,CUST-10217,2023-09-04,Perishables & Grocery,Express,5,265.08
+ORD-11224,CUST-10196,2023-11-25,Industrial & Auto Parts,Standard,1,208.8
+ORD-11225,CUST-11225,2023-09-01,Consumer Electronics,Express,3,698.99
+ORD-11226,CUST-10355,2023-08-17,Healthcare & Medical,Express,1,169.0
+ORD-11227,CUST-11422,2023-06-08,Industrial & Auto Parts,Standard,2,397.2
+ORD-11228,CUST-12396,2023-10-25,Consumer Electronics,Express,1,225.05
+ORD-11229,CUST-13065,2023-08-13,Apparel & Footwear,Standard,2,176.66
+ORD-11230,CUST-11285,2023-05-12,Apparel & Footwear,Same-Day,1,100.41
+ORD-11231,CUST-10196,2023-12-04,Industrial & Auto Parts,Standard,1,191.68
+ORD-11232,CUST-10722,2023-04-29,Apparel & Footwear,Express,3,215.89
+ORD-11233,CUST-14704,2023-01-10,Home & Kitchen,Express,5,430.55
+ORD-11234,CUST-11615,2023-05-15,Perishables & Grocery,Standard,1,50.67
+ORD-11235,CUST-11527,2023-07-05,Apparel & Footwear,Standard,5,333.81
+ORD-11236,CUST-11719,2023-03-21,Healthcare & Medical,Standard,1,170.83
+ORD-11237,CUST-11446,2023-01-26,Perishables & Grocery,Standard,1,66.49
+ORD-11238,CUST-13072,2023-04-28,Consumer Electronics,Express,1,244.25
+ORD-11239,CUST-13405,2023-01-23,Apparel & Footwear,Express,2,146.77
+ORD-11240,CUST-10215,2023-01-14,Consumer Electronics,Standard,2,461.45
+ORD-11241,CUST-12373,2023-08-07,Consumer Electronics,Express,1,249.86
+ORD-11242,CUST-10304,2023-01-18,Home & Kitchen,Standard,2,207.3
+ORD-11243,CUST-13977,2023-05-21,Consumer Electronics,Express,2,486.85
+ORD-11244,CUST-14128,2023-10-01,Apparel & Footwear,Express,1,84.77
+ORD-11245,CUST-12512,2023-09-10,Consumer Electronics,Standard,1,234.54
+ORD-11246,CUST-14091,2023-02-15,Industrial & Auto Parts,Standard,1,203.48
+ORD-11247,CUST-10441,2023-06-28,Healthcare & Medical,Standard,4,575.24
+ORD-11248,CUST-10444,2023-09-09,Industrial & Auto Parts,Standard,4,705.55
+ORD-11249,CUST-14431,2023-02-24,Apparel & Footwear,Standard,3,215.91
+ORD-11250,CUST-10376,2023-01-26,Apparel & Footwear,Express,2,160.68
+ORD-11251,CUST-11866,2023-07-10,Healthcare & Medical,Standard,1,178.73
+ORD-11252,CUST-13909,2023-05-02,Apparel & Footwear,Standard,4,282.67
+ORD-11253,CUST-14036,2023-05-27,Healthcare & Medical,Express,2,306.56
+ORD-11254,CUST-13631,2023-09-28,Consumer Electronics,Express,2,450.61
+ORD-11255,CUST-10920,2023-10-28,Home & Kitchen,Standard,2,216.15
+ORD-11256,CUST-13995,2023-12-19,Healthcare & Medical,Express,6,867.64
+ORD-11257,CUST-13192,2023-10-13,Consumer Electronics,Standard,1,226.28
+ORD-11258,CUST-12056,2023-10-21,Healthcare & Medical,Standard,2,294.1
+ORD-11259,CUST-12016,2023-04-19,Consumer Electronics,Same-Day,4,910.32
+ORD-11260,CUST-12237,2023-02-03,Industrial & Auto Parts,Standard,2,371.55
+ORD-11261,CUST-10307,2023-02-21,Industrial & Auto Parts,Express,3,550.14
+ORD-11262,CUST-11776,2023-05-30,Consumer Electronics,Express,1,252.38
+ORD-11263,CUST-11677,2023-09-02,Consumer Electronics,Express,4,900.17
+ORD-11264,CUST-12803,2023-08-08,Apparel & Footwear,Standard,1,114.03
+ORD-11265,CUST-13408,2023-07-09,Healthcare & Medical,Express,1,172.55
+ORD-11266,CUST-13022,2023-08-26,Home & Kitchen,Standard,2,196.91
+ORD-11267,CUST-12926,2023-01-30,Industrial & Auto Parts,Standard,1,203.95
+ORD-11268,CUST-12583,2023-06-24,Home & Kitchen,Same-Day,2,198.04
+ORD-11269,CUST-10558,2023-02-09,Apparel & Footwear,Standard,1,77.73
+ORD-11270,CUST-14864,2023-07-03,Home & Kitchen,Standard,1,101.22
+ORD-11271,CUST-12872,2023-06-08,Consumer Electronics,Express,1,254.07
+ORD-11272,CUST-11856,2023-12-01,Industrial & Auto Parts,Standard,1,180.65
+ORD-11273,CUST-10926,2023-01-17,Perishables & Grocery,Express,1,91.18
+ORD-11274,CUST-10909,2023-12-10,Home & Kitchen,Express,4,357.61
+ORD-11275,CUST-14148,2023-01-07,Healthcare & Medical,Standard,2,305.49
+ORD-11276,CUST-14061,2023-09-10,Home & Kitchen,Standard,1,108.83
+ORD-11277,CUST-13648,2023-05-16,Perishables & Grocery,Standard,1,69.1
+ORD-11278,CUST-11551,2023-11-02,Home & Kitchen,Standard,3,276.92
+ORD-11279,CUST-12095,2023-07-23,Perishables & Grocery,Standard,2,134.99
+ORD-11280,CUST-12864,2023-11-23,Industrial & Auto Parts,Express,2,381.91
+ORD-11281,CUST-11396,2023-09-20,Perishables & Grocery,Standard,4,223.3
+ORD-11282,CUST-11858,2023-10-10,Consumer Electronics,Same-Day,1,256.74
+ORD-11283,CUST-10106,2023-01-29,Home & Kitchen,Same-Day,1,114.55
+ORD-11284,CUST-14465,2023-11-05,Perishables & Grocery,Standard,3,175.98
+ORD-11285,CUST-12476,2023-07-24,Home & Kitchen,Standard,2,196.4
+ORD-11286,CUST-13620,2023-08-31,Home & Kitchen,Standard,1,127.76
+ORD-11287,CUST-13906,2023-07-05,Home & Kitchen,Standard,2,201.45
+ORD-11288,CUST-11302,2023-03-04,Consumer Electronics,Standard,2,486.68
+ORD-11289,CUST-13308,2023-11-02,Healthcare & Medical,Standard,2,329.07
+ORD-11290,CUST-11669,2023-03-05,Healthcare & Medical,Standard,1,172.17
+ORD-11291,CUST-10348,2023-05-03,Healthcare & Medical,Same-Day,4,608.0
+ORD-11292,CUST-14814,2023-11-07,Industrial & Auto Parts,Standard,2,399.02
+ORD-11293,CUST-14124,2023-01-12,Consumer Electronics,Standard,2,448.49
+ORD-11294,CUST-14413,2022-12-31,Home & Kitchen,Express,3,302.9
+ORD-11295,CUST-11576,2023-01-01,Healthcare & Medical,Standard,1,169.88
+ORD-11296,CUST-14145,2023-11-08,Apparel & Footwear,Standard,1,106.56
+ORD-11297,CUST-13535,2023-08-23,Healthcare & Medical,Standard,1,146.71
+ORD-11298,CUST-14716,2023-06-07,Home & Kitchen,Standard,2,200.45
+ORD-11299,CUST-11630,2023-08-09,Apparel & Footwear,Express,2,157.14
+ORD-11300,CUST-10880,2023-09-05,Healthcare & Medical,Express,2,320.38
+ORD-11301,CUST-12842,2023-09-25,Home & Kitchen,Standard,1,124.99
+ORD-11302,CUST-13233,2022-12-31,Consumer Electronics,Standard,2,461.43
+ORD-11303,CUST-10006,2023-07-30,Home & Kitchen,Standard,1,113.09
+ORD-11304,CUST-11690,2023-12-23,Perishables & Grocery,Standard,2,95.87
+ORD-11305,CUST-12416,2023-12-29,Industrial & Auto Parts,Same-Day,5,913.55
+ORD-11306,CUST-14265,2023-01-14,Apparel & Footwear,Standard,3,229.03
+ORD-11307,CUST-10843,2023-10-15,Consumer Electronics,Standard,1,260.72
+ORD-11308,CUST-13604,2023-03-13,Industrial & Auto Parts,Standard,1,197.23
+ORD-11309,CUST-10932,2023-07-24,Apparel & Footwear,Standard,3,214.56
+ORD-11310,CUST-12565,2023-10-25,Apparel & Footwear,Express,4,284.48
+ORD-11311,CUST-14900,2023-09-02,Apparel & Footwear,Express,4,295.47
+ORD-11312,CUST-14009,2023-11-03,Consumer Electronics,Standard,2,458.04
+ORD-11313,CUST-11518,2023-05-02,Apparel & Footwear,Standard,4,272.28
+ORD-11314,CUST-11135,2023-08-16,Consumer Electronics,Standard,4,905.78
+ORD-11315,CUST-13446,2023-03-17,Consumer Electronics,Standard,2,456.02
+ORD-11316,CUST-11905,2023-01-29,Perishables & Grocery,Standard,2,95.41
+ORD-11317,CUST-13728,2023-04-12,Consumer Electronics,Standard,2,446.58
+ORD-11318,CUST-14932,2023-06-09,Consumer Electronics,Express,3,697.09
+ORD-11319,CUST-12232,2023-09-02,Apparel & Footwear,Express,3,225.1
+ORD-11320,CUST-10710,2023-09-25,Home & Kitchen,Express,3,294.39
+ORD-11321,CUST-10012,2023-12-29,Home & Kitchen,Express,3,295.81
+ORD-11322,CUST-12025,2023-08-29,Consumer Electronics,Standard,1,252.56
+ORD-11323,CUST-12433,2023-02-11,Apparel & Footwear,Express,1,87.19
+ORD-11324,CUST-10915,2023-01-27,Home & Kitchen,Standard,1,128.62
+ORD-11325,CUST-11247,2023-04-12,Industrial & Auto Parts,Standard,1,190.4
+ORD-11326,CUST-12477,2023-03-29,Consumer Electronics,Standard,1,236.32
+ORD-11327,CUST-12522,2023-04-10,Perishables & Grocery,Standard,4,222.07
+ORD-11328,CUST-13233,2023-02-23,Apparel & Footwear,Express,2,149.45
+ORD-11329,CUST-14963,2023-12-28,Perishables & Grocery,Standard,2,133.69
+ORD-11330,CUST-12491,2023-06-25,Apparel & Footwear,Standard,1,95.37
+ORD-11331,CUST-10498,2023-01-01,Industrial & Auto Parts,Standard,3,543.79
+ORD-11332,CUST-11437,2023-07-19,Consumer Electronics,Standard,3,706.01
+ORD-11333,CUST-14441,2023-04-01,Healthcare & Medical,Standard,1,162.86
+ORD-11334,CUST-11878,2023-04-16,Home & Kitchen,Standard,2,191.57
+ORD-11335,CUST-11920,2023-08-26,Perishables & Grocery,Express,2,113.88
+ORD-11336,CUST-13784,2023-08-09,Apparel & Footwear,Standard,4,281.3
+ORD-11337,CUST-13658,2023-12-09,Perishables & Grocery,Standard,3,165.42
+ORD-11338,CUST-11370,2023-10-17,Home & Kitchen,Express,3,263.14
+ORD-11339,CUST-10598,2023-09-25,Consumer Electronics,Express,1,225.63
+ORD-11340,CUST-12823,2023-12-18,Industrial & Auto Parts,Express,2,370.88
+ORD-11341,CUST-11366,2023-03-08,Industrial & Auto Parts,Standard,2,399.64
+ORD-11342,CUST-11852,2023-01-13,Consumer Electronics,Same-Day,5,1113.3
+ORD-11343,CUST-13250,2023-09-20,Consumer Electronics,Standard,2,477.75
+ORD-11344,CUST-11512,2023-05-03,Home & Kitchen,Standard,1,100.92
+ORD-11345,CUST-12841,2023-04-07,Consumer Electronics,Standard,2,484.95
+ORD-11346,CUST-12264,2023-07-20,Industrial & Auto Parts,Standard,1,196.39
+ORD-11347,CUST-13964,2023-02-28,Consumer Electronics,Express,2,467.14
+ORD-11348,CUST-12061,2023-01-08,Consumer Electronics,Express,3,704.05
+ORD-11349,CUST-11173,2023-11-21,Consumer Electronics,Standard,2,474.09
+ORD-11350,CUST-10437,2023-05-06,Healthcare & Medical,Standard,3,436.35
+ORD-11351,CUST-11404,2023-04-06,Home & Kitchen,Standard,3,279.52
+ORD-11352,CUST-11807,2022-12-31,Apparel & Footwear,Express,2,176.26
+ORD-11353,CUST-14555,2023-02-19,Apparel & Footwear,Express,3,219.5
+ORD-11354,CUST-10576,2023-01-29,Perishables & Grocery,Standard,2,129.36
+ORD-11355,CUST-13697,2023-04-26,Home & Kitchen,Standard,3,267.47
+ORD-11356,CUST-10835,2023-12-06,Healthcare & Medical,Standard,1,182.49
+ORD-11357,CUST-12763,2023-01-05,Home & Kitchen,Standard,2,193.36
+ORD-11358,CUST-10532,2023-02-24,Consumer Electronics,Express,1,266.61
+ORD-11359,CUST-11574,2023-10-10,Healthcare & Medical,Standard,1,167.8
+ORD-11360,CUST-11775,2023-09-15,Healthcare & Medical,Standard,1,163.08
+ORD-11361,CUST-11651,2023-06-20,Healthcare & Medical,Standard,5,709.7
+ORD-11362,CUST-13333,2023-04-01,Apparel & Footwear,Standard,1,106.63
+ORD-11363,CUST-11302,2023-05-07,Industrial & Auto Parts,Standard,1,223.63
+ORD-11364,CUST-10429,2023-10-03,Home & Kitchen,Express,5,467.51
+ORD-11365,CUST-11507,2023-12-26,Consumer Electronics,Same-Day,1,242.43
+ORD-11366,CUST-11172,2023-10-23,Healthcare & Medical,Express,2,323.5
+ORD-11367,CUST-10158,2023-10-19,Home & Kitchen,Express,2,180.94
+ORD-11368,CUST-13987,2023-09-02,Healthcare & Medical,Standard,3,443.65
+ORD-11369,CUST-14453,2023-03-07,Consumer Electronics,Standard,2,472.9
+ORD-11370,CUST-13308,2023-12-08,Consumer Electronics,Standard,2,459.62
+ORD-11371,CUST-13056,2023-07-20,Home & Kitchen,Standard,4,354.4
+ORD-11372,CUST-11152,2023-09-12,Industrial & Auto Parts,Standard,1,180.91
+ORD-11373,CUST-13882,2023-11-12,Consumer Electronics,Standard,6,1336.73
+ORD-11374,CUST-14249,2023-01-21,Consumer Electronics,Standard,2,482.4
+ORD-11375,CUST-12893,2023-05-03,Healthcare & Medical,Standard,2,310.96
+ORD-11376,CUST-14426,2023-03-07,Consumer Electronics,Standard,2,485.22
+ORD-11377,CUST-10891,2023-12-28,Home & Kitchen,Standard,3,273.49
+ORD-11378,CUST-11320,2023-08-15,Industrial & Auto Parts,Standard,2,386.0
+ORD-11379,CUST-10783,2023-09-25,Industrial & Auto Parts,Express,3,553.99
+ORD-11380,CUST-11361,2023-04-03,Healthcare & Medical,Standard,4,588.07
+ORD-11381,CUST-10487,2023-11-16,Perishables & Grocery,Express,4,225.81
+ORD-11382,CUST-12300,2023-07-23,Apparel & Footwear,Standard,1,101.81
+ORD-11383,CUST-11601,2023-04-29,Consumer Electronics,Standard,3,706.59
+ORD-11384,CUST-14201,2023-03-08,Apparel & Footwear,Express,2,136.04
+ORD-11385,CUST-11501,2023-02-09,Healthcare & Medical,Express,2,296.37
+ORD-11386,CUST-11169,2023-05-19,Home & Kitchen,Standard,1,94.1
+ORD-11387,CUST-10053,2023-08-30,Apparel & Footwear,Standard,2,137.05
+ORD-11388,CUST-12452,2023-06-01,Consumer Electronics,Standard,1,232.02
+ORD-11389,CUST-12734,2023-05-02,Healthcare & Medical,Standard,2,319.6
+ORD-11390,CUST-10241,2023-09-28,Industrial & Auto Parts,Express,2,386.51
+ORD-11391,CUST-10008,2023-02-06,Consumer Electronics,Standard,1,227.07
+ORD-11392,CUST-13191,2023-06-01,Apparel & Footwear,Express,2,164.51
+ORD-11393,CUST-12939,2023-12-30,Industrial & Auto Parts,Standard,5,913.57
+ORD-11394,CUST-13605,2023-11-25,Home & Kitchen,Standard,3,294.9
+ORD-11395,CUST-14522,2023-01-25,Home & Kitchen,Standard,6,549.72
+ORD-11396,CUST-11079,2023-09-28,Home & Kitchen,Standard,2,202.43
+ORD-11397,CUST-10626,2023-11-09,Consumer Electronics,Standard,1,268.16
+ORD-11398,CUST-12724,2023-10-16,Apparel & Footwear,Standard,2,137.78
+ORD-11399,CUST-11487,2023-01-03,Consumer Electronics,Express,6,1326.39
+ORD-11400,CUST-10915,2023-07-20,Consumer Electronics,Standard,1,235.69
+ORD-11401,CUST-12992,2023-07-01,Home & Kitchen,Standard,1,99.3
+ORD-11402,CUST-10904,2023-08-17,Consumer Electronics,Standard,3,682.53
+ORD-11403,CUST-14382,2023-06-09,Home & Kitchen,Same-Day,1,95.4
+ORD-11404,CUST-14508,2023-02-19,Apparel & Footwear,Standard,1,107.65
+ORD-11405,CUST-10923,2023-05-18,Consumer Electronics,Standard,2,449.59
+ORD-11406,CUST-12391,2023-08-13,Industrial & Auto Parts,Standard,3,565.82
+ORD-11407,CUST-10177,2023-10-14,Home & Kitchen,Express,1,110.76
+ORD-11408,CUST-13968,2023-07-31,Perishables & Grocery,Standard,2,114.16
+ORD-11409,CUST-10253,2023-01-21,Apparel & Footwear,Same-Day,4,265.05
+ORD-11410,CUST-13455,2023-07-02,Industrial & Auto Parts,Standard,2,368.62
+ORD-11411,CUST-14588,2023-06-24,Apparel & Footwear,Standard,1,98.64
+ORD-11412,CUST-10039,2023-04-15,Consumer Electronics,Standard,1,231.24
+ORD-11413,CUST-13117,2023-04-27,Apparel & Footwear,Standard,1,76.63
+ORD-11414,CUST-11318,2023-06-19,Home & Kitchen,Standard,1,117.57
+ORD-11415,CUST-12613,2023-11-29,Apparel & Footwear,Standard,1,70.5
+ORD-11416,CUST-12929,2023-11-27,Apparel & Footwear,Standard,1,71.75
+ORD-11417,CUST-13570,2023-03-27,Home & Kitchen,Standard,5,432.64
+ORD-11418,CUST-14379,2023-03-25,Industrial & Auto Parts,Express,3,556.06
+ORD-11419,CUST-10704,2023-10-13,Consumer Electronics,Same-Day,1,262.66
+ORD-11420,CUST-10302,2023-11-23,Perishables & Grocery,Standard,3,147.09
+ORD-11421,CUST-14114,2023-10-07,Perishables & Grocery,Standard,1,89.22
+ORD-11422,CUST-10212,2023-12-19,Healthcare & Medical,Standard,3,468.4
+ORD-11423,CUST-14687,2023-01-29,Healthcare & Medical,Express,1,186.49
+ORD-11424,CUST-10623,2023-08-31,Apparel & Footwear,Standard,1,78.66
+ORD-11425,CUST-10387,2023-10-16,Consumer Electronics,Express,4,920.92
+ORD-11426,CUST-12780,2023-08-09,Consumer Electronics,Standard,1,233.97
+ORD-11427,CUST-13842,2023-01-21,Apparel & Footwear,Standard,2,161.92
+ORD-11428,CUST-14862,2023-06-05,Industrial & Auto Parts,Standard,1,207.54
+ORD-11429,CUST-10150,2023-03-19,Home & Kitchen,Standard,1,129.74
+ORD-11430,CUST-10295,2023-07-28,Apparel & Footwear,Express,2,161.15
+ORD-11431,CUST-11321,2023-05-24,Apparel & Footwear,Standard,1,74.44
+ORD-11432,CUST-10401,2023-08-04,Consumer Electronics,Express,2,479.31
+ORD-11433,CUST-11825,2023-02-12,Industrial & Auto Parts,Standard,1,210.32
+ORD-11434,CUST-12372,2023-04-18,Apparel & Footwear,Standard,1,113.33
+ORD-11435,CUST-14544,2023-04-16,Healthcare & Medical,Same-Day,2,295.08
+ORD-11436,CUST-11603,2023-02-17,Home & Kitchen,Standard,2,212.19
+ORD-11437,CUST-13159,2023-01-03,Industrial & Auto Parts,Standard,1,199.07
+ORD-11438,CUST-10270,2023-05-19,Apparel & Footwear,Standard,2,147.57
+ORD-11439,CUST-12143,2023-01-10,Consumer Electronics,Standard,2,454.7
+ORD-11440,CUST-11277,2023-01-27,Perishables & Grocery,Standard,4,203.8
+ORD-11441,CUST-11774,2023-10-18,Industrial & Auto Parts,Standard,2,397.45
+ORD-11442,CUST-13893,2023-03-07,Home & Kitchen,Same-Day,1,133.43
+ORD-11443,CUST-10161,2023-04-16,Consumer Electronics,Standard,4,889.92
+ORD-11444,CUST-14769,2023-04-20,Healthcare & Medical,Standard,1,186.9
+ORD-11445,CUST-13182,2023-07-25,Home & Kitchen,Standard,3,269.73
+ORD-11446,CUST-14258,2023-05-12,Home & Kitchen,Standard,3,264.29
+ORD-11447,CUST-12630,2023-07-07,Industrial & Auto Parts,Standard,6,1091.45
+ORD-11448,CUST-12543,2023-07-06,Apparel & Footwear,Standard,1,75.48
+ORD-11449,CUST-11306,2023-03-06,Industrial & Auto Parts,Standard,5,885.5
+ORD-11450,CUST-12671,2023-02-03,Apparel & Footwear,Standard,1,72.09
+ORD-11451,CUST-10299,2023-12-29,Apparel & Footwear,Standard,1,103.95
+ORD-11452,CUST-10991,2023-01-02,Apparel & Footwear,Standard,1,99.12
+ORD-11453,CUST-12994,2023-07-21,Healthcare & Medical,Standard,1,161.0
+ORD-11454,CUST-13235,2023-08-18,Healthcare & Medical,Standard,4,586.58
+ORD-11455,CUST-14800,2023-04-26,Perishables & Grocery,Standard,2,132.64
+ORD-11456,CUST-10107,2023-03-25,Consumer Electronics,Express,2,448.95
+ORD-11457,CUST-12438,2023-10-03,Perishables & Grocery,Express,1,91.8
+ORD-11458,CUST-14214,2023-03-22,Consumer Electronics,Express,2,447.25
+ORD-11459,CUST-14746,2023-12-30,Home & Kitchen,Standard,5,447.15
+ORD-11460,CUST-11529,2023-07-04,Home & Kitchen,Standard,4,349.51
+ORD-11461,CUST-12919,2023-07-20,Healthcare & Medical,Express,1,167.54
+ORD-11462,CUST-14560,2023-02-02,Consumer Electronics,Express,3,703.63
+ORD-11463,CUST-14924,2023-07-09,Home & Kitchen,Express,3,260.95
+ORD-11464,CUST-14827,2023-12-18,Consumer Electronics,Express,1,252.76
+ORD-11465,CUST-10866,2023-11-16,Apparel & Footwear,Standard,2,171.58
+ORD-11466,CUST-10358,2023-05-19,Consumer Electronics,Express,2,479.75
+ORD-11467,CUST-13604,2023-03-31,Industrial & Auto Parts,Standard,2,360.94
+ORD-11468,CUST-14209,2023-12-23,Industrial & Auto Parts,Standard,1,206.75
+ORD-11469,CUST-13479,2023-12-11,Industrial & Auto Parts,Standard,2,367.09
+ORD-11470,CUST-11401,2023-08-19,Industrial & Auto Parts,Express,1,218.91
+ORD-11471,CUST-13252,2023-05-17,Healthcare & Medical,Standard,1,149.67
+ORD-11472,CUST-14258,2023-04-30,Healthcare & Medical,Standard,6,879.59
+ORD-11473,CUST-11841,2023-12-25,Apparel & Footwear,Same-Day,1,71.93
+ORD-11474,CUST-14400,2023-08-02,Perishables & Grocery,Express,5,233.81
+ORD-11475,CUST-11417,2023-11-20,Healthcare & Medical,Standard,4,605.19
+ORD-11476,CUST-12411,2023-08-04,Industrial & Auto Parts,Standard,2,360.73
+ORD-11477,CUST-13957,2023-08-30,Perishables & Grocery,Express,6,294.34
+ORD-11478,CUST-14972,2023-10-07,Apparel & Footwear,Express,4,295.29
+ORD-11479,CUST-12941,2023-03-06,Apparel & Footwear,Standard,3,232.67
+ORD-11480,CUST-12532,2023-04-14,Home & Kitchen,Same-Day,4,360.43
+ORD-11481,CUST-13743,2023-07-11,Home & Kitchen,Standard,4,360.29
+ORD-11482,CUST-10455,2023-09-23,Consumer Electronics,Express,6,1362.96
+ORD-11483,CUST-11689,2023-09-07,Consumer Electronics,Standard,2,473.17
+ORD-11484,CUST-11891,2023-05-07,Industrial & Auto Parts,Express,4,723.33
+ORD-11485,CUST-12318,2023-02-06,Apparel & Footwear,Express,1,106.41
+ORD-11486,CUST-13213,2023-08-20,Healthcare & Medical,Same-Day,4,586.34
+ORD-11487,CUST-14072,2023-11-08,Consumer Electronics,Standard,2,450.39
+ORD-11488,CUST-12217,2023-02-03,Consumer Electronics,Standard,1,235.97
+ORD-11489,CUST-13905,2023-05-27,Healthcare & Medical,Standard,1,150.58
+ORD-11490,CUST-14919,2023-09-04,Perishables & Grocery,Standard,4,208.7
+ORD-11491,CUST-13709,2023-04-30,Apparel & Footwear,Express,3,241.7
+ORD-11492,CUST-10661,2023-09-26,Home & Kitchen,Express,1,95.17
+ORD-11493,CUST-10229,2023-05-04,Industrial & Auto Parts,Standard,2,399.07
+ORD-11494,CUST-10990,2023-08-21,Home & Kitchen,Standard,5,449.8
+ORD-11495,CUST-14186,2023-05-23,Apparel & Footwear,Standard,1,75.8
+ORD-11496,CUST-14577,2023-03-29,Apparel & Footwear,Express,1,84.73
+ORD-11497,CUST-13538,2023-10-19,Home & Kitchen,Standard,3,291.72
+ORD-11498,CUST-11090,2023-06-30,Consumer Electronics,Standard,4,912.84
+ORD-11499,CUST-11354,2023-04-14,Consumer Electronics,Express,2,463.06
+ORD-11500,CUST-10969,2023-09-11,Industrial & Auto Parts,Standard,1,203.95
+ORD-11501,CUST-11365,2023-03-05,Apparel & Footwear,Same-Day,1,71.53
+ORD-11502,CUST-12955,2023-07-21,Consumer Electronics,Same-Day,1,264.32
+ORD-11503,CUST-11970,2023-08-17,Industrial & Auto Parts,Standard,1,190.9
+ORD-11504,CUST-10377,2023-09-24,Consumer Electronics,Express,1,266.74
+ORD-11505,CUST-11231,2023-06-29,Consumer Electronics,Express,1,265.95
+ORD-11506,CUST-14390,2023-03-26,Apparel & Footwear,Standard,2,168.71
+ORD-11507,CUST-10459,2023-10-08,Home & Kitchen,Standard,1,133.11
+ORD-11508,CUST-14528,2023-12-27,Apparel & Footwear,Express,1,98.92
+ORD-11509,CUST-12087,2023-10-22,Perishables & Grocery,Standard,1,67.82
+ORD-11510,CUST-10771,2023-04-10,Perishables & Grocery,Standard,3,162.94
+ORD-11511,CUST-13915,2023-05-28,Apparel & Footwear,Standard,1,79.37
+ORD-11512,CUST-13657,2023-08-18,Consumer Electronics,Standard,4,903.81
+ORD-11513,CUST-12825,2023-02-19,Apparel & Footwear,Express,1,104.39
+ORD-11514,CUST-11514,2023-12-14,Healthcare & Medical,Standard,2,288.14
+ORD-11515,CUST-12165,2023-04-27,Home & Kitchen,Standard,1,128.21
+ORD-11516,CUST-13987,2023-07-23,Apparel & Footwear,Standard,1,85.76
+ORD-11517,CUST-14626,2023-09-17,Apparel & Footwear,Same-Day,3,219.19
+ORD-11518,CUST-11281,2023-06-14,Industrial & Auto Parts,Express,3,563.88
+ORD-11519,CUST-12954,2023-12-24,Home & Kitchen,Express,3,301.54
+ORD-11520,CUST-14926,2023-05-30,Healthcare & Medical,Standard,3,464.54
+ORD-11521,CUST-11003,2023-08-07,Consumer Electronics,Standard,1,251.43
+ORD-11522,CUST-11618,2023-05-30,Home & Kitchen,Standard,2,208.15
+ORD-11523,CUST-10582,2023-08-25,Apparel & Footwear,Standard,2,135.61
+ORD-11524,CUST-14897,2023-08-27,Industrial & Auto Parts,Standard,2,375.1
+ORD-11525,CUST-10038,2023-06-16,Consumer Electronics,Standard,2,462.64
+ORD-11526,CUST-12615,2023-10-02,Healthcare & Medical,Standard,3,457.14
+ORD-11527,CUST-12077,2023-05-16,Home & Kitchen,Express,2,177.4
+ORD-11528,CUST-13788,2023-09-23,Consumer Electronics,Express,4,914.64
+ORD-11529,CUST-14853,2023-03-01,Consumer Electronics,Standard,2,472.76
+ORD-11530,CUST-10954,2023-01-05,Industrial & Auto Parts,Same-Day,3,544.78
+ORD-11531,CUST-12750,2023-10-31,Consumer Electronics,Standard,1,245.95
+ORD-11532,CUST-12769,2023-06-11,Perishables & Grocery,Standard,1,53.04
+ORD-11533,CUST-10139,2023-06-01,Industrial & Auto Parts,Express,2,357.38
+ORD-11534,CUST-11550,2023-12-26,Home & Kitchen,Standard,1,117.75
+ORD-11535,CUST-11907,2023-11-02,Industrial & Auto Parts,Express,4,730.25
+ORD-11536,CUST-11239,2023-12-23,Apparel & Footwear,Same-Day,1,103.32
+ORD-11537,CUST-11841,2023-09-30,Consumer Electronics,Express,3,698.34
+ORD-11538,CUST-10664,2023-05-12,Home & Kitchen,Same-Day,2,219.36
+ORD-11539,CUST-13846,2023-11-23,Apparel & Footwear,Standard,3,211.54
+ORD-11540,CUST-10273,2023-06-02,Healthcare & Medical,Standard,1,158.85
+ORD-11541,CUST-14527,2023-05-06,Home & Kitchen,Express,2,207.38
+ORD-11542,CUST-10136,2023-11-30,Perishables & Grocery,Express,2,112.97
+ORD-11543,CUST-12122,2023-04-27,Consumer Electronics,Same-Day,2,454.04
+ORD-11544,CUST-13140,2023-11-22,Industrial & Auto Parts,Standard,1,184.66
+ORD-11545,CUST-14271,2023-06-16,Perishables & Grocery,Same-Day,1,58.48
+ORD-11546,CUST-13815,2023-05-04,Home & Kitchen,Standard,4,374.26
+ORD-11547,CUST-10955,2023-10-29,Home & Kitchen,Standard,3,284.17
+ORD-11548,CUST-10692,2023-06-14,Apparel & Footwear,Standard,3,214.69
+ORD-11549,CUST-11736,2023-06-14,Healthcare & Medical,Standard,6,887.09
+ORD-11550,CUST-13546,2023-03-28,Consumer Electronics,Express,3,687.03
+ORD-11551,CUST-14824,2023-09-23,Apparel & Footwear,Standard,4,298.21
+ORD-11552,CUST-12759,2023-01-02,Industrial & Auto Parts,Standard,1,191.73
+ORD-11553,CUST-12257,2023-08-23,Home & Kitchen,Standard,1,91.96
+ORD-11554,CUST-13653,2023-09-16,Home & Kitchen,Standard,2,193.03
+ORD-11555,CUST-11009,2023-12-19,Consumer Electronics,Standard,3,671.77
+ORD-11556,CUST-10315,2023-01-09,Healthcare & Medical,Standard,3,427.84
+ORD-11557,CUST-13801,2023-07-10,Apparel & Footwear,Same-Day,1,81.0
+ORD-11558,CUST-14877,2023-03-14,Consumer Electronics,Standard,3,704.46
+ORD-11559,CUST-11644,2023-01-26,Perishables & Grocery,Standard,1,69.12
+ORD-11560,CUST-11155,2023-11-23,Industrial & Auto Parts,Express,3,545.69
+ORD-11561,CUST-13404,2023-04-21,Healthcare & Medical,Express,1,175.67
+ORD-11562,CUST-11668,2023-04-27,Apparel & Footwear,Standard,3,200.71
+ORD-11563,CUST-14372,2023-11-20,Home & Kitchen,Standard,1,100.18
+ORD-11564,CUST-11221,2023-07-25,Apparel & Footwear,Standard,1,97.95
+ORD-11565,CUST-11300,2023-04-09,Industrial & Auto Parts,Express,3,538.41
+ORD-11566,CUST-13330,2023-10-03,Apparel & Footwear,Same-Day,3,244.53
+ORD-11567,CUST-12297,2023-03-28,Apparel & Footwear,Standard,1,109.26
+ORD-11568,CUST-12743,2023-01-14,Apparel & Footwear,Standard,2,161.63
+ORD-11569,CUST-12847,2023-03-08,Industrial & Auto Parts,Standard,2,380.43
+ORD-11570,CUST-11694,2023-03-06,Industrial & Auto Parts,Standard,2,358.54
+ORD-11571,CUST-11157,2023-04-19,Home & Kitchen,Standard,2,196.15
+ORD-11572,CUST-12068,2023-12-06,Home & Kitchen,Standard,1,134.63
+ORD-11573,CUST-12074,2023-10-02,Healthcare & Medical,Express,3,455.52
+ORD-11574,CUST-14483,2023-12-18,Home & Kitchen,Express,2,204.68
+ORD-11575,CUST-11467,2023-12-20,Perishables & Grocery,Standard,2,119.37
+ORD-11576,CUST-14371,2023-07-01,Consumer Electronics,Standard,3,693.55
+ORD-11577,CUST-11411,2023-12-05,Industrial & Auto Parts,Express,2,358.39
+ORD-11578,CUST-13591,2023-01-15,Home & Kitchen,Standard,2,196.18
+ORD-11579,CUST-12090,2023-07-26,Apparel & Footwear,Standard,2,142.84
+ORD-11580,CUST-11630,2023-08-05,Industrial & Auto Parts,Standard,1,186.09
+ORD-11581,CUST-10999,2023-12-05,Perishables & Grocery,Express,3,141.8
+ORD-11582,CUST-13222,2023-04-21,Industrial & Auto Parts,Standard,1,182.89
+ORD-11583,CUST-14836,2023-12-19,Industrial & Auto Parts,Standard,3,573.97
+ORD-11584,CUST-13976,2023-04-01,Consumer Electronics,Standard,1,236.01
+ORD-11585,CUST-11946,2023-10-20,Apparel & Footwear,Standard,1,80.51
+ORD-11586,CUST-12783,2023-10-15,Home & Kitchen,Express,3,275.6
+ORD-11587,CUST-11067,2023-10-04,Home & Kitchen,Standard,1,94.24
+ORD-11588,CUST-13366,2023-08-18,Apparel & Footwear,Express,1,109.74
+ORD-11589,CUST-11269,2023-05-05,Consumer Electronics,Express,1,248.46
+ORD-11590,CUST-13862,2023-10-15,Home & Kitchen,Standard,3,296.63
+ORD-11591,CUST-14130,2023-08-05,Consumer Electronics,Standard,1,257.98
+ORD-11592,CUST-12123,2023-01-11,Home & Kitchen,Standard,3,287.45
+ORD-11593,CUST-14672,2023-01-11,Consumer Electronics,Standard,1,230.07
+ORD-11594,CUST-14659,2023-03-14,Consumer Electronics,Standard,2,445.93
+ORD-11595,CUST-14457,2023-12-17,Home & Kitchen,Express,3,274.72
+ORD-11596,CUST-10983,2023-11-06,Consumer Electronics,Standard,2,478.66
+ORD-11597,CUST-13928,2023-10-23,Consumer Electronics,Standard,2,449.26
+ORD-11598,CUST-10966,2023-07-10,Consumer Electronics,Standard,6,1348.13
+ORD-11599,CUST-14865,2023-12-10,Consumer Electronics,Standard,5,1121.16
+ORD-11600,CUST-12119,2023-10-14,Healthcare & Medical,Standard,1,153.93
+ORD-11601,CUST-14933,2023-07-16,Home & Kitchen,Standard,1,118.25
+ORD-11602,CUST-11687,2023-07-27,Industrial & Auto Parts,Standard,1,224.28
+ORD-11603,CUST-14732,2023-12-15,Healthcare & Medical,Same-Day,2,318.75
+ORD-11604,CUST-14493,2023-01-13,Healthcare & Medical,Express,1,176.33
+ORD-11605,CUST-12661,2023-03-24,Home & Kitchen,Standard,1,111.28
+ORD-11606,CUST-11141,2023-06-15,Apparel & Footwear,Standard,1,70.11
+ORD-11607,CUST-14357,2023-03-08,Industrial & Auto Parts,Standard,2,368.11
+ORD-11608,CUST-13884,2023-12-06,Industrial & Auto Parts,Standard,1,196.9
+ORD-11609,CUST-10959,2023-12-22,Consumer Electronics,Same-Day,3,695.96
+ORD-11610,CUST-14251,2023-02-07,Consumer Electronics,Standard,2,465.24
+ORD-11611,CUST-10113,2023-12-20,Industrial & Auto Parts,Standard,4,720.59
+ORD-11612,CUST-13039,2023-05-24,Healthcare & Medical,Standard,5,743.39
+ORD-11613,CUST-12184,2023-09-26,Industrial & Auto Parts,Standard,4,748.13
+ORD-11614,CUST-14383,2023-09-08,Home & Kitchen,Express,1,112.57
+ORD-11615,CUST-12414,2023-04-04,Healthcare & Medical,Standard,1,160.28
+ORD-11616,CUST-13390,2023-05-18,Home & Kitchen,Express,2,179.81
+ORD-11617,CUST-12625,2023-09-04,Perishables & Grocery,Express,2,133.15
+ORD-11618,CUST-11657,2023-08-23,Healthcare & Medical,Express,2,319.41
+ORD-11619,CUST-13132,2023-09-26,Apparel & Footwear,Standard,4,292.6
+ORD-11620,CUST-10659,2023-03-07,Consumer Electronics,Standard,4,897.87
+ORD-11621,CUST-13131,2023-04-24,Home & Kitchen,Standard,4,349.97
+ORD-11622,CUST-10051,2023-11-23,Healthcare & Medical,Standard,1,165.0
+ORD-11623,CUST-14629,2023-04-17,Apparel & Footwear,Standard,1,102.67
+ORD-11624,CUST-10407,2023-01-30,Apparel & Footwear,Same-Day,1,107.07
+ORD-11625,CUST-14500,2023-12-30,Consumer Electronics,Standard,2,467.65
+ORD-11626,CUST-14316,2023-12-11,Home & Kitchen,Express,1,103.2
+ORD-11627,CUST-12847,2023-02-03,Consumer Electronics,Standard,4,905.89
+ORD-11628,CUST-14771,2023-08-17,Industrial & Auto Parts,Standard,1,197.26
+ORD-11629,CUST-14074,2023-05-06,Perishables & Grocery,Standard,1,92.64
+ORD-11630,CUST-11226,2023-05-22,Consumer Electronics,Standard,4,923.1
+ORD-11631,CUST-12846,2023-11-07,Consumer Electronics,Same-Day,4,924.01
+ORD-11632,CUST-12670,2023-01-04,Home & Kitchen,Standard,2,205.59
+ORD-11633,CUST-12933,2023-11-06,Apparel & Footwear,Standard,1,100.33
+ORD-11634,CUST-13892,2023-11-18,Home & Kitchen,Standard,3,301.03
+ORD-11635,CUST-11153,2023-06-20,Consumer Electronics,Standard,4,886.9
+ORD-11636,CUST-14076,2023-06-11,Home & Kitchen,Standard,2,181.93
+ORD-11637,CUST-12522,2023-03-22,Industrial & Auto Parts,Express,2,378.83
+ORD-11638,CUST-11265,2023-02-19,Consumer Electronics,Standard,5,1112.63
+ORD-11639,CUST-14444,2023-10-01,Perishables & Grocery,Standard,1,84.11
+ORD-11640,CUST-14998,2023-10-30,Apparel & Footwear,Standard,1,110.8
+ORD-11641,CUST-10824,2023-01-17,Home & Kitchen,Standard,1,105.85
+ORD-11642,CUST-13778,2023-04-29,Perishables & Grocery,Express,2,131.1
+ORD-11643,CUST-10369,2023-05-15,Consumer Electronics,Standard,2,459.89
+ORD-11644,CUST-13683,2023-08-21,Industrial & Auto Parts,Standard,3,569.01
+ORD-11645,CUST-11815,2023-02-01,Industrial & Auto Parts,Express,1,191.84
+ORD-11646,CUST-14321,2023-05-25,Industrial & Auto Parts,Same-Day,1,222.89
+ORD-11647,CUST-11158,2023-02-28,Apparel & Footwear,Standard,5,332.04
+ORD-11648,CUST-11759,2023-07-26,Consumer Electronics,Standard,2,476.65
+ORD-11649,CUST-12744,2023-02-21,Home & Kitchen,Standard,3,286.47
+ORD-11650,CUST-10478,2023-08-26,Home & Kitchen,Express,2,203.2
+ORD-11651,CUST-11719,2023-01-30,Apparel & Footwear,Standard,1,75.02
+ORD-11652,CUST-12285,2023-10-19,Healthcare & Medical,Express,5,730.6
+ORD-11653,CUST-11089,2023-05-14,Perishables & Grocery,Same-Day,1,50.22
+ORD-11654,CUST-11649,2023-08-17,Consumer Electronics,Standard,1,234.89
+ORD-11655,CUST-11038,2023-08-29,Perishables & Grocery,Express,2,115.81
+ORD-11656,CUST-12740,2023-12-01,Consumer Electronics,Same-Day,2,484.19
+ORD-11657,CUST-14809,2023-02-17,Apparel & Footwear,Standard,1,82.17
+ORD-11658,CUST-14906,2023-02-07,Perishables & Grocery,Standard,5,234.51
+ORD-11659,CUST-13966,2023-07-05,Home & Kitchen,Express,1,116.13
+ORD-11660,CUST-12440,2023-04-29,Apparel & Footwear,Standard,1,74.27
+ORD-11661,CUST-11970,2023-12-16,Industrial & Auto Parts,Standard,3,573.14
+ORD-11662,CUST-10811,2023-12-07,Home & Kitchen,Same-Day,1,97.76
+ORD-11663,CUST-12980,2023-06-11,Consumer Electronics,Express,1,245.13
+ORD-11664,CUST-13732,2023-04-06,Healthcare & Medical,Same-Day,1,155.55
+ORD-11665,CUST-11266,2023-07-31,Consumer Electronics,Express,1,254.36
+ORD-11666,CUST-11992,2023-03-26,Industrial & Auto Parts,Express,1,203.26
+ORD-11667,CUST-11336,2023-10-29,Home & Kitchen,Express,2,195.89
+ORD-11668,CUST-10253,2023-12-27,Home & Kitchen,Express,1,109.5
+ORD-11669,CUST-11161,2023-11-26,Healthcare & Medical,Express,2,305.13
+ORD-11670,CUST-11834,2023-02-26,Consumer Electronics,Standard,2,459.01
+ORD-11671,CUST-14584,2023-12-04,Consumer Electronics,Standard,4,902.29
+ORD-11672,CUST-11192,2023-05-04,Apparel & Footwear,Express,2,154.38
+ORD-11673,CUST-10974,2023-05-21,Consumer Electronics,Standard,1,257.61
+ORD-11674,CUST-13476,2023-06-28,Consumer Electronics,Express,1,243.27
+ORD-11675,CUST-12050,2023-04-05,Consumer Electronics,Express,1,253.27
+ORD-11676,CUST-11911,2023-08-05,Perishables & Grocery,Standard,5,264.38
+ORD-11677,CUST-10290,2023-06-02,Consumer Electronics,Express,2,453.33
+ORD-11678,CUST-10450,2023-08-22,Consumer Electronics,Standard,1,232.95
+ORD-11679,CUST-10842,2023-05-16,Home & Kitchen,Standard,1,117.44
+ORD-11680,CUST-10833,2023-06-14,Apparel & Footwear,Standard,3,209.67
+ORD-11681,CUST-14549,2023-04-05,Home & Kitchen,Standard,3,274.05
+ORD-11682,CUST-11861,2023-04-14,Perishables & Grocery,Express,3,154.79
+ORD-11683,CUST-13673,2023-02-12,Industrial & Auto Parts,Standard,1,202.12
+ORD-11684,CUST-13990,2023-05-19,Perishables & Grocery,Standard,3,179.97
+ORD-11685,CUST-13413,2023-08-30,Perishables & Grocery,Standard,1,61.42
+ORD-11686,CUST-12539,2023-11-22,Industrial & Auto Parts,Standard,1,185.05
+ORD-11687,CUST-13732,2023-03-16,Apparel & Footwear,Standard,1,103.02
+ORD-11688,CUST-14113,2023-09-23,Consumer Electronics,Standard,2,489.99
+ORD-11689,CUST-13175,2023-10-08,Apparel & Footwear,Standard,2,170.7
+ORD-11690,CUST-13398,2023-06-14,Consumer Electronics,Express,2,464.69
+ORD-11691,CUST-14167,2023-05-04,Apparel & Footwear,Express,1,88.19
+ORD-11692,CUST-11670,2023-03-24,Consumer Electronics,Standard,2,447.52
+ORD-11693,CUST-10706,2023-01-27,Healthcare & Medical,Express,2,323.46
+ORD-11694,CUST-10091,2023-09-23,Home & Kitchen,Express,3,272.14
+ORD-11695,CUST-10080,2023-04-04,Consumer Electronics,Standard,3,689.65
+ORD-11696,CUST-10332,2023-01-27,Industrial & Auto Parts,Standard,4,722.16
+ORD-11697,CUST-11767,2023-05-13,Apparel & Footwear,Standard,1,110.01
+ORD-11698,CUST-11072,2023-11-09,Healthcare & Medical,Express,3,461.13
+ORD-11699,CUST-12208,2023-02-25,Home & Kitchen,Standard,3,281.78
+ORD-11700,CUST-11655,2023-06-13,Apparel & Footwear,Standard,2,136.34
+ORD-11701,CUST-14891,2023-10-09,Apparel & Footwear,Express,1,114.78
+ORD-11702,CUST-12740,2023-02-28,Consumer Electronics,Standard,2,487.49
+ORD-11703,CUST-11995,2023-06-22,Consumer Electronics,Express,1,232.03
+ORD-11704,CUST-10916,2023-07-01,Apparel & Footwear,Standard,1,112.27
+ORD-11705,CUST-10294,2023-08-18,Healthcare & Medical,Standard,2,311.08
+ORD-11706,CUST-10450,2023-05-25,Industrial & Auto Parts,Express,6,1066.36
+ORD-11707,CUST-11447,2023-07-27,Healthcare & Medical,Standard,2,307.38
+ORD-11708,CUST-14888,2023-11-13,Consumer Electronics,Express,1,267.12
+ORD-11709,CUST-14056,2023-02-26,Healthcare & Medical,Standard,1,175.33
+ORD-11710,CUST-13565,2023-03-10,Healthcare & Medical,Standard,4,595.68
+ORD-11711,CUST-10028,2023-04-20,Consumer Electronics,Express,3,682.18
+ORD-11712,CUST-12327,2023-05-04,Consumer Electronics,Express,4,897.82
+ORD-11713,CUST-11533,2023-04-10,Home & Kitchen,Express,4,373.0
+ORD-11714,CUST-11154,2023-06-28,Industrial & Auto Parts,Express,2,380.8
+ORD-11715,CUST-10111,2023-04-30,Healthcare & Medical,Express,3,447.32
+ORD-11716,CUST-10382,2023-06-15,Industrial & Auto Parts,Standard,4,709.95
+ORD-11717,CUST-12903,2023-11-02,Industrial & Auto Parts,Standard,1,220.24
+ORD-11718,CUST-12718,2023-12-10,Consumer Electronics,Standard,3,685.9
+ORD-11719,CUST-11824,2023-08-14,Perishables & Grocery,Standard,2,127.43
+ORD-11720,CUST-13374,2023-05-20,Consumer Electronics,Standard,3,705.93
+ORD-11721,CUST-14143,2023-04-24,Apparel & Footwear,Standard,5,350.23
+ORD-11722,CUST-10397,2023-12-31,Home & Kitchen,Standard,1,100.55
+ORD-11723,CUST-11578,2023-07-11,Healthcare & Medical,Standard,1,145.61
+ORD-11724,CUST-12135,2023-06-23,Industrial & Auto Parts,Standard,2,356.21
+ORD-11725,CUST-10004,2023-07-02,Perishables & Grocery,Standard,1,54.83
+ORD-11726,CUST-12483,2023-08-18,Consumer Electronics,Express,1,259.58
+ORD-11727,CUST-12545,2023-10-29,Home & Kitchen,Standard,2,203.3
+ORD-11728,CUST-11346,2023-06-08,Consumer Electronics,Standard,3,703.28
+ORD-11729,CUST-12870,2023-06-02,Consumer Electronics,Standard,2,468.76
+ORD-11730,CUST-12504,2023-04-02,Consumer Electronics,Standard,3,673.23
+ORD-11731,CUST-14911,2023-08-18,Perishables & Grocery,Standard,2,119.19
+ORD-11732,CUST-11251,2023-11-17,Consumer Electronics,Standard,1,269.68
+ORD-11733,CUST-13521,2023-11-03,Home & Kitchen,Same-Day,2,198.04
+ORD-11734,CUST-11568,2023-04-01,Consumer Electronics,Express,1,231.1
+ORD-11735,CUST-11459,2023-03-23,Industrial & Auto Parts,Standard,1,192.86
+ORD-11736,CUST-12964,2023-10-23,Consumer Electronics,Express,1,238.37
+ORD-11737,CUST-13082,2023-12-04,Perishables & Grocery,Express,2,115.7
+ORD-11738,CUST-14200,2023-05-05,Healthcare & Medical,Standard,1,168.22
+ORD-11739,CUST-11850,2023-07-31,Apparel & Footwear,Standard,1,99.93
+ORD-11740,CUST-12053,2023-04-17,Home & Kitchen,Standard,1,90.8
+ORD-11741,CUST-10782,2023-01-27,Home & Kitchen,Express,4,388.34
+ORD-11742,CUST-11583,2023-02-18,Industrial & Auto Parts,Standard,3,553.23
+ORD-11743,CUST-10403,2023-12-01,Perishables & Grocery,Standard,1,89.96
+ORD-11744,CUST-14006,2023-09-26,Consumer Electronics,Express,1,227.15
+ORD-11745,CUST-10143,2023-08-28,Industrial & Auto Parts,Standard,1,181.62
+ORD-11746,CUST-12719,2023-12-24,Healthcare & Medical,Standard,1,189.11
+ORD-11747,CUST-10883,2023-08-25,Apparel & Footwear,Standard,4,294.33
+ORD-11748,CUST-10274,2023-05-17,Industrial & Auto Parts,Standard,8,1423.09
+ORD-11749,CUST-11621,2023-04-05,Apparel & Footwear,Standard,4,294.4
+ORD-11750,CUST-13163,2023-11-04,Home & Kitchen,Standard,3,277.77
+ORD-11751,CUST-14463,2023-08-02,Apparel & Footwear,Standard,1,107.92
+ORD-11752,CUST-10712,2023-11-02,Apparel & Footwear,Same-Day,1,82.77
+ORD-11753,CUST-12766,2023-10-20,Home & Kitchen,Standard,1,93.27
+ORD-11754,CUST-13826,2023-02-17,Healthcare & Medical,Standard,1,149.03
+ORD-11755,CUST-12610,2023-04-28,Healthcare & Medical,Express,2,329.17
+ORD-11756,CUST-14757,2023-07-15,Consumer Electronics,Express,1,250.82
+ORD-11757,CUST-10583,2023-10-04,Consumer Electronics,Standard,1,251.64
+ORD-11758,CUST-12621,2023-06-04,Healthcare & Medical,Standard,3,433.58
+ORD-11759,CUST-11081,2023-07-14,Healthcare & Medical,Express,2,286.17
+ORD-11760,CUST-12077,2023-06-26,Healthcare & Medical,Express,1,187.03
+ORD-11761,CUST-14517,2023-10-19,Consumer Electronics,Express,2,483.12
+ORD-11762,CUST-13599,2023-05-31,Industrial & Auto Parts,Express,1,220.11
+ORD-11763,CUST-14563,2023-05-22,Healthcare & Medical,Express,3,449.55
+ORD-11764,CUST-11836,2023-09-12,Perishables & Grocery,Standard,2,112.24
+ORD-11765,CUST-10658,2023-02-24,Home & Kitchen,Standard,2,195.47
+ORD-11766,CUST-12973,2023-05-13,Healthcare & Medical,Standard,1,181.42
+ORD-11767,CUST-11489,2023-06-06,Apparel & Footwear,Same-Day,6,408.07
+ORD-11768,CUST-11968,2023-10-15,Apparel & Footwear,Express,2,148.62
+ORD-11769,CUST-14907,2023-03-18,Apparel & Footwear,Standard,1,85.82
+ORD-11770,CUST-14285,2023-03-21,Apparel & Footwear,Standard,1,90.38
+ORD-11771,CUST-14527,2023-06-18,Apparel & Footwear,Express,1,99.56
+ORD-11772,CUST-10900,2023-10-21,Home & Kitchen,Standard,2,191.65
+ORD-11773,CUST-14702,2023-04-29,Consumer Electronics,Express,2,466.12
+ORD-11774,CUST-12635,2023-06-19,Healthcare & Medical,Standard,3,436.14
+ORD-11775,CUST-13145,2023-03-25,Home & Kitchen,Standard,5,460.73
+ORD-11776,CUST-12370,2023-10-19,Healthcare & Medical,Standard,1,179.84
+ORD-11777,CUST-10420,2023-07-10,Industrial & Auto Parts,Express,1,203.43
+ORD-11778,CUST-13893,2023-08-01,Consumer Electronics,Standard,2,470.29
+ORD-11779,CUST-13079,2023-11-05,Home & Kitchen,Standard,1,95.79
+ORD-11780,CUST-12330,2023-08-09,Apparel & Footwear,Express,2,159.41
+ORD-11781,CUST-14696,2023-09-01,Apparel & Footwear,Express,6,397.32
+ORD-11782,CUST-14971,2023-10-31,Consumer Electronics,Express,1,250.43
+ORD-11783,CUST-12452,2023-01-20,Consumer Electronics,Standard,3,689.27
+ORD-11784,CUST-11731,2023-03-21,Home & Kitchen,Express,2,189.18
+ORD-11785,CUST-13254,2023-04-29,Industrial & Auto Parts,Same-Day,2,391.28
+ORD-11786,CUST-10655,2023-03-13,Industrial & Auto Parts,Express,1,199.83
+ORD-11787,CUST-11086,2023-12-26,Apparel & Footwear,Same-Day,5,372.74
+ORD-11788,CUST-11346,2023-12-07,Perishables & Grocery,Standard,3,147.48
+ORD-11789,CUST-12227,2023-04-28,Apparel & Footwear,Standard,5,363.42
+ORD-11790,CUST-13002,2023-10-25,Healthcare & Medical,Express,4,603.69
+ORD-11791,CUST-11004,2023-03-01,Perishables & Grocery,Standard,1,53.28
+ORD-11792,CUST-14938,2023-02-03,Healthcare & Medical,Express,1,164.26
+ORD-11793,CUST-10569,2023-10-26,Consumer Electronics,Standard,1,233.34
+ORD-11794,CUST-13575,2023-04-18,Consumer Electronics,Standard,4,887.2
+ORD-11795,CUST-11882,2023-04-15,Consumer Electronics,Standard,4,923.06
+ORD-11796,CUST-12712,2023-05-30,Apparel & Footwear,Standard,1,75.14
+ORD-11797,CUST-14729,2023-05-27,Perishables & Grocery,Express,1,72.15
+ORD-11798,CUST-11743,2023-04-23,Apparel & Footwear,Standard,2,141.77
+ORD-11799,CUST-14898,2023-07-30,Apparel & Footwear,Express,2,137.5
+ORD-11800,CUST-12296,2023-03-12,Apparel & Footwear,Same-Day,6,415.83
+ORD-11801,CUST-11440,2023-07-07,Home & Kitchen,Express,2,182.75
+ORD-11802,CUST-11702,2023-01-16,Industrial & Auto Parts,Express,2,397.1
+ORD-11803,CUST-11704,2023-08-01,Apparel & Footwear,Standard,4,265.38
+ORD-11804,CUST-13616,2023-10-27,Healthcare & Medical,Standard,1,150.26
+ORD-11805,CUST-10052,2023-12-19,Home & Kitchen,Standard,1,125.51
+ORD-11806,CUST-14730,2023-07-04,Apparel & Footwear,Standard,1,100.6
+ORD-11807,CUST-13839,2023-07-05,Perishables & Grocery,Standard,5,272.8
+ORD-11808,CUST-12575,2023-05-15,Home & Kitchen,Standard,2,199.6
+ORD-11809,CUST-11613,2023-07-11,Healthcare & Medical,Standard,2,292.69
+ORD-11810,CUST-10723,2023-07-20,Apparel & Footwear,Express,2,172.4
+ORD-11811,CUST-11021,2023-04-14,Apparel & Footwear,Same-Day,2,157.65
+ORD-11812,CUST-12113,2023-08-31,Healthcare & Medical,Same-Day,1,150.14
+ORD-11813,CUST-10585,2023-05-07,Consumer Electronics,Standard,1,265.77
+ORD-11814,CUST-13094,2023-10-13,Home & Kitchen,Express,3,296.24
+ORD-11815,CUST-14517,2023-09-20,Apparel & Footwear,Standard,1,88.54
+ORD-11816,CUST-12915,2023-05-24,Industrial & Auto Parts,Express,1,190.77
+ORD-11817,CUST-12236,2023-04-23,Home & Kitchen,Standard,3,275.57
+ORD-11818,CUST-14752,2023-05-11,Home & Kitchen,Standard,1,102.69
+ORD-11819,CUST-11781,2023-02-22,Apparel & Footwear,Express,4,275.4
+ORD-11820,CUST-12244,2023-04-20,Consumer Electronics,Standard,5,1127.32
+ORD-11821,CUST-14724,2023-03-25,Apparel & Footwear,Standard,3,221.96
+ORD-11822,CUST-12145,2023-03-03,Home & Kitchen,Standard,3,272.52
+ORD-11823,CUST-13327,2023-04-30,Apparel & Footwear,Standard,3,205.69
+ORD-11824,CUST-12157,2023-02-19,Home & Kitchen,Same-Day,2,193.08
+ORD-11825,CUST-12200,2023-12-26,Home & Kitchen,Standard,2,219.33
+ORD-11826,CUST-13944,2023-05-10,Apparel & Footwear,Standard,3,206.45
+ORD-11827,CUST-13903,2023-09-27,Healthcare & Medical,Standard,1,165.81
+ORD-11828,CUST-10484,2023-11-18,Apparel & Footwear,Same-Day,1,103.02
+ORD-11829,CUST-13437,2023-08-08,Industrial & Auto Parts,Express,2,373.69
+ORD-11830,CUST-11182,2023-11-19,Industrial & Auto Parts,Standard,1,193.17
+ORD-11831,CUST-13871,2023-06-24,Perishables & Grocery,Express,3,170.47
+ORD-11832,CUST-13055,2023-01-05,Apparel & Footwear,Standard,3,239.99
+ORD-11833,CUST-10190,2023-12-24,Perishables & Grocery,Standard,1,80.02
+ORD-11834,CUST-11880,2023-10-15,Apparel & Footwear,Standard,1,101.47
+ORD-11835,CUST-10142,2023-04-19,Home & Kitchen,Standard,4,373.83
+ORD-11836,CUST-14767,2023-06-28,Apparel & Footwear,Same-Day,3,201.04
+ORD-11837,CUST-12367,2023-10-31,Consumer Electronics,Same-Day,3,689.23
+ORD-11838,CUST-10848,2023-11-04,Industrial & Auto Parts,Express,2,358.66
+ORD-11839,CUST-11906,2023-08-07,Consumer Electronics,Standard,3,697.25
+ORD-11840,CUST-11738,2023-11-23,Home & Kitchen,Standard,4,381.32
+ORD-11841,CUST-11987,2023-02-26,Perishables & Grocery,Standard,1,91.48
+ORD-11842,CUST-14684,2023-08-26,Consumer Electronics,Standard,3,677.1
+ORD-11843,CUST-13267,2023-03-15,Consumer Electronics,Standard,4,928.07
+ORD-11844,CUST-12821,2023-01-14,Home & Kitchen,Standard,3,283.42
+ORD-11845,CUST-12978,2023-01-15,Healthcare & Medical,Standard,2,299.01
+ORD-11846,CUST-11605,2023-09-05,Consumer Electronics,Express,4,890.1
+ORD-11847,CUST-11391,2023-02-18,Apparel & Footwear,Standard,2,158.71
+ORD-11848,CUST-12877,2023-08-01,Home & Kitchen,Express,2,193.23
+ORD-11849,CUST-10141,2023-07-18,Healthcare & Medical,Express,1,187.49
+ORD-11850,CUST-13391,2023-05-16,Healthcare & Medical,Express,1,166.59
+ORD-11851,CUST-13460,2023-04-06,Industrial & Auto Parts,Same-Day,1,197.35
+ORD-11852,CUST-11868,2023-02-23,Home & Kitchen,Standard,3,290.32
+ORD-11853,CUST-13605,2023-08-06,Apparel & Footwear,Standard,4,268.2
+ORD-11854,CUST-14577,2023-07-26,Apparel & Footwear,Express,2,157.56
+ORD-11855,CUST-14258,2023-12-19,Industrial & Auto Parts,Standard,2,377.42
+ORD-11856,CUST-12700,2023-01-26,Apparel & Footwear,Standard,1,92.85
+ORD-11857,CUST-10581,2023-03-11,Consumer Electronics,Standard,1,256.94
+ORD-11858,CUST-11438,2023-05-22,Apparel & Footwear,Express,1,86.16
+ORD-11859,CUST-14359,2023-02-06,Healthcare & Medical,Express,3,462.6
+ORD-11860,CUST-11523,2023-07-21,Home & Kitchen,Standard,2,193.78
+ORD-11861,CUST-11372,2023-05-30,Perishables & Grocery,Standard,1,81.06
+ORD-11862,CUST-10748,2023-11-23,Industrial & Auto Parts,Express,1,203.69
+ORD-11863,CUST-13354,2023-01-13,Apparel & Footwear,Express,1,111.9
+ORD-11864,CUST-11420,2023-07-10,Industrial & Auto Parts,Express,2,395.04
+ORD-11865,CUST-12268,2023-06-03,Perishables & Grocery,Standard,2,116.68
+ORD-11866,CUST-14448,2023-10-27,Consumer Electronics,Standard,1,244.04
+ORD-11867,CUST-12876,2023-03-07,Consumer Electronics,Standard,1,238.14
+ORD-11868,CUST-10708,2023-05-01,Industrial & Auto Parts,Standard,3,565.18
+ORD-11869,CUST-10609,2023-10-02,Home & Kitchen,Standard,5,441.96
+ORD-11870,CUST-14310,2023-01-05,Industrial & Auto Parts,Standard,4,746.07
+ORD-11871,CUST-13428,2023-08-20,Perishables & Grocery,Standard,1,55.6
+ORD-11872,CUST-10239,2023-11-03,Home & Kitchen,Express,2,193.83
+ORD-11873,CUST-11273,2023-11-30,Apparel & Footwear,Express,2,171.52
+ORD-11874,CUST-10434,2023-07-17,Home & Kitchen,Express,1,107.32
+ORD-11875,CUST-13334,2023-10-24,Apparel & Footwear,Standard,3,207.33
+ORD-11876,CUST-13802,2023-04-15,Perishables & Grocery,Standard,1,64.96
+ORD-11877,CUST-13093,2023-01-02,Healthcare & Medical,Standard,2,324.99
+ORD-11878,CUST-14168,2023-03-03,Perishables & Grocery,Same-Day,1,84.12
+ORD-11879,CUST-13291,2023-08-16,Healthcare & Medical,Standard,1,183.81
+ORD-11880,CUST-10016,2023-08-03,Healthcare & Medical,Standard,1,170.44
+ORD-11881,CUST-11721,2023-11-11,Industrial & Auto Parts,Express,2,356.45
+ORD-11882,CUST-11048,2023-07-31,Healthcare & Medical,Express,3,459.79
+ORD-11883,CUST-12484,2023-11-24,Perishables & Grocery,Standard,2,137.64
+ORD-11884,CUST-11891,2023-07-22,Home & Kitchen,Express,1,92.5
+ORD-11885,CUST-11257,2023-09-10,Apparel & Footwear,Standard,1,102.26
+ORD-11886,CUST-11602,2023-11-11,Apparel & Footwear,Standard,2,175.06
+ORD-11887,CUST-12312,2023-11-26,Home & Kitchen,Standard,1,90.76
+ORD-11888,CUST-10903,2023-09-01,Consumer Electronics,Standard,1,252.8
+ORD-11889,CUST-13505,2023-05-24,Apparel & Footwear,Standard,1,100.7
+ORD-11890,CUST-11518,2023-05-21,Industrial & Auto Parts,Standard,1,197.68
+ORD-11891,CUST-12815,2023-12-20,Home & Kitchen,Express,2,180.66
+ORD-11892,CUST-11859,2023-06-23,Healthcare & Medical,Standard,2,311.68
+ORD-11893,CUST-14443,2023-06-12,Apparel & Footwear,Standard,1,90.96
+ORD-11894,CUST-11017,2023-10-13,Consumer Electronics,Express,1,246.36
+ORD-11895,CUST-14747,2023-08-26,Home & Kitchen,Express,1,99.75
+ORD-11896,CUST-10572,2023-08-30,Industrial & Auto Parts,Express,1,198.38
+ORD-11897,CUST-13780,2023-12-23,Apparel & Footwear,Standard,2,167.03
+ORD-11898,CUST-13232,2023-04-30,Apparel & Footwear,Same-Day,1,104.68
+ORD-11899,CUST-11613,2023-11-15,Home & Kitchen,Standard,2,180.39
+ORD-11900,CUST-10846,2023-12-10,Industrial & Auto Parts,Express,3,561.72
+ORD-11901,CUST-12033,2023-05-12,Apparel & Footwear,Express,2,178.55
+ORD-11902,CUST-14461,2023-07-07,Apparel & Footwear,Standard,2,137.13
+ORD-11903,CUST-12372,2023-05-11,Perishables & Grocery,Standard,5,242.2
+ORD-11904,CUST-10901,2023-03-08,Healthcare & Medical,Standard,2,285.48
+ORD-11905,CUST-13664,2023-01-11,Apparel & Footwear,Standard,2,147.78
+ORD-11906,CUST-13453,2023-06-18,Home & Kitchen,Express,2,175.43
+ORD-11907,CUST-10359,2023-01-15,Apparel & Footwear,Standard,2,159.59
+ORD-11908,CUST-11757,2023-02-28,Industrial & Auto Parts,Standard,2,368.18
+ORD-11909,CUST-14319,2023-05-15,Consumer Electronics,Standard,3,667.15
+ORD-11910,CUST-13960,2023-09-14,Industrial & Auto Parts,Standard,2,372.51
+ORD-11911,CUST-11256,2023-01-28,Consumer Electronics,Standard,2,489.73
+ORD-11912,CUST-11798,2023-05-21,Healthcare & Medical,Same-Day,2,320.97
+ORD-11913,CUST-14276,2023-02-06,Consumer Electronics,Standard,4,921.01
+ORD-11914,CUST-10259,2023-10-05,Industrial & Auto Parts,Standard,3,533.32
+ORD-11915,CUST-13755,2023-08-09,Consumer Electronics,Standard,3,686.87
+ORD-11916,CUST-11074,2023-06-13,Home & Kitchen,Standard,5,461.33
+ORD-11917,CUST-10830,2023-04-16,Healthcare & Medical,Same-Day,4,596.13
+ORD-11918,CUST-12734,2023-12-06,Industrial & Auto Parts,Standard,4,729.64
+ORD-11919,CUST-10048,2023-04-20,Apparel & Footwear,Standard,1,82.55
+ORD-11920,CUST-12180,2023-10-31,Perishables & Grocery,Standard,4,225.16
+ORD-11921,CUST-10530,2023-09-09,Industrial & Auto Parts,Standard,1,195.11
+ORD-11922,CUST-12001,2023-01-28,Consumer Electronics,Express,2,464.43
+ORD-11923,CUST-13421,2023-06-14,Consumer Electronics,Express,1,257.39
+ORD-11924,CUST-11784,2023-07-31,Consumer Electronics,Standard,2,475.13
+ORD-11925,CUST-13690,2023-06-22,Industrial & Auto Parts,Standard,3,569.92
+ORD-11926,CUST-12040,2023-10-09,Home & Kitchen,Standard,3,295.21
+ORD-11927,CUST-13613,2023-07-25,Healthcare & Medical,Express,3,466.67
+ORD-11928,CUST-11700,2023-01-30,Consumer Electronics,Express,1,262.95
+ORD-11929,CUST-14811,2023-04-21,Industrial & Auto Parts,Express,1,196.81
+ORD-11930,CUST-11429,2023-04-03,Consumer Electronics,Express,3,701.1
+ORD-11931,CUST-14269,2023-09-11,Healthcare & Medical,Standard,3,444.65
+ORD-11932,CUST-10143,2023-12-10,Apparel & Footwear,Standard,3,231.14
+ORD-11933,CUST-12103,2023-08-04,Consumer Electronics,Standard,3,669.13
+ORD-11934,CUST-12274,2023-03-02,Consumer Electronics,Standard,2,484.61
+ORD-11935,CUST-14429,2023-06-26,Home & Kitchen,Standard,1,121.53
+ORD-11936,CUST-14153,2023-11-29,Healthcare & Medical,Express,2,299.66
+ORD-11937,CUST-14445,2023-12-15,Industrial & Auto Parts,Standard,3,570.25
+ORD-11938,CUST-10786,2023-11-20,Consumer Electronics,Standard,1,261.79
+ORD-11939,CUST-14908,2023-04-13,Apparel & Footwear,Express,4,299.92
+ORD-11940,CUST-10556,2023-07-05,Consumer Electronics,Standard,3,692.27
+ORD-11941,CUST-13703,2023-06-16,Home & Kitchen,Express,1,105.45
+ORD-11942,CUST-10755,2023-10-23,Healthcare & Medical,Express,3,438.66
+ORD-11943,CUST-14781,2023-08-29,Consumer Electronics,Express,4,919.46
+ORD-11944,CUST-11585,2023-12-27,Healthcare & Medical,Express,1,161.04
+ORD-11945,CUST-12161,2023-02-25,Consumer Electronics,Standard,2,489.54
+ORD-11946,CUST-10622,2023-09-09,Healthcare & Medical,Standard,3,454.51
+ORD-11947,CUST-11573,2023-07-27,Consumer Electronics,Standard,4,911.87
+ORD-11948,CUST-12772,2023-09-12,Home & Kitchen,Express,2,211.39
+ORD-11949,CUST-10326,2023-04-20,Apparel & Footwear,Express,3,233.27
+ORD-11950,CUST-14140,2023-06-15,Consumer Electronics,Standard,2,450.45
+ORD-11951,CUST-12457,2023-12-18,Industrial & Auto Parts,Express,1,220.29
+ORD-11952,CUST-11027,2023-02-27,Consumer Electronics,Standard,5,1114.29
+ORD-11953,CUST-12381,2023-02-17,Consumer Electronics,Standard,1,226.43
+ORD-11954,CUST-11787,2023-06-09,Consumer Electronics,Standard,2,458.34
+ORD-11955,CUST-11538,2023-03-07,Apparel & Footwear,Express,1,71.99
+ORD-11956,CUST-10882,2023-01-24,Consumer Electronics,Express,4,900.87
+ORD-11957,CUST-12609,2023-02-24,Healthcare & Medical,Standard,2,326.71
+ORD-11958,CUST-12549,2023-08-07,Perishables & Grocery,Standard,2,111.52
+ORD-11959,CUST-13012,2023-01-24,Apparel & Footwear,Same-Day,1,95.44
+ORD-11960,CUST-13942,2023-10-18,Consumer Electronics,Standard,1,234.2
+ORD-11961,CUST-11983,2023-09-29,Consumer Electronics,Same-Day,2,446.17
+ORD-11962,CUST-10133,2023-04-28,Home & Kitchen,Express,1,133.67
+ORD-11963,CUST-12945,2023-11-21,Apparel & Footwear,Standard,2,171.79
+ORD-11964,CUST-14894,2023-09-06,Consumer Electronics,Standard,3,688.71
+ORD-11965,CUST-14709,2023-01-02,Perishables & Grocery,Standard,3,140.16
+ORD-11966,CUST-11350,2023-02-03,Home & Kitchen,Express,1,100.44
+ORD-11967,CUST-11059,2023-03-15,Healthcare & Medical,Express,2,312.23
+ORD-11968,CUST-10888,2023-01-27,Industrial & Auto Parts,Standard,1,189.5
+ORD-11969,CUST-14358,2023-10-06,Consumer Electronics,Standard,1,267.44
+ORD-11970,CUST-11621,2023-11-09,Perishables & Grocery,Standard,1,79.4
+ORD-11971,CUST-10532,2023-03-09,Apparel & Footwear,Express,1,104.54
+ORD-11972,CUST-10617,2023-06-28,Apparel & Footwear,Express,1,88.24
+ORD-11973,CUST-10394,2023-05-22,Home & Kitchen,Express,2,208.8
+ORD-11974,CUST-13167,2023-08-09,Industrial & Auto Parts,Standard,4,742.66
+ORD-11975,CUST-12275,2023-12-15,Consumer Electronics,Standard,2,485.93
+ORD-11976,CUST-13523,2023-09-06,Industrial & Auto Parts,Express,4,736.45
+ORD-11977,CUST-13782,2023-05-09,Consumer Electronics,Standard,2,449.35
+ORD-11978,CUST-10639,2023-04-24,Industrial & Auto Parts,Standard,1,222.42
+ORD-11979,CUST-14146,2023-05-04,Industrial & Auto Parts,Standard,2,390.51
+ORD-11980,CUST-10336,2023-03-02,Apparel & Footwear,Same-Day,1,106.5
+ORD-11981,CUST-14701,2023-02-17,Consumer Electronics,Standard,1,230.5
+ORD-11982,CUST-11309,2023-03-11,Home & Kitchen,Express,1,121.33
+ORD-11983,CUST-14696,2023-05-15,Consumer Electronics,Standard,3,707.09
+ORD-11984,CUST-13867,2023-10-28,Apparel & Footwear,Standard,2,171.62
+ORD-11985,CUST-14516,2023-09-27,Apparel & Footwear,Standard,1,102.88
+ORD-11986,CUST-11354,2023-10-11,Apparel & Footwear,Standard,3,233.85
+ORD-11987,CUST-11013,2023-07-31,Apparel & Footwear,Standard,1,71.47
+ORD-11988,CUST-13009,2023-01-18,Industrial & Auto Parts,Standard,1,220.69
+ORD-11989,CUST-11506,2023-12-06,Apparel & Footwear,Express,1,92.26
+ORD-11990,CUST-10458,2023-02-12,Apparel & Footwear,Standard,1,78.2
+ORD-11991,CUST-13388,2023-06-27,Healthcare & Medical,Standard,3,462.36
+ORD-11992,CUST-10136,2023-10-03,Apparel & Footwear,Express,4,277.85
+ORD-11993,CUST-11294,2023-06-08,Consumer Electronics,Express,2,467.51
+ORD-11994,CUST-14335,2023-11-09,Home & Kitchen,Standard,2,178.22
+ORD-11995,CUST-14890,2023-01-17,Apparel & Footwear,Standard,1,98.16
+ORD-11996,CUST-14935,2023-10-25,Consumer Electronics,Standard,2,482.63
+ORD-11997,CUST-11286,2023-02-11,Apparel & Footwear,Standard,4,265.66
+ORD-11998,CUST-10365,2023-10-16,Consumer Electronics,Express,1,239.71
+ORD-11999,CUST-13434,2023-07-07,Consumer Electronics,Standard,4,915.96

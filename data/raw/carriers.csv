@@ -1,0 +1,8 @@
+Carrier_ID,Carrier_Name,Service_Tier,Fleet_Type,Base_Rate_Per_Mile,Target_SLA_Days_Per_1000mi
+CAR-AMZ,Amazon Logistics,Express/Standard,Dedicated Fleet,0.14,2.2
+CAR-DHL,DHL,Express,Air & Ground Hub,0.19,1.8
+CAR-FDX,FedEx,Priority Ground,Hub & Spoke Network,0.17,2.0
+CAR-LSR,LaserShip,Regional Ground,Contracted Regional,0.12,2.8
+CAR-ONT,OnTrac,Regional Ground,Regional Courier,0.13,2.6
+CAR-UPS,UPS,Standard Ground,National Integrated,0.16,2.1
+CAR-USPS,USPS,Postal Ground,Public Postal,0.1,3.0
