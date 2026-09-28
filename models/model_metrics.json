@@ -1,0 +1,46 @@
+{
+    "model_type": "DecisionTreeClassifier",
+    "max_depth": 4,
+    "accuracy": 0.5946,
+    "precision": 0.1071,
+    "recall": 0.375,
+    "f1_score": 0.1667,
+    "roc_auc": 0.5266,
+    "cv_roc_auc_mean": 0.5211,
+    "cv_roc_auc_std": 0.0392,
+    "benchmark_comparison": {
+        "Decision_Tree_AUC": 0.5266,
+        "Logistic_Regression_AUC": 0.5439,
+        "Random_Forest_AUC": 0.5633
+    },
+    "top_features": [
+        {
+            "Feature": "Distance_miles",
+            "Importance": 0.2319947236469246
+        },
+        {
+            "Feature": "Weight_kg",
+            "Importance": 0.14327821785746347
+        },
+        {
+            "Feature": "Destination_Boston",
+            "Importance": 0.14310847481044275
+        },
+        {
+            "Feature": "Season_Spring",
+            "Importance": 0.14280016013309035
+        },
+        {
+            "Feature": "Cost",
+            "Importance": 0.12428041410504334
+        },
+        {
+            "Feature": "Shipment_DayOfWeek_Monday",
+            "Importance": 0.10962698894904974
+        },
+        {
+            "Feature": "Origin_Warehouse_Warehouse_NYC",
+            "Importance": 0.10491102049798585
+        }
+    ]
+}
