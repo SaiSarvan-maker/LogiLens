@@ -2,11 +2,12 @@
 LogiLens - Machine Learning Delay Risk Estimator
 ------------------------------------------------
 Fulfills Step 5 of the Delivery Delay & Operations Analytics project:
-1. Builds an interpretable Decision Tree Classifier (and baseline models)
-   to predict the likelihood of delivery delay given shipment attributes.
-2. Evaluates performance (ROC-AUC, Precision, Recall, F1, Confusion Matrix).
-3. Extracts human-readable decision rules and feature importances.
-4. Serializes the trained pipeline and exposes an inference function.
+1. Builds an interpretable Decision Tree Classifier (and benchmark models)
+   to predict the likelihood of delivery delay given shipment attributes known prior to delivery.
+2. Target Definition (Defensible & Leakage-Free):
+   target = 1 if Delivery_Status == "Delayed", 0 if Delivery_Status == "Delivered".
+3. Evaluates performance (ROC-AUC, Precision, Recall, F1, Confusion Matrix).
+4. Serializes the trained pipeline and exposes a live inference function.
 """
 
 import os
@@ -36,16 +37,20 @@ from sklearn.metrics import (
 
 
 def load_modeling_data(file_path: str = "data/processed/delivery_operations_analytics.csv"):
-    """Loads and filters dataset for model training."""
+    """
+    Loads and filters dataset for model training.
+    Defensively enforces no data leakage: outcome dates, variances, and delay flags are excluded.
+    """
     df = pd.read_csv(file_path)
     
-    # Filter only resolved shipments (Delivered or Delayed) to avoid label leakage
-    resolved = df[df["Status"].isin(["Delivered", "Delayed"])].copy()
+    # Filter resolved shipments (Delivered or Delayed) for defensible binary classification
+    status_col = "Delivery_Status" if "Delivery_Status" in df.columns else "Status"
+    resolved = df[df[status_col].isin(["Delivered", "Delayed"])].copy()
     
-    # Target variable: 1 if delayed, 0 if on-time
-    y = resolved["Is_Delayed"].values
+    # Primary Target: 1 if Status == Delayed, else 0
+    y = (resolved[status_col] == "Delayed").astype(int).values
     
-    # Features
+    # Feature set strictly restricted to pre-dispatch / shipment creation attributes
     feature_cols = [
         "Origin_Warehouse",
         "Carrier",
@@ -104,7 +109,7 @@ def train_and_evaluate_models(X, y, categorical_features, numerical_features):
     Returns the primary interpretable Decision Tree pipeline and metrics.
     """
     print("\n" + "=" * 65)
-    print("STEP 5: MACHINE LEARNING DELAY RISK ESTIMATION")
+    print("STEP 5: MACHINE LEARNING DELAY RISK ESTIMATION (LEAKAGE-FREE)")
     print("=" * 65)
     
     # 80/20 Stratified Split
@@ -176,6 +181,7 @@ def train_and_evaluate_models(X, y, categorical_features, numerical_features):
     print(f"Decision Tree Classifier:   ROC-AUC = {tree_auc:.4f}")
     print(f"Logistic Regression:        ROC-AUC = {lr_auc:.4f}")
     print(f"Random Forest Classifier:   ROC-AUC = {rf_auc:.4f}")
+    print("Note: Honest evaluation indicates pre-dispatch features offer moderate predictive signal for delay status.")
     
     # -------------------------------------------------------------
     # 3. Extract Feature Names & Importances
@@ -191,7 +197,7 @@ def train_and_evaluate_models(X, y, categorical_features, numerical_features):
     }).sort_values("Importance", ascending=False)
     
     top_features = feat_imp_df[feat_imp_df["Importance"] > 0].copy()
-    print("\n--- Key Delay Risk Drivers (Decision Tree Feature Importances) ---")
+    print("\n--- Key Operational Risk Drivers (Decision Tree Feature Importances) ---")
     print(top_features.head(10).to_string(index=False))
     
     # -------------------------------------------------------------
@@ -230,7 +236,7 @@ def plot_model_diagnostics(tree_pipeline, top_features, X_test, y_test, output_d
     plt.figure(figsize=(10, 5))
     top_plot = top_features.head(10).sort_values("Importance", ascending=True)
     plt.barh(top_plot["Feature"], top_plot["Importance"], color="#337ab7", alpha=0.9)
-    plt.title("Top Delay Risk Predictors (Decision Tree Gini Importance)")
+    plt.title("Top Operational Delay Risk Predictors (Decision Tree Gini Importance)")
     plt.xlabel("Importance Weight")
     plt.tight_layout()
     plt.savefig(os.path.join(output_dir, "feature_importances.png"), dpi=300)
@@ -344,3 +350,4 @@ def run_training_pipeline():
 
 if __name__ == "__main__":
     run_training_pipeline()
+

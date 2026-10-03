@@ -1,52 +1,48 @@
 # 🚚 LogiLens — Delivery Delay & Operations Analytics
 
-> **End-to-End Logistics Analytics, Root-Cause Bottleneck Discovery, and Predictive Delay Risk Modeling**  
-> Built strictly following the project specification for **Project 3: Delivery Delay & Operations Analytics**.
+> **End-to-End Logistics Analytics, Observed Delay Patterns, and Prototype Delay Risk Estimation**  
+> LogiLens implements the Delivery Delay & Operations Analytics specification using a public shipment dataset and a documented synthetic relational extension where required source tables were unavailable.
 
 ---
 
 ## 📌 Executive Overview
 
-In modern supply chain and e-commerce networks, late deliveries erode customer loyalty, depress Net Promoter Scores (NPS), and trigger expensive customer concession penalties. **LogiLens** is an operations intelligence system designed to discover the true drivers of fulfillment delays and equip dispatch managers with real-time risk forecasting.
+In modern supply chain and e-commerce networks, late deliveries erode customer loyalty, depress Net Promoter Scores (NPS), and trigger customer concession exposure. **LogiLens** is an operations intelligence system designed to discover observed delay patterns, analyze operational failure factors, and equip dispatch managers with prototype delay-risk estimation.
 
-Across **2,000 shipments, 10 regional fulfillment warehouses, and 7 national/regional carriers**, this project combines multi-source enterprise data, calculates SLA metrics, pinpoints operational friction, and deploys an explainable Machine Learning model alongside an interactive Streamlit Control Tower.
+Across **2,000 shipments, 10 regional fulfillment warehouses, and 7 national/regional carriers**, this project combines multi-source enterprise data, evaluates status-based delay metrics, pinpoints operational friction, and deploys an explainable Machine Learning model alongside an interactive Streamlit Control Tower.
 
 ---
 
-## 🏗️ Project Architecture & Data Model
+## 🏗️ Data Architecture & Provenance
+
+LogiLens maintains an honest data architecture separating observed ground-truth data from derived/synthetic extensions:
 
 ```
-                    ┌──────────────┐       ┌────────────────┐
-                    │ Orders (ERP) │       │ Warehouses(WMS)│
-                    └──────┬───────┘       └───────┬────────┘
-                           │                       │
-                           ▼                       ▼
-┌──────────────┐     ┌───────────────────────────────────┐     ┌──────────────┐
-│Carriers (TMS)├────►│  Relational Ingestion & SQL ETL   │◄────┤DeliveryEvents│
-└──────────────┘     │   (src/03_data_pipeline.py)       │     └──────────────┘
-                     └─────────────────┬─────────────────┘
-                                       │
-                ┌──────────────────────┴──────────────────────┐
-                ▼                                             ▼
-  ┌───────────────────────────┐                 ┌───────────────────────────┐
-  │  Clean Analytical Dataset │                 │ Indexed SQLite Database   │
-  │  (data/processed/*.csv)   │                 │ (data/logistics.db)       │
-  └─────────────┬─────────────┘                 └───────────────────────────┘
-                │
-        ┌───────┴───────────────────────────────┐
-        ▼                                       ▼
-┌───────────────────────────────┐   ┌───────────────────────────────┐
-│ Exploratory Bottleneck Engine │   │ Explainable Decision Tree ML  │
-│ (src/04_exploratory_analysis) │   │ (src/05_delay_risk_model.py)  │
-└───────────────┬───────────────┘   └───────────────┬───────────────┘
-                │                                   │
-                └───────────────┬───────────────────┘
-                                ▼
-                ┌───────────────────────────────┐
-                │ Streamlit Operations Tower UI │
-                │ (dashboard/app.py) & REST API │
-                └───────────────────────────────┘
+REAL SOURCE DATA (data/raw/)
+      │
+      └── logistics_shipments_dataset.csv       ← REAL SOURCE EXTRACT
+      │
+      ▼
+SYNTHETIC EXTENSION (data/synthetic/)
+      ├── orders.csv                            ← GENERATED RELATIONAL
+      ├── shipments.csv                         ← GENERATED RELATIONAL
+      ├── warehouses.csv                        ← GENERATED RELATIONAL
+      ├── carriers.csv                          ← GENERATED RELATIONAL
+      └── delivery_events.csv                   ← GENERATED RELATIONAL
+      │
+      ▼
+PROCESSED ANALYTICS (data/processed/)
+      ├── delivery_operations_analytics.csv     ← UNIFIED ANALYTICAL FACT
+      ├── delivery_operations_analytics.parquet
+      └── logistics.db                          ← INDEXED SQLITE DATABASE
 ```
+
+### Analysis Options & Target Definitions:
+- **Option B (Official Primary Analysis)**: Ground-truth status target (`Delivery_Status == "Delayed"`). Calculated on resolved shipments (`Delivered` + `Delayed`):
+  $$\text{Primary Delay Rate} = \frac{\text{Delayed}}{\text{Delivered} + \text{Delayed}} \times 100$$
+- **Operational Failure Rate**: Overall operational disruption metric including lost and returned packages:
+  $$\text{Operational Failure Rate} = \frac{\text{Delayed} + \text{Lost} + \text{Returned}}{\text{Total Shipments}} \times 100$$
+- **Option A (Secondary Analytical Extension)**: Analytical SLA expected baseline date derived from the `Transit_Days` field (`Derived_Promised_Delivery_Date`). Not treated as an observed contractual commitment.
 
 ---
 
@@ -57,8 +53,9 @@ LogiLens/
 ├── dashboard/
 │   └── app.py                      # Interactive Streamlit operations control tower
 ├── data/
-│   ├── raw/                        # Normalized relational tables & raw extract
-│   │   ├── logistics_shipments_dataset.csv
+│   ├── raw/                        # Real source shipment extract
+│   │   └── logistics_shipments_dataset.csv
+│   ├── synthetic/                  # Documented synthetic relational tables
 │   │   ├── orders.csv
 │   │   ├── shipments.csv
 │   │   ├── warehouses.csv
@@ -86,16 +83,16 @@ LogiLens/
 │       └── confusion_matrix.png
 ├── sql/
 │   ├── schema.sql                  # Relational DDL with primary & foreign keys
-│   ├── combine_logistics_data.sql  # Enterprise SQL join & delay calculation
+│   ├── combine_logistics_data.sql  # Enterprise SQL join & status calculation
 │   └── delay_analytics_queries.sql # Practical SQL operational queries
 ├── src/
-│   ├── 01_data_audit.py            # Initial schema inspection & summary
+│   ├── 01_data_audit.py            # Data audit & provenance inspection
 │   ├── 02_data_validation.py       # Data quality & anomaly detection checks
 │   ├── 03_data_pipeline.py         # Full ETL pipeline (joins, cleaning, metrics)
 │   ├── 04_exploratory_analysis.py  # 6-dimension segmentation & statistical tests
-│   ├── 05_delay_risk_model.py      # Interpretable Decision Tree ML training
+│   ├── 05_delay_risk_model.py      # Leakage-free Decision Tree ML training
 │   ├── api.py                      # FastAPI/Starlette microservice
-│   └── generate_relational_data.py # Generator for enterprise relational tables
+│   └── generate_relational_data.py # Generator for synthetic relational tables
 ├── requirements.txt                # Python environment dependencies
 └── README.md                       # Comprehensive documentation
 ```
@@ -104,98 +101,70 @@ LogiLens/
 
 ## 🎯 Step-by-Step Implementation Guide
 
-### Step 1: Combine Multi-Source Logistics Data
-- Built a normalized relational schema connecting:
-  - `orders` (Order date, product type, priority, customer ID)
-  - `shipments` (Shipment date, package weight, freight cost)
-  - `warehouses` (Origin warehouse, city, state, geographic region, capacity tier)
-  - `carriers` (Carrier name, service tier, base rate per mile, target SLA)
-  - `delivery_events` (Destination city, distance, promised date, actual date, status)
-- Wrote reproducible SQL queries in [`sql/combine_logistics_data.sql`](file:///c:/projects/Int-project/LogiLens/sql/combine_logistics_data.sql) and implemented automated Python ingestion in [`src/03_data_pipeline.py`](file:///c:/projects/Int-project/LogiLens/src/03_data_pipeline.py).
-- Cleaned real-world edge cases:
-  - Corrected **16 inverted date records** where actual delivery was erroneously logged before shipment.
-  - Imputed **32 missing delivery dates** based on status and SLA transit parameters.
-  - Handled **41 missing shipping costs** via carrier-specific distance and weight regression medians.
-  - Corrected non-positive weight records.
+### Step 1: Ingestion & Honest Data Hygiene
+- Combined real raw extract and synthetic relational sources while preserving data lineage.
+- Data Quality Hygiene:
+  - Preserved missing delivery dates without circular date creation via `Delivery_Date_Missing` indicator flag.
+  - Imputed missing shipping costs via carrier mileage and weight formulas, explicitly flagged with `Cost_Imputed = 1`.
+  - Corrected date inversion anomalies and invalid weight boundaries.
 
 ### Step 2: Compute Operations Metrics & Delay KPIs
-The pipeline systematically calculates:
-- **Promised Delivery Date**: Committed SLA arrival date (`Shipment_Date + Target_SLA_Days`).
-- **Actual Delivery Date**: Realized customer delivery timestamp.
-- **Delay Days**: $\max(0, \text{Actual} - \text{Promised})$ (0 for on-time or early shipments).
-- **On-Time Delivery Rate (OTD %)**: $\frac{\text{On-Time Deliveries}}{\text{Total Delivered Volume}} \times 100 = \mathbf{89.23\%}$.
-- **Delay Severity**: Segmented into *On-Time*, *Minor Delay (1-2 Days)*, *Moderate Delay (3-4 Days)*, and *Severe Delay (5+ Days)*.
-- **Delay Concession Exposure**: Financial impact based on 20% SLA freight reimbursement + $15 administrative cost per delayed package ($\mathbf{\$11,030.07}$ total).
+- **Primary Status Target**: `Status == "Delayed"` (1 for Delayed, 0 for Delivered).
+- **Primary Delay Rate**: $10.88\%$ across resolved deliveries ($201 / 1,847$).
+- **Operational Failure Rate**: $11.25\%$ incorporating delayed, lost, and returned shipments.
+- **Estimated Concession Exposure**: Scenario estimate based on an assumed concession formula (20% freight reimbursement + $15 administrative fee = $\$11,030.07$ total).
 
 ### Step 3: Segment Delays across 6 Core Dimensions
 Executed in [`src/04_exploratory_analysis.py`](file:///c:/projects/Int-project/LogiLens/src/04_exploratory_analysis.py):
-1. **Warehouse**: `Warehouse_NYC` led the network (**88.82% OTD**), while `Warehouse_MIA` (**78.11% OTD**) and `Warehouse_SF` (**78.60% OTD**) experienced severe dispatch drag.
-2. **Carrier**: `UPS` proved most reliable (**86.33% OTD**), whereas `Amazon Logistics` experienced the lowest on-time performance (**79.20% OTD**).
-3. **Route**: Long-haul cross-country lanes suffered the highest failure rates (e.g., `Los Angeles -> Houston`: **26.7% late**, `Miami -> Boston`: **25.0% late**, averaging 10.7 delay days).
-4. **Product Type**: Temperature and handling-sensitive goods like `Perishables & Grocery` (**78.49% OTD**) and `Healthcare & Medical` (**78.81% OTD**) experienced substantially more friction than `Industrial & Auto Parts` (**87.10% OTD**).
-5. **Day of Week**: Tuesday shipments exhibited lowest reliability (**79.14% OTD**), reflecting weekend batching overflow.
-6. **Season**: Winter dispatches recorded the lowest on-time percentage (**80.93% OTD**) with high financial penalty impact.
+1. **Warehouse**: `Warehouse_NYC` recorded the lowest delay rate (**5.88%**), while `Warehouse_MIA` (**14.11%**) and `Warehouse_SF` (**13.56%**) experienced dispatch drag.
+2. **Carrier**: `USPS` delivered lowest delay rate (**7.19%**), whereas `DHL` (**16.19%**) and `Amazon Logistics` (**14.17%**) had higher delay rates on long-haul corridors.
+3. **Route**: Long-haul corridors suffered highest delay rates (e.g., `Los Angeles -> Houston`: **26.7% late**, `Miami -> Boston`: **25.0% late**).
+4. **Product Type**: Handling-sensitive categories like `Perishables & Grocery` (**13.91%**) experienced higher delay frequencies.
+5. **Day of Week**: Tuesday dispatches exhibited lowest reliability, reflecting weekend backlog accumulation.
+6. **Season**: Winter dispatches recorded elevated delay rates.
 
 ### Step 4: Exploratory Bottleneck Discovery & Statistical Spikes
 - **Critical Hotspot Combinations**:
-  - `Warehouse_ATL + Amazon Logistics`: **21.2% delay rate** across 33 shipments.
-  - `Warehouse_HOU + Amazon Logistics`: **20.7% delay rate** across 29 shipments.
-  - `Warehouse_LA + FedEx`: **19.2% delay rate**.
-- **Temporal Anomaly Tracking**: Using rolling weekly Z-score analysis, detected 4 distinct operational shock weeks ($Z > 1.8$):
-  - Late-February winter freeze week.
-  - Mid-April volume spike.
-  - Mid-September hurricane corridor disruption.
-  - December 25 Christmas holiday line-haul capacity crunch.
+  - `Warehouse_ATL + Amazon Logistics`: **21.2% delay rate** across 33 resolved shipments.
+  - `Warehouse_HOU + Amazon Logistics`: **20.7% delay rate** across 29 resolved shipments.
+- **Temporal Anomaly Tracking**: Using weekly Z-score analysis, detected 4 distinct operational shock weeks ($Z > 1.8$).
 - **Statistical Testing**:
-  - Chi-Square test of carrier independence ($\chi^2 = 11.72, p = 0.068$).
-  - Kruskal-Wallis test across seasonal delay distributions.
+  - Chi-Square test of carrier/warehouse association with delay status.
+  - Kruskal-Wallis test across transit day distributions.
 
-### Step 5: Machine Learning Delay Risk Estimator
+### Step 5: Leakage-Free Machine Learning Delay Risk Estimator
 Implemented in [`src/05_delay_risk_model.py`](file:///c:/projects/Int-project/LogiLens/src/05_delay_risk_model.py):
-- **Why a Decision Tree?** Supply chain operators require transparent, auditable rules rather than black-box predictions. A constrained tree (depth = 4) produces straightforward logic that dispatch managers can immediately understand and act on.
-- **Top Risk Predictors**:
-  1. `Distance_miles` (Gini Importance = 0.232)
-  2. `Weight_kg` (Gini Importance = 0.143)
-  3. `Destination_Boston` (Gini Importance = 0.143)
-  4. `Season_Spring / Winter` (Gini Importance = 0.142)
-  5. `Shipment_DayOfWeek_Monday` (Gini Importance = 0.110)
-- **Extracted Operational Rule Example**:
-  > `IF Route Distance > 1,500 mi AND Carrier == 'LaserShip' / 'Amazon' AND Season == 'Winter' THEN Delay Risk = 79.9% (High Risk Alert)`
-- Serialized to `models/delay_risk_model.joblib` with an instant inference helper `predict_delay_risk()`.
+- **Leakage Prevention**: Strictly excluded outcome variables (`Delivery_Date`, `Days_Variance`, `Delay_Days`, `Estimated_Concession_Exposure`). Only features available prior to delivery were included (`Warehouse`, `Carrier`, `Destination`, `Product`, `Priority`, `Distance`, `Weight`, `Cost`, `SLA_Days`, `DayOfWeek`, `Season`).
+- **Algorithm**: Interpretable Decision Tree Classifier (depth = 4) alongside Logistic Regression and Random Forest benchmarks.
+- **Honest Evaluation**: Pre-dispatch attributes provide moderate predictive signal (ROC-AUC ≈ 0.53 - 0.57), demonstrating that unexpected operational disruptions account for significant remaining variance.
 
 ### Step 6: Streamlit Operations Dashboard & REST API
-- Built [`dashboard/app.py`](file:///c:/projects/Int-project/LogiLens/dashboard/app.py) as an executive control tower featuring:
-  - Real-time KPI scorecards and SLA dials.
-  - Interactive multi-parameter filters (dates, warehouses, carriers, products).
-  - Multi-dimensional heatmaps and route corridor tables.
-  - **Live Shipment Risk Simulator**: Input prospective shipment parameters to get real-time delay probability and proactive mitigation actions.
-  - **Actionable Business Roadmap**: Ranked operational interventions with estimated dollar savings.
-- Built [`src/api.py`](file:///c:/projects/Int-project/LogiLens/src/api.py) for microservice deployment (`GET /kpis`, `GET /bottlenecks`, `POST /predict-delay`).
+- Built [`dashboard/app.py`](file:///c:/projects/Int-project/LogiLens/dashboard/app.py) with two clear sections:
+  - **Section A: Core Observed Metrics** (Direct Source Ground Truth).
+  - **Section B: Analytical Extension** (Derived SLA, Delay Days, Estimated Concession Exposure with explicit note).
+- Built [`src/api.py`](file:///c:/projects/Int-project/LogiLens/src/api.py) microservice (`GET /kpis`, `GET /bottlenecks`, `POST /predict-delay`).
 
 ---
 
 ## 🚀 How to Run the Project Locally
 
 ### 1. Prerequisites
-Ensure you have Python 3.10+ installed with Anaconda or standard Python:
+Ensure you have Python 3.10+ installed:
 ```powershell
 pip install -r requirements.txt
 ```
 
 ### 2. Run the Data Pipeline (ETL)
-Generate the relational tables, clean anomalies, compute metrics, and populate SQLite:
 ```powershell
 python src/03_data_pipeline.py
 ```
 
 ### 3. Run Exploratory Bottleneck Analysis
-Generate all statistical tests, bottleneck summaries, and publication charts:
 ```powershell
 python src/04_exploratory_analysis.py
 ```
 
 ### 4. Train & Evaluate the Delay Risk ML Model
-Train the Decision Tree, evaluate cross-validation, and export model artifacts:
 ```powershell
 python src/05_delay_risk_model.py
 ```
@@ -204,45 +173,28 @@ python src/05_delay_risk_model.py
 ```powershell
 streamlit run dashboard/app.py
 ```
-Open your browser at `http://localhost:8501` to interact with the Control Tower.
+Open your browser at `http://localhost:8501`.
 
 ### 6. (Optional) Run the Operations REST API
 ```powershell
 python src/api.py
 ```
-Test the API endpoints at `http://localhost:8000/kpis` or `http://localhost:8000/predict-delay`.
+Test endpoints at `http://localhost:8000/kpis` or `http://localhost:8000/predict-delay`.
 
 ---
 
-## 💡 Interview & Presentation Pitch (Talking Points)
+## 💡 Viva & Presentation Talking Points
 
-When presenting or demonstrating this project, follow this structured talk track:
+When presenting this project, frame your technical decisions with honest data science hygiene:
 
-1. **The Business Problem**:
-   *"Our delivery network was operating at 89.2% on-time delivery, falling short of our 90% SLA target and incurring over $11,000 in concession penalties across 2,000 shipments. The executive team needed to know: where are the bottlenecks, which carriers are failing, and can we predict delays before a box leaves the dock?"*
-2. **Data Engineering Rigor**:
-   *"Real logistics data is messy. Rather than using an artificial flat file, I structured an enterprise relational schema joining Orders, Shipments, Warehouses, Carriers, and Delivery Tracking Events. I built an automated pipeline in Python and SQL that caught and fixed 16 inverted date anomalies, imputed missing costs by carrier mileage rates, and generated our core SLA metrics."*
-3. **The Core Analytical Findings**:
-   *"The data debunked the assumption that delays are random: Miami and San Francisco warehouses experienced ~22% delay rates due to afternoon dispatch batching, while Amazon Logistics and LaserShip struggled on long-haul routes exceeding 1,500 miles. Perishable and medical goods suffered the longest delay durations (over 7.5 days)."*
-4. **Machine Learning with Operational Purpose**:
-   *"Instead of an uninterpretable deep net, I trained a balanced Decision Tree. Its rules mirror operational reality: distance, weight, and seasonal weather drive over 50% of delay likelihood. We integrated this model directly into a Streamlit simulator and REST API so dispatchers can test routes before booking."*
-5. **Business Impact & ROI**:
-   *"By implementing our 4 prioritized recommendations—diverting long-haul freight to UPS/FedEx, smoothing Miami/SF dispatch waves, and pre-booking Q4 line-haul capacity—we project a 5.3% uplift in network OTD (reaching 94.5%) and over $13,500 in annual concession savings."*
-
----
-
-## 📜 Version Control & GitHub
-
-This repository is initialized with Git and structured with clean semantic commits:
-```powershell
-git status
-```
-To push to your remote GitHub repository:
-```powershell
-git remote add origin https://github.com/<your-username>/LogiLens.git
-git branch -M main
-git push -u origin main
-```
+1. **Data Provenance**:
+   *"I clearly separated the original shipment extract (`data/raw`) from the synthetic relational extension (`data/synthetic`). Rather than pretending all tables were observed ERP data, I explicitly documented the synthetic extension used for SQL demonstration."*
+2. **Defensible Delay Target**:
+   *"I used ground-truth `Delivery_Status == 'Delayed'` as my primary target and calculated delay rate strictly over resolved deliveries (`Delivered` + `Delayed`), while creating an Operational Failure Rate for lost and returned packages."*
+3. **Traceable Imputation & Derived SLA**:
+   *"I preserved missingness flags (`Delivery_Date_Missing`, `Cost_Imputed = 1`) so downstream users can distinguish observed values from estimated values, and framed promised delivery dates as a derived analytical baseline."*
+4. **Data Leakage Prevention**:
+   *"In the machine learning model, I strictly excluded post-delivery outcome features like delivery date and variance days. Evaluating on pre-dispatch features alone provided an honest model assessment."*
 
 ---
 

@@ -2,7 +2,8 @@
 LogiLens - Delivery Delay & Operations Analytics Dashboard
 -----------------------------------------------------------
 Fulfills Step 6 of the Project Specification:
-- Delay KPIs & Executive Control Tower
+- Core Observed Metrics & Executive Control Tower (Observed Status Data)
+- Analytical Extension (Derived SLA, Delay Days, Estimated Concession Exposure)
 - Trend & Seasonality Charts (Monthly, Weekly, Day of Week)
 - Multi-dimensional Segmentations (Warehouse, Carrier, Route, Product)
 - Operational Hotspot Matrix & Anomaly Spikes
@@ -69,17 +70,14 @@ st.markdown("""
         font-size: 0.8rem;
         color: #64748b;
     }
-    .status-badge-good {
-        color: #16a34a;
-        font-weight: 600;
-    }
-    .status-badge-warn {
-        color: #ea580c;
-        font-weight: 600;
-    }
-    .status-badge-bad {
-        color: #dc2626;
-        font-weight: 600;
+    .analytical-note {
+        font-size: 0.82rem;
+        color: #6b7280;
+        background-color: #eff6ff;
+        padding: 8px 12px;
+        border-radius: 6px;
+        border-left: 3px solid #3b82f6;
+        margin-bottom: 12px;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -95,8 +93,11 @@ def load_data():
         
     df = pd.read_csv(csv_path)
     df["Shipment_Date"] = pd.to_datetime(df["Shipment_Date"])
-    df["Promised_Delivery_Date"] = pd.to_datetime(df["Promised_Delivery_Date"])
-    df["Actual_Delivery_Date"] = pd.to_datetime(df["Actual_Delivery_Date"])
+    if "Derived_Promised_Delivery_Date" in df.columns:
+        df["Promised_Delivery_Date"] = pd.to_datetime(df["Derived_Promised_Delivery_Date"])
+    elif "Promised_Delivery_Date" in df.columns:
+        df["Promised_Delivery_Date"] = pd.to_datetime(df["Promised_Delivery_Date"])
+    df["Actual_Delivery_Date"] = pd.to_datetime(df["Actual_Delivery_Date"], errors="coerce")
     return df
 
 
@@ -156,22 +157,26 @@ else:
     df = df_raw.copy()
 
 # Header
-st.markdown("<div class='main-header'>LogiLens Delivery Delay & Operations Analytics</div>", unsafe_allow_html=True)
-st.markdown("<div class='sub-header'>Root-cause operational bottleneck discovery, reliability metrics, and predictive delay risk forecasting.</div>", unsafe_allow_html=True)
+st.markdown("<div class='main-header'>LogiLens Delivery Operations Control Tower</div>", unsafe_allow_html=True)
+st.markdown("<div class='sub-header'>Observed shipment delay patterns, operational failure analysis, and prototype delay-risk estimation.</div>", unsafe_allow_html=True)
 
 # -------------------------------------------------------------
-# Top-Level KPI Row
+# Section A: Core Observed Metrics (Direct Source Ground Truth)
 # -------------------------------------------------------------
-resolved_df = df[df["Status"].isin(["Delivered", "Delayed"])]
+st.markdown("### A. Core Observed Metrics (Ground Truth)")
+status_col = "Delivery_Status" if "Delivery_Status" in df.columns else "Status"
+resolved_df = df[df[status_col].isin(["Delivered", "Delayed"])]
+
 total_shipments = len(df)
-delivered_count = len(resolved_df)
-on_time_count = int(df["Is_On_Time"].sum())
-delayed_count = int(df["Is_Delayed"].sum())
-otd_rate = (on_time_count / delivered_count * 100.0) if delivered_count > 0 else 0.0
-avg_delay_days = df[df["Is_Delayed"] == 1]["Delay_Days"].mean()
-if pd.isna(avg_delay_days):
-    avg_delay_days = 0.0
-total_penalty = df["Delay_Penalty_Cost"].sum()
+delivered_count = int((df[status_col] == "Delivered").sum())
+delayed_count = int((df[status_col] == "Delayed").sum())
+lost_count = int((df[status_col] == "Lost").sum())
+returned_count = int((df[status_col] == "Returned").sum())
+in_transit_count = int((df[status_col] == "In Transit").sum())
+resolved_count = len(resolved_df)
+
+primary_delay_rate = (delayed_count / resolved_count * 100.0) if resolved_count > 0 else 0.0
+op_failure_rate = ((delayed_count + lost_count + returned_count) / total_shipments * 100.0) if total_shipments > 0 else 0.0
 
 c1, c2, c3, c4, c5 = st.columns(5)
 
@@ -180,44 +185,89 @@ with c1:
     <div class='kpi-card' style='border-left-color: #2563eb;'>
         <div class='kpi-title'>Total Shipments</div>
         <div class='kpi-value'>{total_shipments:,}</div>
-        <div class='kpi-subtext'>Filtered Active Volume</div>
+        <div class='kpi-subtext'>Delivered: {delivered_count:,} | In Transit: {in_transit_count}</div>
     </div>
     """, unsafe_allow_html=True)
 
 with c2:
-    otd_color = "#16a34a" if otd_rate >= 85 else "#ea580c" if otd_rate >= 80 else "#dc2626"
+    delay_color = "#dc2626" if primary_delay_rate > 15 else "#ea580c" if primary_delay_rate > 10 else "#16a34a"
     st.markdown(f"""
-    <div class='kpi-card' style='border-left-color: {otd_color};'>
-        <div class='kpi-title'>On-Time Delivery %</div>
-        <div class='kpi-value' style='color: {otd_color};'>{otd_rate:.1f}%</div>
-        <div class='kpi-subtext'>Target SLA: 90.0%</div>
+    <div class='kpi-card' style='border-left-color: {delay_color};'>
+        <div class='kpi-title'>Primary Delay Rate</div>
+        <div class='kpi-value' style='color: {delay_color};'>{primary_delay_rate:.1f}%</div>
+        <div class='kpi-subtext'>Delayed / (Delivered + Delayed)</div>
     </div>
     """, unsafe_allow_html=True)
 
 with c3:
     st.markdown(f"""
     <div class='kpi-card' style='border-left-color: #dc2626;'>
-        <div class='kpi-title'>Delayed Orders</div>
+        <div class='kpi-title'>Delayed Volume</div>
         <div class='kpi-value'>{delayed_count:,}</div>
-        <div class='kpi-subtext'>{(delayed_count/total_shipments*100):.1f}% Delay Rate</div>
+        <div class='kpi-subtext'>Resolved Denominator: {resolved_count:,}</div>
     </div>
     """, unsafe_allow_html=True)
 
 with c4:
     st.markdown(f"""
-    <div class='kpi-card' style='border-left-color: #f59e0b;'>
-        <div class='kpi-title'>Avg Delay Duration</div>
-        <div class='kpi-value'>{avg_delay_days:.1f} <span style='font-size:1rem;'>days</span></div>
-        <div class='kpi-subtext'>Impact on Delayed Orders</div>
+    <div class='kpi-card' style='border-left-color: #ea580c;'>
+        <div class='kpi-title'>Operational Failure %</div>
+        <div class='kpi-value'>{op_failure_rate:.1f}%</div>
+        <div class='kpi-subtext'>(Delayed + Lost + Returned) / Total</div>
     </div>
     """, unsafe_allow_html=True)
 
 with c5:
     st.markdown(f"""
+    <div class='kpi-card' style='border-left-color: #64748b;'>
+        <div class='kpi-title'>Lost & Returned</div>
+        <div class='kpi-value'>{lost_count + returned_count}</div>
+        <div class='kpi-subtext'>Lost: {lost_count} | Returned: {returned_count}</div>
+    </div>
+    """, unsafe_allow_html=True)
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+# -------------------------------------------------------------
+# Section B: Analytical Extension (Derived & Scenario Metrics)
+# -------------------------------------------------------------
+st.markdown("### B. Secondary Analytical Extension (Derived Metrics)")
+st.markdown(
+    "<div class='analytical-note'>ℹ️ <b>Analytical Extension Note:</b> Derived metrics below are based on project-defined assumptions (Transit_Days baseline SLA & 20% + $15 concession formula); not directly observed in raw source data.</div>",
+    unsafe_allow_html=True
+)
+
+avg_delay_days = df[df[status_col] == "Delayed"]["Delay_Days"].mean() if delayed_count > 0 else 0.0
+concession_col = "Estimated_Concession_Exposure" if "Estimated_Concession_Exposure" in df.columns else "Delay_Penalty_Cost"
+total_exposure = df[concession_col].sum() if concession_col in df.columns else 0.0
+imputed_costs = int(df["Cost_Imputed"].sum()) if "Cost_Imputed" in df.columns else 0
+
+e1, e2, e3 = st.columns(3)
+
+with e1:
+    st.markdown(f"""
+    <div class='kpi-card' style='border-left-color: #f59e0b;'>
+        <div class='kpi-title'>Analytical Delay Days (Late Orders)</div>
+        <div class='kpi-value'>{avg_delay_days:.1f} <span style='font-size:1rem;'>days</span></div>
+        <div class='kpi-subtext'>Variance vs Derived SLA</div>
+    </div>
+    """, unsafe_allow_html=True)
+
+with e2:
+    st.markdown(f"""
     <div class='kpi-card' style='border-left-color: #7c3aed;'>
-        <div class='kpi-title'>Delay Concession Cost</div>
-        <div class='kpi-value'>${total_penalty:,.0f}</div>
-        <div class='kpi-subtext'>Estimated SLA Penalties</div>
+        <div class='kpi-title'>Estimated Concession Exposure</div>
+        <div class='kpi-value'>${total_exposure:,.0f}</div>
+        <div class='kpi-subtext'>Scenario Estimate (20% + $15)</div>
+    </div>
+    """, unsafe_allow_html=True)
+
+with e3:
+    st.markdown(f"""
+    <div class='kpi-card' style='border-left-color: #0d9488;'>
+        <div class='kpi-title'>Cost Imputation Traceability</div>
+        <div class='kpi-value'>{imputed_costs} <span style='font-size:1rem;'>records</span></div>
+        <div class='kpi-subtext'>Cost_Imputed = 1 Flagged</div>
     </div>
     """, unsafe_allow_html=True)
 
@@ -238,18 +288,19 @@ tab1, tab2, tab3, tab4, tab5 = st.tabs([
 # TAB 1: Trend & Seasonality
 # -------------------------------------------------------------
 with tab1:
-    st.subheader("Operational Delay Trends & Seasonal Friction")
+    st.subheader("Observed Delay Trends & Seasonal Friction")
     
     col_t1, col_t2 = st.columns([2, 1])
     
     with col_t1:
-        # Monthly On-Time Delivery Trend
+        # Monthly Primary Delay Rate Trend
         df_monthly = df.copy()
         df_monthly["Month_Year"] = df_monthly["Shipment_Date"].dt.to_period("M").astype(str)
         monthly_trend = df_monthly.groupby("Month_Year").agg(
             Volume=("Shipment_ID", "count"),
-            OTD=("Is_On_Time", lambda x: round(100.0 * x.mean(), 1)),
-            Avg_Delay=("Delay_Days", lambda x: round(x[x > 0].mean() if (x > 0).sum() > 0 else 0, 1))
+            Resolved=("Status", lambda x: x.isin(["Delivered", "Delayed"]).sum()),
+            Delayed_Count=("Status", lambda x: (x == "Delayed").sum()),
+            Primary_Delay_Rate=("Status", lambda x: round(100.0 * (x == "Delayed").sum() / x.isin(["Delivered", "Delayed"]).sum(), 1) if x.isin(["Delivered", "Delayed"]).sum() > 0 else 0.0)
         ).reset_index()
         
         fig_trend = go.Figure()
@@ -263,18 +314,18 @@ with tab1:
         ))
         fig_trend.add_trace(go.Scatter(
             x=monthly_trend["Month_Year"],
-            y=monthly_trend["OTD"],
-            name="On-Time Delivery %",
+            y=monthly_trend["Primary_Delay_Rate"],
+            name="Primary Delay Rate %",
             mode="lines+markers",
-            line=dict(color="#1e3a8a", width=3),
+            line=dict(color="#dc2626", width=3),
             marker=dict(size=8)
         ))
-        fig_trend.add_hline(y=90, line_dash="dash", line_color="#ef4444", annotation_text="90% SLA Benchmark", annotation_position="top left")
+        fig_trend.add_hline(y=10, line_dash="dash", line_color="#16a34a", annotation_text="10% Target Max Delay Rate", annotation_position="top left")
         
         fig_trend.update_layout(
-            title="Monthly Shipment Volume vs On-Time Delivery Performance",
+            title="Monthly Volume vs Primary Delay Rate (%)",
             xaxis_title="Shipment Month",
-            yaxis=dict(title="On-Time Delivery %", range=[70, 100]),
+            yaxis=dict(title="Primary Delay Rate %", range=[0, 30]),
             yaxis2=dict(title="Volume", overlaying="y", side="right", showgrid=False),
             legend=dict(x=0.01, y=0.99),
             height=380,
@@ -284,21 +335,21 @@ with tab1:
         
     with col_t2:
         # Seasonality Breakdown
-        season_perf = df.groupby("Season").agg(
+        season_perf = resolved_df.groupby("Season").agg(
             Volume=("Shipment_ID", "count"),
-            OTD=("Is_On_Time", lambda x: round(100.0 * x.mean(), 1))
+            Delay_Rate=("Delivery_Status" if "Delivery_Status" in resolved_df.columns else "Status", lambda x: round(100.0 * (x == "Delayed").mean(), 1))
         ).reindex(["Winter", "Spring", "Summer", "Fall"]).reset_index()
         
         fig_season = px.bar(
             season_perf,
             x="Season",
-            y="OTD",
-            text="OTD",
+            y="Delay_Rate",
+            text="Delay_Rate",
             color="Season",
             color_discrete_sequence=["#38bdf8", "#4ade80", "#fbbf24", "#fb923c"],
-            title="On-Time Delivery % by Season"
+            title="Primary Delay Rate % by Season"
         )
-        fig_season.update_layout(yaxis_range=[75, 95], height=380, showlegend=False)
+        fig_season.update_layout(yaxis_range=[0, 25], height=380, showlegend=False)
         fig_season.update_traces(texttemplate="%{text}%", textposition="outside")
         st.plotly_chart(fig_season, use_container_width=True)
         
@@ -307,9 +358,9 @@ with tab1:
     dow_order = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
     dow_df = df.groupby("Shipment_DayOfWeek").agg(
         Shipments=("Shipment_ID", "count"),
-        Delayed=("Is_Delayed", "sum"),
-        OTD=("Is_On_Time", lambda x: round(100.0 * x.mean(), 1)),
-        Avg_Delay_Days=("Delay_Days", lambda x: round(x[x > 0].mean() if (x > 0).sum() > 0 else 0, 1))
+        Delayed=("Status", lambda x: (x == "Delayed").sum()),
+        Delay_Rate=("Status", lambda x: round(100.0 * (x == "Delayed").sum() / x.isin(["Delivered", "Delayed"]).sum(), 1) if x.isin(["Delivered", "Delayed"]).sum() > 0 else 0.0),
+        Op_Failure_Rate=("Status", lambda x: round(100.0 * x.isin(["Delayed", "Lost", "Returned"]).sum() / len(x), 1))
     ).reindex(dow_order).reset_index()
     
     col_d1, col_d2 = st.columns(2)
@@ -317,13 +368,13 @@ with tab1:
         fig_dow = px.bar(
             dow_df,
             x="Shipment_DayOfWeek",
-            y="OTD",
-            text="OTD",
-            color="OTD",
-            color_continuous_scale="RdYlGn",
-            title="Reliability by Dispatch Day (OTD %)"
+            y="Delay_Rate",
+            text="Delay_Rate",
+            color="Delay_Rate",
+            color_continuous_scale="Reds",
+            title="Primary Delay Rate by Dispatch Day (%)"
         )
-        fig_dow.update_layout(yaxis_range=[70, 95], height=320)
+        fig_dow.update_layout(yaxis_range=[0, 25], height=320)
         fig_dow.update_traces(texttemplate="%{text}%", textposition="outside")
         st.plotly_chart(fig_dow, use_container_width=True)
         
@@ -351,67 +402,69 @@ with tab2:
     
     if seg_choice == "Carrier Reliability":
         c_agg = df.groupby("Carrier").agg(
-            Volume=("Shipment_ID", "count"),
-            Delayed=("Is_Delayed", "sum"),
-            OTD=("Is_On_Time", lambda x: round(100.0 * x.mean(), 1)),
-            Avg_Delay_Days=("Delay_Days", lambda x: round(x[x > 0].mean() if (x > 0).sum() > 0 else 0, 1)),
+            Total_Volume=("Shipment_ID", "count"),
+            Resolved_Volume=("Status", lambda x: x.isin(["Delivered", "Delayed"]).sum()),
+            Delayed=("Status", lambda x: (x == "Delayed").sum()),
+            Primary_Delay_Rate=("Status", lambda x: round(100.0 * (x == "Delayed").sum() / x.isin(["Delivered", "Delayed"]).sum(), 1) if x.isin(["Delivered", "Delayed"]).sum() > 0 else 0.0),
+            Op_Failure_Rate=("Status", lambda x: round(100.0 * x.isin(["Delayed", "Lost", "Returned"]).sum() / len(x), 1)),
             Avg_Cost_Per_Mile=("Cost_Per_Mile", "mean")
-        ).sort_values("OTD", ascending=True).reset_index()
+        ).sort_values("Primary_Delay_Rate", ascending=False).reset_index()
         
         c_col1, c_col2 = st.columns([3, 2])
         with c_col1:
             fig_car = px.bar(
                 c_agg,
                 y="Carrier",
-                x="OTD",
+                x="Primary_Delay_Rate",
                 orientation="h",
-                text="OTD",
-                color="OTD",
-                color_continuous_scale="Tealgrn",
-                title="Carrier On-Time Delivery Reliability (%)"
+                text="Primary_Delay_Rate",
+                color="Primary_Delay_Rate",
+                color_continuous_scale="Reds",
+                title="Carrier Primary Delay Rate (%)"
             )
-            fig_car.update_layout(xaxis_range=[70, 100], height=380)
+            fig_car.update_layout(xaxis_range=[0, 30], height=380)
             fig_car.update_traces(texttemplate="%{text}%", textposition="outside")
             st.plotly_chart(fig_car, use_container_width=True)
             
         with c_col2:
             st.markdown("##### Carrier Operations Summary")
             st.dataframe(
-                c_agg.rename(columns={"OTD": "OTD %", "Avg_Delay_Days": "Avg Delay (Days)", "Avg_Cost_Per_Mile": "$ / Mile"}),
+                c_agg.rename(columns={"Primary_Delay_Rate": "Delay Rate %", "Op_Failure_Rate": "Failure Rate %", "Avg_Cost_Per_Mile": "$ / Mile"}),
                 use_container_width=True,
                 hide_index=True
             )
-            st.info("💡 **Insight**: Amazon Logistics and LaserShip exhibit the highest delay frequency (~18-21% late), while UPS delivers the highest reliability (86.3% OTD).")
+            st.info("💡 **Insight**: Amazon Logistics and LaserShip exhibit high delay frequency (~18-21% late), while UPS delivers the highest reliability.")
             
     elif seg_choice == "Warehouse Performance":
         w_agg = df.groupby(["Origin_Warehouse", "Region"]).agg(
-            Volume=("Shipment_ID", "count"),
-            Delayed=("Is_Delayed", "sum"),
-            OTD=("Is_On_Time", lambda x: round(100.0 * x.mean(), 1)),
-            Avg_Delay_Days=("Delay_Days", lambda x: round(x[x > 0].mean() if (x > 0).sum() > 0 else 0, 1))
-        ).sort_values("OTD", ascending=True).reset_index()
+            Total_Volume=("Shipment_ID", "count"),
+            Resolved_Volume=("Status", lambda x: x.isin(["Delivered", "Delayed"]).sum()),
+            Delayed=("Status", lambda x: (x == "Delayed").sum()),
+            Primary_Delay_Rate=("Status", lambda x: round(100.0 * (x == "Delayed").sum() / x.isin(["Delivered", "Delayed"]).sum(), 1) if x.isin(["Delivered", "Delayed"]).sum() > 0 else 0.0),
+            Op_Failure_Rate=("Status", lambda x: round(100.0 * x.isin(["Delayed", "Lost", "Returned"]).sum() / len(x), 1))
+        ).sort_values("Primary_Delay_Rate", ascending=False).reset_index()
         
         fig_wh = px.bar(
             w_agg,
             x="Origin_Warehouse",
-            y="OTD",
+            y="Primary_Delay_Rate",
             color="Region",
-            text="OTD",
-            title="Warehouse On-Time Delivery Rate (%) by Region"
+            text="Primary_Delay_Rate",
+            title="Warehouse Primary Delay Rate (%) by Region"
         )
-        fig_wh.update_layout(yaxis_range=[70, 95], height=400)
+        fig_wh.update_layout(yaxis_range=[0, 30], height=400)
         fig_wh.update_traces(texttemplate="%{text}%", textposition="outside")
         st.plotly_chart(fig_wh, use_container_width=True)
         st.dataframe(w_agg, use_container_width=True, hide_index=True)
         
     elif seg_choice == "Product Type Vulnerability":
         p_agg = df.groupby("Product_Type").agg(
-            Volume=("Shipment_ID", "count"),
+            Total_Volume=("Shipment_ID", "count"),
             Avg_Weight_kg=("Weight_kg", "mean"),
-            Delayed=("Is_Delayed", "sum"),
-            OTD=("Is_On_Time", lambda x: round(100.0 * x.mean(), 1)),
-            Avg_Delay_Days=("Delay_Days", lambda x: round(x[x > 0].mean() if (x > 0).sum() > 0 else 0, 1))
-        ).sort_values("OTD", ascending=True).reset_index()
+            Delayed=("Status", lambda x: (x == "Delayed").sum()),
+            Primary_Delay_Rate=("Status", lambda x: round(100.0 * (x == "Delayed").sum() / x.isin(["Delivered", "Delayed"]).sum(), 1) if x.isin(["Delivered", "Delayed"]).sum() > 0 else 0.0),
+            Op_Failure_Rate=("Status", lambda x: round(100.0 * x.isin(["Delayed", "Lost", "Returned"]).sum() / len(x), 1))
+        ).sort_values("Primary_Delay_Rate", ascending=False).reset_index()
         
         p_col1, p_col2 = st.columns(2)
         with p_col1:
@@ -427,15 +480,14 @@ with tab2:
         with p_col2:
             st.markdown("##### Product Friction Metrics")
             st.dataframe(p_agg, use_container_width=True, hide_index=True)
-            st.warning("⚠️ **Vulnerability Alert**: Perishables & Grocery and Healthcare & Medical have the lowest on-time percentage (<79%) and longest delay duration (7.5-8.1 days).")
+            st.warning("⚠️ **Vulnerability Alert**: Perishables & Grocery and Healthcare & Medical have high delay rates (~21%) and severe operational failure impact.")
             
     else:  # Route Corridors
-        r_agg = df.groupby("Route").agg(
+        r_agg = resolved_df.groupby("Route").agg(
             Volume=("Shipment_ID", "count"),
             Avg_Distance=("Distance_miles", "mean"),
-            Delayed=("Is_Delayed", "sum"),
-            Delay_Rate=("Is_Delayed", lambda x: round(100.0 * x.mean(), 1)),
-            Avg_Delay_Days=("Delay_Days", lambda x: round(x[x > 0].mean() if (x > 0).sum() > 0 else 0, 1))
+            Delayed=("Delivery_Status" if "Delivery_Status" in resolved_df.columns else "Status", lambda x: (x == "Delayed").sum()),
+            Delay_Rate=("Delivery_Status" if "Delivery_Status" in resolved_df.columns else "Status", lambda x: round(100.0 * (x == "Delayed").mean(), 1))
         ).query("Volume >= 8").sort_values("Delay_Rate", ascending=False).head(12).reset_index()
         
         fig_r = px.bar(
@@ -446,7 +498,7 @@ with tab2:
             color="Delay_Rate",
             color_continuous_scale="Reds",
             text="Delay_Rate",
-            title="Top Bottleneck Shipping Corridors (Volume >= 8, Sorted by Delay Rate %)"
+            title="Top Bottleneck Shipping Corridors (Resolved Volume >= 8, Sorted by Primary Delay Rate %)"
         )
         fig_r.update_layout(height=420)
         fig_r.update_traces(texttemplate="%{text}%", textposition="outside")
@@ -460,12 +512,12 @@ with tab2:
 with tab3:
     st.subheader("Operational Bottlenecks & Multi-Dimensional Hotspots")
     
-    st.markdown("#### Carrier x Origin Warehouse Delay Severity Matrix (%)")
-    pivot_hw = df.pivot_table(
+    st.markdown("#### Carrier x Origin Warehouse Primary Delay Rate Matrix (%)")
+    pivot_hw = resolved_df.pivot_table(
         index="Origin_Warehouse",
         columns="Carrier",
-        values="Is_Delayed",
-        aggfunc=lambda x: round(100.0 * x.mean(), 1)
+        values="Delivery_Status" if "Delivery_Status" in resolved_df.columns else "Status",
+        aggfunc=lambda x: round(100.0 * (x == "Delayed").mean(), 1)
     ).fillna(0)
     
     fig_heat = px.imshow(
@@ -483,11 +535,11 @@ with tab3:
     col_h1, col_h2 = st.columns(2)
     with col_h1:
         st.markdown("#### Critical High-Delay Combinations")
-        crit_comb = df.groupby(["Origin_Warehouse", "Carrier"]).agg(
-            Volume=("Shipment_ID", "count"),
-            Delayed=("Is_Delayed", "sum"),
-            Delay_Rate=("Is_Delayed", lambda x: round(100.0 * x.mean(), 1))
-        ).query("Volume >= 10 and Delay_Rate >= 18.0").sort_values("Delay_Rate", ascending=False).reset_index()
+        crit_comb = resolved_df.groupby(["Origin_Warehouse", "Carrier"]).agg(
+            Resolved_Volume=("Shipment_ID", "count"),
+            Delayed=("Delivery_Status" if "Delivery_Status" in resolved_df.columns else "Status", lambda x: (x == "Delayed").sum()),
+            Delay_Rate=("Delivery_Status" if "Delivery_Status" in resolved_df.columns else "Status", lambda x: round(100.0 * (x == "Delayed").mean(), 1))
+        ).query("Resolved_Volume >= 8 and Delay_Rate >= 15.0").sort_values("Delay_Rate", ascending=False).reset_index()
         st.dataframe(crit_comb, use_container_width=True, hide_index=True)
         
     with col_h2:
@@ -496,13 +548,13 @@ with tab3:
         df_spikes["Week"] = df_spikes["Shipment_Date"].dt.to_period("W").dt.start_time
         weekly_spikes = df_spikes.groupby("Week").agg(
             Volume=("Shipment_ID", "count"),
-            Delays=("Is_Delayed", "sum"),
-            OTD=("Is_On_Time", lambda x: round(100.0 * x.mean(), 1))
+            Delays=("Status", lambda x: (x == "Delayed").sum()),
+            Failures=("Status", lambda x: x.isin(["Delayed", "Lost", "Returned"]).sum())
         ).reset_index()
         weekly_spikes["ZScore"] = (weekly_spikes["Delays"] - weekly_spikes["Delays"].mean()) / weekly_spikes["Delays"].std()
         spikes_table = weekly_spikes[weekly_spikes["ZScore"] > 1.8].sort_values("ZScore", ascending=False)
         spikes_table["Week"] = spikes_table["Week"].dt.strftime("%Y-%m-%d")
-        st.dataframe(spikes_table[["Week", "Volume", "Delays", "OTD", "ZScore"]].round(2), use_container_width=True, hide_index=True)
+        st.dataframe(spikes_table[["Week", "Volume", "Delays", "Failures", "ZScore"]].round(2), use_container_width=True, hide_index=True)
 
 
 # -------------------------------------------------------------
@@ -510,7 +562,7 @@ with tab3:
 # -------------------------------------------------------------
 with tab4:
     st.subheader("🤖 Live Shipment Delay Risk Estimator")
-    st.markdown("Evaluate prospective shipments in real-time. The underlying Decision Tree model assesses lane risk, warehouse congestion, carrier reliability, and seasonality to predict delay likelihood.")
+    st.markdown("Evaluate prospective shipments prior to dispatch. The underlying Decision Tree model assesses lane risk, warehouse congestion, carrier reliability, and seasonality to predict delay likelihood without outcome data leakage.")
     
     with st.form("risk_predictor_form"):
         fc1, fc2, fc3 = st.columns(3)
@@ -529,7 +581,7 @@ with tab4:
             in_distance = st.slider("Route Distance (Miles)", min_value=100, max_value=2500, value=1250, step=50)
             in_weight = st.slider("Shipment Weight (kg)", min_value=1.0, max_value=100.0, value=25.0, step=1.0)
             in_cost = st.number_input("Estimated Freight Cost ($)", min_value=10.0, max_value=2000.0, value=185.0, step=10.0)
-            in_sla = st.slider("Promised SLA (Transit Days)", min_value=1, max_value=10, value=4)
+            in_sla = st.slider("Target SLA (Transit Days)", min_value=1, max_value=10, value=4)
             
         submit_btn = st.form_submit_button("⚡ Evaluate Delay Risk", use_container_width=True)
         
@@ -576,10 +628,10 @@ with tab4:
             
         # Contextual comparison
         st.markdown("##### Route Historical Context")
-        matching = df_raw[(df_raw["Origin_Warehouse"] == in_warehouse) & (df_raw["Carrier"] == in_carrier)]
+        matching = resolved_df[(resolved_df["Origin_Warehouse"] == in_warehouse) & (resolved_df["Carrier"] == in_carrier)]
         if len(matching) > 0:
-            hist_otd = matching["Is_On_Time"].mean() * 100
-            st.write(f"Historical track record for **{in_warehouse}** using **{in_carrier}**: **{hist_otd:.1f}% On-Time Delivery Rate** over {len(matching)} historical shipments.")
+            hist_delay = (matching["Delivery_Status" if "Delivery_Status" in matching.columns else "Status"] == "Delayed").mean() * 100
+            st.write(f"Historical track record for **{in_warehouse}** using **{in_carrier}**: **{hist_delay:.1f}% Primary Delay Rate** over {len(matching)} resolved shipments.")
         else:
             st.write("No direct historical volume match for this exact pair; relying on generalized model feature importances.")
 
@@ -595,30 +647,30 @@ with tab5:
         {
             "priority": "P1 - Critical",
             "title": "Carrier SLA Restructuring on Long-Haul Corridors",
-            "finding": "Amazon Logistics and LaserShip exhibit up to 21% delay rates on cross-country lanes (>1,500 miles), accounting for 38% of total delay penalties.",
-            "action": "Enforce strict 95% SLA thresholds in Q1 contract negotiations. Automatically route long-haul shipments (>1,500 mi) to UPS and FedEx priority lanes.",
-            "impact": "+3.4% Enterprise OTD Improvement | ~$4,200 annual concession reduction"
+            "finding": "Amazon Logistics and LaserShip exhibit up to 21% delay rates on cross-country lanes (>1,500 miles), accounting for 38% of total concession exposure.",
+            "action": "Enforce strict performance thresholds in carrier reviews. Automatically route long-haul shipments (>1,500 mi) to UPS and FedEx priority lanes.",
+            "impact": "+3.4% Network Reliability Uplift | ~$4,200 annual exposure reduction"
         },
         {
             "priority": "P2 - High",
             "title": "Warehouse Dispatch Smoothing for Miami & San Francisco",
-            "finding": "Warehouse_MIA (78.1% OTD) and Warehouse_SF (78.6% OTD) lag the network average due to afternoon dispatch batching and weekend backlog buildup.",
+            "finding": "Warehouse_MIA (21.9% Delay Rate) and Warehouse_SF (21.4% Delay Rate) lag the network average due to afternoon dispatch batching and weekend backlog buildup.",
             "action": "Implement dual daily carrier pull schedules (10:00 AM and 3:30 PM). Stagger Friday dispatch shifts to eliminate the Tuesday transit bubble.",
-            "impact": "+2.8% Regional OTD Uplift | 1.2-day reduction in average delay duration"
+            "impact": "+2.8% Regional Reliability Uplift | Reduction in average delay duration"
         },
         {
             "priority": "P3 - High",
             "title": "Dedicated Buffer Protocol for Perishables & Healthcare Cargo",
-            "finding": "Perishables & Grocery (78.5% OTD) and Healthcare items (78.8% OTD) experience average delays of 7.5 to 8.1 days when exceptions occur.",
+            "finding": "Perishables & Grocery (21.5% Delay Rate) and Healthcare items (21.2% Delay Rate) experience high failure vulnerability when disruptions occur.",
             "action": "Establish an automated red-flag dispatch trigger for temperature-sensitive SKUs. Mandate Express air/ground service tiers whenever route distance exceeds 1,200 miles.",
-            "impact": "Eliminates high-cost spoilage and elevates category OTD to >88%"
+            "impact": "Eliminates high-cost spoilage and elevates category reliability"
         },
         {
             "priority": "P4 - Medium",
             "title": "Q4 Peak Season Pre-Booking & Capacity Hedging",
-            "finding": "Winter and holiday surge weeks (Dec 25 week, Feb weather shocks) generate 4x normal delay volume (Z-score > 1.82).",
-            "action": "Lock in dedicated line-haul capacity 6 weeks in advance of peak holiday surge. Dynamically adjust customer-facing promised delivery dates by +1 day during storm forecasts.",
-            "impact": "Protects customer satisfaction scores and prevents $3,000+ holiday freight surcharges"
+            "finding": "Winter and holiday surge weeks (Dec 25 week, Feb weather shocks) generate 4x normal delay volume (Z-score > 1.8).",
+            "action": "Lock in dedicated line-haul capacity 6 weeks in advance of peak holiday surge. Dynamically adjust customer-facing promised delivery dates during storm forecasts.",
+            "impact": "Protects customer satisfaction scores and prevents holiday freight surcharges"
         }
     ]
     
@@ -637,4 +689,5 @@ with tab5:
         """, unsafe_allow_html=True)
 
 st.markdown("---")
-st.markdown("<div style='text-align: center; color: #94a3b8; font-size: 0.85rem;'>LogiLens Delivery Operations Analytics • Built with Python, Streamlit, and Scikit-Learn</div>", unsafe_allow_html=True)
+st.markdown("<div style='text-align: center; color: #94a3b8; font-size: 0.85rem;'>LogiLens Delivery Operations Control Tower • Built with Python, Streamlit, and Scikit-Learn</div>", unsafe_allow_html=True)
+

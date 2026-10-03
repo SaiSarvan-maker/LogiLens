@@ -1,7 +1,7 @@
 """
 LogiLens - Logistics Operations & Delay Prediction API
 ------------------------------------------------------
-Lightweight FastAPI microservice exposing operational KPIs,
+Lightweight FastAPI/Starlette microservice exposing operational KPIs,
 bottleneck data, and the live Machine Learning delay risk estimator.
 """
 
@@ -57,21 +57,34 @@ async def get_kpis(request):
         return JSONResponse({"error": "Analytics dataset not generated yet."}, status_code=500)
     
     total = len(df)
-    delivered = len(df[df["Status"].isin(["Delivered", "Delayed"])])
-    on_time = int(df["Is_On_Time"].sum())
-    delayed = int(df["Is_Delayed"].sum())
-    otd_pct = round((on_time / delivered) * 100.0, 2) if delivered > 0 else 0.0
-    avg_delay = round(float(df[df["Is_Delayed"] == 1]["Delay_Days"].mean()), 2)
-    delay_cost = round(float(df["Delay_Penalty_Cost"].sum()), 2)
+    status_col = "Delivery_Status" if "Delivery_Status" in df.columns else "Status"
+    resolved_df = df[df[status_col].isin(["Delivered", "Delayed"])]
+    resolved_total = len(resolved_df)
+    on_time = int((df[status_col] == "Delivered").sum())
+    delayed = int((df[status_col] == "Delayed").sum())
+    lost = int((df[status_col] == "Lost").sum())
+    returned = int((df[status_col] == "Returned").sum())
+    
+    primary_delay_rate = round((delayed / resolved_total) * 100.0, 2) if resolved_total > 0 else 0.0
+    op_failure_rate = round(((delayed + lost + returned) / total) * 100.0, 2)
+    avg_delay = round(float(df[df[status_col] == "Delayed"]["Delay_Days"].mean()), 2) if delayed > 0 else 0.0
+    concession_col = "Estimated_Concession_Exposure" if "Estimated_Concession_Exposure" in df.columns else "Delay_Penalty_Cost"
+    exposure_cost = round(float(df[concession_col].sum()), 2)
+    imputed_costs = int(df["Cost_Imputed"].sum()) if "Cost_Imputed" in df.columns else 0
     
     return JSONResponse({
         "total_shipments": total,
-        "resolved_shipments": delivered,
+        "resolved_deliveries_denominator": resolved_total,
         "on_time_shipments": on_time,
         "delayed_shipments": delayed,
-        "on_time_delivery_rate_pct": otd_pct,
-        "average_delay_days": avg_delay,
-        "total_estimated_penalty_cost_usd": delay_cost
+        "lost_shipments": lost,
+        "returned_shipments": returned,
+        "primary_status_delay_rate_pct": primary_delay_rate,
+        "operational_failure_rate_pct": op_failure_rate,
+        "average_delay_days_secondary_sla": avg_delay,
+        "estimated_concession_exposure_usd": exposure_cost,
+        "cost_imputed_records": imputed_costs,
+        "note": "Primary metrics calculated on ground-truth Delivery_Status. Concession exposure is an assumed scenario estimate."
     })
 
 
@@ -81,17 +94,21 @@ async def get_bottlenecks(request):
     if df is None:
         return JSONResponse({"error": "Dataset not available."}, status_code=500)
         
-    carrier_rankings = df.groupby("Carrier").agg(
-        volume=("Shipment_ID", "count"),
-        otd_rate=("Is_On_Time", lambda x: round(100.0 * x.mean(), 2)),
-        avg_delay=("Delay_Days", lambda x: round(x[x > 0].mean() if (x > 0).sum() > 0 else 0, 2))
-    ).sort_values("otd_rate", ascending=True).reset_index().to_dict(orient="records")
+    status_col = "Delivery_Status" if "Delivery_Status" in df.columns else "Status"
+    resolved = df[df[status_col].isin(["Delivered", "Delayed"])].copy()
     
-    top_routes = df.groupby("Route").agg(
+    carrier_rankings = resolved.groupby("Carrier").agg(
         volume=("Shipment_ID", "count"),
-        delay_rate=("Is_Delayed", lambda x: round(100.0 * x.mean(), 2)),
-        avg_delay_days=("Delay_Days", lambda x: round(x[x > 0].mean() if (x > 0).sum() > 0 else 0, 2))
-    ).query("volume >= 10").sort_values("delay_rate", ascending=False).head(5).reset_index().to_dict(orient="records")
+        delayed_count=(status_col, lambda x: (x == "Delayed").sum()),
+        primary_delay_rate=(status_col, lambda x: round(100.0 * (x == "Delayed").mean(), 2)),
+        on_time_rate=(status_col, lambda x: round(100.0 * (x == "Delivered").mean(), 2))
+    ).sort_values("primary_delay_rate", ascending=False).reset_index().to_dict(orient="records")
+    
+    top_routes = resolved.groupby("Route").agg(
+        volume=("Shipment_ID", "count"),
+        delayed_count=(status_col, lambda x: (x == "Delayed").sum()),
+        primary_delay_rate=(status_col, lambda x: round(100.0 * (x == "Delayed").mean(), 2))
+    ).query("volume >= 8").sort_values("primary_delay_rate", ascending=False).head(5).reset_index().to_dict(orient="records")
     
     return JSONResponse({
         "carrier_reliability": carrier_rankings,
@@ -183,3 +200,4 @@ if __name__ == "__main__":
     import uvicorn
     print("Starting LogiLens API on http://127.0.0.1:8000 ...")
     uvicorn.run("src.api:app", host="127.0.0.1", port=8000, reload=True)
+

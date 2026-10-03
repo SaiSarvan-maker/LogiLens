@@ -1,24 +1,31 @@
 """
-LogiLens - Relational Enterprise Data Generator
-------------------------------------------------
-Generates normalized, relational data tables representing the operational
-sources (Orders, Shipments, Warehouses, Carriers, Delivery Events)
-aligned with the raw shipment extract.
+LogiLens - Relational Enterprise Data Generator (Synthetic Extension)
+----------------------------------------------------------------------
+Generates normalized, synthetic relational data tables (Orders, Shipments,
+Warehouses, Carriers, Delivery Events) aligned with the raw shipment extract.
+
+DATA PROVENANCE & ARCHITECTURE:
+- REAL SOURCE DATA: data/raw/logistics_shipments_dataset.csv
+- SYNTHETIC EXTENSION: data/synthetic/*.csv (Orders, Shipments, Warehouses, Carriers, Delivery Events)
+- SLA DATES: Analytical expected SLA derived from Transit_Days duration field, not observed contractual dates.
 """
 
+import os
 import pandas as pd
 import numpy as np
 
-def generate_relational_tables():
-    print("Loading base dataset...")
-    base_df = pd.read_csv("data/raw/logistics_shipments_dataset.csv")
-    n_records = len(base_df)
+def generate_relational_tables(raw_dir: str = "data/raw", synthetic_dir: str = "data/synthetic"):
+    os.makedirs(synthetic_dir, exist_ok=True)
     
-    # Deterministic seed for reproducible human-like data
+    raw_path = os.path.join(raw_dir, "logistics_shipments_dataset.csv")
+    print(f"Loading base dataset from {raw_path}...")
+    base_df = pd.read_csv(raw_path)
+    
+    # Deterministic seed for reproducible data generation
     np.random.seed(42)
     
     # ---------------------------------------------------------
-    # 1. Warehouses Reference Table
+    # 1. Warehouses Reference Table (Synthetic)
     # ---------------------------------------------------------
     warehouse_metadata = [
         {"Warehouse_ID": "WH-ATL", "Warehouse_Name": "Warehouse_ATL", "City": "Atlanta", "State": "GA", "Region": "Southeast", "Capacity_Tier": "Tier-1", "Daily_Capacity": 12000, "Dispatch_SLA_Hours": 12},
@@ -33,13 +40,14 @@ def generate_relational_tables():
         {"Warehouse_ID": "WH-SF",  "Warehouse_Name": "Warehouse_SF",  "City": "San Francisco", "State": "CA", "Region": "West", "Capacity_Tier": "Tier-2", "Daily_Capacity": 9500, "Dispatch_SLA_Hours": 16}
     ]
     df_warehouses = pd.DataFrame(warehouse_metadata)
-    df_warehouses.to_csv("data/raw/warehouses.csv", index=False)
-    print(f"Created warehouses.csv with {len(df_warehouses)} records")
+    wh_path = os.path.join(synthetic_dir, "warehouses.csv")
+    df_warehouses.to_csv(wh_path, index=False)
+    print(f"Created {wh_path} with {len(df_warehouses)} records")
     
     wh_map = {row["Warehouse_Name"]: row["Warehouse_ID"] for row in warehouse_metadata}
     
     # ---------------------------------------------------------
-    # 2. Carriers Reference Table
+    # 2. Carriers Reference Table (Synthetic)
     # ---------------------------------------------------------
     carrier_metadata = [
         {"Carrier_ID": "CAR-AMZ", "Carrier_Name": "Amazon Logistics", "Service_Tier": "Express/Standard", "Fleet_Type": "Dedicated Fleet", "Base_Rate_Per_Mile": 0.14, "Target_SLA_Days_Per_1000mi": 2.2},
@@ -51,13 +59,14 @@ def generate_relational_tables():
         {"Carrier_ID": "CAR-USPS", "Carrier_Name": "USPS",             "Service_Tier": "Postal Ground",    "Fleet_Type": "Public Postal",      "Base_Rate_Per_Mile": 0.10, "Target_SLA_Days_Per_1000mi": 3.0}
     ]
     df_carriers = pd.DataFrame(carrier_metadata)
-    df_carriers.to_csv("data/raw/carriers.csv", index=False)
-    print(f"Created carriers.csv with {len(df_carriers)} records")
+    car_path = os.path.join(synthetic_dir, "carriers.csv")
+    df_carriers.to_csv(car_path, index=False)
+    print(f"Created {car_path} with {len(df_carriers)} records")
     
     car_map = {row["Carrier_Name"]: row["Carrier_ID"] for row in carrier_metadata}
     
     # ---------------------------------------------------------
-    # 3. Orders Table
+    # 3. Orders, Shipments, & Delivery Events Tables (Synthetic)
     # ---------------------------------------------------------
     product_categories = [
         "Consumer Electronics",
@@ -68,7 +77,6 @@ def generate_relational_tables():
         "Industrial & Auto Parts"
     ]
     product_probs = [0.25, 0.22, 0.14, 0.18, 0.11, 0.10]
-    
     priorities = ["Standard", "Express", "Same-Day"]
     priority_probs = [0.65, 0.28, 0.07]
     
@@ -81,8 +89,6 @@ def generate_relational_tables():
         order_id = f"ORD-{shipment_id.replace('SH', '')}"
         customer_id = f"CUST-{np.random.randint(10001, 15000)}"
         
-        # Product type & Priority
-        # Heuristic: perishables correlate with slightly lower weight, auto parts with higher weight
         if row["Weight_kg"] > 50:
             prod_choice = np.random.choice(["Industrial & Auto Parts", "Home & Kitchen", "Consumer Electronics"], p=[0.5, 0.3, 0.2])
         elif row["Weight_kg"] < 5:
@@ -92,13 +98,11 @@ def generate_relational_tables():
             
         priority = np.random.choice(priorities, p=priority_probs)
         
-        # Order Date is 0 to 2 days before Shipment Date
         shipment_dt = pd.to_datetime(row["Shipment_Date"])
         order_lead_days = np.random.choice([0, 1, 2], p=[0.2, 0.6, 0.2])
         order_dt = shipment_dt - pd.Timedelta(days=order_lead_days)
         order_date_str = order_dt.strftime("%Y-%m-%d")
         
-        # Order Value based on product category & weight
         base_unit_price = {
             "Consumer Electronics": 220.0,
             "Apparel & Footwear": 65.0,
@@ -120,7 +124,6 @@ def generate_relational_tables():
             "Order_Value_USD": order_val
         })
         
-        # Shipments row
         wh_id = wh_map.get(row["Origin_Warehouse"], "WH-CHI")
         car_id = car_map.get(row["Carrier"], "CAR-UPS")
         
@@ -134,13 +137,11 @@ def generate_relational_tables():
             "Cost": row["Cost"]
         })
         
-        # Delivery Events
-        # Target transit SLA: Transit_Days in the raw table represents the committed SLA
+        # Target transit SLA: Transit_Days in the raw table represents the committed baseline SLA
         target_sla_days = max(1, int(row["Transit_Days"]))
-        promised_delivery_dt = shipment_dt + pd.Timedelta(days=target_sla_days)
-        promised_delivery_str = promised_delivery_dt.strftime("%Y-%m-%d")
+        derived_promised_dt = shipment_dt + pd.Timedelta(days=target_sla_days)
+        derived_promised_str = derived_promised_dt.strftime("%Y-%m-%d")
         
-        # Exception reason
         status = row["Status"]
         if status == "Delayed":
             exception = np.random.choice(
@@ -163,7 +164,7 @@ def generate_relational_tables():
             "Destination_City": row["Destination"],
             "Distance_miles": row["Distance_miles"],
             "Promised_SLA_Days": target_sla_days,
-            "Promised_Delivery_Date": promised_delivery_str,
+            "Derived_Promised_Delivery_Date": derived_promised_str,
             "Actual_Delivery_Date": row["Delivery_Date"],
             "Delivery_Status": status,
             "Exception_Reason": exception
@@ -173,14 +174,15 @@ def generate_relational_tables():
     df_shipments = pd.DataFrame(shipments)
     df_events = pd.DataFrame(delivery_events)
     
-    df_orders.to_csv("data/raw/orders.csv", index=False)
-    df_shipments.to_csv("data/raw/shipments.csv", index=False)
-    df_events.to_csv("data/raw/delivery_events.csv", index=False)
+    df_orders.to_csv(os.path.join(synthetic_dir, "orders.csv"), index=False)
+    df_shipments.to_csv(os.path.join(synthetic_dir, "shipments.csv"), index=False)
+    df_events.to_csv(os.path.join(synthetic_dir, "delivery_events.csv"), index=False)
     
-    print(f"Created orders.csv ({len(df_orders)} rows)")
-    print(f"Created shipments.csv ({len(df_shipments)} rows)")
-    print(f"Created delivery_events.csv ({len(df_events)} rows)")
-    print("All enterprise relational source tables generated successfully!")
+    print(f"Created synthetic/orders.csv ({len(df_orders)} rows)")
+    print(f"Created synthetic/shipments.csv ({len(df_shipments)} rows)")
+    print(f"Created synthetic/delivery_events.csv ({len(df_events)} rows)")
+    print("All synthetic relational extension tables generated successfully in data/synthetic/")
 
 if __name__ == "__main__":
     generate_relational_tables()
+

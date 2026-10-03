@@ -37,7 +37,7 @@ WITH base_joined AS (
         e.destination_city,
         e.distance_miles,
         e.promised_sla_days,
-        e.promised_delivery_date,
+        e.derived_promised_delivery_date,
         e.actual_delivery_date,
         e.delivery_status,
         e.exception_reason
@@ -65,6 +65,7 @@ SELECT
     order_value_usd,
     weight_kg,
     cost,
+    CASE WHEN cost IS NULL THEN 1 ELSE 0 END AS cost_imputed,
     distance_miles,
     CASE 
         WHEN distance_miles < 500 THEN 'Short-Haul (<500 mi)'
@@ -72,35 +73,44 @@ SELECT
         ELSE 'Long-Haul (>1500 mi)'
     END AS distance_tier,
     shipment_date,
-    promised_delivery_date,
+    derived_promised_delivery_date AS promised_delivery_date,
     actual_delivery_date,
+    CASE WHEN actual_delivery_date IS NULL THEN 1 ELSE 0 END AS delivery_date_missing,
+    delivery_status AS status,
     delivery_status,
     exception_reason,
     
-    -- Delay calculation:
-    -- Delay days is positive if actual delivery date is after promised delivery date
+    -- Primary Status-Based Target (Option B)
     CASE 
-        WHEN actual_delivery_date IS NULL THEN NULL
-        WHEN julianday(actual_delivery_date) > julianday(promised_delivery_date) 
-            THEN CAST(ROUND(julianday(actual_delivery_date) - julianday(promised_delivery_date)) AS INT)
+        WHEN delivery_status = 'Delayed' THEN 1
         ELSE 0
-    END AS delay_days,
+    END AS is_delayed_status,
     
-    -- On-time indicator (1 = On-Time, 0 = Delayed/Failed)
     CASE 
-        WHEN delivery_status = 'Delivered' 
-             AND (actual_delivery_date <= promised_delivery_date OR actual_delivery_date IS NULL) THEN 1
-        WHEN delivery_status = 'Delayed' THEN 0
-        WHEN actual_delivery_date > promised_delivery_date THEN 0
+        WHEN delivery_status = 'Delayed' THEN 1
+        ELSE 0
+    END AS is_delayed,
+    
+    CASE 
+        WHEN delivery_status = 'Delivered' THEN 1
         ELSE 0
     END AS is_on_time,
     
-    -- Delay indicator (1 = Delayed, 0 = On-Time)
+    -- Secondary SLA Delay calculation:
     CASE 
-        WHEN delivery_status = 'Delayed' OR actual_delivery_date > promised_delivery_date THEN 1
+        WHEN actual_delivery_date IS NULL THEN 0
+        WHEN julianday(actual_delivery_date) > julianday(derived_promised_delivery_date) 
+            THEN CAST(ROUND(julianday(actual_delivery_date) - julianday(derived_promised_delivery_date)) AS INT)
         ELSE 0
-    END AS is_delayed,
+    END AS delay_days,
+    
+    -- Estimated Concession Exposure (Scenario estimate: 20% + $15)
+    CASE 
+        WHEN delivery_status = 'Delayed' THEN ROUND(cost * 0.20 + 15.0, 2)
+        ELSE 0.0
+    END AS estimated_concession_exposure,
     
     -- Cost per mile
     ROUND(cost / CAST(distance_miles AS FLOAT), 3) AS cost_per_mile
 FROM base_joined;
+

@@ -1,6 +1,18 @@
-Origin_Warehouse,Carrier,Total_Volume,Delayed_Count,Delay_Rate
-Warehouse_ATL,Amazon Logistics,33,7,21.2
-Warehouse_HOU,Amazon Logistics,29,6,20.7
-Warehouse_LA,FedEx,26,5,19.2
+Origin_Warehouse,Carrier,Resolved_Volume,Delayed_Count,Primary_Delay_Rate
+Warehouse_HOU,Amazon Logistics,26,6,23.1
+Warehouse_LA,FedEx,23,5,21.7
+Warehouse_ATL,DHL,24,5,20.8
+Warehouse_ATL,Amazon Logistics,29,6,20.7
 Warehouse_CHI,DHL,21,4,19.0
-Warehouse_ATL,DHL,27,5,18.5
+Warehouse_BOS,Amazon Logistics,21,4,19.0
+Warehouse_SEA,DHL,32,6,18.8
+Warehouse_MIA,FedEx,33,6,18.2
+Warehouse_HOU,DHL,29,5,17.2
+Warehouse_SF,USPS,29,5,17.2
+Warehouse_SF,Amazon Logistics,29,5,17.2
+Warehouse_CHI,Amazon Logistics,32,5,15.6
+Warehouse_BOS,LaserShip,26,4,15.4
+Warehouse_CHI,OnTrac,26,4,15.4
+Warehouse_MIA,Amazon Logistics,20,3,15.0
+Warehouse_MIA,USPS,20,3,15.0
+Warehouse_SF,LaserShip,40,6,15.0
